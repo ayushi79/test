@@ -1,0 +1,1364 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.google.com/amp/s/www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/amp/
+Subject: How to handle user authentication in Python Django
+Date: Fri, 21 Aug 2020 03:54:12 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----"
+
+
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/html
+Content-ID: <frame-3C2298C887278DDE231EB73F25F72D00@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://www.google.com/amp/s/www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/amp/
+
+<!DOCTYPE html><html lang="en-IN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-d8d83491-9cfd-4c4a-906f-e6b153934e99@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-cbf6826e-c6a8-4c57-8a07-8acd8a8c047d@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-db596af0-5e6b-4d5f-8e5a-6f273f95d240@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-7f48f208-4fe8-4765-9358-72eb48ab5200@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-3546a558-97ed-4749-8f69-17990359570c@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-7bbb2e1e-0708-4fbc-9b80-22004a16a079@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-73e263a7-a4c0-4191-b78f-a0b2cd595b9e@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-75cbca98-5682-43d3-a243-802a2ca16c03@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-8e55963a-9cbc-463b-9c56-34519b796194@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-087e3c6b-a7d1-4455-8c83-0b50a74b6a8a@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-6921b9f2-0c4c-4434-bdf5-f8c0e5dbf449@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-8066cade-ab61-480e-8bed-53298464c5b9@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-78b1f40d-f673-4351-82d8-60eb17992259@mhtml.blink" />   <meta content="noindex" name="robots"> <meta content="origin" name="referrer"> <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">    <link href="https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/amp/" rel="canonical">   <title>How to handle user authentication in Python Django</title>     </head> <body jscontroller="KtNGL" jsdata="ITBYBb;;CauzTE" jsaction="rcuQ6b:npT2md"><img style="display:none" src="https://cdn.ampproject.org/preconnect.gif"> <img style="display:none" src="https://cdn.ampproject.org/preconnect.gif?crossorigin" crossorigin=""> <link href="https://www.google.com/amp/s/www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/amp/www-freecodecamp-org.cdn.ampproject.org" rel="dns-prefetch">    <div class="gTMtLb" id="lb"></div> <div jsname="c4YZDc" jscontroller="aU6X4d" aria-labelledby="fpv_tsuid1" jsaction="sFrcje:iBD8fc;rcuQ6b:npT2md" data-ved="0ahUKEwiKzI6Bs6vrAhXJe30KHTmyCHsQooQBCAE"><div jsname="tJHJj"><span class="amp-ap" jscontroller="raDhWb"></span><g-fixed-header class="oxVwcf y1HgZb eSybAd ozbzIe fp-w" id="amp-hdr" style="transform: translate3d(0px, 0px, 0px);"><div class="zBguLb"><span class="EJXBqd awkn dW3rif" role="button" tabindex="0" jscontroller="UOwNQe" data-img="" aria-label="More" jsaction="FNFY6c"><span><span class="jQfvE z1asCe YppZGd"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"></path></svg></span></span><g-dialog jsname="Sx9Kwc" jscontroller="GxIAgd" data-id="_XEU_X4quMsn39QO55KLYBw2" jsaction="jxvro:Imgh9b" jsdata="gctHtc;;CauzTI" jsshadow="" id="ow8" __is_owner="true"><div jsname="XKSfm" id="_XEU_X4quMsn39QO55KLYBw2" jsaction="dg_close:TvD9Pc;dBhwS:TvD9Pc;mLt3mc" jsowner="ow8"><div jsname="bF1uUb" class="t7xA6 lxG8Hd"></div><div class="bErdLd hFCnyd"><div class="ls8Qne" aria-hidden="true" role="button" tabindex="0" jsaction="focus:sT2f3e"></div><span jsslot=""><div class="NJfJb hide-focus-ring ZbLCRc" style="top:48px;left:8px;margin:0 8px 0 0" role="dialog"><div class="tzxbpd"><li class="iVxImf"><div class="ajyCge">URL</div><a jsname="Jvazkd" class="amp-canurl" href="https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/" data-ved="0ahUKEwiKzI6Bs6vrAhXJe30KHTmyCHsQzPwBCAM"><div class="amp-cantxt notranslate">https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/</div></a></li><li class="i5pYrf FMrrcf"><a class="l2zOJ" href="https://support.google.com/websearch/?p=AMP" target="_blank"><g-flat-button class="hkJkIe U8shWc Vy8nid boCbHc" role="button" tabindex="0"><span class="notranslate HPYTcf">More info about AMP</span><span class="aqXtlf z1asCe eznrjd" style="height:18px;line-height:18px;width:18px"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></span></g-flat-button></a></li></div></div></span><div class="ls8Qne" aria-hidden="true" role="button" tabindex="0" jsaction="focus:tuePCd"></div></div></div></g-dialog></span><span class="S2h5sd amp-ttlctr" aria-level="1" role="heading"><span class="amp-ttltxt notranslate">freecodecamp.org</span><div class="amp-bblctr" style="display: none;"></div></span><span class="EJXBqd awkn" role="button" tabindex="0" aria-label="Share"><span jscontroller="zgXLjc" class="VV7Flc" aria-label="Share" role="button" tabindex="0" jsaction="rcuQ6b:npT2md;euCgFf"><span class="Tdc1Lc"><span style="height:18px;line-height:18px;width:18px" class="z1asCe Fp7My"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path></svg></span></span><a class="amp-canurl R2Uyk" href="https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/"><div class="amp-cantxt notranslate">https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/</div></a></span></span></div></g-fixed-header></div><div jsname="sF4v0d" class="tWPnyd"><div jsname="epGLg" style="width: 360px; height: 648px;"><iframe class="u2quVpIWVr0__amp-doc v2FKFf" allow="autoplay" allowfullscreen="true" allowpaymentrequest="true" loading="eager" name="https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/amp/" src="cid:frame-7146E24872EF372660B309A6D9068C9D@mhtml.blink" style="height: 648px;"></iframe><link rel="dns-prefetch preconnect" href="https://www-freecodecamp-org.cdn.ampproject.org/"></div></div></div>       </body></html>
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-d8d83491-9cfd-4c4a-906f-e6b153934e99@mhtml.blink
+
+@charset "utf-8";
+
+body { margin: 0px; font-family: Roboto, HelveticaNeue, Arial, sans-serif; }
+
+@-webkit-keyframes qs-timer { 
+  0% { }
+}
+
+.fp-f { bottom: 0px; height: auto; left: 0px; right: 0px; top: 0px; width: auto; z-index: 127; position: fixed !important; }
+
+.fp-h:not(.fp-nh):not(.goog-modalpopup-bg):not(.goog-modalpopup) { display: none !important; }
+
+.fp-zh.fp-h:not(.fp-nh):not(.goog-modalpopup-bg):not(.goog-modalpopup) { height: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); display: block !important; }
+
+.fp-i .fp-c { display: block; min-height: 100vh; }
+
+li.fp-c { list-style: none; }
+
+.fp-w { box-sizing: border-box; left: 0px; margin-left: auto; margin-right: auto; max-width: 1197px; right: 0px; }
+
+.z1asCe { display: inline-block; fill: currentcolor; height: 24px; line-height: 24px; position: relative; width: 24px; }
+
+.z1asCe svg { display: block; height: 100%; width: 100%; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-cbf6826e-c6a8-4c57-8a07-8acd8a8c047d@mhtml.blink
+
+@charset "utf-8";
+
+.gTMtLb { z-index: 1001; position: absolute; top: -1000px; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-db596af0-5e6b-4d5f-8e5a-6f273f95d240@mhtml.blink
+
+@charset "utf-8";
+
+.tWPnyd { background-color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px 4px; left: 0px; position: absolute; right: 0px; top: 0px; height: 100vh; }
+
+.u2quVpIWVr0__item { top: 0px; left: 0px; width: 100%; float: left; }
+
+.u2quVpIWVr0__item-active { display: inline-block; }
+
+.u2quVpIWVr0__item-frame { margin: 0px; padding: 0px; }
+
+.u2quVpIWVr0__container { width: 100%; position: relative; }
+
+g-loading-icon.qWDyB { position: absolute; top: 50%; width: 100%; }
+
+.u2quVpIWVr0__hidden { height: 0px; overflow: hidden; }
+
+.u2quVpIWVr0__amp-container { background-color: rgb(255, 255, 255); min-height: 100vh; }
+
+.u2quVpIWVr0__amp-doc { background-color: rgb(255, 255, 255); border: 0px; display: block; height: 100%; width: 100%; }
+
+.u2quVpIWVr0__amp-doc.v2FKFf { height: 100vh; position: absolute; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-7f48f208-4fe8-4765-9358-72eb48ab5200@mhtml.blink
+
+@charset "utf-8";
+
+.amp-bbl { border-radius: 3px; margin: 0px 2px; height: 6px; min-width: 6px; position: relative; }
+
+.oxVwcf { user-select: none; }
+
+.oxVwcf { height: 43px; margin: -11px 0px; }
+
+.amp-ap { display: none; }
+
+span.amp-ttlctr { align-items: center; color: rgb(74, 74, 74); display: flex; height: 32px; justify-content: center; max-width: calc((100% - 48px) - 48px); }
+
+.amp-ttltxt { font-size: 14px; overflow: hidden; text-overflow: ellipsis; }
+
+.amp-wibbl .amp-ttltxt { display: none; }
+
+.amp-bblctr { align-items: center; display: flex; max-width: 100%; }
+
+.amp-bbl { align-items: center; background-color: rgb(155, 155, 155); border-color: rgb(155, 155, 155); border-style: solid; border-width: 1px; box-sizing: border-box; color: rgb(155, 155, 155); display: flex; font-size: 10px; justify-content: center; max-width: 6px; padding: 0px; overflow: hidden; }
+
+.amp-bbl.amp-slct { background-color: rgba(0, 0, 0, 0); border-radius: 13px; color: rgb(74, 74, 74); height: 26px; max-width: 300px; min-width: 0px; opacity: 0.8; }
+
+.amp-bbl.amp-slct::after { background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255)); content: ""; height: 100%; position: absolute; right: 0px; top: 0px; width: 6px; }
+
+.amp-bbl.amp-slct.amp-bbl-t { transition: max-width 500ms linear 0ms; }
+
+.amp-bbl-1 { opacity: 0.83; }
+
+.amp-bbl-2 { opacity: 0.67; }
+
+.amp-bbl-3 { opacity: 0.5; }
+
+.amp-bbl-4 { opacity: 0.33; }
+
+.amp-bbl-5 { opacity: 0.17; }
+
+.amp-bbl-h { display: none; }
+
+.amp-bbltxt { overflow: hidden; padding: 4px 6px; text-overflow: clip; }
+
+span.awkn { margin: 0px; padding: 0px; text-align: center; width: 48px; }
+
+span.CKqpTb { width: 80px; }
+
+span.uCPG8b { padding-right: 12px; padding-top: 1px; vertical-align: top; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-3546a558-97ed-4749-8f69-17990359570c@mhtml.blink
+
+@charset "utf-8";
+
+.y1HgZb { box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px; position: fixed; top: 0px; z-index: 125; }
+
+.zBguLb { display: flex; -webkit-box-align: center; align-items: center; height: 54px; }
+
+.zBguLb.iRSky { height: 72px; }
+
+.zBguLb:empty { display: none; }
+
+.frDzdb { background-color: rgb(26, 115, 232); color: rgb(255, 255, 255); }
+
+.yTREwe { background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.87); }
+
+.AZMHJb { background-color: rgb(0, 150, 136); color: rgb(255, 255, 255); }
+
+.kg0d8b { background-color: rgb(245, 245, 245); color: rgba(0, 0, 0, 0.87); }
+
+.zspddf { background-color: rgb(33, 33, 33); color: rgb(255, 255, 255); }
+
+.ozbzIe { background-color: rgb(250, 250, 250); color: rgba(0, 0, 0, 0.87); }
+
+.jIWkDc { background-color: transparent; color: rgb(255, 255, 255); }
+
+.y1HgZb.jIWkDc { box-shadow: none; }
+
+.yTREwe .PYDzF, .yTREwe .EJXBqd, .kg0d8b .PYDzF, .kg0d8b .EJXBqd, .ozbzIe .PYDzF, .ozbzIe .EJXBqd { color: rgba(0, 0, 0, 0.54); }
+
+.PYDzF { height: 24px; }
+
+.PYDzF, .EJXBqd { display: block; outline: none 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px 8px; padding: 16px; flex-shrink: 0; }
+
+.PYDzF > [role="button"]::before { content: ""; position: absolute; top: -12px; bottom: -12px; left: 0px; right: 0px; }
+
+.S2h5sd { display: block; font-size: 18px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex-grow: 1; -webkit-box-flex: 1; }
+
+.EJXBqd { font-family: Roboto-Medium, HelveticaNeue-Medium, HelveticaNeue, sans-serif-medium, Arial, sans-serif; line-height: 15px; text-transform: uppercase; }
+
+.EJXBqd:disabled, .EJXBqd[disabled]:not([disabled="false"]) { color: rgba(0, 0, 0, 0.26); pointer-events: none; }
+
+.S2h5sd:first-child { padding-left: 24px; }
+
+.S2h5sd:last-child { padding-right: 24px; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-7bbb2e1e-0708-4fbc-9b80-22004a16a079@mhtml.blink
+
+@charset "utf-8";
+
+.tzxbpd { font-size: 14px; list-style: none; min-width: 170px; padding: 0px 16px; }
+
+.i5pYrf { padding: 16px 0px; }
+
+.l2zOJ { white-space: nowrap; }
+
+.K2T0ge, .HPYTcf { font-family: Roboto-Medium, HelveticaNeue-Medium, HelveticaNeue, sans-serif-medium, Arial, sans-serif; font-weight: bold; }
+
+.K2T0ge { color: rgb(158, 158, 158); padding-bottom: 8px; }
+
+g-flat-button.hkJkIe { border-radius: 4px; margin: 0px; padding: 8px 8px 9px; }
+
+.HPYTcf { color: rgb(66, 133, 244); vertical-align: middle; }
+
+.aqXtlf { margin-left: 2px; vertical-align: middle; }
+
+.aqXtlf svg { fill: rgb(66, 133, 244); height: 18px; line-height: 14px; vertical-align: bottom; width: 18px; }
+
+.FMrrcf { padding-top: 0px; text-align: right; }
+
+.RVP2ac { border-radius: 50%; display: inline-block; overflow: hidden; }
+
+.Dc9WAb { color: rgb(33, 33, 33); display: inline-block; margin-left: 10px; vertical-align: top; }
+
+.zS8Yn { margin-bottom: 4px; margin-top: -4px; display: block; }
+
+.i6Bncd { font-size: 13px; display: block; }
+
+.iVxImf { padding: 16px 0px; }
+
+.iVxImf.N7F7X { padding-top: 0px; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-73e263a7-a4c0-4191-b78f-a0b2cd595b9e@mhtml.blink
+
+@charset "utf-8";
+
+.jQfvE { display: inline-block; height: 20px; padding-top: 3px; width: 20px; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-75cbca98-5682-43d3-a243-802a2ca16c03@mhtml.blink
+
+@charset "utf-8";
+
+html:not(.zAoYTe) .hide-focus-ring { outline: 0px; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-8e55963a-9cbc-463b-9c56-34519b796194@mhtml.blink
+
+@charset "utf-8";
+
+.lxG8Hd.aID8W { background-color: rgb(0, 0, 0); opacity: 0.2; visibility: inherit; }
+
+.qW28Ef.aID8W { background-color: rgb(0, 0, 0); opacity: 0.4; visibility: inherit; }
+
+.m114nf.aID8W { background-color: rgb(51, 51, 51); opacity: 0.7; visibility: inherit; }
+
+.xq162b.aID8W { background-color: rgb(0, 0, 0); opacity: 0.8; visibility: inherit; }
+
+.Xz5tfb.aID8W { background-color: rgb(245, 245, 245); opacity: 0.85; visibility: inherit; }
+
+.Kg0gUe.aID8W { background-color: rgb(32, 33, 36); opacity: 0.6; visibility: inherit; }
+
+.NJfJb.aID8W { opacity: 1; }
+
+.bErdLd.aID8W { opacity: 1; visibility: inherit; }
+
+.bErdLd.hFCnyd { cursor: pointer; }
+
+.bErdLd.hFCnyd .NJfJb { cursor: default; }
+
+.t7xA6 { position: fixed; z-index: 9997; right: 0px; bottom: -200px; top: 0px; left: 0px; transition: opacity 0.25s ease 0s; opacity: 0; visibility: hidden; }
+
+.NJfJb { border-radius: 8px; display: inline-block; z-index: 9999; background-color: rgb(255, 255, 255); opacity: 0; text-align: left; white-space: normal; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.22) 0px 5px 26px 0px, rgba(0, 0, 0, 0.3) 0px 20px 28px 0px; }
+
+.NJfJb.o1VDwe { background-color: transparent; box-shadow: none; }
+
+.NJfJb.Sr5CLc { position: relative; vertical-align: middle; }
+
+.NJfJb.ZbLCRc { position: absolute; }
+
+.NJfJb.mr5vfb { border: 1px solid rgb(213, 213, 213); box-shadow: rgb(213, 213, 213) 0px 2px 4px; }
+
+.bErdLd { position: fixed; right: 0px; bottom: 0px; top: 0px; left: 0px; z-index: 9998; vertical-align: middle; visibility: hidden; white-space: nowrap; max-height: 100%; max-width: 100%; overflow: hidden auto; }
+
+.bErdLd.wwYr3 { text-align: center; }
+
+.bErdLd::after { content: ""; display: inline-block; height: 100%; vertical-align: middle; }
+
+.bErdLd { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+.ls8Qne { height: 0px; opacity: 0; position: absolute; width: 0px; }
+
+.OxAxec { visibility: hidden; }
+
+.QVCmK { overflow: hidden; }
+
+.QVCmK { position: fixed; width: 100%; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-087e3c6b-a7d1-4455-8c83-0b50a74b6a8a@mhtml.blink
+
+@charset "utf-8";
+
+.amp-cantxt { word-break: break-all; }
+
+.amp-canurl, .amp-canurl:visited { color: rgb(33, 33, 33); display: block; font-size: 14px; text-decoration: none; }
+
+.ajyCge { color: rgb(158, 158, 158); font-family: Roboto-Medium, HelveticaNeue-Medium, HelveticaNeue, sans-serif-medium, Arial, sans-serif; font-weight: bold; padding-bottom: 8px; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-6921b9f2-0c4c-4434-bdf5-f8c0e5dbf449@mhtml.blink
+
+@charset "utf-8";
+
+.U8shWc { background-color: transparent; border: none; border-radius: 8px; box-sizing: border-box; display: inline-block; font-size: 14px; font-weight: 500; padding: 6px 8px 3px; margin: 0px 4px; min-width: 88px; outline: none; position: relative; text-align: center; user-select: none; white-space: nowrap; text-decoration: none !important; }
+
+.U8shWc::before { bottom: -6px; content: ""; left: 0px; position: absolute; right: 0px; top: -6px; }
+
+.U8shWc:disabled, .U8shWc[disabled]:not([disabled="false"]) { pointer-events: none; }
+
+.U8shWc.fSXIc { min-width: 64px; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-8066cade-ab61-480e-8bed-53298464c5b9@mhtml.blink
+
+@charset "utf-8";
+
+.U8shWc.Vy8nid { color: rgba(0, 0, 0, 0.87); }
+
+.Vy8nid:focus { background-color: rgba(153, 153, 153, 0.2); }
+
+.Vy8nid:active { background-color: rgba(153, 153, 153, 0.4); }
+
+.U8shWc.Vy8nid:disabled, .U8shWc.Vy8nid[disabled]:not([disabled="false"]) { color: rgba(0, 0, 0, 0.26) !important; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-78b1f40d-f673-4351-82d8-60eb17992259@mhtml.blink
+
+@charset "utf-8";
+
+.VV7Flc { display: inline-block; outline: none; text-align: center; vertical-align: middle; width: 42px; }
+
+.Tdc1Lc { color: rgba(0, 0, 0, 0.54); display: inline-block; height: 24px; padding-top: 3px; width: 24px; }
+
+.R2Uyk { display: none; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: image/gif
+Content-Transfer-Encoding: binary
+Content-Location: https://cdn.ampproject.org/preconnect.gif
+
+GIF89a     !ù
+  ,       L ;
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: image/gif
+Content-Transfer-Encoding: binary
+Content-Location: https://cdn.ampproject.org/preconnect.gif?crossorigin
+
+GIF89a     !ù
+  ,       L ;
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/html
+Content-ID: <frame-7146E24872EF372660B309A6D9068C9D@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://www-freecodecamp-org.cdn.ampproject.org/v/s/www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/amp/?usqp=mq331AQFKAGwASA%3D&amp_js_v=0.1#origin=https://www.google.com&cid=1&prerenderSize=1&visibilityState=visible&paddingTop=32&history=1&p2r=0&csi=1&storage=1&viewerUrl=https://www.google.com/amp/s/www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/amp/&cap=navigateTo,fragment,handshakepoll,cid,replaceUrl,fullReplaceHistory
+
+<!DOCTYPE html><html i-amphtml-layout="" i-amphtml-no-boilerplate="" style="padding-top:32px !important;" transformed="google;v=4" âš¡="" amp-version="2007302351001" class="i-amphtml-singledoc i-amphtml-embedded i-amphtml-iframed"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-00130a3b-ae49-45e4-b30d-cc8d59963a41@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-8016cae1-353b-4eee-a684-a58fb3c931ee@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-0ccd0fa2-d218-414a-a4bc-40ae327314a4@mhtml.blink" /><meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport"><meta content="no-referrer-when-downgrade" name="referrer"><meta content="freeCodeCamp.org" property="og:site_name"><meta content="article" property="og:type"><meta content="How to handle user authentication in Python Django" property="og:title"><meta content="by Mohammed Subhan Khan
+
+How to handle user authentication in Python Django
+In this tutorial, Iâ€™ll show how to do user login, logout and signup in Django.
+All the code that I describe here is in this GitHub repository
+[https://github.com/khansubhan95/Django-User-Auth]. This tutorial will be using
+Python 2.7 and Django 1.9.
+
+Project installation and structure
+To get started, run the following commands from the terminal:
+
+django-admin startproject src
+cd src
+python manage.py startapp mysite
+python" property="og:description"><meta content="https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/" property="og:url"><meta content="https://cdn-media-1.freecodecamp.org/images/1*SA3NDT1VMUBn9g0emx9TUg.png" property="og:image"><meta content="summary_large_image" name="twitter:card"><meta content="How to handle user authentication in Python Django" name="twitter:title"><meta content="by Mohammed Subhan Khan
+
+How to handle user authentication in Python Django
+In this tutorial, Iâ€™ll show how to do user login, logout and signup in Django.
+All the code that I describe here is in this GitHub repository
+[https://github.com/khansubhan95/Django-User-Auth]. This tutorial will be using
+Python 2.7 and Django 1.9.
+
+Project installation and structure
+To get started, run the following commands from the terminal:
+
+django-admin startproject src
+cd src
+python manage.py startapp mysite
+python" name="twitter:description"><meta content="https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/" name="twitter:url"><meta content="https://cdn-media-1.freecodecamp.org/images/1*SA3NDT1VMUBn9g0emx9TUg.png" name="twitter:image"><meta content="Written by" name="twitter:label1"><meta content="freeCodeCamp.org" name="twitter:data1"><meta content="Filed under" name="twitter:label2"><meta content="Django, Python, Web Development, Learning To Code, Software Development" name="twitter:data2"><meta content="@freecodecamp" name="twitter:site"><meta content="800" property="og:image:width"><meta content="202" property="og:image:height"><meta content="noindex" name="robots"><meta content="freecodecamp.org" name="amp-cookie-scope"><link href="https://www-freecodecamp-org.cdn.ampproject.org/i/s/www.freecodecamp.org/news/favicon.png" rel="shortcut icon" type="image/png"><link crossorigin="" href="https://fonts.gstatic.com/" rel="dns-prefetch preconnect"><link href="https://cdn--media--1-freecodecamp-org.cdn.ampproject.org/" rel="dns-prefetch preconnect"><link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,700i&amp;display=swap" rel="stylesheet" type="text/css"><title>How to handle user authentication in Python Django</title><link href="https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77d/" rel="canonical"><link rel="preconnect" href="https://www.freecodecamp.org/" referrerpolicy="origin"><link rel="preconnect" href="https://www-freecodecamp-org.cdn.ampproject.org/" referrerpolicy="origin"><link rel="preconnect" href="https://cdn--media--1-freecodecamp-org.cdn.ampproject.org/" referrerpolicy="origin"></head><body class="amp-template amp-mode-touch" style="opacity: 1; visibility: visible; animation: 0s ease 0s 1 normal none running none;">
+    <header class="main-header">
+        <nav class="blog-title">
+            <a class="logo" href="https://www.freecodecamp.org/news" target="_top">
+                <amp-img alt="freeCodeCamp.org" class="i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-element i-amphtml-layout" height="24px" i-amphtml-layout="fixed" layout="fixed" src="https://www-freecodecamp-org.cdn.ampproject.org/i/s/www.freecodecamp.org/news/content/images/2019/11/fcc_primary_large_24X210.svg" style="width:210px;height:24px;" width="210px" i-amphtml-auto-lightbox-visited="">
+                <img decoding="async" alt="freeCodeCamp.org" src="https://www-freecodecamp-org.cdn.ampproject.org/i/s/www.freecodecamp.org/news/content/images/2019/11/fcc_primary_large_24X210.svg" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
+                </a>
+        </nav>
+    </header>
+
+    <main class="content" role="main">
+        <article class="post">
+
+            <header class="post-header">
+                <h1 class="post-title">How to handle user authentication in Python Django</h1>
+                <section class="post-meta">
+                    <time class="post-date" datetime="2017-02-17">2017-02-17</time>
+                </section>
+            </header>
+            <figure class="post-image">
+                <amp-img class="i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-element i-amphtml-layout" height="400" i-amphtml-layout="responsive" layout="responsive" src="https://cdn--media--1-freecodecamp-org.cdn.ampproject.org/i/s/cdn-media-1.freecodecamp.org/images/1*SA3NDT1VMUBn9g0emx9TUg.png" srcset="https://cdn--media--1-freecodecamp-org.cdn.ampproject.org/ii/w680/s/cdn-media-1.freecodecamp.org/images/1*SA3NDT1VMUBn9g0emx9TUg.png 680w, https://cdn--media--1-freecodecamp-org.cdn.ampproject.org/ii/w820/s/cdn-media-1.freecodecamp.org/images/1*SA3NDT1VMUBn9g0emx9TUg.png 820w" width="600" i-amphtml-auto-lightbox-visited="" lightbox="i-amphtml-auto-lightbox-0"><i-amphtml-sizer style="display:block;padding-top:66.6667%;" slot="i-amphtml-svc"></i-amphtml-sizer><img class="i-amphtml-blurry-placeholder" placeholder="" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http%3A//www.w3.org/2000/svg' xmlns%3Axlink='http%3A//www.w3.org/1999/xlink' viewBox='0 0 9 6'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='.5'%3E%3C/feGaussianBlur%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1'%3E%3C/feFuncA%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23b)' x='0' y='0' height='100%25' width='100%25' xlink%3Ahref='data%3Aimage/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAIAAACepSOSAAAAhUlEQVQImWPg1FOAo5Zp/f/////3799/MGDwSYvR9rbnNlACorYZE4ES7969+/XrF0hu/roVSzetXblt447D+89dvQQU/QMGILmF61ftOXZo3prlm/buPHvl0u/fv/+CAUhO18dRw8NGwck0oSK/feZkoOjPnz+h+iCu4NJX5DNSgbgFDgDasmvWJ6rSVQAAAABJRU5ErkJggg=='%3E%3C/image%3E%3C/svg%3E" style="opacity: 0 !important;"><img decoding="async" src="https://cdn--media--1-freecodecamp-org.cdn.ampproject.org/i/s/cdn-media-1.freecodecamp.org/images/1*SA3NDT1VMUBn9g0emx9TUg.png" class="i-amphtml-fill-content i-amphtml-replaced-content" width="328" height="218"></amp-img>
+            </figure>
+
+            <section class="post-content medium-migrated-article">
+                <p>by Mohammed Subhan Khan</p><h1 id="how-to-handle-user-authentication-in-python-django">How to handle user authentication in Python Django</h1><figure class="kg-card kg-image-card"><amp-img class="kg-image i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-element" height="202" i-amphtml-layout="responsive" layout="responsive" src="https://cdn--media--1-freecodecamp-org.cdn.ampproject.org/i/s/cdn-media-1.freecodecamp.org/images/gsO1VmJdDB0qxAdXpN1uhpRhLMoeC-Vhco-Y" width="800" i-amphtml-auto-lightbox-visited=""><i-amphtml-sizer style="display:block;padding-top:25.2500%;" slot="i-amphtml-svc"></i-amphtml-sizer></amp-img></figure><p>In this tutorial, Iâ€™ll show how to do user login, logout and signup in Django. All the code that I describe here is in this GitHub <a href="https://github.com/khansubhan95/Django-User-Auth" rel="noopener" target="_top">repository</a>. This tutorial will be using Python 2.7 and Django 1.9.</p><h3 id="project-installation-and-structure">Project installation and structure</h3><p>To get started, run the following commands from the terminal:</p><pre><code class="language-bash">django-admin startproject src
+cd src
+python manage.py startapp mysite
+python manage.py migrate</code></pre><p>In a nutshell, these four commands create a new Django project named src, enter the project, create a new app, mysite, inside the src project, then create a SQLite database for the project named db.sqlite3. Also be sure to include the mysite app inside src/settings.py.</p><pre><code class="language-py">INSTALLED_APPS = [
+    'src',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    ...
+]</code></pre><p>Create a directory named templates inside mysite app. Then create two other directories inside mysite/templates named â€œregistrationâ€ and â€œmysiteâ€.</p><p>Also, I will refer to the templates stored in these two directories, using registration/{template_name} and mysite/{template_name}.</p><p>Your project structure should ultimately look like this:</p><pre><code>.
+|-- db.sqlite3
+|-- manage.py
+|-- mysite
+|   |-- admin.py
+|   |-- apps.py
+|   |-- __init__.py
+|   |-- migrations
+|   |   `-- __init__.py
+|   |-- models.py
+|   |-- templates
+|   |   |-- mysite
+|   |   `-- registration
+|   |-- tests.py
+|   `-- views.py
+`-- src
+    |-- __init__.py
+    |-- settings.py
+    |-- urls.py
+    `-- wsgi.py</code></pre><p>You may already be able to figure out what the templates in mysite may be used for (views defined in mysite for example). Weâ€™ll get to the importance of registration soon.</p><p>Also, weâ€™ll need users to test our site. You can do this by creating a superuser (<code>python manage.py createsuperuser</code>). But donâ€™t worry â€” everything this tutorial describes can be applied to normal users as well, without any changes. You can create normal users for the purpose of this tutorial by creating a superuser, running your development server (<code>python manage.py runserver</code>), navigating to localhost:8000/admin, navigating to Users, then creating a new user.</p><h3 id="handling-login">Handling login</h3><p>According to the documentation, Django provides <a href="https://docs.djangoproject.com/en/1.10/topics/auth/default/#all-authentication-views" rel="noopener" target="_top">views</a> for handling user authentication methods like login, logout, and password recovery. This saves us the trouble of having to go through defining our own views for handling those things. Moreover, these views are quite configurable and are included in django.contrib.auth.views, which we will import as follows:</p><pre><code class="language-py">from django.contrib.auth import views as auth_views</code></pre><p>We want the login page to open when user goes to /login. To use the <a href="https://docs.djangoproject.com/en/1.10/topics/auth/default/#django.contrib.auth.views.login" rel="noopener" target="_top">login</a> view append the following in src/urls.py</p><pre><code class="language-py">url(r'^login/$', auth_views.login),</code></pre><p>The view by default renders a template that is in registration/login.html.</p><p>Our registration/login.html includes the following simple HTML form:</p><pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Login&lt;/title&gt;
+&lt;/head&gt;
+    
+&lt;body&gt;
+    &lt;form method="POST"&gt;
+        {% csrf_token %}
+        &lt;p&gt;
+            &lt;label&gt;Username&lt;/label&gt;
+            &lt;input type="text" name="username"&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;label&gt;Password&lt;/label&gt;
+            &lt;input type="password" name="password"&gt;
+        &lt;/p&gt;
+        &lt;button type="submit"&gt;Login&lt;/button&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+    
+&lt;/html&gt;</code></pre><p>Donâ€™t want to use registration/login.html? You can specify what templates to use by giving a python dictionary as a third parameter in the urlpattern, with â€˜template_nameâ€™ as key and the location of the template as the value. If you want to use mysite/login_user.html as the template:</p><pre><code class="language-py">url(r'^login/$', auth_views.login, {'template_name': 'mysite/login_user.html'})</code></pre><p>In addition, you can also use other arguments of the view, in pretty much the same way. For a full list of arguments, refer the <a href="https://docs.djangoproject.com/en/1.10/topics/auth/default/#django.contrib.auth.views.login" rel="noopener" target="_top">docs</a>.</p><p>When user clicks on the submit button, the login view handles the login for us. After the user has logged in, we can define where the page should be redirected by specifying LOGIN_REDIRECT_URL in src/settings.py. By default, we will be redirected to /login if the login fails.</p><pre><code class="language-py">LOGIN_REDIRECT_URL = '/'</code></pre><p>Now run the development server (<code>python manage.py runserver</code>) and navigate to localhost:8000/login/. Enter the user credentials for your example superuser. Youâ€™ll be redirected to / if the login was successful. Otherwise youâ€™ll be redirected to /login.</p><p>Even if your login was successful, youâ€™ll be redirected to / and see an error. This will happen because we havenâ€™t defined a <code>urlpattern</code> for it.</p><h3 id="handling-logout">Handling logout</h3><p>Next we want users to logout when they navigate to /logout. We can extend the same analogy as login to logout, accessing the view corresponding to <a href="https://docs.djangoproject.com/en/1.10/topics/auth/default/#django.contrib.auth.views.logout" rel="noopener" target="_top">logout</a> by appending the following urlpattern to src/settings.py</p><pre><code class="language-py">url(r'^logout/$', auth_views.logout)</code></pre><p>The logout view renders the registration/logged_out.html template by default. Here is a simple logout template:</p><pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+    
+&lt;body&gt;
+    You have successfully logged out.
+    &lt;a href="/"&gt;Home&lt;/a&gt;
+&lt;/body&gt;
+    
+&lt;/html&gt;</code></pre><p>As with login, you can change the template location by including an object with a â€˜template_nameâ€™ key and the templateâ€™s location as the value.</p><h3 id="signup">Signup</h3><p>We want our users to register for our website by navigating to /register. Before doing that, letâ€™s clean up the project a bit. First of all, we want a <code>urlpattern</code> for our home page /. We are going to use mysite app for this purpose, so append the following in src/urls.py</p><pre><code class="language-py">url(r'^', include('mysite.urls'))</code></pre><p>Now we need to include the <code>urlpattern</code> for / in mysite/urls.py, so include the following <code>urlpattern</code> in it (after importing the relevant libraries)</p><pre><code class="language-py">from django.conf.urls import url, include
+from django.contrib import admin
+from .views import home, register
+
+urlpatterns = [
+    url(r'^$', home),
+    url(r'^register/', register),
+]</code></pre><p>Here, <code>home</code> refers to the view for /, and <code>register</code> refers to the view for handling registration. For creating a user registration form, we will use Djangoâ€™s in built forms. To do this, create a mysite/forms.py file and include the following:</p><pre><code class="language-py">from django import forms
+
+class UserRegistrationForm(forms.Form):
+    username = forms.CharField(
+        required = True,
+        label = 'Username',
+        max_length = 32
+    )
+    email = forms.CharField(
+        required = True,
+        label = 'Email',
+        max_length = 32,
+    )
+    password = forms.CharField(
+        required = True,
+        label = 'Password',
+        max_length = 32,
+        widget = forms.PasswordInput()
+    )</code></pre><p>First, we import the forms library, we create <code>UserRegistrationForm</code>, which inherits from <code>forms.Form</code>. We want our forms to have 3 fields: <code>username</code>, <code>email</code>, <code>password</code> and the variable assignments do just that. <code>forms.CharField</code> represents a field composed of characters. The arguments â€” <code>required</code>, <code>max_length</code> and <code>label</code>â€” specify whether a field is required, itâ€™s maximum length, and the fieldâ€™s label. The widget parameter in <code>password</code> says that <code>password</code> is an input of type â€œpassword.â€</p><p>We want users to be able to view the form if they go to /register, as well as fill it in and submit it. These correspond to GET and POST requests on /register. Thus, we include the following in mysite/views.py:</p><pre><code class="language-py">from django.shortcuts import render
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate, login
+from django.http import HttpResponseRedirect
+from django import forms
+from .forms import UserRegistrationForm
+
+# Create your views here.
+
+def home(request):
+    return render(request, 'mysite/home.html')
+    
+def register(request):
+    if request.method == 'POST':
+        form = UserRegistrationForm(request.POST)
+        if form.is_valid():
+            userObj = form.cleaned_data
+            username = userObj['username']
+            email =  userObj['email']
+            password =  userObj['password']
+            if not (User.objects.filter(username=username).exists() or User.objects.filter(email=email).exists()):
+                User.objects.create_user(username, email, password)
+                user = authenticate(username = username, password = password)
+                login(request, user)
+                return HttpResponseRedirect('/')    
+            else:
+                raise forms.ValidationError('Looks like a username with that email or password already exists')
+                
+    else:
+        form = UserRegistrationForm()
+        
+    return render(request, 'mysite/register.html', {'form' : form})</code></pre><p>The home view is defined to render the src/home.html template, which is as follows:</p><pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    
+&lt;head&gt;
+    &lt;title&gt;Home&lt;/title&gt;
+&lt;/head&gt;
+    
+&lt;body&gt;
+    {% if user.is_authenticated %}
+    &lt;p&gt;hello&lt;/p&gt;
+    &lt;p&gt;welcome {{ user.username }}&lt;/p&gt;
+    &lt;p&gt;&lt;a href="/logout"&gt;Logout&lt;/a&gt;&lt;/p&gt;
+    {% else %}
+    &lt;p&gt;&lt;a href="/login"&gt;Login&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href="/register"&gt;Register&lt;/a&gt;&lt;/p&gt;
+    {% endif %}
+&lt;/body&gt;
+    
+&lt;/html&gt;</code></pre><p>We check whether the user is logged in, using user.is_authenticated, and display our welcome text along with the username (using <code>user.username</code>) along with a link for logging out. If not, we will display links for logging in and registering.</p><p>For the register view, we check whether the request method is POST or not. If it isnâ€™t, then we specify the form to be <code>UserRegistrationForm</code> and render, it by passing it as a parameter to mysite/register.html template:</p><pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+    
+&lt;body&gt;
+    &lt;form method="POST"&gt;
+        {% csrf_token %} {{ form.as_p }}
+        &lt;button type="submit"&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+    
+&lt;/html&gt;</code></pre><p>The form that is passed as input to the register view is then rendered using <code>form.as_p</code>. When the user clicks the submit button, a POST request is sent. We take the form data using the form variable.</p><p>Next we check if the form data is valid (through <code><a href="https://docs.djangoproject.com/en/1.10/ref/forms/api/#django.forms.Form.is_valid" rel="noopener" target="_top">is_valid()</a></code>). If it is, we create a <code>userObj</code> dictionary which we get by applying <code><a href="https://docs.djangoproject.com/en/1.10/ref/forms/api/#django.forms.Form.cleaned_data" rel="noopener" target="_top">cleaned_data</a></code> to the form and extract <code>username</code>, <code>email</code> and <code>password</code> from it.</p><p>The if condition checks whether itâ€™s the case that a user with the same username and email exists in our database. If it is so, we create a new user, login using the same user and redirect to /. Otherwise, we raise an error saying that such a user already exists.</p><p>Hereâ€™s some relevant documentation in case you get stuck, or want to learn more:</p><ul><li><a href="https://docs.djangoproject.com/en/1.10/topics/auth/default/" rel="noopener" target="_top">User Authentication</a></li><li><a href="https://docs.djangoproject.com/en/1.10/topics/forms/" rel="noopener" target="_top">Forms</a></li></ul><p>If you would like to give me feedback about this tutorial, <a href="https://www.mohdsubhan.me/contact/" rel="noopener" target="_top">contact me</a>.</p><p>If you liked this post, please â™¡ it and share it :)</p>
+            </section>
+
+        </article>
+    </main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="https://www.freecodecamp.org/news" target="_top">freeCodeCamp.org</a> Â© 2020</section>
+    </footer>
+
+
+</body></html>
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-00130a3b-ae49-45e4-b30d-cc8d59963a41@mhtml.blink
+
+@charset "utf-8";
+
+html { overflow-x: hidden !important; }
+
+html.i-amphtml-fie { height: 100% !important; width: 100% !important; }
+
+html:not([amp4ads]), html:not([amp4ads]) body { height: auto !important; }
+
+html:not([amp4ads]) body { margin: 0px !important; }
+
+body { text-size-adjust: 100%; }
+
+html.i-amphtml-singledoc.i-amphtml-embedded { touch-action: pan-y; }
+
+html.i-amphtml-fie > body, html.i-amphtml-singledoc > body { overflow: visible !important; }
+
+html.i-amphtml-fie:not(.i-amphtml-inabox) > body, html.i-amphtml-singledoc:not(.i-amphtml-inabox) > body { position: relative !important; }
+
+html.i-amphtml-webview > body { overflow: hidden visible !important; min-height: 100vh !important; }
+
+html.i-amphtml-ios-embed-legacy > body { overflow: hidden auto !important; position: absolute !important; }
+
+html.i-amphtml-ios-embed { position: static; overflow-y: auto !important; }
+
+#i-amphtml-wrapper { overflow: hidden auto !important; position: absolute !important; top: 0px !important; left: 0px !important; right: 0px !important; bottom: 0px !important; margin: 0px !important; display: block !important; }
+
+html.i-amphtml-ios-embed.i-amphtml-ios-overscroll, html.i-amphtml-ios-embed.i-amphtml-ios-overscroll > #i-amphtml-wrapper { }
+
+#i-amphtml-wrapper > body { position: relative !important; border-top: 1px solid transparent !important; }
+
+#i-amphtml-wrapper + body { visibility: visible; }
+
+#i-amphtml-wrapper + body .i-amphtml-lightbox-element, #i-amphtml-wrapper + body[i-amphtml-lightbox] { visibility: hidden; }
+
+#i-amphtml-wrapper + body[i-amphtml-lightbox] .i-amphtml-lightbox-element { visibility: visible; }
+
+#i-amphtml-wrapper.i-amphtml-scroll-disabled, .i-amphtml-scroll-disabled { overflow: hidden !important; }
+
+amp-instagram { background-color: rgb(255, 255, 255); padding: 54px 0px 0px !important; }
+
+amp-iframe iframe { box-sizing: border-box !important; }
+
+[amp-access][amp-access-hide] { display: none; }
+
+[subscriptions-dialog], body:not(.i-amphtml-subs-ready) [subscriptions-action], body:not(.i-amphtml-subs-ready) [subscriptions-section] { display: none !important; }
+
+amp-experiment, amp-live-list > [update] { display: none; }
+
+.i-amphtml-jank-meter { position: fixed; background-color: rgba(232, 72, 95, 0.5); bottom: 0px; right: 0px; color: rgb(255, 255, 255); font-size: 16px; z-index: 1000; padding: 5px; }
+
+amp-list[resizable-children] > .i-amphtml-loading-container.amp-hidden { display: none !important; }
+
+amp-list [fetch-error], amp-list[load-more] [load-more-button], amp-list[load-more] [load-more-end], amp-list[load-more] [load-more-failed], amp-list[load-more] [load-more-loading] { display: none; }
+
+amp-list[diffable] div[role="list"] { display: block; }
+
+amp-story-page, amp-story[standalone] { min-height: 1px !important; display: block !important; height: 100% !important; margin: 0px !important; padding: 0px !important; overflow: hidden !important; width: 100% !important; }
+
+amp-story[standalone] { background-color: rgb(32, 33, 37) !important; position: relative !important; }
+
+amp-story-page { background-color: rgb(117, 117, 117); }
+
+amp-story .amp-active > div, amp-story .i-amphtml-loader-background { display: none !important; }
+
+amp-story-page:not(:first-of-type):not([distance]):not([active]) { transform: translateY(1000vh) !important; }
+
+amp-autocomplete { position: relative !important; display: inline-block !important; }
+
+amp-autocomplete > input, amp-autocomplete > textarea { padding: 0.5rem; border: 1px solid rgba(0, 0, 0, 0.33); }
+
+.i-amphtml-autocomplete-results, amp-autocomplete > input, amp-autocomplete > textarea { font-size: 1rem; line-height: 1.5rem; }
+
+[amp-fx^="fly-in"] { visibility: hidden; }
+
+[hidden] { display: none !important; }
+
+.i-amphtml-element { display: inline-block; }
+
+.i-amphtml-blurry-placeholder { pointer-events: none; transition: opacity 0.3s cubic-bezier(0, 0, 0.2, 1) 0s !important; }
+
+[layout="nodisplay"]:not(.i-amphtml-element) { display: none !important; }
+
+.i-amphtml-layout-fixed, [layout="fixed"][width][height]:not(.i-amphtml-layout-fixed) { display: inline-block; position: relative; }
+
+.i-amphtml-layout-responsive, [layout="responsive"][width][height]:not(.i-amphtml-layout-responsive), [width][height][heights]:not([layout]):not(.i-amphtml-layout-responsive), [width][height][sizes]:not([layout]):not(.i-amphtml-layout-responsive) { display: block; position: relative; }
+
+.i-amphtml-layout-intrinsic, [layout="intrinsic"][width][height]:not(.i-amphtml-layout-intrinsic) { display: inline-block; position: relative; max-width: 100%; }
+
+.i-amphtml-layout-intrinsic .i-amphtml-sizer { max-width: 100%; }
+
+.i-amphtml-intrinsic-sizer { max-width: 100%; display: block !important; }
+
+.i-amphtml-layout-container, .i-amphtml-layout-fixed-height, [layout="container"], [layout="fixed-height"][height]:not(.i-amphtml-layout-fixed-height) { display: block; position: relative; }
+
+.i-amphtml-layout-fill, [layout="fill"]:not(.i-amphtml-layout-fill) { display: block; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; overflow: hidden !important; }
+
+.i-amphtml-layout-flex-item, [layout="flex-item"]:not(.i-amphtml-layout-flex-item) { display: block; position: relative; flex: 1 1 auto; }
+
+.i-amphtml-layout-fluid { position: relative; }
+
+.i-amphtml-layout-size-defined { overflow: hidden !important; }
+
+.i-amphtml-layout-awaiting-size { position: absolute !important; top: auto !important; bottom: auto !important; }
+
+i-amphtml-sizer { display: block !important; }
+
+.i-amphtml-blurry-placeholder, .i-amphtml-fill-content { display: block; height: 0px; max-height: 100%; max-width: 100%; min-height: 100%; min-width: 100%; width: 0px; margin: auto; }
+
+.i-amphtml-layout-size-defined .i-amphtml-fill-content { position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; }
+
+.i-amphtml-replaced-content, .i-amphtml-screen-reader { padding: 0px !important; border: none !important; }
+
+.i-amphtml-screen-reader { position: fixed !important; top: 0px !important; left: 0px !important; width: 4px !important; height: 4px !important; opacity: 0 !important; overflow: hidden !important; margin: 0px !important; display: block !important; visibility: visible !important; }
+
+.i-amphtml-screen-reader ~ .i-amphtml-screen-reader { left: 8px !important; }
+
+.i-amphtml-screen-reader ~ .i-amphtml-screen-reader ~ .i-amphtml-screen-reader { left: 12px !important; }
+
+.i-amphtml-screen-reader ~ .i-amphtml-screen-reader ~ .i-amphtml-screen-reader ~ .i-amphtml-screen-reader { left: 16px !important; }
+
+.i-amphtml-unresolved { position: relative; overflow: hidden !important; }
+
+.i-amphtml-select-disabled { user-select: none !important; }
+
+.i-amphtml-notbuilt, [layout]:not(.i-amphtml-element), [width][height][heights]:not([layout]):not(.i-amphtml-element), [width][height][sizes]:not([layout]):not(.i-amphtml-element) { position: relative; overflow: hidden !important; color: transparent !important; }
+
+.i-amphtml-notbuilt:not(.i-amphtml-layout-container) > *, [layout]:not([layout="container"]):not(.i-amphtml-element) > *, [width][height][heights]:not([layout]):not(.i-amphtml-element) > *, [width][height][sizes]:not([layout]):not(.i-amphtml-element) > * { display: none; }
+
+.i-amphtml-notbuilt:not(.i-amphtml-layout-container), [layout]:not([layout="container"]):not(.i-amphtml-element), [width][height][heights]:not([layout]):not(.i-amphtml-element), [width][height][sizes]:not([layout]):not(.i-amphtml-element) { color: transparent !important; line-height: 0 !important; }
+
+.i-amphtml-ghost { visibility: hidden !important; }
+
+.i-amphtml-element > [placeholder], [layout]:not(.i-amphtml-element) > [placeholder], [width][height][heights]:not([layout]):not(.i-amphtml-element) > [placeholder], [width][height][sizes]:not([layout]):not(.i-amphtml-element) > [placeholder] { display: block; }
+
+.i-amphtml-element > [placeholder].amp-hidden, .i-amphtml-element > [placeholder].hidden { visibility: hidden; }
+
+.i-amphtml-element:not(.amp-notsupported) > [fallback], .i-amphtml-layout-container > [placeholder].amp-hidden, .i-amphtml-layout-container > [placeholder].hidden { display: none; }
+
+.i-amphtml-layout-size-defined > [fallback], .i-amphtml-layout-size-defined > [placeholder] { z-index: 1; position: absolute !important; top: 0px !important; left: 0px !important; right: 0px !important; bottom: 0px !important; }
+
+.i-amphtml-notbuilt > [placeholder] { display: block !important; }
+
+.i-amphtml-hidden-by-media-query { display: none !important; }
+
+.i-amphtml-element-error { background: red !important; color: rgb(255, 255, 255) !important; position: relative !important; }
+
+.i-amphtml-element-error::before { content: attr(error-message); }
+
+i-amp-scroll-container, i-amphtml-scroll-container { position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; display: block; }
+
+i-amp-scroll-container.amp-active, i-amphtml-scroll-container.amp-active { overflow: auto; }
+
+.i-amphtml-loading-container { pointer-events: none; z-index: 1; display: block !important; }
+
+.i-amphtml-notbuilt > .i-amphtml-loading-container { display: block !important; }
+
+.i-amphtml-loading-container.amp-hidden { visibility: hidden; }
+
+.i-amphtml-element > [overflow] { cursor: pointer; position: relative; z-index: 2; visibility: hidden; display: initial; line-height: normal; }
+
+.i-amphtml-element > [overflow].amp-visible { visibility: visible; }
+
+template { display: none !important; }
+
+.amp-border-box, .amp-border-box *, .amp-border-box ::after, .amp-border-box ::before { box-sizing: border-box; }
+
+amp-pixel { display: none !important; }
+
+amp-analytics, amp-auto-ads, amp-story-auto-ads { visibility: hidden; position: fixed !important; top: 0px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
+
+html.i-amphtml-fie > amp-analytics { position: initial !important; }
+
+[visible-when-invalid]:not(.visible), form [submit-error], form [submit-success], form [submitting] { display: none; }
+
+amp-accordion { display: block !important; }
+
+amp-accordion > section { float: none !important; }
+
+amp-accordion > section > * { float: none !important; display: block !important; overflow: hidden !important; position: relative !important; }
+
+amp-accordion, amp-accordion > section { margin: 0px; }
+
+amp-accordion > section > :last-child { display: none !important; }
+
+amp-accordion > section[expanded] > :last-child { display: block !important; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-8016cae1-353b-4eee-a684-a58fb3c931ee@mhtml.blink
+
+@charset "utf-8";
+
+.i-amphtml-lbg-caption-scroll { z-index: 1; color: rgb(255, 255, 255); position: absolute !important; left: 0px !important; right: 0px !important; bottom: 0px !important; padding-top: 40px !important; box-sizing: border-box !important; text-shadow: rgba(0, 0, 0, 0.4) 1px 0px 5px !important; overflow: hidden !important; max-height: calc(80px + 3rem) !important; transition: max-height 0.3s ease-out 0s !important; pointer-events: none !important; }
+
+.i-amphtml-lbg-caption-text { padding: 20px !important; pointer-events: all !important; }
+
+.i-amphtml-lbg-caption-text:empty { display: none !important; }
+
+[i-amphtml-lbg-caption-state="clip"] { -webkit-mask-image: linear-gradient(0deg, transparent 0rem, rgba(0, 0, 0, 0.2) 1rem, rgba(0, 0, 0, 0.55) 2rem, rgb(0, 0, 0) 3rem); }
+
+[i-amphtml-lbg-caption-state="expand"] { -webkit-mask-image: linear-gradient(transparent, rgba(0, 0, 0, 0.2) 20px, rgba(0, 0, 0, 0.55) 40px, rgb(0, 0, 0) 60px); overflow-y: auto !important; max-height: 100% !important; transition: max-height 0.7s ease-out 0s !important; }
+
+.i-amphtml-lbg-caption-mask { min-height: 1rem; width: 100% !important; position: fixed !important; bottom: 0px !important; pointer-events: all !important; }
+
+[i-amphtml-lbg-caption-state="clip"] + .i-amphtml-lbg-caption-mask { z-index: 1 !important; background: transparent !important; transition: background-color 0.5s ease-out 0s !important; }
+
+[i-amphtml-lbg-caption-state="expand"] + .i-amphtml-lbg-caption-mask { background-color: rgba(0, 0, 0, 0.4) !important; top: 0px !important; z-index: 0 !important; transition: background-color 0.4s ease-in 0s !important; }
+
+.i-amphtml-lbg[gallery-view] .i-amphtml-lbg-caption { display: none; }
+
+.i-amphtml-lbg-top-bar { background: linear-gradient(rgba(0, 0, 0, 0.3), transparent); position: absolute !important; left: 0px !important; right: 0px !important; top: 0px !important; height: 56px !important; z-index: 1 !important; }
+
+@media (min-width: 1024px) {
+  .i-amphtml-lbg-top-bar { height: 80px !important; }
+}
+
+.i-amphtml-lbg-button { width: 24px; height: 24px; padding: 16px; box-sizing: content-box; position: absolute !important; cursor: pointer !important; }
+
+@media (min-width: 1024px) {
+  .i-amphtml-lbg-button { width: 40px; height: 40px; padding: 20px; }
+}
+
+.i-amphtml-lbg-button::after { content: "" !important; width: 100% !important; height: 100% !important; display: block !important; background-repeat: no-repeat !important; background-position: 50% center !important; }
+
+.i-amphtml-lbg-button[data-action="close"] { top: 0px !important; right: 0px !important; }
+
+.i-amphtml-lbg-button[data-action="close"]::after { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.4 6.4l11.2 11.2zm11.2 0L6.4 17.6z' stroke='%23fff' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+
+.i-amphtml-lbg-button[data-action="gallery"] { top: 0px !important; left: 0px !important; }
+
+.i-amphtml-lbg-button[data-action="gallery"]::after { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff'%3E%3Crect x='3' y='3' width='6' height='8' rx='1' ry='1'/%3E%3Crect x='15' y='13' width='6' height='8' rx='1' ry='1'/%3E%3Crect x='11' y='3' width='10' height='8' rx='1' ry='1'/%3E%3Crect x='3' y='13' width='10' height='8' rx='1' ry='1'/%3E%3C/g%3E%3C/svg%3E"); }
+
+.i-amphtml-lbg-button[data-action="slides"] { display: none; top: 0px !important; left: 0px !important; }
+
+.i-amphtml-lbg-button[data-action="slides"]::after { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='4' y='4' width='16' height='16' rx='1' stroke-width='2' stroke='%23fff' fill='none'/%3E%3Ccircle fill='%23fff' cx='15.5' cy='8.5' r='1.5'/%3E%3Cpath fill='%23fff' d='M5 19v-6l3-3 5 5 3-3 3 3v4z'/%3E%3C/svg%3E"); }
+
+.i-amphtml-lbg-button[data-action="next"], .i-amphtml-lbg-button[data-action="prev"] { width: 40px; height: 40px; padding: 20px; top: 0px !important; bottom: 0px !important; margin: auto !important; filter: drop-shadow(black 0px 0px 1px) !important; }
+
+.i-amphtml-lbg-button[data-action="next"] { right: 0px !important; left: auto !important; }
+
+.i-amphtml-lbg-button[data-action="next"]::after { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 7.4l4.6 4.6-4.6 4.6' fill='none' stroke='%23fff' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E"); }
+
+.i-amphtml-lbg-button[data-action="prev"] { right: auto !important; left: 0px !important; }
+
+.i-amphtml-lbg-button[data-action="prev"]::after { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 7.4L9.4 12l4.6 4.6' fill='none' stroke='%23fff' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E"); }
+
+[i-amphtml-lbg-single-item] .i-amphtml-lbg-button[data-action="gallery"], [i-amphtml-lbg-single-item] .i-amphtml-lbg-button[data-action="next"], [i-amphtml-lbg-single-item] .i-amphtml-lbg-button[data-action="prev"] { visibility: hidden !important; }
+
+.i-amphtml-lbg[gallery-view] .i-amphtml-lbg-button[data-action="gallery"], .i-amphtml-lbg[gallery-view] .i-amphtml-lbg-button[data-action="next"], .i-amphtml-lbg[gallery-view] .i-amphtml-lbg-button[data-action="prev"] { display: none !important; }
+
+.i-amphtml-lbg[gallery-view] .i-amphtml-lbg-button[data-action="slides"] { display: block !important; }
+
+[i-amphtml-lbg-fade] { animation-fill-mode: forwards; animation-duration: 400ms; }
+
+[i-amphtml-lbg-fade="in"] { animation-name: fadeIn; }
+
+[i-amphtml-lbg-fade="out"] { animation-name: fadeOut; }
+
+amp-lightbox-gallery[i-amphtml-lbg-fade] { position: relative; z-index: 2147483642; animation-timing-function: cubic-bezier(0.8, 0, 0.2, 1); }
+
+amp-lightbox-gallery .amp-carousel-button { display: none; }
+
+amp-lightbox-gallery amp-carousel { background: transparent !important; }
+
+.i-amphtml-lbg { z-index: 2147483642; position: fixed !important; }
+
+.i-amphtml-lbg, .i-amphtml-lbg-gallery, .i-amphtml-lbg-mask { top: 0px !important; left: 0px !important; right: 0px !important; bottom: 0px !important; }
+
+.i-amphtml-lbg-gallery, .i-amphtml-lbg-mask { background-color: rgb(0, 0, 0) !important; position: absolute !important; }
+
+.i-amphtml-lbg-gallery { display: none; top: 56px !important; overflow: auto !important; }
+
+@media (min-width: 1024px) {
+  .i-amphtml-lbg-gallery { top: 80px !important; }
+}
+
+.i-amphtml-lbg-overlay:not([i-amphtml-lbg-fade]) { opacity: 0; visibility: hidden; }
+
+.i-amphtml-lbg-overlay[i-amphtml-lbg-fade="in"] { animation-timing-function: ease-in; }
+
+.i-amphtml-lbg-overlay[i-amphtml-lbg-fade="out"] { animation-timing-function: linear; }
+
+.i-amphtml-lbg[gallery-view] .i-amphtml-lbg-gallery { grid-template-columns: repeat(3, 1fr); padding: 5px; display: grid !important; justify-content: center !important; gap: 5px !important; grid-auto-rows: min-content !important; }
+
+@media (min-width: 1024px) {
+  .i-amphtml-lbg[gallery-view] .i-amphtml-lbg-gallery { grid-template-columns: repeat(4, 249.75px); }
+}
+
+.i-amphtml-lbg-gallery-thumbnail { position: relative !important; padding-top: 100% !important; }
+
+.i-amphtml-lbg-gallery-thumbnail-img { width: 100% !important; height: 100% !important; position: absolute !important; top: 0px !important; object-fit: cover !important; cursor: pointer !important; }
+
+.i-amphtml-lbg-thumbnail-timestamp-container { background-color: rgb(41, 45, 51); color: rgb(255, 255, 255); position: absolute; bottom: 10px; left: 10px; height: 20px; border-radius: 2px; opacity: 0.8; width: 20px; }
+
+.i-amphtml-lbg-thumbnail-timestamp-container.i-amphtml-lbg-has-timestamp { font-size: 12px; padding: 0px 5px 0px 18px; line-height: 1.3rem; width: auto; }
+
+.i-amphtml-lbg-thumbnail-play-icon { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E"); height: 16px; width: 16px; position: absolute; left: 2px; bottom: 2px; }
+
+amp-lightbox-gallery .i-amphtml-slide-item > * { height: auto; }
+
+@keyframes fadeIn { 
+  0% { opacity: 0; }
+  100% { opacity: 1; visibility: visible; }
+}
+
+@keyframes fadeOut { 
+  0% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-0ccd0fa2-d218-414a-a4bc-40ae327314a4@mhtml.blink
+
+@charset "utf-8";
+
+html { font-family: sans-serif; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+audio:not([controls]) { display: none; height: 0px; }
+
+[hidden], template { display: none; }
+
+a { background-color: transparent; }
+
+a:active, a:hover { outline: 0px; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+dfn { font-style: italic; }
+
+h1 { margin: 0.67em 0px; font-size: 2em; }
+
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+
+small { font-size: 80%; }
+
+sub, sup { position: relative; vertical-align: baseline; font-size: 75%; line-height: 0; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img { border: 0px; }
+
+amp-img { border: 0px; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 1em 40px; }
+
+hr { box-sizing: content-box; height: 0px; }
+
+pre { overflow: auto; }
+
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+button, input, optgroup, select, textarea { margin: 0px; color: inherit; font: inherit; }
+
+button { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+button[disabled], html input[disabled] { cursor: default; }
+
+input { line-height: normal; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0px; }
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+input[type="search"] { -webkit-appearance: textfield; }
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+fieldset { margin: 0px 2px; padding: 0.35em 0.625em 0.75em; border: 1px solid rgb(192, 192, 192); }
+
+legend { padding: 0px; border: 0px; }
+
+textarea { overflow: auto; }
+
+optgroup { font-weight: bold; }
+
+table { border-spacing: 0px; border-collapse: collapse; }
+
+td, th { padding: 0px; }
+
+html { max-height: 100%; height: 100%; font-size: 62.5%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+body { max-height: 100%; height: 100%; color: rgb(42, 42, 64); background: rgb(238, 238, 240); letter-spacing: 0.01rem; font-family: Lato, serif; font-size: 1.8rem; line-height: 1.75em; text-rendering: geometricprecision; font-feature-settings: "kern"; }
+
+::selection { background: rgb(214, 237, 255); }
+
+h1, h2, h3, h4, h5, h6 { margin: 0px 0px 0.3em; color: rgb(10, 10, 35); font-family: Lato, sans-serif; line-height: 1.15em; text-rendering: geometricprecision; font-feature-settings: "dlig", "liga", "lnum", "kern"; }
+
+h1 { text-indent: -2px; letter-spacing: -1px; font-size: 2.6rem; }
+
+h2 { letter-spacing: 0px; font-size: 2.4rem; }
+
+h3 { letter-spacing: -0.6px; font-size: 2.1rem; }
+
+h4 { font-size: 1.9rem; }
+
+h5 { font-size: 1.8rem; }
+
+h6 { font-size: 1.8rem; }
+
+a { color: rgb(0, 46, 173); }
+
+a:hover { color: rgb(17, 17, 17); }
+
+p, ul, ol, dl { margin: 0px 0px 2.5rem; text-rendering: geometricprecision; font-feature-settings: "liga", "onum", "kern"; }
+
+ol, ul { padding-left: 2em; }
+
+ol ol, ul ul, ul ol, ol ul { margin: 0px 0px 0.4em; padding-left: 2em; }
+
+dl dt { float: left; clear: left; overflow: hidden; margin-bottom: 1em; width: 180px; text-align: right; text-overflow: ellipsis; white-space: nowrap; font-weight: 700; }
+
+dl dd { margin-bottom: 1em; margin-left: 200px; }
+
+li { margin: 0.4em 0px; }
+
+li li { margin: 0px; }
+
+hr { display: block; margin: 1.75em 0px; padding: 0px; height: 1px; border-width: 1px 0px 0px; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial; border-top-style: solid; border-top-color: rgb(239, 239, 239); }
+
+blockquote { box-sizing: border-box; margin: 1.75em 0px; padding: 0px 0px 0px 1.75em; border-left: 0.4em solid rgb(0, 46, 173); }
+
+blockquote p { margin: 0.8em 0px; font-style: italic; }
+
+blockquote small { display: inline-block; margin: 0.8em 0px 0.8em 1.5em; color: rgb(204, 204, 204); font-size: 0.9em; }
+
+blockquote small::before { content: "â€”Â "; }
+
+blockquote cite { font-weight: 700; }
+
+blockquote cite a { font-weight: normal; }
+
+mark { background-color: rgb(253, 255, 182); }
+
+code, tt { padding: 1px 3px; background: rgb(238, 238, 240); white-space: pre-wrap; font-family: Inconsolata, monospace, sans-serif; font-size: 0.85em; font-feature-settings: "liga" 0; }
+
+pre { overflow: auto; box-sizing: border-box; margin: 0px 0px 1.75em; padding: 10px; width: 100%; border: 1px solid rgb(238, 238, 240); background: rgb(238, 238, 240); white-space: pre; font-family: Inconsolata, monospace, sans-serif; font-size: 0.9em; }
+
+pre code, pre tt { padding: 0px; border: none; background: transparent; white-space: pre-wrap; font-size: inherit; }
+
+kbd { display: inline-block; margin-bottom: 0.4em; padding: 1px 8px; border: 1px solid rgb(204, 204, 204); background: rgb(244, 244, 244); box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 1px 0px 0px inset; color: rgb(102, 102, 102); text-shadow: rgb(255, 255, 255) 0px 1px 0px; font-size: 0.9em; font-weight: 700; }
+
+table { box-sizing: border-box; margin: 1.75em 0px; max-width: 100%; width: 100%; background-color: transparent; }
+
+table th, table td { padding: 8px; border-top: 1px solid rgb(239, 239, 239); vertical-align: top; text-align: left; line-height: 20px; }
+
+table th { color: rgb(0, 0, 0); }
+
+table caption + thead tr:first-child th, table caption + thead tr:first-child td, table colgroup + thead tr:first-child th, table colgroup + thead tr:first-child td, table thead:first-child tr:first-child th, table thead:first-child tr:first-child td { border-top: 0px; }
+
+table tbody + tbody { border-top: 2px solid rgb(239, 239, 239); }
+
+table table table { background-color: rgb(255, 255, 255); }
+
+table tbody > tr:nth-child(2n+1) > td, table tbody > tr:nth-child(2n+1) > th { background-color: rgb(246, 246, 246); }
+
+table.plain tbody > tr:nth-child(2n+1) > td, table.plain tbody > tr:nth-child(2n+1) > th { background: transparent; }
+
+iframe, amp-iframe, .fluid-width-video-wrapper { display: block; margin: 1.75em 0px; }
+
+.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper amp-iframe { margin: 0px; }
+
+textarea, select, input { margin: 0px 0px 5px; padding: 6px 9px; width: 260px; outline: 0px; border: 1px solid rgb(231, 238, 242); background: rgb(255, 255, 255); box-shadow: none; font-family: Lato, sans-serif; font-size: 1.6rem; line-height: 1.4em; font-weight: 100; -webkit-appearance: none; }
+
+textarea { min-width: 250px; min-height: 80px; max-width: 340px; width: 100%; height: auto; }
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, textarea:focus { outline: none 0px; border: 1px solid rgb(187, 199, 204); background: rgb(255, 255, 255); }
+
+select { width: 270px; height: 30px; line-height: 30px; }
+
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+
+.clearfix::after { clear: both; }
+
+.clearfix { zoom: 1; }
+
+.main-header { position: relative; display: table; overflow: hidden; width: 100%; background: center center / cover no-repeat rgb(10, 10, 35); text-align: left; box-sizing: border-box; height: 38px; }
+
+.content { background: rgb(255, 255, 255); padding-top: 15px; }
+
+.blog-title, .content { margin: auto; max-width: 600px; }
+
+.blog-title { height: 38px; }
+
+.blog-title amp-img { height: 24px; margin-top: 7px; margin-bottom: 7px; }
+
+.blog-title a { display: block; padding-right: 16px; padding-left: 16px; height: 50px; color: rgb(255, 255, 255); text-decoration: none; font-family: Lato, sans-serif; font-size: 16px; line-height: 50px; font-weight: 600; }
+
+.post { position: relative; margin-top: 0px; margin-right: 16px; margin-left: 16px; padding-bottom: 0px; max-width: 100%; border-bottom: 1px solid rgb(235, 242, 246); overflow-wrap: break-word; font-size: 0.95em; line-height: 1.65em; }
+
+.post-header { margin-bottom: 1rem; }
+
+.post-title { margin-bottom: 0px; }
+
+.post-title a { text-decoration: none; }
+
+.post-meta { display: block; margin: 3px 0px 0px; color: rgb(10, 10, 35); font-family: Lato, sans-serif; font-size: 1.3rem; line-height: 2.2rem; }
+
+.post-meta a { color: rgb(10, 10, 35); text-decoration: none; }
+
+.post-meta a:hover { text-decoration: underline; }
+
+.post-meta .author { margin: 0px; font-size: 1.3rem; line-height: 1.3em; }
+
+.post-date { display: inline-block; text-transform: uppercase; white-space: nowrap; }
+
+.post-image { margin: 0px; padding-top: 3rem; padding-bottom: 30px; border-top: 1px solid rgb(232, 232, 232); }
+
+.post-content amp-img, .post-content amp-anim { position: relative; left: 50%; display: block; padding: 0px; min-width: 0px; max-width: 112%; width: calc(100% + 32px); height: auto; transform: translateX(-50%); }
+
+.footnotes { font-size: 1.3rem; line-height: 1.6em; font-style: italic; }
+
+.footnotes li { margin: 0.6rem 0px; }
+
+.footnotes p { margin: 0px; }
+
+.footnotes p a:last-child { text-decoration: none; }
+
+.site-footer { position: relative; margin: 0px auto 20px; padding: 1rem 15px; max-width: 600px; color: rgba(0, 0, 0, 0.5); font-family: Lato, sans-serif; font-size: 1.1rem; line-height: 1.75em; }
+
+.site-footer a { color: rgba(0, 0, 0, 0.5); text-decoration: none; font-weight: bold; }
+
+.site-footer a:hover { border-bottom: 1px solid rgb(187, 199, 204); }
+
+.poweredby { display: block; float: right; width: 45%; text-align: right; }
+
+.copyright { display: block; float: left; width: 45%; }
+
+.medium-migrated-article > p:first-child { text-align: center; }
+
+.medium-migrated-article > figure:first-of-type { display: none; }
+
+.medium-migrated-article > h1 { display: none; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,700i&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 300; font-display: swap; src: local("Lato Light Italic"), local("Lato-LightItalic"), url("https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_FQftx9897sxZ.woff2") format("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 300; font-display: swap; src: local("Lato Light Italic"), local("Lato-LightItalic"), url("https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwftx9897g.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 700; font-display: swap; src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2") format("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Lato; font-style: italic; font-weight: 700; font-display: swap; src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url("https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 300; font-display: swap; src: local("Lato Light"), local("Lato-Light"), url("https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwaPGQ3q5d0N7w.woff2") format("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 300; font-display: swap; src: local("Lato Light"), local("Lato-Light"), url("https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ3q5d0.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 400; font-display: swap; src: local("Lato Regular"), local("Lato-Regular"), url("https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2") format("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 400; font-display: swap; src: local("Lato Regular"), local("Lato-Regular"), url("https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 700; font-display: swap; src: local("Lato Bold"), local("Lato-Bold"), url("https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2") format("woff2"); unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Lato; font-style: normal; font-weight: 700; font-display: swap; src: local("Lato Bold"), local("Lato-Bold"), url("https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: font/woff2
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2
+
+wOF2     6Ü     nø  6…                       ¤zp` D
+hƒƒB 6$†v …„E€^EbÆ8 Ì†œ¢ÈQÂH„m“¶dÿŸÔ²ë p®T¸îV¦|Ì
+…:½îVïw•6ÅƒÖv¥Ci?•a¹‰›¸Åp,”óGi1Ñ|	î\`PÌŞ¹û™Œ)ÌƒL¦ó0öøVâ:ÜaEŒ;å~ÿİ$÷}à’%2¢%‡ÈVUÈQ‰0©Æ‡öWof¤İ;7°Ó!I(í:ˆ/	şCà¶Î”´¨ˆ((‚q1–°eŠE¨à3ÓÒ¬´4³l/××ÿnşûWı÷«ïëmüŠâŞ|—V©h§µñ˜¤[@C<Q×x¨Zî¯Š2}T²VÊ8@º µ™Wa¦l³Xû'KŒF·D ¤Üc‘#Š´ş+—ø"±oÑÄ_ûà£xˆÌğûvpÛ÷ƒóíiûÑšxöd66äÔ“r+¬Bµ!'ÆãÔV”ÓôMîI¸ä`Æ	å|+bs œo­ßølÿn¡Bæ."¯Ãëb¡}óóÕ3‘ÄÿwM]_8!û*G
+øT%}yo
+(¢¤2 N	å o‘İ€Rš^ü‡÷½Ó_VÛÿ/é@(¬ùcNhz&±ÏÃi4r]Ù,Óé¶nŸ%ãù# }f’_sHAD‘CG­™•vgWû7·w>îu'=é¤IOÒêAğD‚ˆuFÉ„2"#…€) §Ÿ¹œ…„¡ƒ03ÏÇO¿Ù¨ÁÈáÖÊüí—ªéz(U=GkÖD®˜Z­¦ÊMÂq[-/˜¬`òø¬©5»±^eÌ’å"Ë%|öÎªpôîİbˆb‹$°yøo<9I–l‚P”æÎon• L Óº˜-9p)ßk-pvÀE!u1#-;XY\F€‹FÕ(#¾æ(y|ŞÇİÇ‘®u®OæFãÚ™+“ÿ¯Ü¨qqaêï…Ú¬}°2Ì–SÛ[°QAß23•î5ùÿº`Ö;:şÌ&ªäQKú
++–ƒ€#˜âØ(KoÀŒÜ#>RĞuêo¶ãXJ¦ÚQ7É@s8xÁõ	É]‘˜ğ³şŒĞ×1caã€ğL›1gÁ¢%°ï	¬Z·AHd“Ø–H ISô¢W½í}R¶İnªÔiÒöSºôúØQ'†fÊœ%+;'¿øø…\»qëÎ½aQ1q	I8‰’–‘•“WPôOõ5kÕ®S·^ı5n	—ÉÊÖKXrz'_pû.Şq\X'³/E½wñ!JdÛìØÍ—µ×ÆÎÁÉÅ]Ø}DI%=““¥œ¼‚b•^”UTSgwXû˜K£ pd¶†µ-ã³·Ğü4ğÁ¯wƒ¨*n’xË|ÉAAi§UæÕÙhmÔzuæÈûDÕ)‚¶11æ>Ä“Où…\-ï›°_8‰’’‘•“WPLm&uvC]“ÕÚİiM×ÒCúAœ!2î·æĞ0ÙÇÃÃöB@ÜÊåJAi§¬lìœ\Ü~—,lG QR2²rò
+ŠêÕaìÏ¿}œÆŒëÅFİÃøÀ/ (äª®ë7nİ¥Ö?Ø9†gÇğB73mák/¬–ƒŒYN±|©ù=üe›mÚ±[{ÜÛ*Vµ>.­÷†õˆ9AcÁ7Ÿí¹éS~A!WnˆˆŠ‰KHÖŒ#(©NÇe“ƒ¼‚b•bYEµk6ëQ7X›8=—2€¡ÑÖÑZFG ˆ‘©ušp¢ç2Ïâ†
+^Ÿi_z¡
+#b\FNÑ/_æò~.eŸm³cwÜ³¸O?À¨r¯!´ØşQV×2½iƒæÈû$‘Sä<´IÊÜ2K[›°sprq—§ğñ
+¹ªğñˆ¨˜¸„$@¢¤:=lrWP¬ÒxYEµkD=ê†é&ªÕ²vwÔwEO?ƒ8CeÜßCÌ8ÈP]£~æWqY¹RôK›JfO÷<ªH^•–Wm™$1Ã0lE‡Ç#"*&.!YX‰#()Y9yEuÍOÔ8HQ’¼,·±jĞâ4ğÁŸ]ÏŸ¿ ®éÛû²*Çj\k+h«BYÊ³èãrõƒ¯İW‹´†F/°î[ÕĞ«iàƒ	JæCNAig¹§¬ò¦-½}”¥<¯|ü‚B®
+û#()Y9yÅÔòêİ°ß„¡Ñœƒ ,&?»t!ÕItÊTæZÚéŒuõÒgÆ–‰IŞUñ—¬o?_¦i+tôç2r
+J;08‰’’‘•“WPTû]6˜p<<–ÌŸœ‚ÒNYgmìœ\ÜÁFÁ@¢¤ddåäÕO#{ÿ1èÛ4ğÁŸ»§çm<Q|Â/ (äê‡o©åÕßgF×Î!Şc!QÖb³$k›°sprqç~ü¾   n³Šg9TŸVü^ ƒ-ôzïÆh[˜ˆ¦Å¡’Õ^İo b'&0ißKĞ6&)3°´§î#¿€ «ºÎoÜºëûÎZ”ÆLš¬hëêe@ÃŒ1ŞbíÔƒÊ¢¡i`h´Åˆ3İ²5¬lìœ\ÜÕqÛïß¢Å|è, G&•Ù'êÉ”Ëã+ÄÃ<¯?}–=~z‘—„r (D!*ˆZæ­u]\¸j¼O‚"ç¹ }LRæ¸,mí´	;'÷7?ÿvx0Q1q	ÉÂ"@¢¤:fD69È+(V)-«¨?+C¸Ã)îw¢î©§¿Âîû-Í#XMx›‰³µ8uŞ¸~SXlÊ(ßº/ió<›_¤t˜cEl`çàäâÎı\Zã´Ù¼ké!}7~Ÿf pT‘jÿN‰®Í8ebÖÒÖÕ3‹&db* ´ğ¸È#çK•?í_„…WeÖÒÖÕ3‡F€KVåÓø`‚Zo¢T\•È¨âUÓ´İ}’#Æ,w,Ïc8ã8~xöRq¡P(A¶•§hìt`@-&Â¾ÃyJ½'‚4}‘Ü¬‰ãÖGI]6GÊ+Øb'÷íû#lb_±ÇLì{¤ïÆ#ÑS«õ¶…s:|ç	_|ïi¡e"m1.	GÄ©LX
+J;¥g7@ïX‚   şŞ¡Æ{\á§ŠŠ‰KH6Œ#()Y9yÅÃw°ÔíeCsD}¬Æcÿë¶ğ"}uª+?Z¨%£4Ô²5ãdP
+.Ä¸ó¥¸G-½f¹D¶lZsƒn<z.ZVÕÆ_¶ë\!ë®ŠÎÇ¶XØÕ»pU" T`åÂzŞÿ›‰Ëx PŞf'Ë­P¡‹«FØn‡ißzÈŠøU›F§÷ä8dy-ïçÃåP$‰@¢$ÉD
+B¡<ŞK)»Én>½¯'Òé?xÂ&#æ¯»­Ø¬fâïÇäócÿ'øøñş(?'?Û?Óßœúª t›¥P²g¬£ï>±­OXöKX¹KÈUÌ£®Z¦»(H6 ª³Êº7¤z[Hd—éns·<’Dä|îjB<EìL ›”áØÙL·ò10qâĞæ°ìÊM×İœi"–I99âZVš®Q1¿×ÀQõ×‹—”’ü4±<›–"óÙ/»zØ3eìNa"@ŞğŸåêEõĞZ#çíYuŞ"½ØÑ‡z7oúÅ9q	²-¿kùEctÃĞGØµ8oÜOÛù°ß
+Ï_õsÎ€ïD"²½5¥Ta¬i'"ipğ C°aØU–sU9ª²e®şÅh¦F£~¿9m8g¶èT¤xxÔÕ1= ÓE,R²|ê˜Å™‰§ø>Ïİ®ö24V
+,Õ4¦i[Ó¡\Ï‚^‡T×ŠˆX“Æ¶„äñºÅx[|ø^6KoÊ¬ÄªÊºZ8¯·D%÷åRK¥_J2ë}'7„‘—%Ué¼U+ıeÀNG°$/³¨¶´ãÆ^qÓ ^aÊ™P:'ÜÇÏÊMÿé”2ZŠ´ü»ÚŞPØ¯œ¢4úóÚÄ¢d7=§şıg ^ŒC°çz¼ÒÿŒ|¶´XjÈıÑ$ï~k3$D*¾	ú©Ö$°4[*h$2¬—Òu"¸YåµŞ:ì–0ÏFÁnŠ*=›êú…ŒµåGÅ]²—èa¦³ïìÕJa.ŒuŸS%ùTöÖ7â Ç89tÜIıçë=ÿN£Íg=5Ÿ#êÿ.y•maBO7Óè¡Êñtt	¹f”IªàÅğØRd\Á$•É)IN™ Oe›ûı6zlËO^ô¡§Ÿ/tÚI¯÷EªPÛ¢LI*t(Z_Èå=?D†r–4JJ3…kÂy>ñ÷±ëät$éA6Ï
+)’>Ëot(Kâ–Ùß_×x+…hşC’¨7åvmáD†Åfã\b$Æ; ÂŞäGWÿ³Q ¹® @f$³„¡wp#E´òĞtÜÇÍÜ6NWsl§!u´G#«ù<XOÜBzóİ¸ é½'qàÎñ	‘–Ü,¾Ù‚-C~|„|Mq\óÌCVÁ›BÇÕÜØJ³VvÊö«¥/êµF2êµĞÍêÜ˜H¡ç×Oş‚w<Ö
+»Ú–N@Æ–2`UéËK%6ÙQ‰M¦Ñ‰öôrpuÊ1Éh%†­™%ZâFPë·2z¤½³uê¶§uLı,Á„äùfy‘åÏßEıo´°¸v]f9sZ‰3D¥ğ}XfõBG’Œ¨,vÌ‰ZŠX~²²¦FÃœ¾ì	g?lĞ!Aÿq„½—“M3‡šúfXÿl©ÑÔ8ã ùç=
+ö›)(¸Ş?Q¡HÕ7õÿı“:å;÷2‘v‡ÉaTÌµCêe¥æ¹8l\t‰ŞøD#
+©ÙÕ¦Y|l)3=
+‰çÉ~_æ£îWçc¯âÃ ‡8µ¼…uoá&ÖĞÂdh?‡ƒ‹1Ù—¨Èmƒ'|¶_€‘Ù¦MwşùzNx3lé–„n)äÖ5Ûõó”ÍÓÄÇó}ºW’±zr²4;eëÒj•Ó±ğì4üÎ‡0`jP7ü,ÄúØGà?ˆøqÀJ2§´ª£†­’j)".ÁBÛ{gGşlŞ6‘j–°Šî‰s|îûQp}17(˜ŞôA’É~A÷º"‚÷jˆ*¾Fßº:´Åö‹Gà¦&Ê€#ñYV’4–}Ô~Ó ú29Ã˜ºÕ
+§ˆZmÏh=ò²Éœú² Ø¢(Ç«eî•¼U79(DXªñ¡!7mšõ:ÖD‡ôGˆS2„H5Ë²LÂ	B[ÅòE:îî#J6õfDkæìG»Y¶ï‘jK¶íYƒUiO¢®P=JDÙ/#kÆdòab«¸Ø÷L(i¥2äšÙø'X8Ñj@fbt´1îÖğø£fi ÃÕtE 'mÉå&¹ûßxÖL¦˜û «`<ê]l!ÉMILštÕÕN‹«±’¾ß«‡¾°é]ıPmÕfuªKz…ëW)µ¿Àõ€!i!Ä±%‰é
+lİ@0fjJt¸«œ÷†ìÃã…Ë¿šg«¯3cšRİ3&
+MQãR»ì1×mËÜ’Õ¿·&”:íIg°²öO¡Ib&kÃQ“¦#¥y
+ZÑ¶\·s¢#D›Sôn¶Ù®EN`´Qá”iå(ÄÁ`şJÖ’×èLO\º+ÑGÜ@ş­iB-)¢
+ÜyQt¯9ºdÅ9İ˜ Øw;vO-5¬N·¨ê2åUûoëˆ¾ğ¢«…‹¶Îñ‘"ËRAe|Êû\‡\€òrH²C¤åF“îwl2@x:K€¤<G®-aÀı‚Ì,6TŠŒtí×)=ÊÌ¶ŸôâA +¤¦'ÆeÍ¯@šƒM¡j]/ô:Ğî…Ø†ßûá.â>,´ø—i¹Ó²½/é¶’íBO“_qÃœºR©¡œ¹cqØVŒ{a~2zUN‰2f^ŸÒ	ƒÍAG+İĞ™{ºÜÕ·Š¦ã|ÀµL5ŞğÖcóÌ°h»=7ˆbjÊÚÁŠá¯Ğ¬Õ—`ß ªh'zñ³!ğÁn’
+¿y8¦3’²Ã[”}’<¯ªê;/±·Ä+ÇR±póÉw©·)’ë!¨”%Ò]ù‚·†Şç³xİÙİÔ‡Yh'¯ş>r1®“ÎÁ+w¥ş#Ü«÷í×>=4jŒ–rê1Ê¢O,æT†$oY’­oeuŸßú1V6‚Ù·Á"Ë­	È¬ù4TÕX–Ñ%6™5ÚŠ+1ÇÒ&0\ëjI’€Ñ®4J’¸nÌz6@0®~¥Æ{’”ÀBJ±l½É|Æä1uÁM©úBvÆpÔ6=¥ÙZ"`!æ,LÔ]1åZ(4LÀŸ®Cjšƒ&çÀåÂBz9Y¦¨A›F7ßŠß!ùŠù <D¥™	ôü!¦^ö8õ8Îˆ)ŸÕ£rr'Ÿh`:58ãöŸ)ÜOïAUI–[8²§¢óP¸¦œ²†<Ì{z0ãR6
+\7™¨¡¨	\>©I^,£ÿ‹yWŒnñ³^à“³ÏµtH=ĞsWhY>«L-Ê3< u ³t:¯Î.ÜİIzºiWO¢£µ#guı|¦‘®zhï·WËufÇ¿qN|j\Ë€Hèè]nh
+Z½á\xA³Ì®APIÕÅ¤ş8¾s­®×+E·U…¬ú^¤±©kÖÎYàTàrÈD÷2GªšKÚ›sı]àB?IOô¹T†ºõW#ô¾ŒáŸn„GÏ Å&bÏ3½pHeÀêyUğŒR¸jKzËj3×V°m2PÏ¥VsoŠ¶PŠâ˜45/Í'„vŒHƒÌZjfbºxıu 9'OQŠÂûğ¹xû@¥_ ’o âö‡Ó,nÓF¶ÑçNî>
+‘5ÜëE$Èáo„t²Œja bgƒ=Û‘KÆ…Ûo´.ålø¹òÚ¨ØrCïVäuÔÎ›Å¡ğŸÿ§‚-kZFƒÉTİ¢7™7ì>>ûfÈÕÿÕJâ)2kÄÅçØÏsà3‘ÿM`X%Vá•I!×_ ·py'DpFÁ¦È¶*Ğ6Tdˆn6Øá3€kÕ,›kÒš’BçÅ f‰i'ŞÇ0ğİ¤ÜˆÏpM#ßU3Ñb­‹Û2ÎNäãg«OºøQji["(TãßB9ò‚ Œ´Ã Š>>y]çªººş"·ˆÔ75LC¢Y‰s3Ö;Z#G?)üïİT471[QuÜÑ÷ôúhñ’WùçŞŞöŸ—{‘Ãşšû@&¿€é ¯ğ§“I„u
+ˆÒA#«“9h Êu
+BÒºÓáp‚Ím8ü¶;î‡w¿õ(yË<c'Q®Û‰'á+¹e)Ô³¥? R»O6/õşÓÏn½;ã;ßúE€X>?ê=îq„Ô~Fe=sJ$†NsÙ3‰lïÙ^±¯³ƒ7ÿOÀÃôSY'}Æ !½ºö7TÖğåX»ñZ‡#5M¹x®±Hy†}ˆÚc’S[µiäş’â]ÌBÛ›<¦¼èÎWNÒó8Z2Ü¥w„\üˆ6K™õYšÄ©Êšy	âxÔãŒ>ÑÂy¥@»ıI…èñL*wÄ>-ı#`…
+É	ı4€ğ1©òèN¥ÆBLeVb§\IìRdV™+QIêêWĞı27R}Ñhíàox&×¼¥ún…ƒŸ¦¥ziÅ§•VÕ¸sÑ³S&M—Gw(5•2¨£¦›YˆNûØ5kƒı<«6ã[lÀ²ÄmQ9²¸²Ä2ÕÎ¹”Vô“33 "JØ‹‚]ƒ¨±LÅY4?jŸæëQfSÉzDË'
+HVlÉÖüU4&™Œ­-HËfG4¦UÈI‚„Í¢´˜]Îpœ'3€FÌ2t¨˜òãRcş@Ù4mx… iıªt´ğŒ&ÕÁåæ¼ˆÈ«4~Gı!àÇúº€Ÿ¨ß³4Ï""Íßtq5.XëW+Q×rvÏ¢|ŸauõYÈ;Å^)"Vèª)<S:
+¼‚s¯zÒÌdÛƒùá¼ƒºz$ÎïşÉé>W›zM}ûøÈŞÉ6:º»oÜ˜®ÂO}z„>8Ñ3qdôÈÖ­Av½·ÃóãpÄÓ_"¾yÄvÆÕ‡Ÿº9?ÚşäıøÌ¾ù['Ğ1û|â9P•êí†ŞÒğÑ[ï]ÿ3ˆ˜+Ÿ]’xœ¼¢*-»¤²8±Ç¥KbÏSÎÊJ{`q‰ç¹‹sq³zê(tº²ÌQæÚn2¹¬	 ¢'æ&ÿş#ˆÛàÚ¨,”o(¼ ôÖ…Ì©ØÊÚX„Ø#m4Y/Õ¶ÕK0ß¸û•\Jöü	|òY_¶‰^\–ššÃJÎFÄÅe²É$átã;8dw^–«³V<^o˜˜«™“Ñe¹É=2&ÊD•dÆ·„îĞñ¦ÚÊQt•3d³Óë#æraĞo+<ÉĞ‡¡\Fª>œÏ/'ñ„è\"‘+a‡–·i@+ZJÉ$§`2‰YmDÑåÍñı“E®„Ü+pCCOÔMÕ5@¯‘Ü5ácSó;™ğp±Ã6à6šy‘°B«1{ç– Y,”©ìJñÙşö‹¬ÒT‹«ˆuåû"<#8è<ƒ_C”«	B¦XÄ¯ÂŠã,î·ÍHËÔ>¶§L9I¶”0¦tœ…Ö¦ÓœÒ’#Ì†fú©òÙmMéÙMäô+ªƒ=É
+­HËğ®….Å›éìğr±ÈŒep-$I:®0®NJP¿6£¡‡?¾Ú‚›şhaİoîÜë İµø8¹¥ˆ5Ó¿éDº[9o'÷U¦òµ»$BlµÌ›±1Œ*éÏa7'›†Øe;,?‰G2¦ÓŠ‰‰
+ÎxI=ÄW†u”KfûeFF!UTZšJU…&,*Rh²¬•‚¾t$¶ÔHİ¦Ëaíiª;Ì2îcÔÔQ
+S¼ÊÂ‹’Œ…YoV^Î¤dÉ6÷|f¸>ß–J/Á	øØ¢T&ÆÄM3¢iÜ²¾0Ô Zª›v¡§•]ö²\È?w•»JÒnnq›°ôå‹®ÎëÖö}Â;·Ö	£`krfOæW~ÿ¹Õí]cÛÑÎ®#”ÔÚdÂ[÷’t3¬CûşÆ‹V‡x%‰»	ZY|_€/e¦K“Ø±h’û¶zÇ½8<•I‘™L¼*)<ˆ5"ò%$+N
+|¿Ú Ï›ÎDÜDZ“0AÒÃ%©Â(\EA=ÔÒEÕÄĞCW³Œ¼ÈÄ/}Ş‘ªxº3¬êW_ßŞ‹Yßı³áğIİÚæ&pîğ[Õ¦mÏhò¨gN°	š‰ã&=|[zÿ‹Æğ+¥qëŒ,¸J.É:ºSØQ™³%æLqIÒS×ÿ¿šÀfH
+7*cŒà7¦d¢:X\šÈGÀ8ü¥+££+Cëç;üåäU¯º¼¿e+ ’ıPæ$8 “w^‰®Ï¥ô«b‘ZºLOc@w"víéÎ¤om-¾@©%¾Š“U£ÌàœóÎÖ]1} ½&X”ŠÖÄ5OTí¶mÂÜ>ã§«Wßñéø’ÖyvÖè|yÙÁ´{ú‰V-KQù»;¯4ä¦ùi=¨–+¢¾Í‚›íİ‚›#§ùETƒ‹2G’º µı³ƒıù‹¶Ó> 2é3m[pş’ÁşÚîNÎõMùE®Âr‘ß1Ì¹è°Ééc	Û?›¶ Èä?Qk‚iq•>\£nQò6*`|„,é±§Á­ìFiMèÄLxdì´5]\2:ÏÎ8_Yr)Ú¯ØìÓQD¿§Úèç†úZRë+«[õ¦İhïÜ[Y+X´ä›°Úb×²
+¶¬<A=¯¥\®lßÇ*ÕıüÕánL˜Çñ(zA([Ò®9²|¢Ñi˜•¸‡~êNäŞ #[œvnÌ”0¿ßs+ö=yN>ˆ°óQ,Èä20Ï–ì‰`Y6îåú¯™Ûw¤ßCÈ*®‡oúpåÀ}'[	ş„Á@]6p`wÕ6ÁÏ_C¼ªîèIøà«è'd¬›÷›§sÊ÷şãûè;ñ>Ğÿş,©9ŸÍœÎ/Û™¦§mM®Îüm[±-fvÅ`1GŞì¹(´Z”u¸Ò)ÂN¯Àb%D AĞîí3Í¿¯÷£”uAÏÚÛ]ó!½íéä²æp…(¼”Ş·òà=½92„î4·°"Ìƒ»C,ÆÜÛê=ƒvV(”·ö^k-LÍ;4Æö´t˜³3äC±½–÷óõa£ƒŸ*ZÃ”¼ğÂÔÖımûî òç‡SÜÜ—™ayA,šEO’“(¢¼øú°Öğú¸<¥.#'u®¾î«rà‰^¢ˆÏ¬/seIb+ñ2V1šÇÍM¤QÒsãë1­aõ±¹
+Jk®€2d.£×^å§q çéäë¯W^ßÜîOf$æGmÕ.6Šnn¿­êìT6¶İ•ÆwV 	aPÙ` ]“;àï,¾²W7½Äú¡â›¾Ñ¯òü}w†ì»ğtrî+óèxRÿ¹Tû¸æùD‚÷%Ã7è ¯x:Ó%;ê<ÆĞÂ}'üÖ&xbéetŠ¼î°€¿¿¹{n–ÜX•¬¿›ç8Du=ÿè/Ï–¼º›ZÔúÙ*ÒPìø2²LAŞÎ= ¿7ËÁG>|d*’ßô›ï!Æšä¢„Q§,QÓ$õAµï4B{D9Ûk¿×X½àµß›lXË‚ ?¯£·ŞãT¬€ŒûĞƒÇà(»üÖ¢ Éš´ºÚÜ-M«¹×pú¦åÜ&´DR÷ÖBkÓô×W[ş,€í|ü³˜Ãßwxf[ød&Ç“’X€äÓğzV­lTñ{ÜA[qµ¾VGS#©aßz{Ì6½•I–ÅÕŠøaHñ9œ(ô`¢¾ûæv½íADq$‰›<ulå“9)ÜYu‘zˆ¦k]j.O\*œ•ä÷ò£™U˜gª]Çı…H³Ær‡'>¾¨CÑ4¹X#£Õÿãê–-ğ!ó*b:Ì:;ÌÏ+‰bÒdˆªïİ‘Tšä*¯,w–UÓÉ\n¬HY¬í?.´˜ö0ŸƒLÌ×zªh>§D5D×µÅ.÷|IC3’ÂìrÔ	 Y^i#©K§KĞàßyT$s2É\™²¿çç;k“K’åX"¸Œ<+ø¹»×±Hª}&Åˆ6{Äc·ör>î0QÏÖuT´·mqïM	* ñrÂÀ…l³sš¶;_EêÖdµ%Ì1[µí›ÉÀ·Â_EËF·æ„u=½ÒÿWOzĞ¶J× ª„G®Õ+ú	2Î·¯œ½B¶äºÖÙ6;ÔÁr#Tlµ®.ç(Ùl/M‹Ë‹åçÓ{¢èd¯ÿßıXy6\k|í’1SŸlÇB»bˆ}?[‡Âqp%><n…¯ˆˆ¥%
+ãÒªüx„ìòÒ’âòÒl‚?¯J Fdù„œÊœJ/”5ÇÉõáCÊ®]cs‰¸—Ÿ@ıÀ:ÖÖ‚k÷’áÔm8|•‡§ VáğÛ(Qók59ĞÈ–àAö¹ş_¹:¸9‹h\)õæjBO/ë" Û_¤*ÿ¸í;k¼±°Áï‹ÕW»½¾½)˜~òõä$€,X×ò¨ğ¯;ztÍ„ÙâTÏìWe6Wøå±™bEtw”¤1J©%guèª)¬×áEˆ‹(MÒnÆzmM½œıÛ«ÇNçRw6£xn%P@Ì'Ò{èK5µôEk9Á5›5®©‡±X[ÃXÄU\ÿÊ=>öÑ©ÓcÌÑ<mÈ°F2ÄË3GƒÍJ ˜0[\j¨¢ùÜRÃ«iWÍ Ÿ)§39lÉúÅ;øÁ‡|I²µ_Oî‰ßSÓf3ŠŒö¼ò{Y¹¢-Ø˜å°×÷çqäwt­ @AqœŠ.ÚV]ˆcx,yu}\Fc²‹±]€ öuU˜ø^1Wè\`èj:Û?™š–ˆW&³#«µÊ¡ÈlÓAæi,£1ÛÃ£¡Mâ—#„' p×Ò09şù9aiÉxB4eJºˆJıtÊ8øÀµ¶µ«¹¤Ş-ÊÙ##Òİ5Ù¨6TõQ¤ÿğM‘ƒËîhùı6ğX]ë¶5‹úÒh¿ĞWbß£6Ù:Ü_­n`¼6
+;n»rò+İ9·mrç ¾·×f øamĞë´hyÀâL§UxÒ÷|¹IÔá)„‰nlšuc”S]9ÃWÄ§<»¡kCğÍß©f³wUxÑš×Ë?è•Üø¦aÀñ^êÉuNşC¾ÛA¯î¦ÿK¾úU=U İ.à:öùwÛ¾°İ{<Û¥©ëSvÁƒîõ¹¸ƒXÙ‚ç­ÃÁ÷°ÿğœW1ƒ_€Çı©,	£˜ÁS£\µZW]+Ì’.«'¤ÇŠ¡Ç Bµ^Iv.tÏwÖFa`Ôv½ƒƒ¾#å¬}¯V!Y¥Ö	¡NÇ¡’ØôúˆtY˜…ãšï‘ïª.†ÿú½¼Ìîç
+PòaÃZ¤\D¤»NåGçv1í0*æ¸®R­Gâ©kÓyhƒQT–x²HÀk=+¬Fˆ™)6„Sc92$XOØ6=fAFˆ2€°N¾™ûH(óa+'8Ë¿ñÃ»¯øÁWÜ“üàÉî«p¿Uw mÌÜ°]TŞ‘rºÒL»ĞÔwVR½Îñ„ç!İõ™Ô±#Eò¨ş'ğş§ñèw?È3™n>ìÿ9çÒLë”o”?>™í^¬õŠ~Ã‡T’…ù˜½ş* ’;WZ¿‡]&ªÅd3˜a+s£Kÿaò0Š%¤æbS…¥Lûó\G^]¯øäÿºs—q—=>°øŞ|éÏŒZw% õŸnÛ¦ÉŸ¸RDI0 7‚Zcû5¨ ÒğÉÄ¸&sbârÜ/!A¼Ä=¸‚	(ÉCI0‘˜üY°$‚,ı<…;R‚z„’‚ÍåQ¾a[áÏÆ<co%””ÀozÄ–;úû…EÈ‹ä…òÄ“‰+<ˆr/ ŞØï×¢¡:f•HŸ´³Q„g$âDlRf²TØ,CÛ%kYìÈê<åpd–raB©{5Få~©Q"Ÿ¬ËB$MUˆ-/Œ’²"³¨"Ec
+–bä[«U|;&s3£YìrGÌã"òu2-BÉPZ@,¸¬Ñ½½ÿkóöªøİŠxû>¯ğònûß· 0ïß?ÀS}tT¿zĞ>÷TíuëüzÇ*Åu2m/×š¿›QY—²Oo`î¯«§ç—L0º	TÖ?N.Oá|¯Dv9^$ÃÕğ…¸Z¾´—B¢9¾’S¾Û`ˆ¾3ÛÕ9“{>Ú`¸màĞBß`ĞG–t¡æ|E3ÑçuúŒğ=Òá
+Ë@ú^İù£îÀ¡ügİø½*«„YÂw%OõG´¿ 4ƒ›ä¯8fıÆ«…¡z¾=ˆE¡éª˜”Éº#ãÎ\rsIIË ÕÒâdA;dÑlt:ªˆe“çva†‹}ï·;¾úÒÙ}×´İ×¿:mÇ¡9ø_ÚÑùz&0ö}Öş‰ «e§ï%ãÓÙUúô›üÈC{ësLE>†öü Üôö#Âà\\a½T
+ı)ƒİÃré6,fJU
+°Ó‘U*eu$‹¥`à#ôHk‹¢PT	k3ÀUp8¡8*¸£=MÉNQòç„:Q;Ñ;Q>Z¾µwk­¯ìÁ•+ 6oˆ‘œF
+ˆa>Ì©ŒG3s†Ÿ`«0Tøş0¿ãâÃû½'ÿ
+ñ‹>CˆØt¯‰èn×Je;ºõ/Œ!Zê?Èk­ÆÓ<˜Â”x¬ŒIÖø“d>K8ÎóÂ§.óYf‘?üÿ†@l,¦:UJÀNŒ‰#‘†Ï¶¸¸ÚµRéúp5FhÅÂ3›Ç‡`¦±?¿²Cn6;--®)º¡tÎ CÅ3G•A”ïLO€  5LN> §Á*šÊ6îM²S†¤Ê”A«~o¼4H{TˆÀšk[ ¢ª¶úğ`SöÀÁ×ë_¼†ávÃ=3Ú.ÊqƒåŞâO	3ù²CìAÂ¦¹ı¾^
+6Ş¾7vbRsñ*|t¹¤»]1¼Ÿ.°Ëqbqx%‡nKÜÍ©ÀI$ŒËé™DŒbìuòt£^Ÿ^(W©ÓJÁ¯­;.ù»LÛ}øàÂÏ¥ƒwÿK;Şvz‡zı/fh|ÅÉŸ¥4ÇÇÎéÇJEyˆı¶)n7r¨‰Óø O-_õôÃ¼`ÿöÇ—§Ñè,ÿoBÀÎÿN­{Gf¿Ô/}\—#µÕ(ñû¡0”<· ñ¯É$äßxÑªĞÂRTïp­4¾jcEL¾4–MDr“EçğŸ3#EÌD¼øŞÄ|u:³\M>¹>_Nş7ı{ââ6ÿ¤gÚi;Rş„f¾åçÍìçü™A;L^Èƒ«ú¿³N_Q¼(Ù¨n…ŸS’÷Ì<y¶élƒ®yOÛíâh3¥În
+ïíW…­Q%™­ŠM•Mÿ)¬eâ©c¯U*m^N®V«×­u:ZÍÔ}Zñâ:”\$‰ˆº¬É Ñ[³¶>ğd1á[>LH•–Q^#õ)Ğšaü{x·˜\ltÇù1œjoárR[;›©%rÂ^5ZX;]İöÛ²ÃÅ+ƒ)OÔfE”F'á©4^ä{¶Êã»Ë³b"¹N'ïÆ‹µSëão–ç‹gÁw¡Éñ,Y”+KˆO§ÇâEôa,=Ï&!}¨52•Y†ÉpMòû'¿52ZêNÒ ÷	$}0µ r¤û¯¯ÅVCèdÃi¬LÿÕ,7ÕoöJJ>ºÈ#¦êJyœå°RU_í“Èª@¥³ğEÜ$še4ówÊAÛ¨j}“¦FQ±ßcèoŒSâŠÚÍ¤&Vu¨ QowUOâàT:±4!?˜›†-å]|œÆ†™×³ş¥!ÊÅJ<Ø §R›¾qPdèH8]‘ÿ.ÌèÙëè Úœ
+g!-Ï~pşo‚C±q‚õ^eœU}Ğ´ßÛU˜œëz2QBœ¯kt„åæÑå7°¶cÎ•mJş¡~×Emş­±s¼<'yŞÒ4—fÔSP•=ÖËÙ©g»!¯N8•±’ÂÜº²¿£%¼”ü~y$_‰©fJ	Íb…tß_é¹¢İ'Ø¬úÁWİ“á~Iî+p¿üáê¬ ÁÖšÄ ]©ÎĞ.]Ğ”—–µ?€1²Jc²–±Ú`w£+Êk¤&ºR¼›’wRÈ7,±"]èHÜ~eÌ¿äaÍDtî1.‹ˆßâí}Nä¦¤íQm­viWæv0#>—²â5À]ÕîhÉ¬²šÿºf†6í[Êtš™Ñ+¸oåçâá™ÿºeµ/¼>ëL½U=¶_d4ªCÍõVg§CÍè~¡ÑÈªGã}ÄLØ]@²ñêØ±(êáÎ¨¹RWk^ªëÓïáZ{RkkR—ª{æÓ
+:.×Æ”F/4¡Çzz>:¥	fh£Y2¦Öc5§z?Š“ALL„½0ÌÍ50BKxÑÚ$W;5<¶Ÿë÷ãZ<Ë…W+JzaÃ8psœ.¯"
+ñû;€@T8ŒRäXBôıDE„&ı×›k£2“|EoiˆĞ¶ıo`Ç0²¹*²…¶ëíìƒÿºÏ#iÔsb¦ÖÊ_ï2ùêAù—¤Ã`ròY nkO®ûæ’2G¼¨ûË‡§²£Ïàò‚ÌëÕ¶ŞóÊì×üº³Ôõt!¥G§ï¦„=½Ş„BJ·^ç tStº9øïæ>Q%~Ë['såîğÄ?®È‰YOfÖwŒy6å|28|–_Ò}YÇR%1jÿuqg=ÊCóG—>\÷8äó¯­=Ìár›ì~ÉgÜïóÅÏGã¤ĞÅ¹÷ö‡3Õ<Ëp½|“õ¼¨gTyËµ}¸ Ûáu°íI1ŠìıÉÂÚ¦ıƒoÜL’²RŞñ§Ï
+ì9¥e“û×‡^A‹NıÔüÓ©¢ô{‰¬½··Œœ°İb>”lÁˆ6|Éòót,w=¾{tK´ş»y‡ònºsãäÑã…æ4£l›W ûN NZ	kØÒç0Â´e7¶ÿ£Ÿ>qŠª1ïÓáb¯G­%°¼GÖ‘·Ï#í†wÛ#zÁëƒCù¦wù£98<:»åUQ)À®}~wœXÒ«"ïî ôÎÆ©3·yóqtUäZ‘c1×ós°ì¯‡"h_L(ÓW@Å|#Üàí|¨ÂÕD‚1ÜÂŠ=o¸vù›`œ-–¥Ä»#BÏV¿É‹»çyòõ%MÁ:?!€¢[¶kj±]ü¸®-,z¿ìxAˆ-€l:øG„?Ğ€‡Ùà–mYKçÇÔ#ƒ±Ş×£<fÿÀb û9ÄvşQ'dOAldïÿ¨'•²&X™kF{q£ø@|$.]÷Ğc+w»Ñş7ŠøR´r Ñ¯²Á·uğR+İå‘Ó%ÖYÓ×Œö‹Åâ#¾ÔªŞn´5q£ø€/µfm·ÑTjŞnŞüÍ®:K'oh‰Ãë	ÿ¿Uó2aDp¨æŒ	jç±qÛY¢Á«(m#¡¿²S‘5Ü’Õÿlßı™ÿĞM/Ûİ_gafàz; Õsò²ú‹RßÀOò}|Ãî{Œ×_–Û?Ù¾¡¿b½&€pèŒpèÎ@
+F#ŠµõáfYuó“n86¨ï/ÊU3ğ“€Ş.ÿã/^H¸il a|ªKí™I¿|G7 ^<8ú8¹}¾]íz3Üu~D Œƒ`´øŸãôı)ÆÀü—ı?ÕP„ò¢ÈI÷Ü¶Ú+NË›†ÜÖ,=>³-Õº5Ä+Hyq¬>öËÉ3“Üêü¥ÿÕ'I|Â¨DØÕeònn‰·µîa‹ñÿy^ü¡†Ê&±‘ã&›†¦}ïHíGJZ—Ô¹g%²À­R+©¥[©vlDŞ•4$Éª×¬L„æp‡Õ”º“;ew“pà½Î…³HÙ¿p`K™jÃù¼ÿf%4µ×tYS2‰Y5Ç¶2·ú\©œ/ÿUÕFàFüë8¢Û<ôl0@JÄ™gc	E/%‡P_Ú¿¹°^ä/À–ØIŠWôãDuíeÕİé´(†v‚¸¯Fy®2¸p“0ó¬2ı§n!²9hhc‡ô¹MºR9Ôü&4
+\¢4¶´3:÷Úü;n™6ŞF¢G1‹?¼æäÑû3ˆ2a°şÛ;õ?&¾p¢`Š`íÕ<Á6¤¶+XW\Ğ<#Cá<>¨KÀ|	xÒ‰¹˜äœI'°ÀX')•âú ÀŒ]NÃ6v86"k¸†›€ “£GUÛ9˜6Šı(M]ŞEÁD›ÄíuÖêgh<:³‡j»QíöVğ:İ·w¼0ÛŸªgø®=rÙÂAàîğÔ:À
+Ù‚°7 „Xô'àh
+)ñïÏBNàú³¡æşdÄ8å‚ÿ1VŠ°ø?ÆO‡i]-W¤‘R¬…¢DªNhA!å«[‘•J¦Ê•Ğ*£‡$P¥¸±[ÔS&Ç1ĞOzë Õø¬Œ•¦GÔ¢JÕÎX$6³2¯!­Òc	EàÔÚQ"45dtKµÊ+a)J8$“FÀ€Xy9YÖ¼6ÂkÊšÔiærH—Wd PU„y+ãMËÌ3J[ 2Ç»e-çÄ='A…Hb$6šJ=ÍÊÃÊ„(bÑV7ÇM-%P¥2^·Í!«©5¢ "VMwĞò®Eø¦%FÍ-M'Æ&°İ]ìõÕjıÄP¥ã^0Ğ
+>Úl*¦^ÊMõãÅ›_p~ü@„¥ÖÖĞĞ0Æã„ÃK¶ñØdÑv¡8.Š†‰…£İ¦<¦ë·©œIJ*j÷¹gË‘+6lÁ„….÷Ìî˜a¦,˜;0ê¾c^¾2¡×ªÇşœÎí×şz=ëËìCGäÓ¡÷)ƒƒÄ_÷ı¬ üŞpÓQ…^lö•;¾dô«ßõ1)R¬T‰2»™U(WÉ¢ŠUµ¿¨U¯Nƒ&Î™Ñ¢Y«6¿yî‚¯sÜ]ÜsÂIgœõSN»ªÇAW,º0îK–c½½ƒÍ›6v¢=}Õ©"‰F*Ón#ŠÜÏı©†wóê¬?j¸ôŠTã7j÷WY›¹®'æ»ù@P7Lğ'qüFëÑ} 
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: font/woff2
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2
+
+wOF2     7`     oÜ  7                       ¦Bp` D
+ŸƒƒB 6$†v … „E_E#bØ8€Ìİ/Šš G#ÂÆ
+a³ÿÏ	¡àí!]k•`ği´Çhµ´#kg¯Õµ#ıF*ÌœvÛãg‰%–8ä2Èz]{é>`˜úúNßç£€2°GbÁ‚ëHlGhì“\ÒÂëı3“™$›õSÁ[Ø[zÿ/à”P
+ñÁÜ:äµh–Ä`£6Ô¢ÙØè%Ñ#j°IJ…„…Q`LQQ|E1AÿÍüò£Œü×ÿ6±ÍO°´ÇÌí=‚ïï_÷|_&’I€
+\‚×¬Â%®qI:½há&€¿Ë¤Ó¸ÜŸ'kiÃ–9—e’[}¾OiX‹XŸÕ­}ã[ëaÎ¤]mÚdæ‹†`0W½TB)Ë7v/‚`¤6kOx@ŠüªL”ª>3íË¨ g
+vûˆıµbøØgĞ˜<D	ğ_ä÷Í½©ï*	•©#Ü»¸W¦4b·)¨ËAò	7%ze}—€ ‹k™ÜqÒ>=iäAFµ©0svÓs¨Ì¦têÊ¯¨epjyÚêµp{{;ĞÚÙÄ‰™^òXNXP˜Òù·©®÷%]rNÉÚâ„·Â°øZŞhêÜ­#ıòı§‹N§€tn^”s@²óœ³]HX:9yŠ"¤ÚIJ<!O@0®ÙúºW¦aÚ¹<ÿı²fç{…Ã>P#[¸µ²‡|	É…dy
+õ)Kßr%ÆJà1¿¦û$Àä&£€Ç¨^e{ıö¿Ïr†v)¯ºL¯b„ÙãÉæÃØÊ¡şİwmFI
+Hº«À@vbN¥ËjÒ©y°Ğœ»BdŞ=ïØºG@L°²&sèò‹cı]Ÿ7ßU”»ÕR×ùkt¦Fxî:¸n·ÎØi·ĞÏòqWUÙ,AQO¬ïáDÕvAwQÇŒ2,½|ßU£‘«Æ+s•ÂÖcçıf#;§pCĞÿÈŸòbí¾@C5¸Itñ Qp€[¢¨ánrİ;}4Z§®Ph`îSş³ÀtåN¸á…_d£c)
+OŒXqâ%“SH”D+YŠTéôŒL²”)W¡JµZuê5hÒ¬E‡N]ºõèÕouÖ³ÁF›m±Õ6Ûí0n§]vÛÃa¯}ö;à )G3ã¸f2gŞy}î²+®ºæºnºå»ç–àé`*gÛœ³c¸g¤'Œ Gş<\'<§9#çNè"×âcv™˜YXÙ
+é@ap2‘-‰Jb".!)UéŒ¬œR*ÒMå¶¢}d¶†µ’­ãD‹[ŸÀÂÑË«W“µòÆ¸íhĞØa‹ÌŠ«‘:Ù(…J¥DÕ{ÓïÄ¿'ê1Zè#öYÆÉÅÍãvş4y‡Âà¤¨˜¸„¤TåÏ»L¯ĞU•5ª>n¶¦åi“N¤›§'úŒk³¨˜Ë&œÀ:?9`^¡ìŒ°ŒLÌ,¬låmùø…„ùŠÂà¤¨˜¸„¤”J5·³ıî“)<ãòÀJ!#*Ø98¹¸yÜÖ]qïÁcÊãm‘xÿÈqp¸?gÊÃ³æOæ¢@	¸•ÔsJÎúœ;¡‹ºÔİ"åâ(‰Aéü'32ŸQJTäc…:zùlY‰½‡qrqó¸-ï(¿€ p!PìHˆª˜xHJU:ddå*¿¼˜]ö¹2O•Ôô²Ü¥‹şÚQšCEi:#Së<›p²¾>"ã„iÜ`Ì”†'Í_/ ÔI¼SN¶å”œ9wBã¥WÎ®E¼†”£²/7Ga^iQõŞô»~ô|¬G•¶é¢6¤Febfae+û€ƒ“‹›ÇmyOúø…„!PìÈõ(b‰#!)UéëY¹Ê÷S¢Ë•yWÍ×¤êÍitSFK´uÒÍÓıÆ›:¬áß×&Œ|ÿİuĞ5¤à>¶uF„<¾&*¼‰5·HÔ=íEbBF£ÑÚ{İ§ü‚BÂ…¼FapRTL\BRJ¥ª°ö1sÂã¸&Àjr¿NG`¡@—¸Î”pıÊ¾È±ˆÔ#«µ‚©Ô¨‚š=8¹¸yÜò…ÁHQ1q	I©ÊÿQLy›JW™5tõô_üˆÕÁºæ>ÀBŞ °3Âù¥"ÒÈæ­àPUPÓ³Ç'7ÛB¾¡08)*&.!)UùÅ”·©t•£†®ş6¥hèÅ4Á.y;½©wıÙ{ÚÒµS]#Í¹–v:a¡ÔEëÀ›—_@PH8MM‡|YökASg›äÀÎ!P—”RÙÇ}3…G`¡@F¦TìqÂÅÍã¶ˆÂà¤¨˜¸„¤TÊu•}fTI µêGk½aÆ¶Ç0Æ(LÌ,¬lyšï¯  4Ğ×Y‰Nn1µàİã3œÄÂ¿-ïXYM×®l,İ"ûR½¼ƒ±2IÚIÔc´Ñû,ãäâæq[w#÷<ÎŸ–æïS¦«ŒUGZÚÕeôô¯Öµk·JjzU5]=ıûŒ¨4“Å&œ #3+[5Yş'JÀÆû¥4]F&™Ø„“õp>"åø¾Œ—ØK®	®  Çp¸5[ÔkNíA 8SÀÔÊÎò±um”.€¾KÊÄÌÂÊöÙNo{wùà.$ 08Ù‘<ªb‰#!)Ué<#+WùkÅ”¸è$°)`
+˜È;´u ØÀn|ÆEáE%h5ä†ŞL¶§ ÆåŸWÖuÜ¨ovl÷Ù©æW-¹«7t1#LÌ,¬lyÚ–ú<é¦HËÓ&0Øÿ
+ÅWè£Šı—jä}ŞˆwŞÓÒU>SG#-´ŞŒ¡Ú×ˆáD )ĞvFX†ûF&fV¶B>¡08)*&.!)¥rY»î‹b‹FAº«'×^o{vÆˆŠ-á‘Êõ_×hk1ºäÇI­´1Øş…DCŸ³2îÈ…Z^¾:®ååíET±_Rl>ÊI
+L©QõŞPG§ô±kÊÉÅÍsıVç©T#‘H$ÃÖ¥q”Ê ièRLŒ]œpqÖæÂõæFØ|²=F^Í¥‹Æ˜`fae»ö$z€nØ„Nè.Ş£"LÒİ§loNÂÕ ˜
+Ï,Ôª9k½°ÍxÀmA€Îe®¨2ª ¾®Ÿ%‚ ‚,Ä^‰Ã8¹¸yÜÎŸ ¼M¿€ p!·P—”ê²«
+/ªh(¥{Pô/ÓÃ³3º}Ûæ¦ŠŞ¢AE!Ç}4É¡Â…›€Ç"Wí¹¥
+–ŠÔ|/@ö•{wLšRÙm<¾è
+÷êüD&e(Tt½¿ª@ R¾ÔŠÿú³I×öXı0 — “ÀñB#šˆ é®@¿¾Üì6e5ùq~›ß5¡fœ™d¦4ÓšÍÒæÚ)S†GU6³5êù™1fBöš0úJÏá3Y÷Oßü}no³7Û›ìõö{¶=ÉÎğÍÊıcXrX74"x ;hŒÆEÿq)ß9¾›c[s¸q"sãÔ+à`ñ<Ü­+Öµ#dâ>ËíÖûÅPèDÄŞSL‚iˆ&+bEE…ñä 3Å^4µR;|PTGAÅ&ÎÃ‰kV)Ã¯ñs1”:ÒÎS w­ŠÅ….4OïbJˆ*!*PæAOõñ}Æ£yª)]¶{Y 0EäÔÉÍE½bøìÇÄ]?'Ã¬´¼ÒaŠ ”i˜ƒÎHAÒ§z.Óá“ÆÄÙ5P'ú…À éiÀ¦B&eĞ4:q(È˜T–]y(,'»ØşŠè†RbŞ¯%ª)®—*bª½¨µ/e;Òò§ìRµâ~<3å“ì^#op	®[g;<†½f¥s`.CG÷F‘ŠQs óBæì|Ñ_T§¼Ê´‹¥O~C¥~¦2÷«á¯q	¡Ïb§®^g!W‰«ù¥\x%à)¡sqa8¨ïBfpçEcØou¨Ç:­Äòm€nR§tL+Àã'óòŸ¢´¤Ef²1üï”	œ`´¶q{WÙ‹ËI¤X»+
+¼®
+Ácg*¢³YŞWÖÖ:ÍKí½Âğ‰xØbUpmŒ‹6Í‹«ñ`Ó³ƒç—©æ¦3[R(.óMé#­%^ŒÅù_;#-VóuºõrEJ½Êì±fµÅßg¡Æãi– SÚ?üKÜ8-y«¿óEò¡œùRğ I/Lê¡ñ//3æ_Z….ÃÑk?)¦	ù8ç_B!)Ÿ”1ÓñÆ²]_òÍjc)¦„ÈÀı|)³ühÂ£Uyõ^,b§Ù
+ˆ‰$‘Bƒ6ìÓCÕ;~ØY~©P¨HÌÛ[(T¶g+g›UD2€Xøïe2oî¸¯œRœ.\«5k="§îÖ#³³1ÌeTf­fË=™uYß©‚YY×ŸWÀ™.Œ£Àq#RÚâ"Ëü”:¶„YÃFCûğïÛ²ûåBÀ“ˆ
+ŠEÂĞÀ´¢»dá:4ƒ™GBÍ¬¢óÊìÃéğšÄ}3™»i¦O[ˆå$½m®ÖpQ8àEşïÌ!$qê%¯½Z‹ƒ*i;jYŞÄa_Ûpä€H·O°(®¸ÏÃ«ÉLèÎÓéBL0 Ÿb²1Ù¹|ïğD²7ÍËı–•£Ó„±Ybr,ÊÅı@õØËJWXNo?±µ¤”‡X¶=aMØZJ+ş\&Y¥2YÊ›#¨¢¡„4·FÓSk R5¼[sßÁÊÇ)/h/?­ÿ«·>ÊéMOÃÖÄtâÃö}W*CÊ@Ç¤¹”GU3®­G §Üÿç€QN¢eŒ¾BşËùq ¼)Àà|ò˜„Ì*«”øÌwÓŸ?•¯ƒ3×Mb+r9P6«Ñ•ı@÷+nÓàı4í.Ò4D}şQc0§dF_šZ¾Î¥¸O9jÆÖºRˆ®Ô¤³šùÁ.[jùyº>=G|˜PåÕ½Ìn¨Xì™Ò õ”Ö3Ø}Y&È–•ÎJ™D‚â
+¦n[ú[n¢fæ\#†Â¹b±c°÷"M¤\ı¨ÚZ®‚×=a¼dk¼Œ:!b
+{ŒÅJëÚù5³È‰€tœ÷¦ğem7T-­s
+£D'dhd­Ÿã!‘Ôj)³·í¡~%p„©Ãäï¤ô$}Ğ/L(]·cÖˆu3nÍJ˜“*ä”ÂoğomÑ–	•—¡®Å²ŸÿÏ=²	İ%§ÏSöĞ-±eíy7)'‰ÛÄu?-;û eë7åÀ7şúà`†8¦àÉÀUDUÅ*êF¦A:=(¸k	ª%İVÌ¸uª–År‘ÀİúU@˜Õ4¨õµŸÉƒ““I˜brÉ7å.É.š±&÷ÏéÂ*ÉÒ?SıéWıÉMÛÛ‰|kÔñ]eÊ|—H 1O{>•^qHãsô^%3%¡JªRõÑê] Œ[àwï <Nß)Æ\RÕ°,É= ´gcˆœ\™g¸<„ªŸ½@’W,£T<)ãJd-áÇÀì_Åzw [çvÛƒräm–M¢¥%‹6Û›„ºÛóÑÂ\V÷¾R›PìW®Æ…ìqKå{-èšfÂX¡q­%†i˜lÀ6Ä{ÙZB
+O+o&Ty,'d©¥wVã;bP˜çÎÙ_Ñ¦O0K–/Vhi‹ïæî†À²œe‹sÖgíhº!n²â†¡T‰b0f†´]Cù˜úµ¦Påš‹/uağ.ïÜ•Æ¦?Ş-J„mæÈi
+PoÍ¤•Gæ%‘hor0äXÓjı°‡”±ÉıÚC>q‚%Œv#¸Û¼öÚïáŒô*™˜«7©^¤;*‘•ã5ÿckØ££Oh»‡ôj¬m¡0©£–Ñ‰ò‚µ4²¼ÑÇÍBu¹”¶JWç¦İ§„h%"Ô*ü|^ä»d[ÊZï•°Şi	/®©$wïì bä„FÁêÿK°Å"9å´Üs¼„Î§ı#`	>¯í®.MŠÜà\/DæŠ0	<ÒÅõÆ=Ş]Õç¹iñQ²œÙOúÁ;@”í%ñRä\ßë¹!<Í¸AâŸf0ˆİ$o..[S†Ï 
+±¬¸^á &p²‰ZÂúÜ\†!m*feªmg¤Ô5<»’F6&NÊ0èœÉl±È>óÈŠØ´…;•2HÀò.ŠFPBEpæhÓ³™óĞñ.‡"R{ú·ƒ°=.Mõ“IÙº= î8ŸZÛF—KÒ÷)@+ép:Zkú·ıätû“İ$n œ3l}3Ë×uFgèÅãâ‡‰fs¨ï›îìÑªÍZ³ßoÈüPëDMk½ÆÚX ô¨á²\´
+p‡óZÜoË#Oe@ÇçUbH¤Ôz\ÇrBğ˜·*ÆÎ	ñ¸>PÜh5…à¹KaËeè-FùV¾ÒïáØ³e§àñ	*)²·¥Óƒ]¯\Syw£ĞÉG§ƒ¶\^kyÔn<©˜ºÓ™ıdµÕî¤Ù\ÓÀDQ¿¦Pª¨ÒîM¨ªaÀ»<¹ h@±¸”ŞdşÂx®Á%»­ÙUÄrÄbcI:“R˜hİ‡âÎ‹hí3
+p>¼q–©F’¶Ïî3Fˆ5ÎÃÙ¹=¢AÌ·JÏL=Kw¨(MûŒ	ëña˜ÛR µîÏ	®[5/×3kD¥µÏ2%{S˜âèÕ†²4şNQ·ğƒv3—Áw{õSï­å³2”A
+ú@õJÀ.ó–Ìƒeô3ñuïØ“Àïè)ÇÁ‡ÛğEÎ‰IüœÉ†2YÜ™!z'Íêü*MŠgtHc/ÇGk~A¨óúºÄ;7zÖeÓ¬ûkÓ ³«lYØâáØ3Óò­
+TOaO{Ağ¿ ,dº¦¸µ¶ôs:ÌtÁuÅnÜ)“v« Øİ{«auÇ TVk²Õ{Sºujß4›ğ?Ì5B•Ùän?.W„o¹^ü¨MÓ…‚ìd:·$=ËAHµ¶ï,‹Œ?(­ 6ın'mÜ©De.}Nû”ïÒÄKä˜Fz«‰„C¡“"ÂÄšEWâµ%à9~IŸ4åô ¼ïjlŞN“j4F¢ËrïI)éwí»ÜêX ™ÚİIUŸİ3?Î@¥2;˜ÛšÎg³aÀÈ, ·™‹„á/:!Û,+3«İ=½°tp¬†şH¥¬Ş:i|O‹É3±òGô1¦¹©ó=TËj‚QQÁu2vÈÜ8Sß~´f?˜33ÂR1(D­å§Y% ÔB’ïÓGö3ÈŒšH±í¬¥@ÄO#dªUH§‰{P"èóRÚ,+Ñ‡OÎø-  ½GzŒÑlÛbq6Åxvå:&ygJQ,G6ûI OuõK	h·¬³ÂÊT|Ÿ!Œš¡HÀ"æÂey¡5”ÛcØ¿ôoÆçK«¨jqPN“´u,eOz×¤P>ÿLş›AñL˜ò"ı£y„0¡8¬³X€ÅñEÎX4Š«x¤ã_l.8ÀGç±FŸCÜ½ÜKJc¬S!Ş¿¸×Nğ·ŸÂş›İöürôØ¾¥,‰FÙn„m!È~İÀ êíFÕ†üÙåQ0â:7näÏÀŠÄV!z$‹ò{à[Tø[tUœÀ¾%°:qı5ÕúJò	ÿåÎE®¦›ufDú TÑ]yä:¿ ®z×µl™4±z»“/ÿgrpuNê7ÀªÔ‰z‹T±£ÖšIE…óòAÎè}Ñâ½)½;Æp÷(Ô«Cùw	i›¶ŠY*iÎ2Çí´5O©«\İ§À£qÆ5-ûÜşåÄõÏòÚŸlzñ®1¾¦HMğ/ôuò”èN£©!B(oˆĞ™":SÒ"zuæ†H¹¼1Roè=—Êƒ©«Äx<3ªæq Js/ª€)wTcŠ¨ísbô¬Î'ˆ<ÂHæ¬¡U…%ª?³ÂApıqİ +OÏ±ª·®Kı;­ıçjÓÈ4ö‚OÁvâÊ’•ÃÀA|bè¬ğZ\Àà¾ó[Ø\s=¿([ı,³?m§¥Lµ1G²B]\šú/S>,KŒî)ÉßÀóºeS3±„İhôtS·&JŞÎÚKjoä™•KÜ œ‡BEMñ‚_ñ¯[Zğo\-ş¡O_!xÈñó»l<”?+Éğ•\gÀàx~d„!¨›¤Ü¤—dÀD’P‰vêşòmF^şv#šN"†¡·›¸±MóòŸ¦r$Ğ“¶0iÎÔte	šA‚¥gû‚&ôı³7i³€V°~s÷‰î­Ÿoí<Ñ¹hfbùii„€Æ,,)ka[’ó<ü“]öïşÙmö–I@şáe7–â1b}=æ=G¢›üJ(İÜşÉb’wÏjáÃ3t55óº¡üì9Ìé|G˜•Mûïì6úuUC~x4+/<±!ôú¶m†ÊŠaóÿ|Àc–šA½9ue¯'4V.µ]}í|’ ¨{ìáÕ—	6˜µŒŞ¤&‹u‹Dõ¯B³½ ®{š‚’?QœQÈËÇq™¸¤z:\_«‡'î™&yù¶Ã!Åé[ÛJL;^0Î©)ˆíÕHğ%<u+¹=håŞ•åš=½ÕŸr*&"ì¹©C8Syèiº{·/MtLKà$˜ƒâxm0–&‰é VN€=YÊÁhÂ‹«JruV\>3Jòå‡ï;âñèVTgî£Ü<T–ÙL»»öÙÃƒ„¥
+Ù|é,ˆ»Ç
+’†£è¹~ÉµEõö˜q³U{v¤ç¢¢NÜ€)eb#Kj‚Pa"ªŞŸ/.'‘Êù¶¾®n‹…º)Ä~ö
+ş¾7e3«¾\6Q^¨˜îî<“X[wBÑŞ%>U[”ò Ãª»é_ô¸54·.A˜%äñ%Ù	1yRY`7š'ç’cb²ÅRJr”…+×’˜%N·XGÉÎÉ$Ñø1„b/y«gc:+ä[rÚZ¦»h–’‰Úá½ÄÁ+(pğì%aJ©µL”„œ©m9XƒÕÍTÍÇI/ıÓ#íuu¦Ú#ƒ¼6»%6™Š‡jC‚Q
+†ÈfKHT‡@ğÙ¾'ğá'DU—ˆ6—äÊ&ÛWÎ(*«¦%Í-ÂÃÜN«Œ)+º
+	!ßÏ‡;?¼ëo'@¦cÈ&A‚ÍÑSâDCtCs«5ÖDMô Zp“ıšN`—†¡.{Ôi³W"Ú·MCÃËJO–.]"ø*‡NG´o½•l³6¤í„üp©V?53•9Nî#n+ Nédœ–e¬€ó3‡Ã
+uì–$UH¥0Y#a’4ğÕ“Ş;]eæ¾€“ÈÄ‡h¢)ûşÂ¹IÈJå_×£Ìùü$·gÅ¥	P)OÖ§J0…Ä«ğ%ñ\l·<#«^º:H¯®@P³kÿ‰ú¹—£)™ìlBgR‡vq´ë²pEçÓ¼İL¿öî.üãˆãMê*u·wÖHaò ¸9¢®XKÿt&ªæé½Öˆ¹²èË…Ó#k[®ñª‡³>Ÿ¶ÿ7^ªºcÒÇhÍ¢rÔï¤ø2V’‘nãó£¥@7	ÜJuaSY@fY€íGÒmr·Ã±´ëúá§sØŒ;wĞ™ó`\ï‡?gµåÇé£p¦xm@şo’lé®^Hh…6ìóI, _Ekèa8åoù™×É‡ıCù5+³û~²éğ7–ÚÌr`İ:*¶-äxMì*ƒ,,x—ï™xS”¦onj‡#Ş+‚«É™Eû¥â3¶FñÙúöb[ç®D	ƒ<7€¾Åİ·¹9OËî àâÚíY:wÎâæ»İp¦¾cŸ¤õªtŸ¤¾#á¦q<h_ıçÍ?g·?.ŠÄ=Ä©½Nw¾ÈñKÆÂ5×ô—°ß*Šm¼ê&_ıv·Šóå^»,^`eSGœJô©ê†‚ äÈ;!U‹)ğ–”5tN×µH.´tOIAz3àµÂ±a^•J/àôÜ¾ò àš5Æ,Øú(lÑÅC;`W°>4n&'ÃÕ¦ì÷Ñò„ (|ø‘Ú/?éÊÖ7¹'¶ÿ¾ûUø³?gÁ¸pFz³'°íõ÷D_k‹Ã$uè¼°â;wq/ô±u‰lµïUàâxé@ÓÃ0©Ìçÿ™TÂÏ1GÙáŒã%pq\õ]-óiÅ,%Ÿß¾µAŞSaÖÏ"„¸ªšµÖrÃDaôŠ´C ûòİÈÜ¢gåîİÊùÅ ; Sµ<«æ.–Åo»=şL}ç>Iié¤ÄÖ™pÆn·€­c„u&ş:İûç_OØWßõ7&-’Cƒ-·%C—o_QVPdbr^l–	*HÊ+ƒ½IÊœVn*k‡W|®B½»û+½Ô“7t¥Ü¬ûÕÉuwb{*â7š´v­Å¦ID„J,°wdw·l7Üºƒjç÷©ª©r!ÙÈ®­_p×íØs
+Å‹¨|<'=‚EqDæ0;µ™fç˜38-†<áş¶Ö“ò’ntcD©d³ºmê;?ÔÆ¤¸ÄA‰Ö–ò".Gf·›íl³Ó“¯‰_¿ÂzXRÓökJä×_½ìyyæ+ğğfRcTš9´;5Ï3¯=åÉ–í_é¿ÒmŞiÿêÍMMIÖô@ë1ùÈ~˜¨v9¾è¼–˜	‹ªí¹OzLév¼8f}G~Úä•Ÿ;QZ|•‡}rm?’4ä[ƒ>»r³½ÔEYëñ¿jÉ{Ò],ÌñŞoáË”«:İÕ¿÷_¾Ç›ç×Îz`‡Gå¾ªÙæĞ'id§ÛŸ~ıÎï>‘³NÎ_„òñ™3§;§ù9ø–Ü~KÔ¸ºhªÚ«–o‹{?öHÖéY[Å¼s*•F\õftáî< µ¹€kÂæ\´7 \şÀ‰Ñ¹`ÉâÒP~¨¥şAI ’î	Jséæõ¿æ¿”Ûâ³Ñí„çí)Ï¶Ú¢ÏÕmüqè8€.ıuøİ–á÷ÁG]Éu;`ò<%SCÖû°¤$IH±„[=dxshilqF^j¬³ƒGqw†&MOüeXÅË-‰\ùÍË€å¦ÊœGÑ™Á2¢@Å½p¹ñ±b,“ª8m@\Ğ}¾Õ·P;²S[¦ö}›3´\¬_DùİMQ—óŸ][›ÄãèƒãÓ‰z¶™¥V‘+5xJõ‹ÆŠáQ‚\?Ó¿Y“BZ)È0‡ÆÄÈ±¾*ş'©~$›_Pá½WÚÜ+¿ØZÃŸoYuRÓ`=¨‹AFö~yï%\m°	6()èŠ^h­[°Lh3¢ÿÅòÆ7ÇÔe	][“Ìå‚ãÓ&ğåŸ¤&ÒEßÜqõ6ÁÁ*¬ø¢Î§qù¶µkc30|¢;ÂËØ(Óò+j½¢ËNH{Ô×z-¢ÙÖ¾ãûtyCƒwÕ­pTZv2L—×y^¤c
+7©tÌÁ¼Ü¡(½ì‚sGûş‡TqÅîÓK _ZÑšŞ›&	ªØÆÒô5Œ^é?ÿU&÷z§&·z¤‰Å1)ÄÂ•­ù'bmõB«•ì\–<3WM£K8ˆ7^qŞê`İ`ÖÆ«<c^'Ä³î¥¸™œóœï1‚1‡&Ì¾bI>”O¹)dˆW+¨*ƒÎh4èT”Škb$è¢ÜShvD’›ÖÎÉ(
+Îú8”•Q”É¯âúüÇœœ¾óxaÃäF"¡oS/Ø¿©@Ü8¹©üµ‚*"Õ«tÍ‘òì¯®]äÍT*ãébµíuøñF*uöİ¼¥şßÅ7;Gª’>~HûÎúÑyäO_á9èÓ gn\ğ÷ÍÛÅ7„¿ğJœš’UPFns	>£V&O§çÀ"Ò;£ôùŒóĞÇ¡¼ô¼Ô >
+`áC§˜“Y&fËë²·öµ8JEÍôc..%y·¯õ”¢³W¶ĞĞhjg¤°ZO+ºúå¨]½\7®QùmÆ©¶¦C{ö4U€Kò$Lê—'Ï,Oà5Ïï)só¿İuÜÄ,<£ñ÷œ€-ùã­§b¦š’	ÕçXx’·Ğ¿iËçRºV}õMÙÅW|!€4Eg­­0©|ıg‰ñ>^q!êŠ4jòJÀHåí0ùøvêÄ~aŠÔ¸HâA)Q6ûëƒ¤ñ´Ìx%«¹Ø°12ŸUàk"&ÑŸpÌã·ˆ~³Å	ı¡=I™’è,M* e‹"jrÒF#³K§$Á=o÷ÈXw\	ô2:o7:
+µoA¦!¡á¿!•¡İÜo7*ì¦A:€8­"4Ã‘?RcÉÿ‹˜*Š•ÖÆÉ,^~÷®=6ªËé:F‘¿Hö‚‡†àFÿ+ä|.j€ ¿ˆÕ‹ÖÏ@ÒK÷#Ó¿œ¤¦r‘nêŞ°+PíÆRïôëÈ"=ê44Íé3Â³ÚUÏTæ'C§’¾:l>í›W˜í£2øßôütµß÷É?fc^aÜ't~œÿùx;I£ÌÎmF½?şÿwÍ¿ÉÆfêë¾VâˆŞµM˜ÿ¹ı¯s¨bŸÿœ_÷½9»|œÇQ%Œ$pTqa&o³GV„*¤Ù ÏbUzît‡¹º•UdªÙîYîÆ° ¨¨§ŸËëë…Š¨aîF,÷¶J‘)ustßåYÁÊ7èBšUYŞf3ğ¸ä>\óàÂì03l›®z…ç®
+*†Ú˜}#»ÉV!€UWİéYYQßÂ6ïà—1œ8™à3uPş¨êªÂä¬L!C(˜|¨„EŠ:‡yÿv•Pd·>@o¦­·XµÛÙM´«Îcƒ¶ª+şXM…àLÛà™ÔgÏy/×šßI+…É	Ûâ /óßä‹¥Xz&ÿ›(3(•kÈ‡F¹¯A¬»núº'w·ËÙÜâe?¤ÑàòYì}5­uÚÖ <‰<k,/şTâ<U<I'ö¬x¹)YìŸzA^t@á­P–øşx.9·ñå‹3Á.sàÎ":«ã†æ†õë's±ÑÌlôÆÇÆ6cs£s›vÁõ›r1ÔÊBmÜHšpR†V VLáÅ8N„ˆÌ®_ĞÕŠü~<}êÉÏ±ˆÄº:¸*æÑÏc¤›È÷tè@BvB‚ëG­x??›OÓmÏ»ÍÍƒ¨c_í0ûømÌËK{7^†"¼VÓò‹CóXj	Ã›¬ìH	¼ÈÉ+™[´BÃçoÇ-jTLŠAô§&´€R\©‘„e5)Íi”ÜRUBxunúHdvé!I'‡¶Õní·ÆRB›õÕ!Ÿ­ Ş?z`µù,Æ9U‹Å¥¤»`°ÔÂ”zì&µ
+*Ê”À°·Ëô°¸#3“3ØÒI¥µ`BZÛ·/¿H2ÙÔèåUoWøºÌŸ»ŞGÅšørb±@L*“¦Q"#^ÏÀxO1ÏdïêéÙ•}šYTt†é0`GoQafÛ	Î8N_#;™§{
+;Lßît|‘½råWÙ»æo;2i;Ô•ÕİÚ-!éé›C\-¯ÖÏƒ‚w€€ï©È3¶£Ö³wDš¶üP0‘(NeQÊœPÑ/è¤³>_ÁüÖ–ÿRÛÍHâèÉñ|b&“	ØüeòD¢çE´7A„ÿµTÆ¶Øÿì±ÿ¿÷?_„“’µTù`i ÷—íÎmÌØÒ2áÎêş¿úì¦äA»àôTw‹ŞØ•ƒ/ğë±Ètï‘eÛ†QÑõQoÁm‚ÿ9È!FX"1elÏ KëòeÌf“±…©P´2ÍFV³LÂj2›ZY
+EËdb6Rw¼zF¥şõj5 Åıwêó×(> <ÎëíNÿ<½s¶3uçÖ‰[ öSÏ@üÕ?‰Œé¯¯l?¡C´c_¢,8®Ïâÿ¶H¯J9™X}c¢á2“ñ®][à=5ÜLÂ}15!*£÷hœ<&®SğÌ˜ğèt¨¡
+Tá3}©_>Öş£¿%cîºôÑêhå?‡QKÉm“µP÷ïŒ4	[ÁëpNÅÀ®z÷kcY¹´)¯N=ºÄd“ù–™ƒß42»"Ÿôå›€Ë¾Gïæ#YÉ^¾­’¿6ÕÈ_o+ÛS5%<$ÆÖ
+Ä	9lƒ½İ	ÁñG®ßSó½‰ŸøâdH¥[èÚÍ~bL¦Œ"R×C£ƒ¥î4xbXî÷a°D¨ŠıÛ×«I­üåüz«µö0@ÎÊí!éZFBÉ°¥§DP®\â¦0›RV—AI¥x&â§éõüT‘Ìœš—–µMóüï¿şûŸ-Â(Ë<ı?H–¾GKe7N”2©é…Oè–%ëVeé<ı¼c'ÖM‘»Ã ‰Iw(Æ5³{8ü\€Œ»] Ûzˆ–YšwÈzú>S6Öèqú¾<¯#*˜hq‘Wåd#û×æµb“_.¨›(şUº–iŠLeÑÓÙ³•IQ:Ã6šŞMf=+K¤	˜!RæÎ&8½¨
+½7ù?ô÷Oß-ªJß:1úïÍ"6râBò?
+¼N¹Fÿİ¡IíZŸ~úIï…æ‰šÒ¸
+òÍŠ­ó©ÿEq$Ïƒ ¥ÓäW½Ùm–÷
+—¦RuDv<;{ò)ùrßtœuĞ²É2ƒ
+øSó§ş §¥v´¥¦¤¥MééRi{»&Ç3.Já‘`u`bÉgZÿ€Òîµù­ÄéØÂ•¯œHã%Ÿ×?€|ú{q~5TYí°rgØÊ]ZqüªXÃ¦¹áöbÆŞ›>‹Şo¨$\ÆßóÓÇ×mÈâ\ıQqaX}/ yJDŸ,ÇıôÌ(…2Â¢No+ËÕ2ô¾)DÅ.ÉŞşØ„û“ VÆ†™µáf†6¥—pƒ“_+"ÜF#–¢“PìÎñ-·>Ş,•éi?/ŠV¾™ë…å-qG«±âcrŸÏ5•â4ÔJ=Ì·©Q:’Ë/¨ğbVœÉ-¾Ÿ™h‰°ÃãmÔTyh¹Œ[7”ı<şĞRrq†%5Vƒß…Ÿ·¨ÓÎkmuk3TådF™èøÎÁgÒ‰u‚8"÷59_rwŞRÛå±âHÂ.MëøæáR[4)…]ÜcÕAïğğõa3‡/X{@it=Í1v$%`‡ş­’öVÚ³ïİ€M+ğ>—~¸&\3
+<¨¥w›ëIGŠ×
+jŸKm.9"loQ³šø{lÍ{%ÙÛÄ±¨%cgq¥ëûL¼Ü`™‰¶ÖÉòCğ&ËäçÄ\®" R˜¨ †_·NÜÒœó/¶o)[¯­wlö¢}ùï}K‚X|Öœm_ŞŠ-Ã_ÒŒ›n	Ä’ù?Íy÷ıÌJœ‘­<¯y oŒü®Àî¯¶ÿ[“Ò9pÌóÿ¶£¯ìëÿªU€+.^±¬C^_óg7Á#Ö1ºí´ò_7ÿÚlõÉó3Ëšuï*§.fAvì0uj1Ê´nõsKFÖIü;ûœ¥gƒ,;g“Ìƒœsv»¨–nQs²G¨0+ĞŒä¸p4˜óG£á2}–Y~&çÓ &g¾¸­h¿¢©_¼ĞØ Yhî=¤°4Ÿ*âeEëO”Q£òm5š)ÛŠšC{Õ˜NŸrÕ:¸kt?±$K<)•NŠK³lû½ü û,sÉÂ '.jp¡ôdÜ}J"ƒNQÜKÆÒC5Ø‹dEwhÀw¡Aïho‚BŸôŞ;dŒƒ7°øJòØü+çDÛô…a§%‡R~5?;×‡9·I»Û5ŒüÛ¢Êš‚‚ãÙ‰*ÆúêOÜ†Hn|Öú‘@‚©6A±À/ıŸ@BgZu&KUÌïÚK­?gÜæUÓ®LRÖ{ÈGğwğc-®ö§Üª‰˜¤®©‡«ÄÛêmÛDÃ‘ÃhÌ o­¯‡=³ÔSŠÿaM8O(Ì?+…››#‹îF,§‚õœRÇ»áùGúg”eƒ‹¥BC†y³
+©:ùùÿŒ…‰	ÿmT)á úx —ïKDHıu˜Û÷ÙäUR¸û²~¥¹’²‡µ#õ§’úG2¯ú´¬ì¯[ôğ!‚:Ä:Õ\$ßmëúo¶Ö8ÆX·‘N	DCÇ‚–›cÆµğÂµ>¨U»o¸¹k•>È	[Ìí­#fÅ·ÔÏ	;i™Ÿü©?"åvµBRÕüçGE‹¢Ù4$%r½¥vB\eÜé<\f? éQ¢À…\]ßly?ı\<–t§$áôÅË>µ7è1€<èÄd§úaÑßGi0>óG4–¦=ŒÆh¢–b1KEÿBÄ.¬“B?ü¨÷S—OktŸBí’çi/öŞaDa¤O½°@¸—íuúí“Ğ–M!Jj˜àDÌj¢$„F¯ND‡+Ğ5Dq}pà·¡Aoiÿe¼Ç.Äkt$*ùO	NÂ.K`˜7^¡T
+FB¥ˆ`—YÀ) P €îØ
+ğÿÀúøOüûª¬_	B|„ÄÓ {B'QÁİ‡Ÿìx¬²ß+³±/*‘#ÆßKù‰ÿğŸØ{…ƒ ~ ğ¿	°÷Jl+»Ğ.5ß¾Â÷òıüÖª>ü`—?ïù
+ßË¶‚“¨ ïæOv%»×ŞêNÍ~l©=eÔ<ü“ğ¾—ïg[íºãçá#_á{ÙV»éøŠõöt°~4Š}<h½øŠcs‚üoéƒ}áxyÀeœ¶Xˆ”*9^À
+G¼ìnÆSù8º¤ò53lÏC ¬£¾„è|‹ö…+qVé0@v‹ÔñÒı©˜êSRVÎvÀZìbvÖiû„óQy!·³VÑYçÀÖRgÀ»{Ï~²ºIë\&àt™—‹ÅUU‘«Ôa‰ ÉYªÎå­`-H–ë¿M”,€Ë7Ë ,nÑÅÑ¡ö¦ŞÂ_õXí" pú»I·òıfm£ª›é¾Ój`	à ĞRCÛşŸàÈDUU˜ \ôcá.àØğd•_Âí
+ ³CíhÉ–EÜLÃ»èÌz(]:±L¨òÑ‡¡Íó(ğV”JïÆDª=Ò ¨dÊ‘t¶#ÃP³Ã >²şX@İÎÍ8Ëd4ÖLÄÏõv?¡-{`1/:Ï VŒø·´z•VTfÚbõ£}p“TÎÎJ[³QûŒã¬g‡¬¢[K¤Ÿâ2â³¬å¦'k)w‡4V L$ÒHî zk·ÉŒë,åÎ}í„ÙİÑ•I¨Ë8:ŞUÑáu;MW†^`vTg]­ŞEu ­T¤#}UgDÍ
+W‘HíÒUYC”õ€3p­PÑ!ydwŠÒh%’{ıÔ'då`ú¥f+wJ®³¤¾ç›h¥;lÌ9$F•HgÔ‡M?sŒ´+[wvé(Rg1:“¨ü’“±«Â)† '<`DJàĞA—
+íÍX‚Ñ!¥1â!JC€ø2ú¦)©sÛë	²@­L¢ÖeĞşÂËİB,Qâ"¼*ÄâÅ¨›”·í5Äå`zfÈ¡KğïÚiÔÃÈYåA[´22o¡Èáš–ğh ªcuÖâ^ÖæÍ}5Óz­>qù«AÀ Ø:¸¢)gp¤DÇ0lŸÂiÏt´±L8  t8›Ğ@A•Hİ@ ,z4¨#©š±WKz;A$LÚ–,Š•¨C$_°‡#…‹0…nÂ&ÈÓpuT»iKårU*@ R¯¬«lÕHÅR`Q¨ ³òØuJMÉ¨Õµl‚Ô
+¤ªTN’«"zH•\uª$F×¸ZXQ¬
+´>@¨E"-œJAå¹ÕÇ‰İZ+ƒP9C±ÀÊ¢J×#0|qPY¸¸„2¬Ê#GÕC@g"Òg½§4S‡cŠéäLªä:lU)dÔ2""•ªERëA¯W»8±óŠtÄ)­+…yÂ„59ŸkZ}€!3¥åN«Z<ëFCJÅ	Î)R¨qy6Àrr1oêj^^?P0pH(hX8xşˆH‚ß2iPëH"TúQ%Ê'‹Æmñ	‰ˆIHÉÄÀ©²]PE-‰Fœ¦µN2éÄÁ©¹u›-Gn(X*~Ï;kÌ/z´Í¤İ!ğ¿':­õîıú,øÚÛíöûı·;M¹ì3‡äÉ7ªÀU…>wÅM#ü«"w_¾õn;¬Ø›Õ¸ç¾Ï½Ô¯”E™
+å*«R£Z-«zulìY¡Qƒ&-šÍš°R«6í^xå”‡¦ñÈWûÔQÇpÑ13õ:àœ9gBbœ×æ•iLgf0§¨R;ĞzuiŸ={‰ì±VZ|¬EßÆ·J­¿†orw«ö­B—:Í[ö
+6öí}şœ?Qr¼\ o:ÁöZ   
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://www-freecodecamp-org.cdn.ampproject.org/i/s/www.freecodecamp.org/news/content/images/2019/11/fcc_primary_large_24X210.svg
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 210 24" width="210" height="24"><defs><path d="M35.42 5.56L35.85 5.61L36.27 5.69L36.66 5.78L37.03 5.9L37.39 6.04L37.71 6.2L38.02 6.38L38.3 6.59L38.57 6.81L38.81 7.05L39.03 7.32L39.23 7.6L39.41 7.91L39.57 8.24L39.7 8.59L39.82 8.96L39.91 9.35L39.99 9.76L40.04 10.2L40.07 10.65L40.08 11.12L40.08 11.24L40.08 11.35L40.07 11.45L40.03 11.65L40.01 11.74L39.99 11.83L39.96 11.91L39.89 12.06L39.85 12.12L39.8 12.18L39.76 12.24L39.7 12.29L39.65 12.34L39.59 12.37L39.53 12.41L39.46 12.44L39.38 12.46L39.31 12.48L39.23 12.49L39.15 12.5L30.25 12.5L30.25 12.43L30.23 12.43L30.23 14.27L30.24 14.51L30.27 14.75L30.3 14.98L30.36 15.2L30.43 15.4L30.52 15.6L30.62 15.77L30.74 15.95L30.87 16.1L31.02 16.26L31.19 16.39L31.37 16.52L31.57 16.63L31.78 16.74L32.01 16.83L32.25 16.92L32.52 16.98L32.79 17.05L33.09 17.1L33.4 17.13L33.72 17.16L34.06 17.18L34.42 17.19L34.55 17.19L34.68 17.18L34.81 17.18L34.93 17.17L35.06 17.17L35.18 17.16L35.3 17.15L35.53 17.13L35.64 17.12L35.75 17.1L35.96 17.07L36.06 17.06L36.16 17.04L36.45 16.98L36.54 16.95L36.63 16.93L36.71 16.9L36.8 16.87L36.88 16.84L36.93 16.83L36.98 16.81L37.03 16.79L37.08 16.77L37.14 16.74L37.2 16.72L37.26 16.69L37.32 16.66L37.53 16.55L37.61 16.51L37.68 16.46L37.85 16.37L37.93 16.32L38.02 16.27L38.11 16.21L38.3 16.08L38.4 16.02L38.5 15.95L38.61 15.88L38.73 15.76L38.86 15.66L38.92 15.61L38.97 15.57L39.03 15.53L39.08 15.48L39.17 15.41L39.27 15.35L39.31 15.32L39.35 15.3L39.39 15.27L39.46 15.24L39.49 15.23L39.53 15.22L39.55 15.21L39.6 15.2L39.69 15.2L39.79 15.21L39.84 15.22L39.89 15.23L39.94 15.24L39.98 15.26L40.05 15.3L40.09 15.33L40.15 15.39L40.18 15.42L40.21 15.46L40.25 15.54L40.26 15.59L40.28 15.64L40.29 15.7L40.3 15.75L40.31 15.8L40.31 15.87L40.31 15.94L40.31 16L40.3 16.07L40.29 16.13L40.28 16.2L40.22 16.4L40.19 16.46L40.15 16.53L40.12 16.6L40.08 16.67L40.03 16.74L39.98 16.8L39.88 16.94L39.75 17.07L39.62 17.21L39.46 17.35L39.37 17.41L39.29 17.49L39.14 17.59L38.99 17.7L38.83 17.8L38.67 17.9L38.5 17.99L38.32 18.08L38.14 18.16L37.95 18.23L37.76 18.31L37.55 18.38L37.34 18.44L37.13 18.5L36.91 18.55L36.68 18.6L36.21 18.69L35.96 18.72L35.71 18.75L35.45 18.77L35.19 18.79L34.92 18.8L34.64 18.81L34.36 18.81L33.88 18.81L33.41 18.78L32.96 18.74L32.54 18.67L32.13 18.6L31.75 18.51L31.39 18.4L31.05 18.27L30.74 18.12L30.44 17.96L30.17 17.78L29.91 17.58L29.69 17.37L29.48 17.14L29.29 16.89L29.13 16.63L28.99 16.34L28.86 16.05L28.76 15.73L28.69 15.39L28.63 15.04L28.6 14.67L28.59 14.28L28.59 9.57L28.6 9.43L28.61 9.31L28.62 9.18L28.64 9.05L28.66 8.92L28.7 8.79L28.73 8.67L28.77 8.55L28.81 8.43L28.86 8.31L28.91 8.19L29.03 7.96L29.09 7.85L29.16 7.73L29.24 7.63L29.32 7.52L29.4 7.42L29.49 7.31L29.68 7.11L29.78 7.01L29.91 6.88L30.21 6.64L30.36 6.53L30.53 6.42L30.7 6.32L30.87 6.23L31.05 6.14L31.24 6.06L31.43 5.98L31.63 5.91L31.84 5.85L32.05 5.79L32.27 5.74L32.5 5.69L32.72 5.65L32.96 5.62L33.2 5.58L33.44 5.56L33.69 5.54L33.95 5.53L34.21 5.52L34.48 5.52L34.95 5.53L35.42 5.56ZM33.38 7.16L32.97 7.23L32.58 7.33L32.2 7.46L31.83 7.61L31.48 7.79L31.16 8.04L30.89 8.3L30.66 8.58L30.47 8.88L30.34 9.19L30.26 9.51L30.23 9.86L30.23 10.82L38.42 10.82L38.33 9.84L38.08 9.01L37.65 8.32L37.05 7.79L36.29 7.41L35.34 7.18L34.23 7.11L33.8 7.12L33.38 7.16Z" id="bhBdYFqzf"></path><path d="M107.21 5.56L107.64 5.61L108.06 5.69L108.45 5.78L108.82 5.9L109.17 6.04L109.5 6.2L109.81 6.38L110.1 6.59L110.36 6.81L110.6 7.05L110.82 7.32L111.03 7.6L111.2 7.91L111.36 8.24L111.5 8.59L111.61 8.96L111.71 9.35L111.78 9.76L111.83 10.2L111.86 10.65L111.87 11.12L111.87 11.24L111.86 11.35L111.85 11.45L111.84 11.55L111.82 11.65L111.8 11.74L111.77 11.83L111.75 11.91L111.72 11.98L111.68 12.06L111.64 12.12L111.59 12.18L111.54 12.24L111.44 12.34L111.31 12.41L111.18 12.46L111.1 12.48L111.02 12.49L110.94 12.5L102.02 12.51L102.02 14.27L102.03 14.51L102.05 14.75L102.09 14.98L102.15 15.2L102.22 15.4L102.3 15.6L102.41 15.77L102.52 15.95L102.66 16.1L102.81 16.26L102.98 16.39L103.16 16.52L103.35 16.63L103.57 16.74L103.8 16.83L104.04 16.92L104.3 16.98L104.58 17.05L104.88 17.1L105.19 17.13L105.51 17.16L105.85 17.18L106.21 17.19L106.34 17.19L106.47 17.18L106.6 17.18L106.85 17.17L106.97 17.16L107.09 17.15L107.31 17.13L107.43 17.12L107.54 17.1L107.85 17.06L108.05 17.02L108.24 16.98L108.33 16.95L108.42 16.93L108.51 16.9L108.59 16.87L108.72 16.83L108.76 16.81L108.82 16.79L108.87 16.77L108.93 16.74L108.98 16.72L109.05 16.69L109.11 16.66L109.25 16.59L109.32 16.55L109.39 16.51L109.47 16.46L109.55 16.42L109.63 16.37L109.72 16.32L109.81 16.27L109.9 16.21L109.99 16.15L110.19 16.02L110.29 15.95L110.4 15.88L110.46 15.82L110.53 15.76L110.58 15.71L110.65 15.66L110.7 15.61L110.76 15.57L110.87 15.48L110.92 15.45L110.97 15.41L111.01 15.38L111.06 15.35L111.1 15.32L111.14 15.3L111.18 15.27L111.25 15.24L111.28 15.23L111.34 15.21L111.37 15.2L111.39 15.2L111.48 15.2L111.53 15.2L111.59 15.21L111.68 15.23L111.73 15.24L111.77 15.26L111.81 15.28L111.85 15.3L111.88 15.33L111.94 15.39L111.97 15.42L112 15.46L112.04 15.54L112.05 15.59L112.07 15.64L112.09 15.75L112.1 15.8L112.1 15.87L112.1 16L112.09 16.07L112.08 16.13L112.07 16.2L112.05 16.27L112.03 16.34L112.01 16.4L111.98 16.46L111.94 16.53L111.91 16.6L111.82 16.74L111.77 16.8L111.72 16.87L111.61 17.01L111.4 17.21L111.17 17.41L111.08 17.49L110.78 17.7L110.63 17.8L110.46 17.9L110.29 17.99L110.11 18.08L109.93 18.16L109.74 18.23L109.54 18.31L109.34 18.38L109.13 18.44L108.92 18.5L108.7 18.55L108.47 18.6L108.24 18.64L108 18.69L107.75 18.72L107.5 18.75L107.24 18.77L106.98 18.79L106.43 18.81L106.15 18.81L105.66 18.81L105.2 18.78L104.75 18.74L104.32 18.67L103.93 18.6L103.54 18.51L103.18 18.4L102.85 18.27L102.52 18.12L102.23 17.96L101.96 17.78L101.71 17.58L101.48 17.37L101.26 17.14L101.08 16.89L100.91 16.63L100.77 16.34L100.65 16.05L100.55 15.73L100.47 15.39L100.42 15.04L100.38 14.67L100.37 14.28L100.37 9.7L100.38 9.57L100.38 9.43L100.4 9.31L100.41 9.18L100.43 9.05L100.48 8.79L100.52 8.67L100.56 8.55L100.6 8.43L100.65 8.31L100.7 8.19L100.81 7.96L100.88 7.85L100.95 7.73L101.02 7.63L101.11 7.52L101.19 7.42L101.28 7.31L101.47 7.11L101.57 7.01L101.71 6.88L101.85 6.76L102 6.64L102.15 6.53L102.32 6.42L102.49 6.32L102.66 6.23L102.85 6.14L103.03 6.06L103.22 5.98L103.42 5.91L103.84 5.79L104.06 5.74L104.28 5.69L104.51 5.65L104.74 5.62L104.99 5.58L105.23 5.56L105.48 5.54L105.74 5.53L106 5.52L106.27 5.52L106.75 5.53L107.21 5.56ZM105.17 7.16L104.76 7.23L104.37 7.33L103.99 7.46L103.62 7.61L103.28 7.79L102.94 8.04L102.65 8.3L102.42 8.58L102.25 8.88L102.12 9.19L102.05 9.51L102.02 9.86L102.02 10.82L110.21 10.82L110.12 9.84L109.87 9.01L109.44 8.32L108.84 7.79L108.08 7.41L107.13 7.18L106.02 7.11L105.59 7.12L105.17 7.16Z" id="bvatw1rZG"></path><path d="M203.57 0.17C203.45 0.29 203.33 0.46 203.33 0.62C203.33 0.91 203.67 1.31 204.3 1.95C206.93 4.48 208.25 7.57 208.24 11.3C208.23 15.43 206.84 18.75 204.14 21.31C203.57 21.82 203.34 22.22 203.34 22.56C203.34 22.73 203.46 22.9 203.57 23.07C203.68 23.19 203.91 23.3 204.08 23.3C204.7 23.3 205.58 22.57 206.72 21.13C208.94 18.41 209.94 15.4 210 11.31C210.05 7.21 208.77 4.43 206.25 1.56C205.35 0.53 204.59 0 204.08 0C203.91 0 203.73 0.06 203.57 0.17Z" id="kheioiymm"></path><path d="M124.75 1.76C125.89 2.62 126.48 3.83 126.48 5.31C126.48 5.99 126.19 6.33 125.62 6.33C125.23 6.33 124.94 5.99 124.77 5.31C124.66 4.74 124.43 4.23 124.15 3.69C123.63 2.79 122.54 2.37 120.83 2.37C119.34 2.37 118.31 2.71 117.69 3.45C117.12 4.13 116.78 5.17 116.78 6.71C116.78 7.3 116.78 12.06 116.78 12.66C116.78 14.21 117.12 15.29 117.75 15.97C118.43 16.71 119.47 17.1 120.95 17.1C123.18 17.1 124.49 16.31 124.77 14.76C124.89 14.19 124.94 13.9 124.94 13.85C125.06 13.51 125.29 13.34 125.62 13.34C126.19 13.34 126.48 13.68 126.48 14.36C126.48 15.8 125.91 16.88 124.7 17.74C123.73 18.36 122.52 18.7 120.93 18.7C119.09 18.7 117.67 18.3 116.63 17.45C115.47 16.65 114.9 15.29 114.9 13.51C114.9 13.51 114.9 13.51 114.9 13.51C114.9 13.51 114.9 13.51 114.9 13.51C114.9 9.22 114.9 6.83 114.9 6.35C114.9 2.58 116.85 0.74 120.85 0.74C122.46 0.74 123.71 1.08 124.75 1.76Z" id="ay2lFwqBt"></path><path d="M14.21 6.57C14.21 6.01 14.55 5.78 15.23 5.78C15.56 5.78 18.21 5.78 18.55 5.78C19.12 5.78 19.4 6.29 19.4 7.22C20.42 6.14 21.52 5.49 22.66 5.49C23.62 5.49 24.38 5.78 24.89 6.35C25.46 6.92 25.69 7.73 25.69 8.64C25.69 9.27 25.4 9.61 24.89 9.61C24.55 9.61 24.32 9.38 24.21 8.98C23.98 8.18 23.87 7.79 23.81 7.73C23.59 7.34 23.13 7.11 22.56 7.11C21.94 7.11 21.31 7.34 20.78 7.79C20.44 8.02 19.98 8.53 19.4 9.28C19.4 9.8 19.4 12.35 19.4 16.95C21.25 16.95 22.28 16.95 22.48 16.95C23.16 16.95 23.51 17.24 23.51 17.75C23.51 18.32 23.16 18.61 22.48 18.61C21.75 18.61 15.89 18.61 15.15 18.61C14.47 18.61 14.13 18.32 14.13 17.81C14.13 17.24 14.47 17.01 15.15 17.01C15.32 17.01 16.16 17.01 17.67 17.01C17.67 17.01 17.67 16.98 17.67 16.94C17.67 16.94 17.68 16.94 17.69 16.94C17.69 11.2 17.69 8.01 17.69 7.37C16.16 7.37 15.34 7.37 15.23 7.37C14.55 7.37 14.21 7.09 14.21 6.57Z" id="b29c6lMP53"></path><path d="M96.68 0.04L96.74 0.06L96.8 0.09L96.85 0.12L96.91 0.16L96.95 0.2L97.04 0.29L97.07 0.35L97.11 0.41L97.14 0.48L97.16 0.55L97.2 0.71L97.24 0.89L97.25 1.09L97.25 1.19L97.25 18.03L97.25 18.11L97.24 18.18L97.24 18.25L97.2 18.38L97.19 18.43L97.16 18.49L97.14 18.54L97.08 18.63L97.01 18.71L96.96 18.74L96.92 18.77L96.87 18.8L96.82 18.82L96.77 18.84L96.71 18.86L96.59 18.88L96.52 18.89L96.41 18.89L96.28 18.87L96.24 18.86L96.2 18.84L96.16 18.83L96.13 18.81L96.1 18.8L96.07 18.77L96.04 18.75L95.98 18.7L95.96 18.67L95.89 18.55L95.88 18.51L95.86 18.46L95.85 18.42L95.83 18.37L95.83 18.32L95.83 18.24L95.83 18.2L95.83 18.16L95.82 18.12L95.82 18.08L95.81 18.04L95.81 18L95.81 17.96L95.8 17.91L95.8 17.87L95.8 17.82L95.79 17.73L95.79 17.67L95.78 17.63L95.78 17.57L95.78 17.46L95.77 17.4L95.77 17.27L95.64 17.36L95.51 17.44L95.38 17.53L95.14 17.67L95.03 17.75L94.91 17.82L94.7 17.94L94.6 18L94.51 18.06L94.41 18.11L94.16 18.25L94.09 18.29L94.02 18.33L93.88 18.39L93.76 18.44L93.71 18.46L93.62 18.5L93.53 18.53L93.44 18.55L93.25 18.61L92.95 18.67L92.85 18.69L92.64 18.72L92.42 18.75L92.31 18.77L92.08 18.79L91.96 18.79L91.84 18.8L91.73 18.8L91.61 18.81L91.15 18.81L90.94 18.8L90.74 18.79L90.54 18.77L90.35 18.76L90.15 18.73L89.97 18.71L89.6 18.64L89.26 18.56L89.08 18.51L88.92 18.46L88.76 18.41L88.44 18.29L88.29 18.22L88.14 18.16L88 18.08L87.86 18L87.72 17.92L87.59 17.84L87.45 17.74L87.17 17.52L87.05 17.41L86.93 17.28L86.82 17.16L86.71 17.03L86.61 16.89L86.52 16.75L86.35 16.46L86.28 16.31L86.21 16.15L86.15 15.99L86.1 15.83L86.05 15.65L86.01 15.47L85.98 15.3L85.96 15.11L85.93 14.92L85.92 14.73L85.92 9.52L85.93 9.33L85.96 9.15L85.98 8.97L86.01 8.79L86.05 8.62L86.09 8.45L86.14 8.29L86.2 8.13L86.26 7.98L86.34 7.83L86.41 7.68L86.5 7.54L86.59 7.4L86.69 7.27L86.79 7.14L86.89 7.02L87.01 6.9L87.13 6.78L87.39 6.56L87.53 6.46L87.66 6.38L87.79 6.3L87.92 6.22L88.07 6.15L88.21 6.08L88.35 6.01L88.66 5.89L88.81 5.84L89.14 5.74L89.47 5.66L89.65 5.63L89.83 5.6L90.01 5.57L90.19 5.54L90.56 5.51L90.75 5.5L90.94 5.49L91.39 5.49L91.64 5.51L91.76 5.51L91.89 5.51L92.01 5.53L92.13 5.54L92.24 5.55L92.35 5.56L92.57 5.6L92.68 5.61L92.89 5.65L92.99 5.67L93.08 5.69L93.36 5.77L93.45 5.8L93.54 5.84L93.62 5.87L93.71 5.9L93.79 5.94L93.88 5.97L93.97 6.01L94.07 6.06L94.24 6.15L94.53 6.31L94.62 6.36L94.91 6.55L95.11 6.69L95.2 6.76L95.3 6.84L95.4 6.92L95.6 7.08L95.6 1.19L95.61 1.09L95.61 0.89L95.65 0.71L95.66 0.63L95.69 0.55L95.71 0.48L95.74 0.41L95.77 0.35L95.81 0.29L95.85 0.25L95.89 0.2L95.93 0.16L95.98 0.12L96.03 0.09L96.08 0.06L96.14 0.04L96.27 0.01L96.33 0L96.47 0L96.54 0.01L96.68 0.04ZM90.98 7.23L90.72 7.26L90.46 7.28L90.21 7.33L89.97 7.38L89.74 7.43L89.53 7.51L89.32 7.59L89.13 7.68L88.95 7.78L88.75 7.93L88.55 8.09L88.38 8.26L88.23 8.43L88.09 8.62L87.98 8.82L87.88 9.02L87.8 9.25L87.75 9.48L87.71 9.71L87.7 9.97L87.7 14.49L87.71 14.75L87.74 15L87.79 15.23L87.86 15.46L87.95 15.67L88.07 15.87L88.2 16.06L88.36 16.23L88.53 16.39L88.73 16.53L88.95 16.67L89.14 16.76L89.35 16.84L89.56 16.92L89.78 16.99L90 17.05L90.24 17.11L90.49 17.15L90.75 17.19L91.02 17.22L91.3 17.23L91.58 17.24L92.05 17.23L92.27 17.21L92.49 17.19L92.92 17.13L93.13 17.09L93.33 17.03L93.52 16.97L93.71 16.91L93.88 16.84L94.02 16.74L94.18 16.63L94.33 16.52L94.49 16.4L94.66 16.28L94.82 16.15L95 16.02L95.17 15.87L95.35 15.72L95.53 15.56L95.71 15.4L95.71 8.81L95.5 8.65L95.29 8.51L95.09 8.37L94.89 8.24L94.7 8.12L94.52 8.01L94.35 7.9L94.19 7.81L94.04 7.74L93.89 7.67L93.76 7.61L93.57 7.54L93.38 7.48L93.19 7.42L92.99 7.37L92.79 7.33L92.59 7.29L92.38 7.26L92.17 7.24L91.96 7.23L91.53 7.22L91.25 7.22L90.98 7.23Z" id="h1K5OvIsAQ"></path><path d="M195.66 12.04C194.67 11.79 198.72 7.01 191.53 1.29C191.53 1.29 192.47 4.29 187.72 10.98C182.96 17.66 189.83 21.64 189.83 21.64C189.83 21.64 186.61 19.92 190.36 13.8C191.03 12.69 191.91 11.69 193 9.42C193 9.42 193.96 10.79 193.46 13.74C192.71 18.21 196.73 16.93 196.79 16.99C198.2 18.64 195.63 21.55 195.47 21.64C195.31 21.73 202.81 17.14 197.48 10.22C197.12 10.58 196.65 12.3 195.66 12.04Z" id="dda7d5c9Y"></path><path d="M135.26 5.37L135.45 5.38L135.63 5.4L135.81 5.41L135.99 5.43L136.16 5.45L136.33 5.47L136.49 5.49L136.65 5.53L136.8 5.55L136.94 5.59L137.09 5.62L137.23 5.66L137.37 5.7L137.5 5.74L137.63 5.78L137.75 5.83L137.87 5.88L137.99 5.93L138.11 5.99L138.22 6.04L138.32 6.1L138.43 6.16L138.55 6.24L138.65 6.33L138.76 6.42L138.86 6.52L138.96 6.62L139.05 6.73L139.14 6.84L139.22 6.96L139.3 7.08L139.37 7.2L139.44 7.33L139.51 7.46L139.63 7.75L139.68 7.89L139.72 8.04L139.77 8.2L139.81 8.35L139.84 8.52L139.86 8.68L139.88 8.86L139.9 9.04L139.91 9.22L139.93 9.4L139.93 15.5L139.93 15.58L139.93 15.66L139.94 15.8L139.95 15.94L139.96 16.01L139.97 16.07L139.98 16.13L140 16.19L140.01 16.25L140.04 16.36L140.06 16.41L140.12 16.55L140.15 16.59L140.17 16.63L140.2 16.67L140.26 16.74L140.33 16.81L140.34 16.82L140.36 16.83L140.36 16.84L140.39 16.84L140.4 16.86L140.45 16.88L140.47 16.89L140.52 16.91L140.55 16.93L140.59 16.94L140.7 16.98L140.82 17.03L140.87 17.05L140.92 17.07L140.96 17.08L141.01 17.1L141.06 17.13L141.12 17.15L141.15 17.16L141.22 17.19L141.24 17.21L141.27 17.23L141.32 17.27L141.34 17.29L141.36 17.32L141.38 17.34L141.4 17.37L141.42 17.4L141.45 17.46L141.46 17.5L141.47 17.53L141.48 17.57L141.49 17.61L141.49 17.65L141.5 17.69L141.51 17.74L141.51 17.79L141.52 17.84L141.52 18.05L141.5 18.1L141.5 18.14L141.49 18.19L141.48 18.23L141.46 18.27L141.45 18.31L141.43 18.34L141.4 18.38L141.35 18.44L141.33 18.47L141.29 18.49L141.18 18.55L141.1 18.59L141.05 18.6L141 18.61L140.9 18.62L140.84 18.62L140.73 18.62L140.71 18.62L140.7 18.62L140.67 18.61L140.65 18.61L140.63 18.61L140.53 18.59L140.5 18.57L140.47 18.57L140.44 18.56L140.41 18.55L140.3 18.52L140.26 18.51L140.22 18.5L140.18 18.49L140.13 18.48L140.09 18.47L140.04 18.45L139.89 18.4L139.83 18.38L139.76 18.36L139.69 18.33L139.57 18.29L139.51 18.27L139.45 18.25L139.4 18.23L139.35 18.21L139.3 18.2L139.26 18.18L139.21 18.17L139.17 18.16L139.13 18.14L139.1 18.13L139.03 18.11L138.96 18.08L138.93 18.07L138.92 18.06L138.9 18.05L138.87 18.05L138.83 18.05L138.8 18.03L138.77 18.02L138.73 18.01L138.71 17.99L138.68 17.97L138.65 17.95L138.62 17.92L138.6 17.89L138.57 17.86L138.55 17.83L138.53 17.79L138.5 17.75L138.48 17.71L138.47 17.67L138.44 17.63L138.42 17.58L138.39 17.49L138.33 17.28L138.31 17.22L138.08 17.38L137.86 17.53L137.76 17.6L137.56 17.72L137.46 17.79L137.29 17.9L137.12 18.01L137.04 18.05L136.97 18.1L136.83 18.18L136.76 18.22L136.7 18.26L136.54 18.34L136.49 18.36L136.4 18.4L136.36 18.41L136.3 18.45L136.23 18.47L136.08 18.52L135.84 18.58L135.76 18.6L135.68 18.62L135.6 18.63L135.42 18.66L135.33 18.67L135.24 18.69L134.96 18.72L134.86 18.73L134.76 18.74L134.66 18.74L134.55 18.75L134.45 18.75L133.96 18.75L133.8 18.75L133.64 18.74L133.33 18.72L133.03 18.69L132.88 18.67L132.73 18.64L132.45 18.59L132.18 18.53L132.04 18.49L131.91 18.45L131.79 18.41L131.66 18.36L131.42 18.27L131.3 18.21L131.19 18.16L131.08 18.1L130.97 18.03L130.86 17.97L130.76 17.9L130.64 17.82L130.52 17.74L130.3 17.55L130.2 17.45L130.11 17.35L130.01 17.25L129.93 17.14L129.85 17.03L129.77 16.92L129.7 16.8L129.63 16.68L129.57 16.56L129.51 16.43L129.46 16.31L129.41 16.18L129.33 15.91L129.3 15.77L129.27 15.63L129.23 15.33L129.21 15.03L129.21 14.71L129.22 14.56L129.23 14.4L129.25 14.26L129.3 13.96L129.37 13.68L129.42 13.54L129.53 13.28L129.59 13.15L129.65 13.02L129.8 12.78L129.88 12.67L129.96 12.56L130.05 12.45L130.15 12.34L130.25 12.24L130.35 12.14L130.46 12.05L130.69 11.87L130.82 11.79L131.04 11.63L131.15 11.55L131.39 11.42L131.65 11.29L131.78 11.24L132.04 11.13L132.18 11.08L132.46 11L132.6 10.96L132.75 10.93L132.89 10.89L133.04 10.87L133.19 10.84L133.35 10.82L133.5 10.81L133.66 10.79L133.82 10.78L133.98 10.77L134.14 10.76L134.44 10.76L134.57 10.77L134.71 10.77L135 10.79L135.14 10.81L135.29 10.83L135.43 10.85L135.59 10.87L135.73 10.89L135.88 10.93L136.04 10.95L136.19 10.98L136.51 11.06L137 11.18L137.16 11.23L137.33 11.28L137.5 11.33L137.67 11.38L137.85 11.44L138.03 11.5L138.2 11.56L138.2 9.55L138.2 9.43L138.19 9.32L138.18 9.22L138.17 9.1L138.15 9.01L138.13 8.9L138.09 8.8L138.06 8.7L138.03 8.61L137.98 8.52L137.94 8.43L137.83 8.27L137.77 8.18L137.71 8.11L137.64 8.03L137.49 7.89L137.41 7.82L137.23 7.7L137.13 7.64L137.03 7.59L136.93 7.54L136.82 7.48L136.75 7.45L136.59 7.39L136.25 7.28L135.99 7.22L135.89 7.2L135.8 7.19L135.7 7.17L135.61 7.16L135.51 7.15L135.31 7.13L135.21 7.11L135.11 7.11L135 7.1L134.9 7.09L134.79 7.09L134.69 7.09L134.22 7.09L133.97 7.1L133.73 7.11L133.5 7.13L133.29 7.16L133.08 7.19L132.88 7.22L132.69 7.26L132.52 7.31L132.35 7.37L132.19 7.42L132.04 7.49L131.9 7.56L131.77 7.63L131.65 7.72L131.53 7.8L131.43 7.9L131.34 8L131.25 8.11L131.17 8.22L131.11 8.33L131.05 8.46L131 8.59L130.96 8.73L130.93 8.87L130.92 8.94L130.9 9L130.88 9.11L130.86 9.22L130.84 9.31L130.83 9.36L130.82 9.4L130.81 9.43L130.81 9.47L130.8 9.5L130.79 9.53L130.78 9.59L130.77 9.63L130.77 9.65L130.76 9.67L130.76 9.68L130.76 9.69L130.76 9.72L130.74 9.75L130.71 9.82L130.7 9.84L130.65 9.9L130.64 9.92L130.61 9.94L130.59 9.96L130.56 9.99L130.54 10L130.52 10.02L130.49 10.03L130.46 10.05L130.43 10.06L130.4 10.07L130.37 10.08L130.33 10.09L130.3 10.1L130.27 10.11L130.23 10.11L130.19 10.11L130.16 10.12L130.01 10.12L129.95 10.11L129.82 10.09L129.76 10.08L129.61 10.02L129.56 9.99L129.51 9.96L129.47 9.92L129.43 9.89L129.35 9.81L129.32 9.76L129.27 9.67L129.24 9.61L129.23 9.55L129.21 9.49L129.19 9.43L129.18 9.37L129.18 9.3L129.17 9.22L129.17 9.05L129.18 8.95L129.18 8.85L129.2 8.75L129.21 8.65L129.25 8.45L129.3 8.25L129.33 8.15L129.36 8.06L129.4 7.96L129.44 7.86L129.49 7.76L129.58 7.57L129.76 7.29L129.82 7.2L129.89 7.11L130.11 6.84L130.19 6.75L130.29 6.64L130.51 6.44L130.63 6.35L130.89 6.17L131.03 6.09L131.18 6.01L131.34 5.93L131.49 5.87L131.66 5.8L131.84 5.74L132.02 5.69L132.21 5.64L132.4 5.59L132.6 5.55L132.81 5.51L133.02 5.47L133.46 5.42L133.69 5.4L133.92 5.38L134.16 5.37L134.41 5.37L134.66 5.36L134.86 5.36L135.06 5.37L135.26 5.37ZM132.85 12.68L132.17 12.92L131.63 13.27L131.25 13.71L131.02 14.25L130.95 14.89L130.97 15.23L131.03 15.54L131.14 15.84L131.29 16.11L131.49 16.36L131.74 16.56L132.03 16.73L132.28 16.86L132.56 16.98L132.86 17.07L133.18 17.15L133.52 17.2L133.88 17.23L134.26 17.24L134.6 17.23L134.92 17.21L135.24 17.17L135.55 17.1L135.85 17.03L136.15 16.92L136.44 16.79L136.64 16.67L136.86 16.52L137.11 16.36L137.37 16.18L137.65 15.97L137.95 15.75L138.26 15.52L138.26 13.11L137.72 12.95L137.19 12.81L136.66 12.7L136.14 12.61L135.63 12.54L135.14 12.5L134.66 12.49L133.68 12.54L132.85 12.68Z" id="b1qEueV7Mq"></path><path d="M0.97 5.8C1.09 5.8 1.7 5.8 2.81 5.8C2.81 4.83 2.81 4.3 2.81 4.19C2.81 1.39 4.25 0 7.05 0C8.19 0 9.17 0.23 9.91 0.63C10.87 1.2 11.41 2.13 11.41 3.21C11.41 3.94 11.12 4.23 10.61 4.23C10.27 4.23 9.93 4 9.75 3.6C9.53 2.87 9.3 2.47 9.19 2.28C8.85 1.88 8.16 1.65 7.18 1.65C5.46 1.65 4.61 2.5 4.61 4.23C4.61 4.33 4.61 4.85 4.61 5.78C6.6 5.78 7.7 5.78 7.92 5.78C8.66 5.78 9 6.07 9 6.57C9 7.14 8.66 7.37 7.92 7.37C7.7 7.37 6.6 7.37 4.61 7.37C4.61 13.66 4.61 17.15 4.61 17.85C4.61 18.47 4.32 18.81 3.81 18.81C3.24 18.81 3.01 18.47 3.01 17.85C3.01 17.15 3.01 13.68 3.01 7.39C3.01 7.39 1.07 7.39 0.97 7.39C0.34 7.39 0 7.11 0 6.6C0 6.02 0.34 5.8 0.97 5.8Z" id="m4GdFVRLeZ"></path><path d="M78.8 5.55L79.41 5.63L79.97 5.75L80.49 5.9L80.97 6.08L81.4 6.3L81.78 6.55L82.12 6.84L82.41 7.16L82.66 7.51L82.87 7.9L83.03 8.32L83.14 8.77L83.21 9.26L83.23 9.77L83.23 14.48L83.21 15L83.14 15.48L83.03 15.94L82.88 16.36L82.68 16.74L82.44 17.09L82.15 17.41L81.82 17.7L81.44 17.95L81.02 18.17L80.55 18.36L80.04 18.51L79.49 18.62L78.89 18.71L78.25 18.76L77.57 18.78L76.85 18.77L76.17 18.73L75.54 18.65L74.96 18.54L74.43 18.39L73.95 18.21L73.52 17.99L73.13 17.74L72.79 17.45L72.49 17.13L72.24 16.77L72.03 16.39L71.88 15.96L71.77 15.5L71.7 15.01L71.68 14.48L71.68 9.77L71.7 9.26L71.77 8.77L71.88 8.32L72.04 7.9L72.24 7.51L72.5 7.16L72.79 6.84L73.13 6.55L73.52 6.3L73.95 6.08L74.42 5.9L74.94 5.75L75.5 5.63L76.11 5.55L76.76 5.49L77.46 5.48L78.15 5.49L78.8 5.55ZM76.13 7.16L75.6 7.26L75.13 7.39L74.71 7.56L74.34 7.77L74.03 8.01L73.78 8.29L73.58 8.61L73.44 8.96L73.35 9.35L73.33 9.77L73.33 14.48L73.35 14.9L73.44 15.29L73.58 15.65L73.79 15.96L74.05 16.24L74.36 16.48L74.73 16.68L75.16 16.85L75.65 16.97L76.2 17.06L76.8 17.1L77.46 17.1L78.1 17.1L78.69 17.06L79.23 16.98L79.71 16.86L80.13 16.7L80.5 16.5L80.81 16.27L81.07 15.99L81.27 15.67L81.41 15.31L81.5 14.91L81.53 14.48L81.53 9.77L81.5 9.35L81.41 8.96L81.27 8.61L81.07 8.29L80.8 8.01L80.49 7.77L80.11 7.56L79.67 7.39L79.18 7.26L78.63 7.16L78.01 7.11L77.34 7.09L76.71 7.11L76.13 7.16Z" id="c37mAI27J"></path><path d="M181.88 0.18C182 0.29 182.11 0.46 182.11 0.63C182.11 0.92 181.77 1.31 181.14 1.95C178.52 4.48 177.2 7.57 177.21 11.31C177.22 15.43 178.61 18.75 181.31 21.32C181.87 21.82 182.11 22.22 182.11 22.56C182.11 22.73 181.99 22.91 181.88 23.07C181.77 23.19 181.54 23.31 181.37 23.31C180.74 23.31 179.87 22.57 178.73 21.13C176.51 18.41 175.51 15.41 175.45 11.31C175.4 7.21 176.68 4.43 179.2 1.56C180.1 0.54 180.86 0 181.37 0C181.54 0 181.71 0.06 181.88 0.18Z" id="d6YqIDq2lJ"></path><path d="M149.59 6.94C150.04 6.37 150.44 6.02 150.84 5.86C151.23 5.63 151.8 5.52 152.44 5.52C154.4 5.52 155.42 6.48 155.42 8.37C155.42 9.3 155.42 16.73 155.42 17.66C155.42 18.45 155.14 18.8 154.57 18.8C154 18.8 153.77 18.45 153.77 17.66C153.77 16.79 153.77 9.83 153.77 8.96C153.77 7.77 153.26 7.13 152.28 7.13C151.54 7.13 150.78 7.58 150.16 8.45C150.16 9.38 150.16 16.81 150.16 17.74C150.16 18.53 149.87 18.87 149.36 18.87C148.85 18.87 148.56 18.53 148.56 17.74C148.56 16.88 148.56 10.01 148.56 9.15C148.56 7.82 148 7.2 146.95 7.2C146.27 7.2 145.63 7.66 144.95 8.53C144.95 9.45 144.95 16.83 144.95 17.75C144.95 18.55 144.66 18.89 144.09 18.89C143.52 18.89 143.3 18.55 143.3 17.75C143.3 16.61 143.3 7.5 143.3 6.37C143.3 5.8 143.52 5.57 143.98 5.57C144.21 5.57 144.43 5.74 144.55 6.08C144.66 6.23 144.72 6.52 144.72 6.86C144.72 6.86 144.72 6.86 144.72 6.86C144.72 6.86 144.72 6.86 144.72 6.86C145.25 6.29 145.59 5.95 145.74 5.83C146.08 5.61 146.54 5.49 147.18 5.49C148.09 5.49 148.9 5.95 149.59 6.94Z" id="cew0A9K5b"></path><path d="M49.79 5.56L50.23 5.61L50.64 5.69L51.04 5.78L51.41 5.9L51.76 6.04L52.09 6.2L52.4 6.38L52.68 6.59L52.95 6.81L53.19 7.05L53.41 7.32L53.61 7.6L53.79 7.91L53.95 8.24L54.08 8.59L54.19 8.96L54.29 9.35L54.36 9.76L54.42 10.2L54.45 10.65L54.46 11.12L54.46 11.24L54.45 11.35L54.44 11.45L54.41 11.65L54.39 11.74L54.36 11.83L54.34 11.91L54.26 12.06L54.23 12.12L54.18 12.18L54.13 12.24L54.08 12.29L54.02 12.34L53.97 12.37L53.9 12.41L53.83 12.44L53.76 12.46L53.69 12.48L53.61 12.49L53.52 12.5L44.63 12.5L44.63 12.43L44.61 12.43L44.61 14.27L44.62 14.51L44.64 14.75L44.68 14.98L44.74 15.2L44.8 15.4L44.89 15.6L44.99 15.77L45.11 15.95L45.25 16.1L45.4 16.26L45.56 16.39L45.74 16.52L45.94 16.63L46.16 16.74L46.38 16.83L46.63 16.92L46.89 16.98L47.17 17.05L47.46 17.1L47.77 17.13L48.1 17.16L48.44 17.18L48.8 17.19L48.93 17.19L49.06 17.18L49.18 17.18L49.31 17.17L49.43 17.17L49.55 17.16L49.67 17.15L49.9 17.13L50.01 17.12L50.13 17.1L50.44 17.06L50.54 17.04L50.63 17.02L50.73 17L50.82 16.98L50.92 16.95L51.01 16.93L51.09 16.9L51.17 16.87L51.26 16.84L51.3 16.83L51.35 16.81L51.41 16.79L51.46 16.77L51.51 16.74L51.57 16.72L51.63 16.69L51.7 16.66L51.84 16.59L51.91 16.55L51.98 16.51L52.06 16.46L52.14 16.42L52.22 16.37L52.31 16.32L52.4 16.27L52.48 16.21L52.67 16.08L52.77 16.02L52.88 15.95L52.98 15.88L53.11 15.76L53.24 15.66L53.29 15.61L53.35 15.57L53.4 15.53L53.46 15.48L53.55 15.41L53.64 15.35L53.69 15.32L53.73 15.3L53.77 15.27L53.84 15.24L53.87 15.23L53.9 15.22L53.93 15.21L53.98 15.2L54.07 15.2L54.17 15.21L54.22 15.22L54.27 15.23L54.32 15.24L54.36 15.26L54.43 15.3L54.47 15.33L54.53 15.39L54.56 15.42L54.59 15.46L54.63 15.54L54.64 15.59L54.65 15.64L54.67 15.7L54.67 15.75L54.68 15.8L54.68 15.87L54.69 15.94L54.68 16L54.68 16.07L54.67 16.13L54.66 16.2L54.59 16.4L54.56 16.46L54.53 16.53L54.5 16.6L54.41 16.74L54.36 16.8L54.25 16.94L54.13 17.07L53.99 17.21L53.83 17.35L53.75 17.41L53.67 17.49L53.52 17.59L53.37 17.7L53.21 17.8L53.05 17.9L52.88 17.99L52.7 18.08L52.52 18.16L52.33 18.23L52.13 18.31L51.93 18.38L51.72 18.44L51.5 18.5L51.28 18.55L51.06 18.6L50.59 18.69L50.34 18.72L50.09 18.75L49.83 18.77L49.57 18.79L49.02 18.81L48.74 18.81L48.25 18.81L47.78 18.78L47.34 18.74L46.91 18.67L46.51 18.6L46.13 18.51L45.77 18.4L45.43 18.27L45.11 18.12L44.82 17.96L44.55 17.78L44.29 17.58L44.06 17.37L43.85 17.14L43.66 16.89L43.5 16.63L43.36 16.34L43.24 16.05L43.14 15.73L43.06 15.39L43 15.04L42.97 14.67L42.96 14.28L42.96 9.57L42.97 9.43L42.98 9.31L43 9.18L43.02 9.05L43.04 8.92L43.07 8.79L43.1 8.67L43.15 8.55L43.19 8.43L43.23 8.31L43.29 8.19L43.4 7.96L43.47 7.85L43.54 7.73L43.61 7.63L43.69 7.52L43.78 7.42L43.87 7.31L44.05 7.11L44.15 7.01L44.29 6.88L44.58 6.64L44.74 6.53L44.9 6.42L45.07 6.32L45.25 6.23L45.43 6.14L45.62 6.06L45.81 5.98L46.01 5.91L46.22 5.85L46.43 5.79L46.65 5.74L46.87 5.69L47.1 5.65L47.33 5.62L47.57 5.58L47.81 5.56L48.07 5.54L48.33 5.53L48.59 5.52L48.85 5.52L49.33 5.53L49.79 5.56ZM47.75 7.16L47.35 7.23L46.95 7.33L46.57 7.46L46.21 7.61L45.86 7.79L45.52 8.04L45.24 8.3L45.01 8.58L44.84 8.88L44.71 9.19L44.63 9.51L44.61 9.86L44.61 10.82L52.79 10.82L52.71 9.84L52.45 9.01L52.03 8.32L51.43 7.79L50.66 7.41L49.72 7.18L48.61 7.11L48.17 7.12L47.75 7.16Z" id="cFiSxUJuO"></path><path d="M67.34 1.76C68.48 2.62 69.07 3.83 69.07 5.31C69.07 5.99 68.78 6.33 68.21 6.33C67.81 6.33 67.53 5.99 67.36 5.31C67.24 4.74 67.02 4.23 66.74 3.69C66.22 2.79 65.13 2.37 63.42 2.37C61.92 2.37 60.9 2.71 60.28 3.45C59.71 4.13 59.36 5.17 59.36 6.71C59.36 7.3 59.36 12.06 59.36 12.66C59.36 14.21 59.71 15.29 60.33 15.97C61.01 16.71 62.06 17.1 63.54 17.1C65.77 17.1 67.08 16.31 67.36 14.76C67.47 14.19 67.53 13.9 67.53 13.85C67.64 13.51 67.87 13.34 68.21 13.34C68.78 13.34 69.07 13.68 69.07 14.36C69.07 15.8 68.49 16.88 67.28 17.74C66.32 18.36 65.1 18.7 63.51 18.7C61.68 18.7 60.26 18.3 59.21 17.45C58 16.65 57.49 15.29 57.49 13.51C57.49 13.51 57.49 13.51 57.49 13.51C57.49 13.51 57.49 13.51 57.49 13.51C57.49 9.22 57.49 6.83 57.49 6.35C57.49 2.58 59.42 0.74 63.44 0.74C65.05 0.74 66.3 1.08 67.34 1.76Z" id="a6aJpcbBg"></path><path d="M158.79 5.43L158.82 5.44L158.88 5.46L158.91 5.47L158.94 5.49L158.97 5.5L159 5.53L159.03 5.55L159.06 5.57L159.09 5.6L159.12 5.62L159.17 5.69L159.22 5.76L159.25 5.8L159.28 5.84L159.3 5.89L159.32 5.93L159.33 5.97L159.35 6.06L159.36 6.1L159.38 6.14L159.39 6.19L159.4 6.23L159.42 6.27L159.43 6.32L159.48 6.44L159.5 6.49L159.53 6.57L159.54 6.62L159.55 6.66L159.57 6.74L159.59 6.78L159.6 6.82L159.61 6.86L159.86 6.74L160.35 6.51L160.59 6.4L160.82 6.3L161.05 6.21L161.28 6.12L161.5 6.04L161.71 5.96L161.92 5.89L162.12 5.83L162.32 5.76L162.52 5.71L162.9 5.62L163.09 5.58L163.26 5.55L163.43 5.52L163.6 5.5L163.76 5.49L163.92 5.48L164.08 5.48L164.54 5.49L164.98 5.52L165.41 5.56L165.8 5.62L166.18 5.71L166.54 5.81L166.87 5.93L167.18 6.07L167.47 6.22L167.74 6.39L167.99 6.59L168.21 6.79L168.42 7.02L168.6 7.26L168.76 7.52L168.9 7.8L169.02 8.1L169.11 8.41L169.19 8.74L169.25 9.09L169.28 9.45L169.29 9.83L169.29 14.59L169.28 14.78L169.27 14.96L169.26 15.13L169.23 15.31L169.21 15.48L169.17 15.64L169.13 15.8L169.08 15.96L169.03 16.11L168.97 16.26L168.91 16.41L168.83 16.55L168.76 16.69L168.67 16.83L168.58 16.96L168.49 17.08L168.39 17.21L168.28 17.33L168.16 17.45L168.05 17.57L167.92 17.68L167.79 17.79L167.67 17.88L167.55 17.97L167.42 18.05L167.29 18.13L167.15 18.2L167.02 18.27L166.87 18.34L166.72 18.4L166.57 18.45L166.25 18.56L165.92 18.64L165.75 18.68L165.57 18.71L165.39 18.74L165.03 18.78L164.84 18.8L164.64 18.81L164.45 18.81L164.01 18.81L163.77 18.8L163.53 18.78L163.3 18.77L163.07 18.74L162.84 18.71L162.62 18.67L162.18 18.58L161.97 18.52L161.76 18.47L161.55 18.4L161.34 18.32L161.14 18.24L160.94 18.16L160.74 18.06L160.55 17.96L160.35 17.86L160.16 17.75L159.97 17.63L159.79 17.5L159.61 17.37L159.61 22.86L159.6 22.96L159.59 23.06L159.58 23.15L159.56 23.24L159.54 23.32L159.52 23.4L159.5 23.48L159.47 23.55L159.43 23.62L159.4 23.67L159.36 23.73L159.32 23.78L159.28 23.83L159.23 23.87L159.18 23.91L159.12 23.93L159.07 23.96L159.01 23.98L158.95 23.99L158.88 24L158.74 24L158.68 24L158.61 23.98L158.56 23.96L158.5 23.94L158.39 23.88L158.35 23.84L158.3 23.8L158.26 23.75L158.22 23.7L158.18 23.64L158.15 23.58L158.13 23.51L158.1 23.43L158.08 23.35L158.06 23.27L158.04 23.17L158.03 23.08L158.02 22.97L158.02 22.87L158.02 6.56L158.02 6.46L158.03 6.37L158.04 6.27L158.05 6.18L158.06 6.1L158.08 6.02L158.11 5.95L158.13 5.87L158.18 5.75L158.22 5.69L158.25 5.64L158.29 5.59L158.33 5.56L158.38 5.52L158.42 5.49L158.47 5.46L158.58 5.43L158.64 5.42L158.73 5.42L158.76 5.43L158.79 5.43ZM163.28 7.17L163.05 7.19L162.82 7.21L162.6 7.24L162.39 7.27L162.18 7.32L161.99 7.37L161.8 7.42L161.62 7.49L161.44 7.56L161.29 7.63L161.13 7.71L160.98 7.81L160.81 7.92L160.65 8.04L160.48 8.18L160.31 8.33L160.13 8.49L159.95 8.67L159.75 8.86L159.55 9.06L159.55 15.6L159.61 15.6L159.61 15.57L160.08 15.85L160.53 16.1L160.98 16.34L161.4 16.53L161.81 16.71L162.21 16.85L162.59 16.97L162.95 17.06L163.3 17.13L163.64 17.17L163.96 17.19L164.24 17.18L164.51 17.17L164.77 17.14L165.01 17.11L165.26 17.07L165.49 17.02L165.71 16.96L165.92 16.89L166.12 16.81L166.31 16.72L166.48 16.62L166.69 16.49L166.87 16.34L167.04 16.19L167.18 16.03L167.3 15.86L167.4 15.67L167.48 15.48L167.54 15.28L167.59 15.06L167.61 14.84L167.62 14.61L167.62 9.86L167.61 9.58L167.58 9.32L167.53 9.09L167.46 8.86L167.37 8.65L167.26 8.45L167.12 8.27L166.97 8.1L166.79 7.95L166.59 7.8L166.37 7.68L166.19 7.59L166 7.5L165.8 7.44L165.59 7.37L165.37 7.32L165.13 7.27L164.89 7.23L164.63 7.2L164.36 7.18L164.08 7.17L163.79 7.16L163.54 7.17L163.28 7.17Z" id="g1eXYp6hy3"></path></defs><g><g><g><g><use xlink:href="#bhBdYFqzf" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#bhBdYFqzf" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#bvatw1rZG" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#bvatw1rZG" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#kheioiymm" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#kheioiymm" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#ay2lFwqBt" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#ay2lFwqBt" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#b29c6lMP53" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#b29c6lMP53" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#h1K5OvIsAQ" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#h1K5OvIsAQ" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#dda7d5c9Y" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#dda7d5c9Y" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#b1qEueV7Mq" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#b1qEueV7Mq" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#m4GdFVRLeZ" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#m4GdFVRLeZ" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#c37mAI27J" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#c37mAI27J" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#d6YqIDq2lJ" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#d6YqIDq2lJ" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#cew0A9K5b" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#cew0A9K5b" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#cFiSxUJuO" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#cFiSxUJuO" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#a6aJpcbBg" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#a6aJpcbBg" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g><g><use xlink:href="#g1eXYp6hy3" opacity="1" fill="#ffffff" fill-opacity="1"></use><g><use xlink:href="#g1eXYp6hy3" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use></g></g></g></g></g></svg>
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://cdn--media--1-freecodecamp-org.cdn.ampproject.org/i/s/cdn-media-1.freecodecamp.org/images/1*SA3NDT1VMUBn9g0emx9TUg.png
+
+‰PNG
+
+   IHDR      Ê   Ò%³F    IDATxÚí\TYÆÇÆ\‘îF@@Åîu×îÏŞUW]w];Öîî0A$DÀ¦Kîî˜„ïÌ\DD@˜;¸ó<ûüfÇ™áÆ9çŞó¿ï)Fk#†á†o†z·R‚ 	wm†XA ,†XA ,†a A ,†a A †a A †a€A †a€AÀ‚a€AÀ‚a`AÀ‚a`A°``A°`†X°`†X°`†XA ,†XA ,†a A ,†a A †a A †a€A †a€AÀ‚a€AÀ‚a`AÀ‚a`A°``A°``á–A †a€A †a€AÀ‚a€AÀ‚a`AÀ‚a`A°``AL<—#Ï/ùì›’’>ùœ[ùsñH°q6‡Ëå–Tù‡ÍãÕË~! Ã0 ª?•$…ºÜ¸ºŸ‘v·.:w“Õ3üÇ¶#¾I
+lø¼Ç›:È®<lW»ÏŒ»$Ã`Lš³4¯ò7ü€·÷Û¶löËÓ9È%H‚ KÆPYÆ@‰–•kµÚFµÃ ,¨”hgÙK§ÏÀÑ¿,_ı÷Æşùû¯•‹íc¤n:É10I`üDÿsg/¼`ëS“l­¯¨ù¿5›¾ ¬P_C]í¿ÎŞÊG>A’X2†J²º‹Ö­˜õÛ¯³~¯»ûuşK»õÕ¯™~Zè+ê0uÅO"ûûå‹L&o¦+š†XP=(oİ´az½]t®H6ïf¢6lÁn¦°x\N^~~1›ûşğù<¼–””½/))¡ÚõŸ—$xÇãÕÜ´˜d­+¯şëêMU –ƒ¾¶æ†37ó)Ğn®¤üp'ÈB VÃrK=óñƒh˜ñ”­”jºYkÊ®Ş½™\x"ï‚Ãåî=‚¡Ü5° ñ«8dÜ˜á&–óÒ©ÆB¡„o3l^½pÙßI<ÎdÅ|8vä¤³wT*
+}|ãâC‡Ï]¾›áñÊşğÉËyÅ‚¿÷=|ìt`\râû7—Î?|øÈû±éù´«Ôëî‰C­RŠ8¯ìî9°ÿØéË/¼ÃŠ9<d# «aVï1hX¯IÃ¾
+X¿íØÈå‰^ú9\Î®ÓG*PóÁ0 ªåo[0ÁĞ¨ï¶ó÷bS³ŠYœò/Râ¢ã“Ø|A +Âõ¾†áÆ³ÎÔWñ–Í›2 ß€Ñ&M7zæÏ«fÍ˜ f2:15—|êpU]×ğ·6.9qÄ¨‘Côµ°è?séÆà4MÀ:7ÃDkÀèMûv=nÆÌYãG6jòëÏ
+Ù`, –t—+ò.Ø6 †XP}ˆ
+Uå„ÙÏÙßÔ¢ßc–¬şçê­ûï|ƒ³ó™~Ç‹zùØÄÈbÛ%WáÎ?L§÷˜n)))‰ÑïOn]ŞÏXWÓbJRš Ÿz¸ó---­£¦¼å›˜˜œœtdíMıUçiÖåôM‡Moï—‘‘‘á¹åStûÚú& 7X , ° BXb•ägÅ\=¸qÆä1&†:Úº†}ú1~ßEÛªÓÕç€õÖz»™‘á‡Ÿ¶SğáÏEãÕ'|¬›šZú«wœgü>÷ı³Q:ŠCWœçˆ
+Xye€Õ_U»ÏÑïË‘à÷pT¿^vİD€À`Á0 j8ˆUŞéª”_œìçşğÖ¹Õ‹çî×[UYiÖ?—XäÛÏëê†9††&ïSŠ*nçô¶åúãÊ ëÙMm³İWŞ•ÉJã<göVğóIV•€•|OWAı×UU–¶ÖÆ³7Ê ËRsğîÙŸ6\’¿bÂ`­›³8ÈL  €Ã ,¨aˆS\‘ÆdUÆ“ÜX¯Ó'¨hÜõM# ó°ÜÈW{—Ì0ìÕ;*‡W±ñâá?-'”–¡ÅÁ»ŞŸ6ï=ËL©ÏÂª+'ë™©¼êÏ¿ÿ[™şø<Ÿêkjm=—¢¹Kú]Vñ7ùÉOª0xMr!2€À`Á0 j
+xvvòˆÁ'ì½+EµÈÿŞİÛ¡¥¬µå U1‚unÕC#“÷©ŸÁÒ™]¿é÷_°Üõ©X}«¬üìğñŠ³–¬N,®Àâú:^×Ö4<~­l‚ÓË,uFL÷­¸•ì˜•“ëNßœÅFf° X ,`AC‰^÷‡YššõOP|Öçß°nZ©¡itÖ5’ WEÀr»øOoc£COC* Rôæ_&kšN°Xy{ç˜÷3ı±GtÅY­ØùÉ'7L×5u÷™`-ì¯f4ø¢KJùob½lÆô5Z°÷çS³!À`°`€ıg¢–ÁÉ=µm¹¡–Îôe_³²yãáíççûö…Ëí3»‡ZŸ³>6Ÿ_©VqºÿOã,ŒÇ,¶uñˆ‹‹
+{}Ïêa½µÕÍ¦ˆX%<¶§İq3=qs—_ôÔİÓÛ×ÇÇÍÙşä?-tµf¬Ú•Yô1‚5@WOôìßİ¼>Ä'Äù¾İüë4£>#}ÁW ,  †XPÃ ,aS ;'şêÁ?‡X˜™÷í?tØğ‘#F<È¼·ÅÌÅ¿ı,„0^¤ÛC}ãMSóöÁ”ı-Ÿ:}Æ“ÇO]°lê¤±ú}'%¥ +Ìñšš¶ñŞ[^Ÿöçõƒ‘¬éÜc¬j„S˜qÿÔ¶Qûô±´6løğá#hnÑwö²í>±ŸBk—ô×é3báÂ_F0cæŒ	£[™xÜú5“¸`° X0À‚b	Ğ„S”şÁÙŞæöõkD·ïŞå˜’UPş«ÜÄ¨[7ï¸—O7ÅKNu|h}õÚëGO£RÒ®ÿÕxÈä”,Á|U9ñ¡×nÜñ	K«Ğ†˜fûÒ'^µ‘´R.‹öŞùé£›×qÛúáï÷éYùeGPÖDh©Ög²­_®·›íkWï<|â[º`° X0À‚&c•~\[Ògkü}\TZR0èÕƒÍÛv¾Ïb—–/Èùû§±ı'ü/S8=iÅ—o¡léÀš ¤¤Â!”Ã§ï	`©ZLvFÕÊÖ"¬i €À‚a $™JxkeÙÛPÜúÈôìôôŒŒ”èÛşĞSUşã¼wQ=OFEE°„€A , ° Æï¼¾»ùÏ óŞæÃ†hÙ×ÈĞ`ıáÛ…‚eëW74:Ó-ù ° X0À‚c“"+3Òş¡õõk7îX?ŠË,ÿ®^÷ıÁÉêòÛø<äÀ`Á0 j¤ŒU‹Å»Ï’
+ÿ@.@ , ° ‚ X ,`A° X0° `° X0À‚ `ı‡€µû †XA ¬ò›µVÅ›×EÄF‡EG†ŠäàˆĞMGö2T;£æƒa A KEÆP™¼6ÕéÉPëBÇM´{´ù¸5†XAÒÁ¢0‹¾QíÁ0 ‚ €Ã0 ‚ €À‚a€A €Ã0 ‚   †a A €Ã ,‚ ©¬
+Cí¨‘w­>w¥áx ¬J©'S}Ò•'`¥7À³¨¹T]ß ÍÏÏ¨ÊA©eÙİÀ2T˜eJäšj¥¯(x­˜kJå.Ë»úÉ8i¬’’Ç I—Ë%%€Å¨ÿ›²àşÛ¦—jSÎfÚr–†š#ûié¯=f@¹Õ†[Èö3èd¦ÕÎXü¾…¼”V‚ª1AÒµ7ÑèÜ[S®¿‘ü@“ŠéFYs”¥â`Ó.æÚß™jR	Øê¿BBÆHùE	+]ê,¾3Õèb¦-ki¨4¸79ì/ÏEkt¥!f²}õ;öÖlo¢ŞÆH…ús	ãËDhk¬F.„N½µH~u5×Vd*?È¤Ü
+ƒLHúw6Ó"¹ÙÁD½m/U²Šl¾ñä å…¼'ÙÑ£¿¡ÎØf?Œ4kÒØ_fûeÎ¸_Ë<æ—ÙÃçÿĞwÚ8İ1zìEœœiù°ÄBW,+333‚$Aiiiyyy|>€U/õks]ùïzkéøıòEÿ»óÔá}çN»röò½Û¯\\Ü_¹¸¿.·ÍsÇów¯¹tz÷é£›îûaåÏãNÿ€E~ĞB_ÅËp¤6j®Û³½±ºÊ0ó³'/Ş¼nËñı;NÚ{îÄ‘‹§HÒİ´¹_1İ(;½~qÇîÑ±+çœ?¹ëÌQ’Ús×.ï5i8­–úŠß’'Hj|o¡§Ğ­¯Áhr
+3W/Y¿oûæcä,ï={üÀùÇ/Ÿ¹`}Ëêéc§7/¾<—go^Z;Ø¿síğÅS{Îß~òĞ_wM_õ?Rs“j›$NÃÇ,r„-”šéöìd¦MúL7kÍÒ5ÿnÙ"H„C$ƒöróôñËgO\9wûÉÃ[¶Ê}ÓöÁ±ËgÉWG/!¹¹÷Üñ§o;qpÓÑ½köl±z1IRíÑäô"Ó\Oäo}$ˆ°Êw6×±œ1aå¿I.¸pò¢õ-7Ï·¡Qi™Ål»‚ŠY¬¼‚ü˜Äxòƒk¬?Aş„üaÿ™;ši‘ò ®ƒ”ZÀâp8IIIÙÙÙL’¤¤¤dee°Äy_nªÓ“T®ÿÛ´öäKÖO^y{$¦&×õ˜RÒÓ¼Şû×7`5Ó•:oêÁËg_9{H$¼tzÒÒ-YšéF*cR	™ÿ0zÓ‘='n\ºk÷Èùí« ğPfq‘hç•“íàkõÔæØµ“–Ìoª#×R˜âªçÊ·C›|s=…A&?ÿ½zÏÙcG¯¿úĞÊÆÅÉÍã-9…ô¬Lúe45#¤ûON\¿¸tËúÎ:d§§Œ”©!Å‰˜¤9ÂO½{ı“İów¯ı>ed“DC´œIÒ—^îO_<'H}öÎµOo;~àÇ•?+6ehË5æ\&ŞÁDcÎËÈõûğ™}@h°È‹u’?ûğğÙÓ“7/“²ÑB_‘lüSÓ' «.*,,ŒŠŠBƒ$A"^ ,ñ„.šhÊNY¶ğ‚õ÷á!Ù¹9ÕDº…ÿUÿê'â,†¦ìŠí“'q>ŸÏãóD0ypßuú°h‹=“j¦‰F÷ïzkÎ\½øÈ•s¯½=¢âc™EE57Ô5È©%¥¥ÖY²y=ÙUÃÑì…Ó\G¹ÊPóï—-Ú|lÿÇ÷¼ŞŠ?3'›ÍaóKÄ®îLÉÇÙy¹Á¡§o_°x.C½ëĞje¨ÌPí,ßßhÖê%Ó]Ü_G„‘#¤³‚x2šËã“²ß×>·Ÿ<ÜqòĞü?³øql]c«M´åÔ‡÷ÙyúÈ;?o!–Šíz,)%eÃ;(`ûÉÃãÑY»Sš+22’ş]‚¾™Èm0<<€E«!¦íŒÕ†-ø15=­€YHîø•«ÄÿHµ¬ßvl¤S²9œ]§Ô	°d=ÌÚöRÕ;ğ‚ÕÍÔÌôB&“Ãáˆıô+İˆ	G¾òñ0ûa´JTƒy#?ÈxàìÉ›î‹ÊÍÏ+(,d±Y<ïäf¥Ó!¹–_X@HK{tÿ–Šß³€úŠÍ´úL÷ÄÅ);7·2±®øE Ÿdta“$á¤Z¢É\¹şFû/œÊd([Œ9_Âœ¼Ü‹V7;›ë´Ğ%ÒÀ‚  Vã,êæHeğÜïã““Är;–@Àb×°Ê{û¿~%—ËûÆ©Q5K¶¬oY>Ô«V ­ğ]o­+¬XvÅüm8y}åá]†F÷oĞõ»|-õ6ØY1)`\ÁræÄšÑ³ìVl¿vÏVŠ«êû,*nÁúßD c V¥ô,/{ß×C¾•Ôçö!  ë‹[³şøA6.­`‘ä"Œ"k¦uíñ½&ó?¬•©=»~QÖÒ°6uC«ÇyS³órÄÓ¨‡?yCÈìÉ­ôë+”Em¶ƒ©f'GÎS¢aV9O_ºÔ¾¢H‘ğåÌ	¡Áß4Ë*¤˜‹ûå¾m{©Ö>× XŸ%&Ÿ›şŞ; ‘¼gfD:¼dr¸H¨¤FUü¾´ª¯Ë¯¯’ââ_Ÿğèd.€°ê°Èİ°K½_6®INOk°tÕ  ‹Ô
+û.œjˆR~ëÜzlÛ^j_­Ø`;U„a
+ß˜…sÖ.kk¬VQ«½­—ÜiœY…F-šQÃ˜Á%l¡³lë†ì¼ÜÿätÊËa1›õıòEíÕkÙc€U	°RBüŞùÆ~fûÊYT˜™‘™••‘WÄã°r23ÒÓÓÙV~nJzFFF^^nù:3+›Åæåçddfgd¤æqXÌ¼ÔôŒ¬ÌÌ¬Ìì¬ŒôìŸËÊLO'?Îg²
+Òc>º÷Ü+œÍ“öQ÷ ««¥¾¢ÑÄa/nøÕLC,Ce†rÇ¤ôÔ†“\ÔaüoÓº&_ÿ(€U1aWíÚÔ¦.‘Ú®Ì¦>zõ|1‹%)—´G€O[£šZ›½v¾!à>õfÃşí=·4P`‰ XîËîmP~|ÀCç ïwQI±aNÏ^»98ÆÇy»^~äæõî…İsß÷W/’RB}İİıƒ<Ül|âÓÃ¼î;¼ñ~ãìòâí{ïWvoCÓ£}?qr÷Æå•wnn^Z|LJn!M„ « ‹¡Ñ}Ò²…¯¼=Ênû)¾E°T:EÆÅ4´ôáñyÚ£úµ¨q¢,I¬Šµõ’Íëê]ÅXmÕşøwky#š¤t@<÷ûê“< Éõ7zàd×ĞÎè‚õMÕa-¾6Ê€U	°RÃüİ}bÉû‚Ô»·„ƒ||ı}½½}ŞG¾÷{öö}bl˜«wBœ§ÓƒÀRåù¼yÁ-M
+õOLığ>  $,2Ôï‘óûœ¸7AÙ™q~a±Ñì‚äGÎŞÎ÷]¼Bc"Âıüü²Š¸‚ Xõ	X„æ®]›” )5 ë«8rûÉC†\ëÆXå'•“Ÿ7pÖ¤f:´&ÊjªÓSk”%‘oÓû[Œry÷Zy¨Y«ª ‹àùêù»W¥±c~ÉÇ÷›RãUXµ,BX™	¡Nor™Å¼İ\ı¢sâ#>DÅEG>|àààêõ!;9Ò=<=Îë™]xq	—åûÎ5†WšæŸ”agç“éóÜêYHnBØ›àÜôXßˆØ¨¢ÜÄÇ.ŞÁï:¼	ÉÉL÷õÌç”P `‰°ê]¬_™œ–*A'ÀúªÒ³2åôª!ˆ%Y€UNBAa¤&¹¡¡Ù}ğÜï£âc%+pEiæŠEÍuª˜ï\ßõÖò	
+h€tU~0G®œû®·f—- «rÆ*ö~ckóØé¥gf‹ÏÎy÷â¹Ó3—€ˆ$VA¦ß;;{§¨´‚Ô ·®1Å¥\v°¿G"¯45:$5#ùƒ¯‡ã³çŞ>®¯ƒ²Óâ|#ò³’>Ä&Æ³òÓ½ñgå¸»99:»G'¬  V}©eg­Y’)Y'Àúª8\ÎáËgkhP“8À*»°y¼Ó·¯Š6¡%©Â×îÙö_õş¦©w~>ã‡T¹>C©£‹cƒ=ò›³vY3]ùêà€õeÂñy<6›Íáò¨<®`©]_Ğ…ƒ¼gs8|áo¸Ô'<Á7‚™•KÈ‹`éhr±pÉß
+?"¿ãóÿÎ#S¶)>¿¤œB ¬ú ¬z
+ŠCz;¼v“¸k€U›ZÍÖÅ‘¡ô]#,¢€`ÁRÙuœÍœ0Ùß‡ş­4Ù¦iã¡«,ä¼]¿(×o1‹e8qXËj2€A ¬FXä9²“¹ö©›—%ñ	€U½õõªaÁÉ¬Â"æÚ½[j]k?`°™®ü¼u+r„±+I|^÷ôÓİ¿¹^å>LMtäF,œ&½'©Ãsuİ­¯> €°3`µ1R™½f©„ «6zÒÚP¹º„’PÀ¢êé'.ÏšhËÕ¦'õ›±¿ÌON”Pº"Ç|üúEª(V<å–úŠòMì_ºHÊyQùëÆ?ZV5¢‹=C{®	°4Gö+(,”Ğ*€UE'ÄMÚ´š1wX¾š£,¿ŒèT5W™Šé”‘A¡¥Û×„0½q	PVÇ¶½ÔVíÚ$qyÇåñT÷şòú•ZÀ*..NHHàó1]$1b2™¤Ğ°ª®uÈİíú#kÉ­r$°ŠY,ï €GÎö7lî¿qi×™£[íßòÑÛO:÷†«û›f!TÊÊÍ™¿~%©·Ya©`¾†ÜÙk–24»°:[èHPŒ§Š'Eï‚õMª/]Åğ)ÿZÃÌ©áâ=5²ÇÈøXRª#ãb3³³êƒ±®>²ú²…Wj‹ U~~~jjjI‚RRR222ØÛŸµ~«¹‚é÷#êcY¹Ù¯}</?¸óçşs×®˜¸dŞä¥&-™?sõâÛÿ:yã²óÛWñ)‚Õ£KJiU	X,6;*!îé‹ç;O¸tÁ°Æè¤:ÜB~	!€6½T©^Û”eŒTº÷3Ğn1eé‚ ğP‘«O›µåè¾êNAŒ€EvŸœøÂëÉú¿í^ğçoÏ'YO<añ¼…ş¶ûÌQ'ñN²ùè^†F·šs‡õì©'ºJIOóûğŞÊŞæÈÕsk÷nûß¦u‹7¯'¯«vÓŠ*‘ÛV1›Å,*¢9#;KiHï/gélo¢¾aßv1NzV¦µƒí¼õ+GNß{Ò°Şî?eÄ÷¿ÎŞwáTpd¸C,¤À¨³¨4"R:‹Êe’¶L&3‚$AyyylI›DğÛC£»X°xS'.9qÁêÅJı”†˜ÉZt0Õ OÛ-ôZè+’WíŒÕºõÕSlª:ÄlÊ¬IRÁ"÷MRAn?q@Î\[mx…A&ÌµIš4×–#UfN	WÄûÒä¤Rb–›#òY\{hÅPìP€•’‘¶bÇFÕaæjÃ,¬ÿ®·¦`€jYÖ+Rd@ÎZ~ 1©SWîØÈ§½¦,Un	Ö´4¨ih’¶F‡ñx<ñu²)+‚ „U†YÈ0êÒG·½©¡ä¶½«%Êõ7¢³ı›¶´GYª1Slú×Á]§o]a¨vùrñA’ÔââôOláÆckù½È‘¨T[®¹®|™uäZêÉw¶Ğí9Àxá†ßyâ`¬OA,å ,ÔRÊm#,!ô(öş~¤“&7?ÀÌ‰Ì´«b•/¹¡¥‚é˜4ƒX°8\ŞÜµË5GYv4Óøg‰S©vu]³ÛWhÃæ¾èµµÍ}†bûú¬óV7ª«cDê,>Ë}Å>ÓÇ†} _ğ®<¸ÛÙ\§ÚbĞK•Ñ¥)µ#q•öäô´™k–ÊZRK"Vir<„2éìå‚õÍ¦šÔÕT]!!Ÿ¤ı”B)¿°`Ô¢/ŞÊûú˜ƒä7*ÃÌ‹ŠÄ²ß´ÌŒ¦ŸOš*µ€AP£ˆ`	jf®î¯Åµ÷WmÕÊWÀ¨Í¨.X½…€ÕÈ"X¤çóù…EÌ§/\Fÿ<“¡Ò±Y…úC´™ÇÉ_5Õ‘[°n…ÈgqÛö!C©c}ÖM†Jç:­¯L€lÉæu¹ù4ËÀS7gµaAä³ù´åæ¯_)® O1«øà¥ÓmÉå£Õ£f8 VCz€uK0ãyÖùrGÍt{fæˆ¡w‹Í2ïû*#dUæàÕ@©||:**.^¾í/†Fw A°šë)hêOYéošÇç	¢#rmê
+°HjDÄÅÜ°¹g8n0CV¦V£ÛjG$$ËF-øQä³¸c÷ˆŠ05ÀúÄX=dì_>§‰>/<ßêĞR¿êVB†r'ÿ9ÓTxL”á„¡¥­Uj"-Y:»»üàN'síV†J54}ŒLŸÉŸÔ»µ©Óõk ¨2Ì<'?~Âzú2”;ÊFz*° ’lÀb¨uÙ~ò X&³¾|ÿ65n¼®±™ÆX‚ÚT£›•ıã»öÛ«2äÛ	×şSm]US‹h€ÕBOağlÑƒ(Àj ¬òy‚Ì[·‚YÄ¤³kÿà^‡UÉ²¤dûe6³˜ncŸÏwuÕTG®¹°'Y-§İbht§³SR–zô7¬iÍ>-Ù?öl¥	Ÿ¼u™ZI©®e•ü~şú•ôûc……|g¢^>±; ‚ I¬m_¹Òo4±ssîl¡S×µJ%`µé¥ÚÉL‹¡Ô‘%®ªXs&7&À’1†+äÛÅ%%Ò,™}?ª™nÏ*G­ë;ú×Ï£çöz©µ¬~Áìú ,’e²–5–|;út$ß;ši‰VbI™”ëodëâDó²órç¯ÿ­|¾ A’
+XÍtå'MŒ§¹Ñ¸äÄ>ÓÆ5«fúJik"¤Mèt´’6ÀúÈúm]èõLNOí?}\ÓÏ§ß¤ú'éLAŞùyk	æ2U¨k–Ñ¬ûNvò«+Ş-ôõÆ,¥İ>øË†ßÉ³he’Š¢-Ì1t-    IDATÛº~,üÊƒ»µ.2RßDX"\ª™A’ ‡ƒ!„Ÿ–à¾¯Şmç©Ãô';tù©õE†‰FXb‡ªòÍRn®'ßØš©½+}wîîu:»NJKµœ6®©Ü—½âö_<EÍÎ ²²rsfÿ±Œ¡İC¦î­½ä èìú‰Û3•¡fÕ®ˆ¬)»vï6š—O|r’æğ>¢E Ë{söèoôÂó-Í#±uuŒOv8“fÀb2™ñññ1Ôà›ÆbTê-tí±5Í-†~04œZ}E4¶h|,±˜œN}‚$›škÊêô¿Ö^{dõÚÇ#82´– ;à!ñV•(Q­Wt®ÿ{¶Ítäkèi^­{©2:5¡s^v°†™WXªoÙ> yù\ºw[¶ŸèÏ†‚v^†j—‹÷nÑ‰Ù×—^î
+ƒL¨FX©,òĞ›”””ŸŸÏ‚ IPqqqFFa, Ö§º§™®ü}Ç'4·øÄõE"“ ëcÃ¢C©Cs¥¦SG¯Ş½éôí+$mıC‚2s²y<—üÇçñKø%B5JÀÚr|¿Ø#XÍõäµG÷÷
+ô£Xù…«vm¢¦‰¯3…ÀúAç¼_¹ªïSŞîüe,úİË~şg tY/:õ®»Ïes8tÄû½¿ş¸AÔl´Xì¹‚$D',,€õ)@ÒÎXş¢lgî\£ÉRXj2åfÚÚcúıeÎú};ü>Õğp/I`1ÔºÎ^½$Ş$[>A„®dD
+J°œß½ÒeY]ÏzF·©éit¶ÏâpFÏ™Ü´Ë8ÖÈX*Muz3%A¸òLûólj6,i¬ÈÈÈR’‘º5<<€UvC$õñäá4gĞ&7Ó³'1´dXµç*=YKCƒ	CÈ1ÿsxO!“YO,À¢–úûĞ¿t6Ëãó…¼µ1ßéÖÛjKĞĞ¯-—Aofç·/U†Y´ĞW ÿäÀèÚü¿7­Û4·ìïÕåï X¨³! –¤C½ëŒU¿æäçÒÙœG€C¾Íİ°¨Ä¡*HóÇLY0íä­«éÙ™ÿI	*À¢bNÇo\¤C®Å¬âU»71DğÔ'`‘,›¼lA³ÎöË–ÇTmŒn-^ºˆş üÃÍ{·Qw V¥Äá¤§¦¤¦¦¦¤¤qjNf>¿87¯Íaqø¼¢|6‡‹a^ ë[–rÇ´''|şî%C¡=İ¾G°HÕØÎD}ÈÜ©›ìõıø-ãURX¤HÈ4¾ïhGg³¹ùyF‡4¹‹¬õXj]ö?N³ÛÓ©[WÚ«Šeô+C±ı™Û×D¾Ê¨ËaûÑ}T`}NL¼ŒÈ÷Î¾~Şoİ½Ò
+k^$ËÍŠŠNHLKNÈŒ÷u
++âñK!€õ- K­ëéÔñ|>ÿÑs2 ¬¦­ÒWè5yø‰—"b£ÿC®’NÀ"Pb8a¨;½>àé™å@‰X]›gd‰°|áùN{tÿªK¹£µ½ŸŞê/nN£‡{¥!ä!W
+ãÙsö8C[šG€õé¦Áç¦†ø¿ñˆà—p‹‹Y|~IblÄ‡à`ß„„ø ?ÿøÔ\.+?,8ÈËÓ36›Åãf„„GG'ÅúGÆ¼sqzìêËäğJ!€Uß€%¸yivßyêmñx¼6÷ª[Ø€E’¥½‰úÊÇ&ÆóùåÙQª «¹|ßéã"„ko‹¬ÔŒ4Fç¦­Eš„³°ºµ¤3o@H°ÑÄ¡å¨WZ`ñ©›3M^ßwşdÓ
+ËÓ,µ.ÚÍb³èy)Ÿ¨€U1‚•úÁû¾õ£W¯^º¾z—YÌòznı*(69Î×ÆÕ+><ø½ŸoDXHBBRNjàİGoxœ˜ç/}ãSââ3ó
+Rs™|´B ¬oX-ô]>C°®>¼ËPí‚&Â*İ^_ÑÕã-çãÈ$lRX„Îœš™Ag³î¾YZ¬n-ã’D>€÷á¡Æ“†	X‚©§T:=}A°vŸ>ÚD1`m8°³˜E°NßºÚÖX€UUË×ÕÕ+=-%>1•[Êëø0,•Y\”àèÊNõòLˆ‰ñxûÚã­ãÕ«v<nÌ37oX~	‚u¸KÌ-`I`é+¾r€U€E¤{?:û`‰°´{Œœ7µŞÒo}½²­ÿSÀ
+14¬ê¬—´ëÌ1Ö_°Ø4ë
+ «jÀ
+t÷‰Ş{ñ7NÃÓ‹ŠŠy…±Òãb¼íììc’2J™—®=%€å\° €À’xÀji Ô£¿aƒŠZI/`iõ5o*“UÀ’ Àtºï¥
+Àªü)Ÿ—ä~ñìé›·n\¸pÕ;$éµã£°4fqQ¢“g(+-&ÜÇãƒ¿ç#ë[N¯_Y_½ÃbÅ8¹zÅ'ÇúÅå–B ë[Vs=…ƒ—è6^lM ‹šÇ€%èô£+ß£¿‹^	 K\€ÕD³û”ŸfĞL1Ÿÿº‰°¾ ‹úÃ½çOD[¬ƒ»höÁÚsîxtrë<Xh„ Xß°HmºûÌ1:ÛŒ"t¶'µ) ëcìJ±›¹»ŸWC.ÒX“Ñ¬ğØ(F·´ «{«Ğèˆú,Ú}°Èƒ–Gn;yˆEoıøÇ÷“Â€i*CRÍUíJ*|A ¬ú,j¢Ñm'ĞÜœóÛ—Åh"¤–
+a¨uİ}ú—× ÇBK`ÉNX8fŠedeB¢…òmŸ
+×¤?`)w´uu¢	X'o^nÓK\ó`u [£ÙûpóL4Š™Ü! –D–rÇÍô–!r÷÷aôlÀÔåÚ=F.˜Ÿ”XZy²A›WïèwêÖ•e[Ö¯İ»€õUÀtrŸ?•Y\Dg³Ù¹9
+ƒMZT³`­NM¡Ã]{‘ &1¾ÏÔÑÍtzV™hG¯œåpiM4zåÁİNæ:tÖkÿt<²26Ïè”>Ÿ¿bã†–Ê`A ,É,µ.×¯¤Y÷Ä&&˜LÙD[NÊ‹<ı“½º|¶œ‡èg©i¬ìmVÿ»yöš¥#Íè3mœşØJƒM;[èæÏœ8€õuÀÒé9höäô,Z«1‹Š~úkI‘c<°¬D,rüƒ¦OhZÕUFJõ¢¿“#¤s‚vnÎJƒ{·¤AËŞZ„)éi~ÃĞè&Í€U\\œÀãa^PHbÄd2XŸjÓ³'GÒ›ƒ‘Ä±kè¬Ü8 ‹TNJCÌì_¸Ğ¤+ò·I©)ç­nŒùevWeC¥v&êm„S\RGL 52€õUÀj®+ßoÆøè„8šOf§n]¡ÓÎPhÿğÙSÑ+› Öø¦Ú=ªT¡;f`N­qøB€Wåöëäæzò††FÅÓJmÿ òI¿¤°È} 77—TW999¹Ôà•••‹GFÅˆK#UòğJç.@^m]œ^´’îÅ›htŸ±dÍxUFvÖ_v1äZ~ª9XÒ€UÀ"iHÊlêè€`š¥ËÍã-C¡è€¥ÙmÕ®Í"ï½€É1{rS-Ù*.t˜–‘Nó*¹zqÚ€ÅPïº÷ìq½…_ûxª3§.é¬¡Êß@DHŒ­7!‚E¨¥Òcgš[ô	
+Ô?¸Ê¸RX¤&ø®·æÎÓ‡E.^,6ûÀ¥Ó„KH%W¯`Ñ`‘®:Ìüé‹ç4KWLb|¯IÃ›‰ZÈ	(¬Û·ÎLZğ#øª7ŞCæCdÍ<vıb]šıÜª]ÎŞ¹FóH¸><ş*Is„+Ù€%œ©Aö¦íúizêÖ•–_º4nÀRÜû	Xà_w3T:~
+K|5Å Xµ,árçî^§å\{dÍĞì.Z!`iVXÊ8=¥yvAaš#úÒéçŞÒ@±£™¶ã+WšGrÃæ>C½+•ÎÒXI8`©w=zíuˆ)ÀJNO¾àG‘§Ò‘tÀ"ûÕÙ7 ìƒh›µssna Ø¦vhÀª+`‘§ˆmÇiMGBò°èHË™šéöüO kÊÂiÕF°4ºïFOiêûÿÍ¥¾Òî±àÏßròé<Ë0ßùOù%À‚ H"KX¡ÊN^¶æR¸ÔÍ”<¹*6•ZÀÒÓ?%#M´Í™1AÆ@I¦N)Àª`Qƒıù;ÍÑ²T!·²·éÖGO„ÑvôkúO3›¨w­røjs]ù¡ó§Ò?;ïà€–†¢†¯”ºöÕ·v°-¥×RŞ³ŸyT`A$Ù€%x¾WîèàKÿîLEbÚ›j´®K$¦q ©qõÇ$ßŠ°M‡£;¢o]ël Ví«™NO’Va!ô9‹ÍŞ~âP'3íº–p:€EízÆO3š¨u­v†[Å4´¦´dËúæzuîg&#¬é«‹v	TÔ;_/j,4B$Á€UvSúîìk4g^®ÈX-ê<ca# ,ÃqƒDÛfv^®Î(K Vı5¶2Tng¬öô…3­ş±sy¼}NR×Ì7Œ`ÍX¾¨‰¦lI÷/½e¯¨³+bké_×ÒH®;õáÔ„/tÂW„_wœ<È¨¨`A$©,áLŒr£~š‘_X@s»Ô•Ïç3‹ŠtÇl¡_‡şXÒX$åuXõ	XÔú-ïİ¢ñ”ÓÃ£g]ûèÖ~ä,…µ{¶ÑÙõ‚õ¿5Ó•¯îšji hñãX±œ]QqqÛ^ªuzFêb¡ãüæ%ıäÍÊÍ‘ëoTñZrÀ"9Bî¨ÿIĞ4 ¬/V¢íÈ Y§~©×ŞíM5ÛôRmg¢NÕs”+Ö|ån©'ß{ìÀo X+wl¤³¨H} ‘Ù„! ¬úk"®b$gşÃ˜Ø¤qU{Ô›]g0T»t0Õlk¬V©HSE|ŞÁT£©zMÙ{¶õXÔç\W,'˜•ÙL·gÛ¯­NH}ÛÎX-0ôC©8i?÷ŠÑ£u%0•Ú;5‹ÅŠ*‚°HÏÈÈ(•z1ªªVe§ÿş¿úØYPDèî³G'W1×‘ë£ß½ŸAşF=ú’×î–İúôì£G¾R3Óµvy½– ·™v?ì¤³‹ Ë`ì cRuÒÑkç;Ö±[ «ö€EáÉµ×>b-Pox|¾«û›õû·›ı8†csmem3msş³'¯Û·İÖÅ))5¥Ò_‰°¨)İúkµ¸NÃá.İ´¶‹©f‡ŞšÔ¤ÄT2¶úø¾½‰F'3­As¦¤f¦‹…®HJ;¥…Şg³½H-`q8œÄÄÄÜÜ\*6À‡ ,RDI‰MJJÊÌÌ,•n1ª|%5kœ˜ï««KÂb¢ÜÜß\tïúã{×YÛ¿xşÆÇ36ùÓÒEtf‹¨`iõøs½ –pá€T‘øJ¨yëV‹ªº¾Ò¡XXÏµĞS0™<€UË–pã]7ú—ÅfÕ{³Nıl¶6¬.:…L¦/^Ï@ßÛÿ¾`ZïÉ#Ô†[¨ï£>²¯ÁøACçM]ô÷*'úàX.ï÷şùv_6­Jçm‹=C'‡ÅÕÔ¬²S–-¬¯*çk÷_±Ì²_›Ö_w×`i²‰Š “8[íùÓôn}õ›éÈµĞW –$ni DşÙBO¾…®|Û^j
+ÆµhÆ¦£{Xµ¬òñ¡ÁõwiU,½bï‘ğÕq{Sõ‡ÿ­k69=Õñµ›Ó›®¯?DÖË=´ÿ¬IÍõ X• ][ I—Ë“òD`T÷øÛT»Ç­'%÷Ä¾
+XM´åÄÔ`*«5suC³2‹Iˆ#ôsèÒ™§o9¶ Ôæ£{·ßOvºÿüÉcWÏ]°¾ùğÙÓïbãKJKD»ÿJgK8!g·ÿmZ'¡Å»6€ÕÒ@Qy¨YT|ì·y:cİå¡){_ÎğÀ‚ 	,D°5 ˆÚğ>Ùy¹°¶Ÿ<H°Î­r©œn}õÏİ½!®sá—ğ9\Ù1)µÕÕd¢ÕpÒ	X‚¦U#•Z=^ºHbñıÇ²&Õ€c¥æãeÛ6HÖ©ñx<}«dG V¥ÍÌOIJLHHÌÈÎçñÅÜbæ1Y|.‡Ã*f•B K\€EİİÈğ¨EÓ+`5ÕéùïYZs³YØÉPíòåÆ[è)ü²qıhAm˜‰fä@j#XÄ-ôä&‘Äâ=ãçYUÎäşåè…A¦6.tjãN“^¹_2 ë³ŸÏMşàõèáS/¯7mìCrÅ‹Xqşnş1Ù‘îÏ_ùe²K!€%®uƒëh¦½‡…4bÀ*`2§®ø™QÕš»ÍtäúL+Öõ$©,ªş&…dì¯s$°ªŸÉ½Ò	6Ñ–¾pZtb¼Dœ×';ùÆÕ5}°*VJˆŸ»OyŸúÁı…O(—WìıæÅ+ì¢nQn€ÇK€H·´(;ŞÍÍÍ?<­¨ 5,*£8?5:3›SÊ‹	%›	ò|éîR\Rš™ïõúMtJnaj„Û¯×ş‘/l8ºerK!€%FÀ<âë+v2Ó¾öÈºñ9µƒ—NÓ¬Âï—ÿô%`QÃ×;›ë\yp€Õ#XGÛé¾óõj|€õ©;¿J§óV7şIyúkêßL§g´°>¬ŞN¯c£CŸ<}Ÿâáòö}tBtğ“ç^aa¡/=ƒ}Ş¾Í.Ì³{hŸ˜êédıÊÁ-!Âı–­{nzøc{H×;ÎŞá!®/==^¸=svOM
+»Ï!.!ú©Õİ fq~^NA‡Ë1@ ,1G°„s»÷TbfçæLsŞ„†XÄG¯^ ³‹üÂ‚¡ó~ zãV5„ìÚ½Ûş¨i¬ò•dÕƒ#%é^PKÀú”˜=Zß´yÀkÀ—pRZÊ¤¥ó©ÇD°jX^vO]CÃC“Òs?ËËŠúğşå+;Ïøø¨Çí¼Ş‡±x%>¯íì?Ä$1³3’üíı}­¯=xöà]t¶Õù›ù¥¥ìœ'»g/¼b“33ÃÜ]üSµ¥½ô+ü´;`„ Xâ`•=k÷PÑ÷–íWbÅ_¬6½TOŞºLgÙ¹9=ôªn5Üz
+]ûè9¼t`5pÀ<EèÊO-1µêXÔÔ İúè=r¶o€çBjîä´Ô9k—3”;Ö¼6< ë³tã	š=ü’Ê?qyôÈ#8.99î¡íÛôœÜøä4_·§a‰qÑ±ñé©IşÏo{„¤¥D¿txíäæpóÚƒL>×ÍúNdz^j\¤Çs—Wo¼¢âSó“ƒ_ææå½tˆg–B « ëSKW·ßyêÈ7˜›ñ V+C¥¦š¤î§ód–™“ÕFØ¸Z0Õè6ié‚´Ì½b  K¦lÖ†î}§ó	’ˆ'õMo¢Ş­NéIˆ¿­±Ú…;×`ìjúïÿcÈ·kóµÕx XŸG°x9I±1‚É²©"èôÎ;,%%)0($$è}N3Äß'"6!<Ğ;-Ÿ›K~ÄÌzåÁå•2SC¼ü‚ÃB‚#ÓâccR‘0ö?ŸĞÈH¯wï’²9¥Àª?ÀÖ@ÊÔˆ$Rã’M±¬äúß©l”‡š?£w"i™éŒ®ÍZWS+”1–Z—?öl-f5\*`}b,ÍîF‡>r¶ç6øHí¤?6©jtÅW¶5RÙ{îDÃHÏ@¿Ñ?Ï$yİ¦ÆØ «
+À*[6§¤´Âc"›Åâò“÷<.›]Öwª„ÅbqøŸşŠb2êÃ¦ºX•9)û=›ƒ%{! Ö· ¬r\L¥#§6ÌbÓÑ½¹ùy’XMµå,§KJO¥³‹”ô4†¬LÍéÖJ0ñºâz‹°ê°>­­Ó³›©æ–cû2—–Fİ «lÔ¤¡rSyëVdæäüçgaçúL}DŸ&Úr­kAW ¬ê¾-&1MéRé7`,€Uï€Uid{{urglÈ£k,òô?mñ<š»ˆˆfôl[›äjÛKuòÒ…3¡ X•§ÓSø®·–ê0ó¼‚ú‘™“=xÆ„¦Ú=êš¤2ºd™~?ÊÍóİxÓûµ[_ı–Šµ¤+ êl€Õ˜ë‹³Š*CÍ¾pæñÜ Ş ‹š£á›×Ñ|>ó	f(´¯MMa–ùcr^Àª2RKÜÎD}á†ßy¼W¶3r²Í/`}¾’ŒòÑ«çÙœoİÏÆÖÅ‰<•¯e^Kº`¡Î†$°°!Cdº*_w!×Fg´åî3Gƒ#Âò8\î·œĞê(@jA—Ã,.ÊÎËMÉH÷ÿ¤2Ô¼•¡Rõ¨jí:}„æ®ßùy¹NNÉÕBOAÆ@qß…“¤âçT¿âÍ·H4a²ñ…5nÚ> `U»’–lG'‡ÇF³ŠÉƒ\ö˜á1_ûx<r~*òvB£"L¦Œh¦Û“ÎÓ‘àM/UFƒ±ƒ¬ìmróóê%É¹³Xá1Q3V-f¨wmñÅBÎ ¬T\\/Yå@Ò,r½3™Ì„„)O‡`ÁmºlQ%R2äÛêtùşmW÷×Aá¡¤bf±Ù|ñõ”,ù(r£)`&§¥FÄF†~xããùÈÙş¼Õ¥[Öw±ĞeôlK˜¯ÊÁ}å‡-×ßÈê©Íã±áBÎºöÏßeóc)w${?|å¬G _Lb|}“VYŠ	V3äæäç%¦¦DÄE¿ñòwy÷ê‘³Ã²­š²_¬‘$¬"ÖÖãJD•°RhVÙ#„*)ÛíHé²uqòNHI&¬Pû.Àäg\7%#- ôÃÓÏÎÂèÀØqòÈyê`8aHs=:oÙ	öR^éÙÆpâĞÏìƒ#Bs„ËŠ±Lr8œ¨øØo×íÛÎmU^ØêtáH9`‘ìÈÍÍMOOgC$ˆÅbÅÆÆr¹\ –
+}—ß+ÉMŸ¡Ü‰!ß¾½‰Æ˜Ÿg½vş¦íƒûOº8½ó÷!Ï¯„ŠH5Ï,böú²m‚ÜGÈç,6«€ÉÌÍÏÏÊÍIHI"Ïë~Ïß½züìé=Û;v®?¶Ş|lß¤%tÆôo+x
+oMØ¡Ú™¡%Kué¨ùŞÊ@I}¸Eí‰%OßºÂĞè&B*‘ƒd(u  ÑwÚ¸3w®Y;Ø8¾t!u[zV&³¸ˆ_÷º$ùC’bi™±I	A¡o|½È6mœíï;ØŞµ{|Óæş™;W×ìŞ2î×Ùºctè­Iê9F·–…öäÚTsÀÍt{Mvîîr„Vö¢ØÚÁvéÖ?«¸¯Ô¦Z²³×,m¿Ä÷Ÿœ³º¡;f@u•Õ5×Èñ0z¶–1R¹hú¡ËgÉ.:Ú9½vózïM¨+=;“ä`FvVRjJd\L@hğ+o§§ä—„2Xù³Œ¡Iğfºòäõá3Ñ#Xö/]Ô‡jbËÅKR‰¹lßµ‰\eno’ÓÓD™2œWïûáıcgûÓ·¯MÆk]¾æÈ‡-€UŞ‡½  €0V5xeffRq)$!Àª’!šh÷`¨t"ÜÓT[®ƒ‘Šö˜Ãü8ı·_ş·iİêİ›ÿ<°sãáwŸ9ºëtE!Ÿÿ¹ço;ÿY²yıO­ú~ÙÂÁs¿7?D¶¿a+]yÁ6Õ»2”;
+fZ=šëÊ·¬ĞÑª–7nR3YLM?íşøwk•Ó¸×¾£OS9AivïÜ[sÀ¬‰s×._ıï–§í9wüØµ'o^¾`}óê#««Ë|í‘õÙ;×Éç'n\:pñ4ùÙî3ÇHn8°‹üá’-ëç¬Y:qñ<ËY5Föël¦%£¯ĞTbİ{!&o´©DS¬˜V5L3!oÓì.²©•OêZ§R¿°ˆÈ»Ö ¯²-«Y6X”îá‡,4Ğ¼Z×æÚr]-t'¾pÚÔå‹æ­[>oí²ùë–ÿ¸òçÑ?Í´øq¬êp’ÅäHÈS‡–ìÇNª¹6¯}<D.xŸ;*6­aY‚B¢ÚYq ñôßİzü )‡VOm¿}]XÄ¬îvIø>15åŸ·­‹Ó«›;OYºåOÓ)#Ia#[£Z3éç‚4G°Ğê¡ÜJ;`UQa–­Í'¨,µd·onÂ*PVğORW•[Kø*¨Î…5:ùa)R9iõhªÓ³…¾"ÕõøËÛ´L¯£™Ö±«çégÿ 9ß“úƒ~*‘7¤bkB‘fÙù¶1Rmg¢ŞÉ\§[?ƒn}õ)wïgğ]o-òy;c5‚>¤Şj¢-÷1Ñ>¦y£İ£™=[U“bu:HúşÏ÷.–HO•ÇFP•d– $S‰OYPÂeIÖ4×“¯”T«£sÓ¢â"‘Şí'II;`U<Îz
+ÔYr¨0ÈDwÌ Ëic'.˜öãO3g¯úßœµËÊ=kÍ’iKæOZğãĞY“kªèÛÉ\[P,5º“çñ¦¼ÔA ¬¯tÕªMõ)Âvêê®}õR3ÒÅvj]eÄÎ£Ÿ'K+áˆúŠ®Äˆ%Ådê°ÒáZ±c•Ï(ˆÌ÷gï\#]Ôø%úSs:h^G®?”5  %IDAT©f÷&İÈ‚ïî…–o¦Ó³‰¦lS‚SÚ=šë)´úˆõ· À‚ €%Ö7ˆ~Â%¦&3:7mİK¨×u:uÍQ–tÊŞ‹§šëÊ×`}?§kñcD° `I…[è)„ÓO¸c×.04ºàºº©NÏïWüD§ìm?y¡İã›VÃ1 ‚  VC(êX*Îw³şX"˜×Jú*9˜.%¨vÙ{ş„ÈËã
+fªw•Æ¤`AÀjhô1Ri¦#çêñF,€%kiº‚E¡…ö~‚D.xñÉI£Mghv`I•³©q¹˜`	’q8Ì‹+],†F÷ë–‹…®B¢Âô*¥µ}PnÈÜ©…EL‘Ë›Ç[¹ş†¢Í„À’\ºb2™YYY999ÙÔàEÔ¸Î «^ÜLW^oÌ€¤Ô±¤ÚÂ?o¡§ \€ëFe¨tr|éBñ­ímİdê¹;9 «A‰Íf'%%—Šº¦}c‘çôôt Vã¿/·2Pj¡¯hãâ$®TSbÖZ*k8˜hÊNZ²€æ!WZU·v$ «±ª°°0**
+.‰ÇãEDD °uÌÀH¹µ!©Øºï¿pŠ'¦&á6÷¿ë­º’ô¹¾q’=vï«oÿÒ…NÙËÎÍY´áwéì€%å€YŠ©±!É—Ë—òD`4îaãà_‡v—¯çE?ÉúÍœP«”Àß¬T4Ñ‘;pñÔœµ+š©uûFåĞP¹m/ÕƒO—w©µó_„¬¥¡Ô6O° €Àj(Ui›^ªK6¯ç—ğ©j~zùh²l…ğ•Dw„ÒèvßÑä¦{€ïÈE3:˜j¶ÔWû´ãŸÏ½©¼~ßÒhD.~Ï_¿`tnÖº—ªtPXPURÂa0‹YäÒã³‹‹ØİÀ`ÑîwÕ½ŸÁüõ+Ëcb‰­OZº 	ÆJ<`u§ ‹‡Ç¾êWµá}zèÕ†ü@¸‘ØßHE}Dß‡ş¥OW,6ëŸ#{¶–V¾`AuUAjØ‰ÿ^ºì·_ÿ÷û‡ì¢¸'§şµÉTÿœ²©x<—Ãa±9ü"ÿà“ÿñyÂÏÉ,›VY  «R‹ŒÉÄ¡Vö6äù%â‚«Ò§/+5£¢p£¬r9¾v›¹lÅÔÑš£,a-Å–ú
+—ÕûZ‡?
+}Z*·ĞS [0˜0dÊò…Éé©T9¤Yü¢âãë'ÌÀ`5Jù?·;¿/Aª¸w÷N{f3c|Ş„dD=w´stp
+O
+|óòÕë×NÎ)yÉïã³óÒbC½<İ^¼|ùÒ50:ÉÀ`	Ü\O^q°é’Íë…32”ˆ®2s²\ù3¹Åcüà'~a	¬J%$'/—ô¦£{úkÕè…ÓÆVhÜÖX0S}‚\Š¼*­ÀİRøy!õĞËôû‘?¬øéŸÃ{|?¼¯r¢éÀÅÓ¥ï¤z& ª£rÃ®ŸÚwşª•ƒãó„¼Ò s¿Í>šğòÊæİ'¯n_ûû‘‹;æN;|ã©Í•}¿zìzûÄÁ§A‘ï^xêthÍâ»/{º?_öÛş<¤# KÊ‹ÔsmŒT¦,_xÏá‰kµr]dİLW½¯>C+åÏl¨Üğ1«†Ö—8˜šìæñæ½í¹»×_¿ğç‹6¬"ğ4úçYc)ó˜ŸgÍ]»â·w>|æöU+ûÇ¾Ìâ"ñ^¨ä°zX’B.À`Aµ«å32bƒüƒı½îŸÛ³ô°{„Õ–Ÿ…\Zık«ô½İ++ÇmË6Å&ùÎıãÈóÇWN9‡ÆxÙİxîv`õ*ÛpAìjËœé/˜HI –´©2›ëÉ›M}ÏñIrzZ}$S`Ø•¡f°¾úŒ®•ZT°!…Yš±j ¬¯ŠÅfgæd'¥¦Ä$ÆrB|zVf³°JbW	üsÿNDOXPoİoì÷ü»'<%×ÓzÏ{İ£­7ÿz:Ææğ
+«71÷Î>}íéÎß6DdE{.üëØ[›K{.<q³:}ä®í™-¿o¼ğœW7kæéHG –tV3=yùÆO\œR*Ìß(ŞØU~aÁĞù?Pkã€®>µRj­¯$#4y#Ä¬ŒÕ¸ «–%ªş¦)jo¢²À‚êtÑ’Na–‹íí#?{-*›•üêÎE×üÌˆ·W.œİ¾~ıÅ{®w¯XÇ§¦GµrÊÉˆ¹zêø±çF\Ü²áïƒ§Î:ã˜X¾5€%-€Eê›–úŠûÏŸâ—ğË&bk§«rı±g+Cµ¸ê]Q­„«eô[é}|ÕWÆ±„˜Õ#Xÿ•tÆ èJÊ€Õ‰°¨*Ïç‘ÊËã‘š¡„Ïc3sÏüyñ±ë¹#ûï¾òa¬5„É«à§äï.ü±ìF@
+ù5<xÀ’ºVK%“)#S“‹YÅõ´v÷Å{·²­ÚHëÌC5…¯¨Ø•®e!fUˆc°Ä¤Nv],tQğ X¨³Å^ÅY¾îoCb“9üÒêà)-&*½Ä`I/`·ĞW`¨t6ÿa´«Ç›ô¬L’©âJ›%X÷M½+èªJÀ"tÕŠ –0|%`,=ÅVT[! K|òûğ^¶¯>f`°Ä×ªğÏ*Z<J°$ €¥B¨"¯M´{0T;ÿÃµGÖ±Ñô—ÌÊÉŞzl?º×X2 KØDÀ§Ò23F.šŞtÀÂbÏ{nTó`14»3T:÷Ãş'ƒÂCy|h‰±hÃïÍtzbÍÁêú`É”7R€U¡– KÊÈÎšµf)CK|Àb±X‰‰‰bÏCP}+???))	€Õxfè¦Ş4Ñ–cht4gÊòmüC‚ê”<Ïñ•«ùcS^®jˆ`•urW*k(,KHÑ•! ‹–2s²ıgmÛ^ªT!cI9`•””’ê*666‚¼âãã3228 «±-„òqf,…æºòzãÎ_¿ò­¯W­âğEÌÅ›Ö)îİTGƒ¶ª¥+#åOA¬ŠÓ4§Â’i¤Ó4|Óö "æÜuË[ê+‚® X¥;	‘×¢¢¢<’PW)ïÍÆhÄ·cÁ<Â*ª}/ÕÙk–øÖĞ7ËÎÍY}xŸV†J\ÕÂÊ&k(³LÙD£C\ ,‘Äár†Íÿ¡™nOp «cAÊ- «!®ıÜÚH•¡ĞnîË+ÎGJ‰ÍaùeVÅhê¶¯±>"ÕVhø‘´Ê?4BKeåæ4ÕìrÀ‚ €%9í†Âºª¹¾CS¶Ïc2³³
+‹˜<oÃÁ]Í…‹ø¢>‘´jó! ëkÏy<>ÿ‚ÕÍ–(‡ ,‚ X8§CÙk3µ®CæMUÒ›¡Úõ™T¹A– órÓ;ÈÒây„Ğ<À‚ €%ñµlm¹æz
+•F ÂRX¬o
+—Îø/»ää»y¼ùëÀÎ.æºµ.È A ¬F2¡ĞJ:s¿™®üà¹ß¯İ³õòıÛ_öÉûJÏÊ<÷ÆŠí)2a(´ÇhA A ,nn®+ÏPíÜÑ\{ì¯so^·çÌ±‘õ¾ªCaóêƒ;+¶m˜°x^S†F7tº`AÀ‚áÆÅle ÔLWPNG3-µ¡f#ü¸fÏÖ+î¾õõy€/ƒUÏŞ¼8|õüœµËM'•í£ÛÊP©|[  ‚  7Î–bj"‚Yäµ½‰Fgs½5»è)êŒ¸~ß['ï÷şá1ÑIi)Y™yyùl6›õÑDù…ùYYÉi©aÑQ^ïıï9Ø®Øş·œ…n'Cå½µÀ	¦e'»0Pª¸_ä ‚  K]ÿ¼Šne(˜§¾‰Z;cõNfÚÍ4?Z«½‰:ù\ø›Ïş¤º-Ã ,‚ X0,õÔe$¤%Ã²75¸5õ‰À‚ €…»6Ã ,‚  Ã ,‚  Ã0 ‚  Ã0 ‚ €Ã0 ‚ €Ã0À‚ €Ã0À‚ `Á0À‚ `Á0° `Á0° ‚ X0° ‚ X0Ã ,‚ X0Ã ,‚ X0Ã ,‚  Ã ,‚  Ã0 ‚  Ã0 ‚ €Ã0 ‚ €Ã0À‚ €Ã0À‚ `Á0À‚ `Á0° `Á0° ‚ X0° ‚ X0°pË† €Ã0À‚ €Ã0À‚ `Á0À‚ `Á0° jüú?‡4ÖMÌ ù    IEND®B`‚
+------MultipartBoundary--1iOkVXT9OLm37UHaWcXLp0ZQlHfzEvFIaLC3QjXHCM------

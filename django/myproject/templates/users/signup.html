@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+        p{
+            margin-left:25%;
+            color: darkgoldenrod;
+            font-size: 30px;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            margin-right: 25%;
+            margin-top: 5%;
+        }
+        
+        #sub{
+            margin-top: 5%;
+            margin-left:30%;
+            font-size:25px;
+            
+            color:cornflowerblue;
+            height:7%;
+            width:15%;
+        }
+        </style>
+    </head>
+    
+    <body>
+        {%include "users/index.html"%}
+        {%block head%}
+        {%endblock%}
+        <h1 style="color: red;">{{error}}</h1>
+        <form method="POST" action="/user/aftersignup/" enctype="multipart/form-data">
+            {%csrf_token%}
+            {{f.as_p}}
+            <input type = 'submit' value='SIGNUP' id='sub'>
+        </form>
+    </body>
+</html>

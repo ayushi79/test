@@ -1,0 +1,31 @@
+{%block head%}
+<html>
+    <head>
+        <style>
+            li{
+                
+                display: inline-block;
+               
+            }
+            a{
+                padding:20px;
+                text-decoration: none;
+                font-size: 20px;
+                color: aqua;
+            }
+            a:hover{
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body style="background-color:brown">
+        <ul>
+            <li><a href='/user/'>HOME</a></li>
+            <li><a href='/user/signup/'>SIGNUP</a></li>
+            <li><a href='/user/login/'>LOGIN</a></li>
+            <li><a href='/user/contact/'>CONTACTS</a></li>
+            <li><a href='/blog/'>BLOGS</a></li>
+        </ul>
+    </body>
+</html>
+{%endblock%}

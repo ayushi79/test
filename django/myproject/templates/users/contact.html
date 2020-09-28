@@ -1,0 +1,16 @@
+<html>
+    <head>
+        {%load static%}
+        <link type="text/css" rel='stylesheet' href="{%static 'users/style.css'%}">
+    </head>
+    <body>
+        {%include "users/index.html"%}
+        {%block head%}
+        {%endblock%}
+        <form method="POST" action="#">
+            {%csrf_token%}
+            {{f.as_p}}
+            <input type='submit' value='Submit' id='sub'>
+        </form>
+    </body>
+</html>

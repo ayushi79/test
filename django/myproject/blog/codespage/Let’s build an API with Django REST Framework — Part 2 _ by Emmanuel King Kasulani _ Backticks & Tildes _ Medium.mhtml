@@ -1,0 +1,1863 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c
+Subject: =?utf-8?Q?Let=E2=80=99s=20build=20an=20API=20with=20Django=20REST=20Frame?=
+ =?utf-8?Q?work=20=E2=80=94=20Part=202=20|=20by=20Emmanuel=20King=20Kasula?=
+ =?utf-8?Q?ni=20|=20Backticks=20&=20Tildes=20|=20Medium?=
+Date: Sun, 23 Aug 2020 16:42:52 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----"
+
+
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/html
+Content-ID: <frame-E08A25DB3B0EB7ACF41EEAD801E67CC6@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c
+
+<!DOCTYPE html><html lang="en" data-rh="lang"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-251bd667-2cf1-453d-9ccb-c533e0ec4584@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-7e3df7d4-c078-4006-a210-0513285daa54@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-10037298-7479-4f1f-ba78-7b666908db40@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-890933ae-d5af-46de-96dd-1f39c183bdd8@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-5607b2cb-5182-4bef-b24d-234d672b167d@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-e57c78ec-9eca-4074-83b3-d98dff7e58f7@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-225f0693-5787-4651-885d-5b2a65456834@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-e0d08099-c42f-4014-bb35-34789a99d6b4@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-fff7c66d-8784-4b47-8096-25adc76da288@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-b6533136-5fe6-4b33-a4af-5ff3be28a981@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-324b4621-f133-49a0-9708-63eca8e7564f@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-3ed69066-a5e5-4419-bd97-7f84c804271e@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-7c7c4f78-a0ee-44bf-a652-bf2bc1217f2a@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-cfddb087-8952-4e61-9fbe-739c8a290222@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-93b7ee6a-b44f-4e85-8c19-135a6f32f62d@mhtml.blink" /><title>Letâ€™s build an API with Django REST Framework â€” Part 2 | by Emmanuel King Kasulani | Backticks &amp; Tildes | Medium</title><meta data-rh="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><meta data-rh="true" name="theme-color" content="#000000"><meta data-rh="true" name="twitter:app:name:iphone" content="Medium"><meta data-rh="true" name="twitter:app:id:iphone" content="828256236"><meta data-rh="true" property="al:ios:app_name" content="Medium"><meta data-rh="true" property="al:ios:app_store_id" content="828256236"><meta data-rh="true" property="al:android:package" content="com.medium.reader"><meta data-rh="true" property="fb:app_id" content="542599432471018"><meta data-rh="true" property="og:site_name" content="Medium"><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2018-04-01T18:56:54.219Z"><meta data-rh="true" name="title" content="Letâ€™s build an API with Django REST Framework â€” Part 2 | by Emmanuel King Kasulani | Backticks &amp; Tildes | Medium"><meta data-rh="true" property="og:title" content="Letâ€™s build an API with Django REST Framework â€” Part 2"><meta data-rh="true" property="twitter:title" content="Letâ€™s build an API with Django REST Framework â€” Part 2"><meta data-rh="true" name="twitter:site" content="@backtickstildes"><meta data-rh="true" name="twitter:app:url:iphone" content="medium://p/cfb87e2c8a6c"><meta data-rh="true" property="al:android:url" content="medium://p/cfb87e2c8a6c"><meta data-rh="true" property="al:ios:url" content="medium://p/cfb87e2c8a6c"><meta data-rh="true" property="al:android:app_name" content="Medium"><meta data-rh="true" name="description" content="Welcome back! In this second part, I will show you how to secure an API using two features that come with Django REST Framework out of the box; Authentication and Permissions. In case you missed theâ€¦"><meta data-rh="true" property="og:description" content="Welcome back! In this second part, I will show you how to secure an API using two features that come with Django REST Framework out of theâ€¦"><meta data-rh="true" property="twitter:description" content="Welcome back! In this second part, I will show you how to secure an API using two features that come with Django REST Framework out of theâ€¦"><meta data-rh="true" property="og:url" content="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c"><meta data-rh="true" property="al:web:url" content="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c"><meta data-rh="true" property="og:image" content="https://miro.medium.com/max/700/1*_6oZAheCwiQiKHAHeJDK5w.png"><meta data-rh="true" name="twitter:image:src" content="https://miro.medium.com/max/700/1*_6oZAheCwiQiKHAHeJDK5w.png"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="article:author" content="https://medium.com/@kasulani"><meta data-rh="true" name="author" content="Emmanuel King Kasulani"><meta data-rh="true" name="robots" content="index,follow,max-image-preview:large"><meta data-rh="true" name="referrer" content="unsafe-url"><meta data-rh="true" name="twitter:label1" value="Reading time"><meta data-rh="true" name="twitter:data1" value="7 min read"><meta data-rh="true" name="parsely-post-id" content="cfb87e2c8a6c"><link data-rh="true" rel="search" type="application/opensearchdescription+xml" title="Medium" href="https://medium.com/osd.xml"><link data-rh="true" rel="apple-touch-icon" sizes="152x152" href="https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png"><link data-rh="true" rel="apple-touch-icon" sizes="120x120" href="https://cdn-images-1.medium.com/fit/c/120/120/1*8I-HPL0bfoIzGied-dzOvA.png"><link data-rh="true" rel="apple-touch-icon" sizes="76x76" href="https://cdn-images-1.medium.com/fit/c/76/76/1*8I-HPL0bfoIzGied-dzOvA.png"><link data-rh="true" rel="apple-touch-icon" sizes="60x60" href="https://cdn-images-1.medium.com/fit/c/60/60/1*8I-HPL0bfoIzGied-dzOvA.png"><link data-rh="true" rel="mask-icon" href="https://cdn-static-1.medium.com/_/fp/icons/monogram-mask.KPLCSFEZviQN0jQ7veN2RQ.svg" color="#171717"><link data-rh="true" rel="author" href="https://medium.com/@kasulani"><link data-rh="true" rel="canonical" href="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c"><link data-rh="true" rel="alternate" href="android-app://com.medium.reader/https/medium.com/p/cfb87e2c8a6c"><link data-rh="true" rel="icon" href="https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium.3Y6xpZ-0FSdWDnPM3hSBIA.ico"><link rel="preload" href="https://cdn.optimizely.com/js/16180790160.js" as="script"></head><body><div id="root"><div class="a b c"><div class="d e f g h i j k"></div><div></div><nav class="r db t u v c w x wq wr y"><div class="branch-journeys-top"><div class="r c"><div class="n p"><div class="z ab ac ae af ag ah ai"><div class="aj n o ak al"><div class="n o am w"><a aria-label="Homepage" rel="noopener" href="https://medium.com/?source=post_page-----cfb87e2c8a6c----------------------"><svg width="35" height="35" viewBox="5 5 35 35" class="an"><path d="M5 40V5h35v35H5zm8.56-12.63c0 .56-.03.69-.32 1.03L10.8 31.4v.4h6.97v-.4L15.3 28.4c-.29-.34-.34-.5-.34-1.03v-8.95l6.13 13.36h.71l5.26-13.36v10.64c0 .3 0 .35-.19.53l-1.85 1.8v.4h9.2v-.4l-1.83-1.8c-.18-.18-.2-.24-.2-.53V15.94c0-.3.02-.35.2-.53l1.82-1.8v-.4h-6.47l-4.62 11.55-5.2-11.54h-6.8v.4l2.15 2.63c.24.3.29.37.29.77v10.35z"></path></svg></a></div><div class="r ao w"><div class="n o"><div class="n g"><div class="gf" id="lo-post-page-navbar-sign-in-link"><div class="aq r"><span class="ar b as at au av r aw ax"><span><a href="https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=--------------------------nav_reg-" class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm" rel="noopener">Sign in</a></span></span></div></div></div><div class="qs al qf"><div class="gf" id="lo-general-navbar-open-in-app-button"><div class="aq qs bp"><a href="https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2Fcfb87e2c8a6c&amp;~feature=LoOpenInAppButton&amp;~channel=ShowPostUnderCollection&amp;~stage=mobileNavBar&amp;source=--------------------------nav_reg-" class="ay az ba bb bc bd be bf bg bh bi bj bk uv uw" rel="noopener nofollow">Open in app</a></div></div></div><div class="gf" id="lo-post-page-navbar-sign-in-button"><div class="aq r"><span><button class="wg hv ay az ng bi bj nh bh ig ar b as at au av ii ij dm ik il">Get started</button></span></div></div></div></div></div></div></div></div></div></nav><div class="cu cv r cw ak"></div><div class="bn r bo bp"><div class="n p"><div class="z ab ac ae af ag ah ai"><div class="bq br n o"><div class="bs r ao"><a href="https://medium.com/backticks-tildes?source=post_page-----cfb87e2c8a6c----------------------" rel="noopener"><div class="bt bu r"><img alt="Backticks &amp; Tildes" class="" src="https://miro.medium.com/max/327/1*oTKn6iXB4Dc9weMrmkTMAQ@2x.png" width="109" height="36"></div></a></div><div class="bv r bw"><ul class="bx bg by bz ca n cb g cc cd ce"><li class="n o cf cg ch ci"><span class="ar cj ck at cl cm cn"><a href="https://medium.com/backticks-tildes/tagged/programming?source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh cq cr bk cs ct" rel="noopener">Dev</a></span></li><li class="n o cf cg ch ci"><span class="ar cj ck at cl cm cn"><a href="https://medium.com/backticks-tildes/tagged/design?source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh cq cr bk cs ct" rel="noopener">Design</a></span></li><li class="n o cf cg ch ci"><span class="ar cj ck at cl cm cn"><a href="https://medium.com/backticks-tildes/tagged/data?source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh cq cr bk cs ct" rel="noopener">Data</a></span></li><li class="n o cf cg ch ci"><span class="ar cj ck at cl cm cn"><a href="https://medium.com/backticks-tildes/tagged/self-improvement?source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh cq cr bk cs ct" rel="noopener">Growth</a></span></li></ul></div></div></div></div></div><div class="r y"><div class="cy cz ai da db dc dd de df dg dh" aria-hidden="true"></div><div class="di db dj dk dl cy da dm bv dn do dp dq dr ds dt du dv dw dx" aria-hidden="true"><div class="dy dz n o ea eb"><h2 class="ar ec ed ee ef">Responses (11)</h2><div class="n ea"><div class="r eg eh"><div class="bg r eg v"><span class="ar b as at au av r aw ax"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" data-testid="close-button" aria-label="close"><svg width="25" height="25" viewBox="0 0 25 25"><path d="M18.13 6.11l-5.61 5.61-5.6-5.61-.81.8 5.61 5.61-5.61 5.61.8.8 5.61-5.6 5.61 5.6.8-.8-5.6-5.6 5.6-5.62"></path></svg></button></span></div></div></div></div><div class="l m n o p"><svg width="35" height="35" viewBox="5 5 35 35" class="q"><path d="M5 40V5h35v35H5zm8.56-12.63c0 .56-.03.69-.32 1.03L10.8 31.4v.4h6.97v-.4L15.3 28.4c-.29-.34-.34-.5-.34-1.03v-8.95l6.13 13.36h.71l5.26-13.36v10.64c0 .3 0 .35-.19.53l-1.85 1.8v.4h9.2v-.4l-1.83-1.8c-.18-.18-.2-.24-.2-.53V15.94c0-.3.02-.35.2-.53l1.82-1.8v-.4h-6.47l-4.62 11.55-5.2-11.54h-6.8v.4l2.15 2.63c.24.3.29.37.29.77v10.35z"></path></svg></div><div class="em r"><div class="ai da"><div class="ri rc my r"><div class="n ea eb"><div class="n o ea"><img alt="Prakash KG" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/0*uz3ayjPcd_dbp4yA." width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@prakashkarupannan.govindaraj?source=responses-----cfb87e2c8a6c----0------------------"><h4 class="ar cj gk at ef">Prakash KG</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@prakashkarupannan.govindaraj/authbasetest-is-not-defined-da098a2c7460?source=responses-----cfb87e2c8a6c----0------------------"><h4 class="ar cj gk at aw">almost 2 years ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">AuthBaseTest is not defined :(</div></h4></div></pre></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2Fda098a2c7460&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----da098a2c7460----0-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div><div class="r ny nz oa ob oc od oe"><div class="eg pa of"><h4 class="ar cj gk at ef">15<span class="r h g f pb pc"></span></h4></div></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@prakashkarupannan.govindaraj/authbasetest-is-not-defined-da098a2c7460?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----0------------------"><button class="de nr bf"><div class="xc n o ea"><div class="r eg xd"><svg width="25" height="25" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></div><div class="r eg pq xe pr xf ps xg xh xi xj xk"></div></div></button></a></div></div></div><div class="ai da"><div class="ri rc my r"><div class="n ea eb"><div class="n o ea"><img alt="vipul singhal" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/0*bgphSJWxFnonRQFg." width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@vipulsinghal1993?source=responses-----cfb87e2c8a6c----1------------------"><h4 class="ar cj gk at ef">vipul singhal</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@vipulsinghal1993/this-article-helped-me-a-lot-in-understanding-the-basics-of-jwt-cb78e834fb5c?source=responses-----cfb87e2c8a6c----1------------------"><h4 class="ar cj gk at aw">about 2 years ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">This article helped me a lot in understanding the basics of JWT. Moreover how can we implement the same above by taking mobile number (and password) as primary key instead of username. ?</div></h4></div></pre></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2Fcb78e834fb5c&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----cb78e834fb5c----1-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div><div class="r ny nz oa ob oc od oe"><div class="eg pa of"><h4 class="ar cj gk at ef">1<span class="r h g f pb pc"></span></h4></div></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@vipulsinghal1993/this-article-helped-me-a-lot-in-understanding-the-basics-of-jwt-cb78e834fb5c?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----1------------------"><button class="de nr bf"><div class="xc n o ea"><div class="r eg xd"><svg width="25" height="25" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></div><div class="r eg pq xe pr xf ps xg xh xi xj xk"></div></div></button></a></div></div></div><div class="ai da"><div class="ri rc my r"><div class="n ea eb"><div class="n o ea"><img alt="JÃ©rÃ´me" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/0*hUz5opDRP3cR2GbJ.jpeg" width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@JDesmares?source=responses-----cfb87e2c8a6c----2------------------"><h4 class="ar cj gk at ef">JÃ©rÃ´me</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@JDesmares/thanks-for-the-article-695475b4a526?source=responses-----cfb87e2c8a6c----2------------------"><h4 class="ar cj gk at aw">over 2 years ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">Thanks for the article ! What about the fact that djangorestframework-jwt looks inactive for 6 months ? Do you know or recommend any alternatives ?</div></h4></div></pre></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2F695475b4a526&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----695475b4a526----2-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div><div class="r ny nz oa ob oc od oe"><div class="eg pa of"><h4 class="ar cj gk at ef">1<span class="r h g f pb pc"></span></h4></div></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@JDesmares/thanks-for-the-article-695475b4a526?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----2------------------"><button class="de nr bf"><div class="oi n o ea"><div class="r eg xd"><svg width="25" height="25" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></div><div class="r eg pq xe pr xf ps xg xh xi xj xk"><h4 class="ar cj gk at ef">1 </h4></div></div></button></a></div></div></div><div class="ai da"><div class="ri rc my r"><div class="n ea eb"><div class="n o ea"><img alt="spamsam" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/1*dmbNkD5D-u45r44go_cf0g.png" width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@spamsam_8947?source=responses-----cfb87e2c8a6c----3------------------"><h4 class="ar cj gk at ef">spamsam</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@spamsam_8947/this-is-a-great-tutorial-thank-you-so-much-emmanuel-e8c9e3e24153?source=responses-----cfb87e2c8a6c----3------------------"><h4 class="ar cj gk at aw">almost 2 years ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">This is a great tutorial, thank you so much Emmanuel!!!</div></h4></div><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">I was trying to run your GitRepo, but whenever I try to access any page, e.g. /admin , auth/register, etc. I receive a â€œBad Requestâ€. I also created a superuser to check, but without success. Do ...</div></h4></div></pre></div><div class="xl de"><h4 class="ar cj ck at xm">Read More</h4></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2Fe8c9e3e24153&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----e8c9e3e24153----3-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@spamsam_8947/this-is-a-great-tutorial-thank-you-so-much-emmanuel-e8c9e3e24153?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----3------------------"><button class="de nr bf"><div class="xc n o ea"><div class="r eg xd"><svg width="25" height="25" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></div><div class="r eg pq xe pr xf ps xg xh xi xj xk"></div></div></button></a></div></div></div><div class="ai da"><div class="ri rc my r"><div class="n ea eb"><div class="n o ea"><img alt="Ù…Ø±ÛŒÙ… Ø¹Ø¨Ø¯Ù„ÛŒ" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/0*PY37R54hZJ0ExznP.jpg" width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@maryam.abdoli?source=responses-----cfb87e2c8a6c----4------------------"><h4 class="ar cj gk at ef">Ù…Ø±ÛŒÙ… Ø¹Ø¨Ø¯Ù„ÛŒ</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@maryam.abdoli/step2-e7f65a420804?source=responses-----cfb87e2c8a6c----4------------------"><h4 class="ar cj gk at aw">over 1 year ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="xn xo ou xp xq xr de"><p id="embedded-quote-42cc929b2772-43ca" class="ee xs as iz b ja xt je xu xv xw ti xx tk xy ju fk mz ef" data-selectable-paragraph=""><mark class="xz ya de">You start off by installing a third party package, that provides a JWT interface for the API. Open your CLI and enter the following command;</mark></p></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">STEP2</div></h4></div></pre></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2Fe7f65a420804&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----e7f65a420804----4-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@maryam.abdoli/step2-e7f65a420804?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----4------------------"></a></div></div></div><div class="ai da"><div class="ri rc my r"><div class="n ea eb"><div class="n o ea"><img alt="Azizbek Gaybullaev" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/0*Poax566EK3kM7_8v" width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@azizbekgaybullaev?source=responses-----cfb87e2c8a6c----5------------------"><h4 class="ar cj gk at ef">Azizbek Gaybullaev</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@azizbekgaybullaev/thanks-for-the-tutorial-d19ec36eb984?source=responses-----cfb87e2c8a6c----5------------------"><h4 class="ar cj gk at aw">over 1 year ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">Thanks for the tutorial!</div></h4></div><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">But you did not create a model how can it be saved in the database after sending the credentials?</div></h4></div></pre></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2Fd19ec36eb984&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----d19ec36eb984----5-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@azizbekgaybullaev/thanks-for-the-tutorial-d19ec36eb984?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----5------------------"><button class="de nr bf"><div class="xc n o ea"><div class="r eg xd"><svg width="25" height="25" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></div><div class="r eg pq xe pr xf ps xg xh xi xj xk"></div></div></button></a></div></div></div><div class="ai da"><div class="ri rc my r"><div class="n ea eb"><div class="n o ea"><img alt="Amit Sinha" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/1*dmbNkD5D-u45r44go_cf0g.png" width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@amit.ku280?source=responses-----cfb87e2c8a6c----6------------------"><h4 class="ar cj gk at ef">Amit Sinha</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@amit.ku280/how-to-implement-refresh-token-and-after-getting-refresh-token-generate-access-token-b63604e2b29e?source=responses-----cfb87e2c8a6c----6------------------"><h4 class="ar cj gk at aw">8 months ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">How to implement refresh token and after getting refresh token generate access token?</div></h4></div></pre></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2Fb63604e2b29e&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----b63604e2b29e----6-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@amit.ku280/how-to-implement-refresh-token-and-after-getting-refresh-token-generate-access-token-b63604e2b29e?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----6------------------"><button class="de nr bf"><div class="xc n o ea"><div class="r eg xd"><svg width="25" height="25" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></div><div class="r eg pq xe pr xf ps xg xh xi xj xk"></div></div></button></a></div></div></div><div class="ai da"><div class="ri rc my r"><div class="n ea eb"><div class="n o ea"><img alt="Federico Caccia" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/0*UMHBJtoWdWAj5UHy." width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@federicoagustincaccia?source=responses-----cfb87e2c8a6c----7------------------"><h4 class="ar cj gk at ef">Federico Caccia</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@federicoagustincaccia/thanks-for-the-tutorial-it-was-really-helpful-for-me-6dc5e40cd3b2?source=responses-----cfb87e2c8a6c----7------------------"><h4 class="ar cj gk at aw">over 1 year ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">Thanks for the tutorial, it was really helpful for me!</div></h4></div></pre></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2F6dc5e40cd3b2&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----6dc5e40cd3b2----7-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@federicoagustincaccia/thanks-for-the-tutorial-it-was-really-helpful-for-me-6dc5e40cd3b2?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----7------------------"><button class="de nr bf"><div class="xc n o ea"><div class="r eg xd"><svg width="25" height="25" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></div><div class="r eg pq xe pr xf ps xg xh xi xj xk"></div></div></button></a></div></div></div><div class="ai da"><div class="nb rc my r"><div class="n ea eb"><div class="n o ea"><div class="eg er eq"><div class="ye n ea o p s yf yg yh mo yi dh"><svg width="39" height="39" viewBox="0 0 39 39"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 1C11.83 1 5.17 5.75 1.9 12.71L1 12.3C4.4 5.02 11.4 0 19.5 0S34.6 5.02 38 12.29l-.9.42C33.82 5.75 27.16 1 19.5 1zM1.9 26.29C5.18 33.25 11.84 38 19.5 38c7.67 0 14.33-4.75 17.6-11.71l.9.42C34.6 33.98 27.6 39 19.5 39S4.4 33.98 1 26.71l.9-.42z"></path></svg></div><img alt="Sowmya Aji" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/0*qd21ByEwp_PnAsqE." width="32" height="32"></div><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@sowmyaaji?source=responses-----cfb87e2c8a6c----8------------------"><h4 class="ar cj gk at ef">Sowmya Aji</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@sowmyaaji/two-small-fixes-in-the-tutorial-above-again-emmanuel-d-3b042563c27f?source=responses-----cfb87e2c8a6c----8------------------"><h4 class="ar cj gk at aw">about 1 year ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><a rel="noopener" href="https://medium.com/@sowmyaaji/two-small-fixes-in-the-tutorial-above-again-emmanuel-d-3b042563c27f?source=responses-----cfb87e2c8a6c----8------------------"><div class="xn xo ou yb yc"><div class="ax yd"><h4 class="ar cj ck at aw"><div class="yj n o ao"></div></h4></div><h4 class="ar cj gk at br yk hp hq yl hs ef"><div class="r">Two small fixes in the tutorial above, again, Emmanuel :D</div><div class="ef">Awesome tutorial, very well explained! Thank you.</div></h4></div></a></div></div><div class="ai da"><div class="uc rc r"><div class="n ea eb"><div class="n o ea"><img alt="Praful Parashar" class="r hi eq er" src="https://miro.medium.com/fit/c/96/96/0*ElGTSAJ8C20F3P4E." width="32" height="32"><div class="wy r"><div class="n ea"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@praful.parashar21?source=responses-----cfb87e2c8a6c----9------------------"><h4 class="ar cj gk at ef">Praful Parashar</h4></a></div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener nofollow" href="https://medium.com/@praful.parashar21/thanks-for-the-article-kudos-to-you-for-explaining-it-so-well-2f52e05b6a1?source=responses-----cfb87e2c8a6c----9------------------"><h4 class="ar cj gk at aw">about 1 year ago</h4></a></div></div><button class="de nr ww ej wx"><svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg></button></div><div class="qw r"><pre class="lt"><div class="wz r"><h4 class="ar cj gk at ef"><div class="qr">Thanks for the article. Kudos to you for explaining it so well.</div></h4></div></pre></div><div class="xa n o ea"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fp%2F2f52e05b6a1&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=responses-----2f52e05b6a1----9-----------------respond_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu uz q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div></div><div class="xb r"></div><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@praful.parashar21/thanks-for-the-article-kudos-to-you-for-explaining-it-so-well-2f52e05b6a1?responsesOpen=true&amp;source=responses-----cfb87e2c8a6c----9------------------"><button class="de nr bf"><div class="xc n o ea"><div class="r eg xd"><svg width="25" height="25" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></div><div class="r eg pq xe pr xf ps xg xh xi xj xk"></div></div></button></a></div></div></div></div></div></div><article><section class="fc fd fe ff ai fg dm r"></section><span class="r"></span><div><div class="s u ws fi fj dh"></div><div class="fe ff fg eg"><div class="r h g f e"><aside class="dl s t" style="width: 328px;"><div class="yn yo s yp bz ai"><h4 class="ar cj ck at aw"><span class="ik yo bz br hp">Top highlight</span></h4></div></aside></div></div><section class="fk fl fm fn fo"><div class="n p"><div class="z ab ac ae af fp ah ai"><figure class="fr fs ft fu fv fw fe ff paragraph-image"><div class="fe ff fq"><div class="ga r eg es"><div class="gb gc r"><div class="dp wv s t u da ai br fy fz"><img alt="Image for post" class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*_6oZAheCwiQiKHAHeJDK5w.png?q=20" width="700" height="466"></div><img alt="Image for post" class="df fx s t u da ai c" width="700" height="466"></div></div></div><figcaption class="gg gh fg fe ff gi gj ar cj gk at aw" data-selectable-paragraph="">Image Credit: Django REST Framework</figcaption></figure><div><h1 id="c512" class="gl gm as gn b go gp gq gr gs gt gu gv gw gx gy gz ha hb hc hd ef">Letâ€™s build an API with Django REST Framework â€” Part 2</h1><div class="he"><div class="n eb hf hg hh"><div class="o n"><div><a rel="noopener" href="https://medium.com/@kasulani?source=post_page-----cfb87e2c8a6c----------------------"><img alt="Emmanuel King Kasulani" class="r hi hj hk" src="https://miro.medium.com/fit/c/96/96/1*ubbP2tqcQt4K1q2c6ZrX2g.jpeg" width="48" height="48"></a></div><div class="hl ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="hm n o hn"><span class="ar cj gk at br ho hp hq hr hs ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@kasulani?source=post_page-----cfb87e2c8a6c----------------------">Emmanuel King Kasulani</a></span><div class="et r ao h"><span><button class="hu ef q hv hw hx hy hz bh ek ia ib ic id ie if ig ar b as ih ck av ii ij dm ik il">Follow</button></span></div></div></span></div></div><span class="ar b as at au av r aw ax"><span class="ar cj gk at br ho hp hq hr hs aw"><div><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c?source=post_page-----cfb87e2c8a6c----------------------">Mar 30, 2018</a> <!-- -->Â·<!-- --> <!-- -->7<!-- --> min read</div></span></span></div></div><div class="n im in io ip iq ir is it y"><div class="n o"><div class="iu r ao"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el"><svg width="29" height="29" class="ax"><path d="M22.05 7.54a4.47 4.47 0 0 0-3.3-1.46 4.53 4.53 0 0 0-4.53 4.53c0 .35.04.7.08 1.05A12.9 12.9 0 0 1 5 6.89a5.1 5.1 0 0 0-.65 2.26c.03 1.6.83 2.99 2.02 3.79a4.3 4.3 0 0 1-2.02-.57v.08a4.55 4.55 0 0 0 3.63 4.44c-.4.08-.8.13-1.21.16l-.81-.08a4.54 4.54 0 0 0 4.2 3.15 9.56 9.56 0 0 1-5.66 1.94l-1.05-.08c2 1.27 4.38 2.02 6.94 2.02 8.3 0 12.86-6.9 12.84-12.85.02-.24 0-.43 0-.65a8.68 8.68 0 0 0 2.26-2.34c-.82.38-1.7.62-2.6.72a4.37 4.37 0 0 0 1.95-2.51c-.84.53-1.81.9-2.83 1.13z"></path></svg></button></div><div class="iu r ao"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el"><svg width="29" height="29" viewBox="0 0 29 29" fill="none" class="ax"><path d="M5 6.36C5 5.61 5.63 5 6.4 5h16.2c.77 0 1.4.61 1.4 1.36v16.28c0 .75-.63 1.36-1.4 1.36H6.4c-.77 0-1.4-.6-1.4-1.36V6.36z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M10.76 20.9v-8.57H7.89v8.58h2.87zm-1.44-9.75c1 0 1.63-.65 1.63-1.48-.02-.84-.62-1.48-1.6-1.48-.99 0-1.63.64-1.63 1.48 0 .83.62 1.48 1.59 1.48h.01zM12.35 20.9h2.87v-4.79c0-.25.02-.5.1-.7.2-.5.67-1.04 1.46-1.04 1.04 0 1.46.8 1.46 1.95v4.59h2.87v-4.92c0-2.64-1.42-3.87-3.3-3.87-1.55 0-2.23.86-2.61 1.45h.02v-1.24h-2.87c.04.8 0 8.58 0 8.58z" fill="#fff"></path></svg></button></div><div class="iu r ao"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el"><svg width="29" height="29" class="ax"><path d="M23.2 5H5.8a.8.8 0 0 0-.8.8V23.2c0 .44.35.8.8.8h9.3v-7.13h-2.38V13.9h2.38v-2.38c0-2.45 1.55-3.66 3.74-3.66 1.05 0 1.95.08 2.2.11v2.57h-1.5c-1.2 0-1.48.57-1.48 1.4v1.96h2.97l-.6 2.97h-2.37l.05 7.12h5.1a.8.8 0 0 0 .79-.8V5.8a.8.8 0 0 0-.8-.79"></path></svg></button></div><div class="iv r"><div class="ax"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fbookmark%2Fp%2Fcfb87e2c8a6c&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=post_actions_header--------------------------bookmark_header-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><svg width="25" height="25" viewBox="0 0 25 25"><path d="M19 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.66h.01c.01.1.05.2.12.28a.5.5 0 0 0 .7.03l5.67-4.12 5.66 4.13a.5.5 0 0 0 .71-.03.5.5 0 0 0 .12-.29H19V6zm-6.84 9.97L7 19.64V6a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v13.64l-5.16-3.67a.49.49 0 0 0-.68 0z" fill-rule="evenodd"></path></svg></a></span></div></div><div class="iw r am"></div></div></div></div></div></div><p id="e055" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Welcome back! In this second part, I will show you how to secure an API using two features that come with Django REST Framework out of the box; <a href="http://www.django-rest-framework.org/api-guide/authentication/" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow"><strong class="iz jz">Authentication</strong></a> and <a href="http://www.django-rest-framework.org/api-guide/permissions/" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow"><strong class="iz jz">Permissions</strong></a>. In case you missed the first part, click <a class="co il jv jw jx jy" target="_blank" rel="noopener" href="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-32fcf40231e5">here</a> to read it before proceeding on, because this is a continuation of what was discussed in that part.</p><p id="a933" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">In this part you are going to add restrictions to your simple music API. Letâ€™s assume, for security reasons your API was no longer going to be public, and therefore you require consumers of your API to be registered users, then you are going to need to add mechanisms to ensure this is done. Those mechanisms, dear reader is none other than;<strong class="iz jz"> Authentication, Authorization and Permissions</strong>.</p><h1 id="55eb" class="ka kb as ar ec kc kd ke kf kg kh ki kj kk kl km kn ko kp kq kr ef" data-selectable-paragraph="">So whatâ€™s Authentication?</h1><p id="64f3" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Authentication is the mechanism of associating an incoming request with a set of identifying credentials, such as the user the request came from, or the <strong class="iz jz">token</strong> that it was signed with. <strong class="iz jz">Authentication by itself wonâ€™t allow or disallow an incoming request</strong>, it simply identifies the credentials that the request was made with. After the user is authenticated, DRF will check if the user is <strong class="iz jz">authorized</strong> to access the resource they are requesting for. I will be discussing more about <strong class="iz jz">authorization</strong> when am covering <strong class="iz jz">permissions</strong> later on.</p><p id="5384" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph=""><strong class="iz jz">Authentication is always run at the very start of the view</strong>, before the authorization checks occur, and before any other code is allowed to proceed.</p><p id="4099" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">For the music service API we developed in the <a class="co il jv jw jx jy" target="_blank" rel="noopener" href="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-32fcf40231e5">first part</a>, i will show you how to secure it using a <strong class="iz jz">token based authentication scheme</strong>. I will be using <a href="https://jwt.io/" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">JSON Web Tokens (JWT)</a> in for this scheme. <mark class="ym ya de">The beauty of using JWT, is that you donâ€™t need to save the token in a database.</mark></p><p id="ed26" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Furthermore, JWTs provide a simple, yet powerful mechanism for securely transferring authentication information between a client and server. Itâ€™s also a compact URL-safe means of representing claims to be transferred between two parties. The claims in a <strong class="iz jz">JWT</strong> are encoded as a JSON object that is digitally signed using JSON Web Signature (JWS).</p><p id="2a3c" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">When using JWTs, <strong class="iz jz">make sure to expose your endpoints using the HTTPS scheme</strong> to protect the integrity of the data exchanged using JWT from <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow"><strong class="iz jz">man-in-the-middle attacks</strong></a>.</p><h2 id="f29a" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Letâ€™s add JWT to the API</h2><p id="43ca" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">You start off by installing a <a href="https://github.com/GetBlimp/django-rest-framework-jwt" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">third party package</a>, that provides a JWT interface for the API. Open your CLI and enter the following command;</p><pre class="lj lk ll lm ln lo lp ca"><span id="7374" class="ef kx kb as lq b gk lr ls r lt" data-selectable-paragraph="">(venv)music_service$ <!-- -->pip install <!-- -->djangorestframework-jwt</span></pre><p id="419c" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">After installing the <a href="http://getblimp.github.io/django-rest-framework-jwt/" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">djangorestframework-jwt</a> package, you can now go ahead and open the <code class="es lu lv lw lq b">api/settings.py</code> file and add the <code class="es lu lv lw lq b">JSONWebTokenAuthentication</code> to Django REST Framework's <code class="es lu lv lw lq b">DEFAULT_AUTHENTICATION_CLASSES</code>.</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="d295" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Still inside the <code class="es lu lv lw lq b">api/settings.py</code> file, also add a dictionary with JWT settings. This assists in defining the defaults to use for JWT. Copy and paste the code below in your <code class="es lu lv lw lq b">api/settings.py</code> file before proceeding further.</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="bfa4" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">At this point, you are done setting up JWT in your project and with this, you have also set the global authentication settings. <strong class="iz jz">These authentication settings will be applied on all views in your API, unless you over ride them on a view level</strong>.</p><p id="bd98" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Letâ€™s now look at <strong class="iz jz">permissions</strong> in DRF.</p><h1 id="5342" class="ka kb as ar ec kc kd ke kf kg kh ki kj kk kl km kn ko kp kq kr ef" data-selectable-paragraph="">Why do you need to set Permissions?</h1><p id="9f7d" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Together with <a href="http://www.django-rest-framework.org/api-guide/authentication/" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">authentication</a> and <a href="http://www.django-rest-framework.org/api-guide/throttling/" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">throttling</a>, permissions determine whether a request should be granted or denied access.</p><p id="0722" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Permission checks are always run at the very start of the view, before any other code is allowed to proceed. Permission checks will typically use the authentication information in the <code class="es lu lv lw lq b">request.user</code> and <code class="es lu lv lw lq b">request.auth</code> properties to determine if the incoming request should be permitted.</p><p id="681f" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Permissions are used to grant or deny access different classes of users to different parts of the API.</p><p id="85ec" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">The simplest style of permission would be to allow access to any authenticated user, and deny access to any unauthenticated user. This corresponds the <code class="es lu lv lw lq b">IsAuthenticated</code> class in DRF.</p><p id="1151" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Now letâ€™s add permissions to the API. Open the <code class="es lu lv lw lq b">api/settings.py</code> file and add <code class="es lu lv lw lq b">DjangoPermissionsOrnonReadOnly</code> to Django REST frameworkâ€™s <code class="es lu lv lw lq b">DEFAULT_PERMISSION_CLASSES</code> .</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="6ad5" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">The <a href="http://www.django-rest-framework.org/api-guide/permissions/#djangomodelpermissionsoranonreadonly" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">DjangoModelPermissionsOrAnonReadOnly</a> class not only applies the <a href="https://docs.djangoproject.com/en/2.0/topics/auth/default/#topic-authorization" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">Django Permissions</a> but also allows unauthenticated users to have read-only access to the API.</p><p id="4709" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">With this, you have set the global permissions settings. <strong class="iz jz">Global permissions will be applied to the details views in your API that correspond to endpoints such as </strong><code class="es lu lv lw lq b"><strong class="iz jz">songs/:id</strong></code><strong class="iz jz">. You can also over ride the global settings on a view level</strong>. We shall see how this can later on when we set the permissions on the <code class="es lu lv lw lq b">GET songs/</code> endpoint.</p><p id="9b75" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Letâ€™s now code the view that will be used to login to allow users to use your API.</p><h1 id="296c" class="ka kb as ar ec kc kd ke kf kg kh ki kj kk kl km kn ko kp kq kr ef" data-selectable-paragraph="">User login view</h1><p id="b96e" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">For your API, <strong class="iz jz">users get tokens only when they login successfully</strong>. You now need to add a view to handle authentication of the user when they attempt to login to use the API. This view will respond with a <strong class="iz jz">token</strong> to the client.</p><h2 id="fdec" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Write a test first</h2><p id="e418" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Before you can proceed to code the view, add a test as always.</p><p id="c82e" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Open the <code class="es lu lv lw lq b">music/tests.py</code> file and add the following lines of code;</p><p id="2488" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">First you need to update the <code class="es lu lv lw lq b">BaseViewTest</code> class as shown in the code snippet below;</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="3a06" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Then add the <code class="es lu lv lw lq b">AuthLoginUserTest</code> that extends the new <code class="es lu lv lw lq b">BaseViewTest</code> as shown in the code snippet below;</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><h2 id="7745" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Create the Login view</h2><p id="2a95" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Since your view will respond with a token to the client, you will need a serializer to serialize this response for the client. In <a class="co il jv jw jx jy" target="_blank" rel="noopener" href="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-32fcf40231e5">part 1</a>, i explained why you need serializers for your views that respond with data.</p><p id="c150" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">To create a serializer for the token, Open the <code class="es lu lv lw lq b">music/serializers.py</code> file and add the following lines of code;</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="8def" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">After creating the serializer, you can now proceed and create the login view;</p><p id="5497" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Open the <code class="es lu lv lw lq b">music/views.py</code> file, and add the following lines of code;</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="92eb" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph=""><strong class="iz jz">Permissions:</strong> Like I mentioned before, In DRF, you can set the permission class at the view level. In the code snippet above, we set the <code class="es lu lv lw lq b">permission_classes</code> attribute of the <code class="es lu lv lw lq b">LoginView</code> to override the global settings. The <code class="es lu lv lw lq b">AllowAny</code> class permits any one to access this view publicly, since itâ€™s a login view, you definitely want it to be accessed publicly.</p><p id="60e3" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Lastly, you need to set the permissions of the <code class="es lu lv lw lq b">ListSongsView</code> from <a class="co il jv jw jx jy" target="_blank" rel="noopener" href="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-32fcf40231e5">part 1</a>. Since you donâ€™t want any one whoâ€™s not logged in to view the list of songs, you set the <code class="es lu lv lw lq b">permission_classes</code> attribute of the <code class="es lu lv lw lq b">ListSongsView</code> to <code class="es lu lv lw lq b">IsAuthenticated</code>. Your <code class="es lu lv lw lq b">ListSongsView</code> should now look like this;</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><h2 id="225b" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Wire up the view</h2><p id="2e27" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Before you can run the test, you will have to link the <code class="es lu lv lw lq b">LoginView</code> by configuring the urls.</p><p id="1a3c" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Open the <code class="es lu lv lw lq b">music/urls.py</code> file and add the following line of code to the <strong class="iz jz">existing</strong> <strong class="iz jz">urlpatterns</strong> list.</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><h2 id="4c02" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Now letâ€™s test!</h2><p id="585e" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">First, letâ€™s run automated tests. Run the command;</p><pre class="lj lk ll lm ln lo lp ca"><span id="41ed" class="ef kx kb as lq b gk lr ls r lt" data-selectable-paragraph="">(venv)music_service$ python manage.py test</span></pre><p id="885f" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">The out put in your shell should be similar to this;</p><pre class="lj lk ll lm ln lo lp ca"><span id="de1a" class="ef kx kb as lq b gk lr ls r lt" data-selectable-paragraph="">Creating test database for alias 'default'...<br>System check identified no issues (0 silenced).<br>.F<br>===================================================================</span><span id="5bb2" class="ef kx kb as lq b gk ly lz ma mb mc ls r lt" data-selectable-paragraph="">FAIL: test_get_all_songs (music.tests.GetAllSongsTest)</span><span id="59ac" class="ef kx kb as lq b gk ly lz ma mb mc ls r lt" data-selectable-paragraph="">-------------------------------------------------------------------</span><span id="9b9f" class="ef kx kb as lq b gk ly lz ma mb mc ls r lt" data-selectable-paragraph="">Traceback (most recent call last):</span><span id="9b15" class="ef kx kb as lq b gk ly lz ma mb mc ls r lt" data-selectable-paragraph="">File "/your/dir/to/music_service/music/tests.py", line xxx, in test_get_all_songs</span><span id="9419" class="ef kx kb as lq b gk ly lz ma mb mc ls r lt" data-selectable-paragraph="">self.assertEqual(response.data, serialized.data)</span><span id="28b7" class="ef kx kb as lq b gk ly lz ma mb mc ls r lt" data-selectable-paragraph="">AssertionError: {'detail': 'Authentication credentials we[13 chars]ed.'} != [OrderedDict([('title', 'like glue'), ('a[224 chars]')])]</span><span id="3066" class="ef kx kb as lq b gk ly lz ma mb mc ls r lt" data-selectable-paragraph="">--------------------------------------------------------------------Ran 2 tests in 0.010s</span><span id="5ca7" class="ef kx kb as lq b gk ly lz ma mb mc ls r lt" data-selectable-paragraph="">FAILED (failures=1)<br>Destroying test database for alias 'default'...</span></pre><h2 id="de26" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Why is the test failing?</h2><blockquote class="md me mf"><p id="f558" class="ix iy mg iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph=""><strong class="iz jz">Donâ€™t panic!</strong> The devil is in the detail â€” Me :)</p></blockquote><p id="1fb4" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">This is a good sign. The test we wrote in <a class="co il jv jw jx jy" target="_blank" rel="noopener" href="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-32fcf40231e5">part 1</a> will fail. The reason is because you added permissions to the <code class="es lu lv lw lq b">ListSongsView</code>.</p><p id="4dea" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">The response in the shell is always not the best to see the reason for failure. You fire up your browser and navigate to <code class="es lu lv lw lq b"><a href="http://127.0.0.1:8000/admin" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">http://127.0.0.1:8000/a</a>pi/v1/songs/</code> , you will see some thing like this below;</p><figure class="lj lk ll lm ln fw fe ff paragraph-image"><div class="mi mj eg mk ai"><div class="fe ff mh"><div class="ga r eg es"><div class="ml gc r"><div class="dp wv s t u da ai br fy fz"><img alt="Image for post" class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*4fDBiAN9LRJ4M7nYnvWZNw.png?q=20" width="2762" height="828"></div><img alt="Image for post" class="df fx s t u da ai c" width="2762" height="828"></div></div></div></div></figure><p id="e74a" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Look carefully at the text in <strong class="iz jz">red</strong>, itâ€™s telling you something; <strong class="iz jz">Authentication credentials were not provided.</strong> This tells you that login is required now to view all songs, which was the goal of this part of the tutorial.</p><h2 id="6cd0" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Letâ€™s fix the test</h2><p id="8879" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Now, to fix your test from <a class="co il jv jw jx jy" target="_blank" rel="noopener" href="https://medium.com/backticks-tildes/lets-build-an-api-with-django-rest-framework-32fcf40231e5">part 1</a>, follow the comments in the code snippet below and do as they instruct.</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="c213" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Once you have updated you test code as shown above, your tests should now all be passing.</p><h2 id="cf36" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Bonus: User Register view</h2><p id="10f6" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Now that you have view to login users, I think you will also need a view to register the users. As a bonus, I will show you how to add a view to be used by the API users to register.</p><p id="563c" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">This view will be open to the public as you donâ€™t need to put restrictions on it, so you will set the <code class="es lu lv lw lq b">permission_classes</code> of the view to <code class="es lu lv lw lq b">AllowAny</code> .</p><h2 id="5223" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Add a Test</h2><p id="a6b1" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Oh yes, as you usual, you have to write the test first.</p><p id="3359" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Open the <code class="es lu lv lw lq b">music/tests.py</code> and add the following lines of code;</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><h2 id="b8a3" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Create the register view</h2><p id="939b" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">Now open the <code class="es lu lv lw lq b">music/views.py</code> and add the following lines of code;</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><h2 id="2469" class="kx kb as ar ec ky kz jc la lb jg lc ld jk le lf jo lg lh js li ef" data-selectable-paragraph="">Wire up the view</h2><p id="4533" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">As always, before you can run the test, you will have to link the new view by configuring the urls.</p><p id="9343" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Open the <code class="es lu lv lw lq b">music/urls.py</code> file and add the following line of code to the <strong class="iz jz">existing</strong> <strong class="iz jz">urlpatterns</strong> list.</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="9a5d" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">With the urls setup, you can now run the test with <code class="es lu lv lw lq b">python manage.py test</code> command.</p><h1 id="586a" class="ka kb as ar ec kc kd ke kf kg kh ki kj kk kl km kn ko kp kq kr ef" data-selectable-paragraph=""><strong class="be">Take Away</strong></h1><p id="5baf" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">As you can see, setting up security in DRF is very easy. You need minimum lines of code to do that.</p><p id="13f5" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">You setup security in your API, by setting global settings to use for <strong class="iz jz">Authorization</strong> and <strong class="iz jz">Permissions</strong>.</p><p id="42aa" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">You also setup security on a per view level.</p><p id="3e5a" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">For practice, you can go ahead and implement the remaining auth endpoints for the simple music service API listed in this table below;</p><figure class="lj lk ll lm ln fw"><div class="ga r eg"><div class="lx gc r"></div></div></figure><p id="a0c9" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">For a complete implementation of the music service API, you can always go to my <a href="https://github.com/kasulani/drf_tutorial" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">git hub repo</a>, fork it and play around with it as you learn.</p><h1 id="cf11" class="ka kb as ar ec kc kd ke kf kg kh ki kj kk kl km kn ko kp kq kr ef" data-selectable-paragraph="">Additional resources</h1><p id="847e" class="ix iy as iz b ja ks jc jd je kt jg jh ji ku jk jl jm kv jo jp jq kw js jt ju fk ef" data-selectable-paragraph="">I recommend you read this <a href="https://dzone.com/articles/restful-api-authentication-basics-1" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">resource</a> to familiarize your self with other HTTP authentication schemes. Itâ€™s important that you understand them and get a feel of how security has evolved.</p><p id="df9c" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">Thereâ€™s also a great tool you can use to manually test your API endpoints called <a href="https://www.getpostman.com/" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow"><strong class="iz jz">postman</strong></a>. You can <a href="https://www.getpostman.com/docs/v6/postman/launching_postman/installation_and_updates" class="co il jv jw jx jy" target="_blank" rel="noopener nofollow">install</a> it on your development machine and experiment with it now.</p><p id="cfac" class="ix iy as iz b ja jb jc jd je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju fk ef" data-selectable-paragraph="">I hope this was helpful to you and I want to thank you for reading this post. Hit clap in case it was helpful so that others may find it too. You can also suggest in the comment section how I can improve on this post to help you understand the Django REST Framework.</p></div></div></section></div></article><div class="df dh db mm ai wu mr mu" data-test-id="post-sidebar"><div class="n p"><div class="z ab ac ae af ag ah ai"><div class="mv n mw"><div class="dh"><div><div class="mx my r"><a href="https://medium.com/backticks-tildes?source=post_sidebar--------------------------post_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><h2 class="ar ec mz na ef">Backticks &amp; Tildes</h2></a><div class="nb nc r"><h4 class="ar cj gk at br nd hp hq ne hs aw">Distributed knowledge without borders</h4></div><div class="ik" aria-hidden="false"><span><button class="nf hv ay az ng bi bj nh bh ig ar b as at au av ii ij dm ik il">Follow</button></span></div></div><div class="ni nj nk n"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fbackticks-tildes%2Fcfb87e2c8a6c&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=post_sidebar-----cfb87e2c8a6c---------------------clap_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu nv q nw nx"><svg width="29" height="29" aria-label="clap"><g fill-rule="evenodd"><path d="M13.74 1l.76 2.97.76-2.97zM16.82 4.78l1.84-2.56-1.43-.47zM10.38 2.22l1.84 2.56-.41-3.03zM22.38 22.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M9.1 22.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L6.1 15.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L6.4 11.26l-1.18-1.18a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L11.96 14a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L8.43 9.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L20.63 15c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM13 6.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 23 23.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div><div class="r ny nz oa ob oc od oe"><div class="of"><h4 class="ar cj gk at aw"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el">1.3K </button></h4></div></div></div></div><div class="nj r"><button class="de nr bf"><div class="oi n o ea"><svg width="25" height="25" class="q" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg><div class="r eg oj ok ol om on oo op oq"><h4 class="ar cj gk at aw">11<!-- --> </h4></div></div></button></div><div class="ax"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fbookmark%2Fp%2Fcfb87e2c8a6c&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=post_sidebar--------------------------post_sidebar-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><svg width="25" height="25" viewBox="0 0 25 25"><path d="M19 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.66h.01c.01.1.05.2.12.28a.5.5 0 0 0 .7.03l5.67-4.12 5.66 4.13a.5.5 0 0 0 .71-.03.5.5 0 0 0 .12-.29H19V6zm-6.84 9.97L7 19.64V6a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v13.64l-5.16-3.67a.49.49 0 0 0-.68 0z" fill-rule="evenodd"></path></svg></a></span></div></div></div></div></div></div></div><div class="df dh mm db mn mo mp mq mr ms"></div><div><div class="or fw n mw p"><div class="n p"><div class="z ab ac ae af fp ah ai"><div class="n os"></div><div class="n o os"></div><div class="ot r"><ul class="bf bg"><li class="ik bx iv ev"><a href="https://medium.com/backticks-tildes/tagged/django" class="ou ov il aw r lp na a b ck">Django</a></li><li class="ik bx iv ev"><a href="https://medium.com/backticks-tildes/tagged/python" class="ou ov il aw r lp na a b ck">Python</a></li><li class="ik bx iv ev"><a href="https://medium.com/backticks-tildes/tagged/django-rest-framework" class="ou ov il aw r lp na a b ck">Django Rest Framework</a></li><li class="ik bx iv ev"><a href="https://medium.com/backticks-tildes/tagged/andela" class="ou ov il aw r lp na a b ck">Andela</a></li><li class="ik bx iv ev"><a href="https://medium.com/backticks-tildes/tagged/tutorial" class="ou ov il aw r lp na a b ck">Tutorial</a></li></ul></div><div class="ot n eb y"><div class="n ea"><div class="ow r"><span class="r ox oy oz e d"><div class="n o"><div class="r eg nl nm nn no np"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fbackticks-tildes%2Fcfb87e2c8a6c&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=post_actions_footer-----cfb87e2c8a6c---------------------clap_footer-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu nv q nw nx"><svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap"><g fill-rule="evenodd"><path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path></g></svg></div></a></span></div><div class="r ny nz oa ob oc od oe"><div class="eg pa of"><h4 class="ar cj gk at ef"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el">1.3K<span class="r h g f pb pc">&nbsp;claps</span></button><span class="r h g f pb pc"></span></h4></div></div></div></span><span class="r h g f pb pc"><div class="n cb"><div class="r eg nl nm"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fvote%2Fbackticks-tildes%2Fcfb87e2c8a6c&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=post_actions_footer-----cfb87e2c8a6c---------------------clap_footer-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><div class="bf nq nr ns de nt nu nv q nw nx"><svg width="33" height="33" viewBox="0 0 33 33" aria-label="clap"><path d="M28.86 17.34l-3.64-6.4c-.3-.43-.71-.73-1.16-.8a1.12 1.12 0 0 0-.9.21c-.62.5-.73 1.18-.32 2.06l1.22 2.6 1.4 2.45c2.23 4.09 1.51 8-2.15 11.66a9.6 9.6 0 0 1-.8.71 6.53 6.53 0 0 0 4.3-2.1c3.82-3.82 3.57-7.87 2.05-10.39zm-6.25 11.08c3.35-3.35 4-6.78 1.98-10.47L21.2 12c-.3-.43-.71-.72-1.16-.8a1.12 1.12 0 0 0-.9.22c-.62.49-.74 1.18-.32 2.06l1.72 3.63a.5.5 0 0 1-.81.57l-8.91-8.9a1.33 1.33 0 0 0-1.89 1.88l5.3 5.3a.5.5 0 0 1-.71.7l-5.3-5.3-1.49-1.49c-.5-.5-1.38-.5-1.88 0a1.34 1.34 0 0 0 0 1.89l1.49 1.5 5.3 5.28a.5.5 0 0 1-.36.86.5.5 0 0 1-.36-.15l-5.29-5.29a1.34 1.34 0 0 0-1.88 0 1.34 1.34 0 0 0 0 1.89l2.23 2.23L9.3 21.4a.5.5 0 0 1-.36.85.5.5 0 0 1-.35-.14l-3.32-3.33a1.33 1.33 0 0 0-1.89 0 1.32 1.32 0 0 0-.39.95c0 .35.14.69.4.94l6.39 6.4c3.53 3.53 8.86 5.3 12.82 1.35zM12.73 9.26l5.68 5.68-.49-1.04c-.52-1.1-.43-2.13.22-2.89l-3.3-3.3a1.34 1.34 0 0 0-1.88 0 1.33 1.33 0 0 0-.4.94c0 .22.07.42.17.61zm14.79 19.18a7.46 7.46 0 0 1-6.41 2.31 7.92 7.92 0 0 1-3.67.9c-3.05 0-6.12-1.63-8.36-3.88l-6.4-6.4A2.31 2.31 0 0 1 2 19.72a2.33 2.33 0 0 1 1.92-2.3l-.87-.87a2.34 2.34 0 0 1 0-3.3 2.33 2.33 0 0 1 1.24-.64l-.14-.14a2.34 2.34 0 0 1 0-3.3 2.39 2.39 0 0 1 3.3 0l.14.14a2.33 2.33 0 0 1 3.95-1.24l.09.09c.09-.42.29-.83.62-1.16a2.34 2.34 0 0 1 3.3 0l3.38 3.39a2.17 2.17 0 0 1 1.27-.17c.54.08 1.03.35 1.45.76.1-.55.41-1.03.9-1.42a2.12 2.12 0 0 1 1.67-.4 2.8 2.8 0 0 1 1.85 1.25l3.65 6.43c1.7 2.83 2.03 7.37-2.2 11.6zM13.22.48l-1.92.89 2.37 2.83-.45-3.72zm8.48.88L19.78.5l-.44 3.7 2.36-2.84zM16.5 3.3L15.48 0h2.04L16.5 3.3z" fill-rule="evenodd"></path></svg></div></a></span></div><div class="r ny nz oa ob pd pe pf pg ph pi"><div class="eg pa of"><h4 class="ar cj gk at ef"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el">1.3K<span class="r h g f pb pc">&nbsp;claps</span></button><span class="r h g f pb pc"></span></h4></div></div></div></span></div><div class="r pj pk pl pm pn"></div><button class="de nr bf"><div class="oi n o ea"><span class="po r h g f pb pc"><svg width="33" height="33" viewBox="0 0 33 33" fill="none" class="q" aria-label="responses"><path clip-rule="evenodd" d="M24.28 25.5l.32-.29c2.11-1.94 3.4-4.61 3.4-7.56C28 11.83 22.92 7 16.5 7S5 11.83 5 17.65s5.08 10.66 11.5 10.66c1.22 0 2.4-.18 3.5-.5l.5-.15.41.33a8.86 8.86 0 0 0 4.68 2.1 7.34 7.34 0 0 1-1.3-4.15v-.43zm1 .45c0 1.5.46 2.62 1.69 4.44.22.32.01.75-.38.75a9.69 9.69 0 0 1-6.31-2.37c-1.2.35-2.46.54-3.78.54C9.6 29.3 4 24.09 4 17.65 4 11.22 9.6 6 16.5 6S29 11.22 29 17.65c0 3.25-1.42 6.18-3.72 8.3z"></path></svg></span><span class="pp r ox oy oz e d"><svg width="25" height="25" class="q" aria-label="responses"><path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path></svg></span><div class="r eg pq ok pr om ps oo pt pu pv pw"><h4 class="ar cj gk at ef">11<!-- --> <span class="r h g f pb pc">response<!-- -->s</span></h4></div></div></button></div><div class="n o"><div class="iu r ao"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el"><svg width="29" height="29" class="ax"><path d="M22.05 7.54a4.47 4.47 0 0 0-3.3-1.46 4.53 4.53 0 0 0-4.53 4.53c0 .35.04.7.08 1.05A12.9 12.9 0 0 1 5 6.89a5.1 5.1 0 0 0-.65 2.26c.03 1.6.83 2.99 2.02 3.79a4.3 4.3 0 0 1-2.02-.57v.08a4.55 4.55 0 0 0 3.63 4.44c-.4.08-.8.13-1.21.16l-.81-.08a4.54 4.54 0 0 0 4.2 3.15 9.56 9.56 0 0 1-5.66 1.94l-1.05-.08c2 1.27 4.38 2.02 6.94 2.02 8.3 0 12.86-6.9 12.84-12.85.02-.24 0-.43 0-.65a8.68 8.68 0 0 0 2.26-2.34c-.82.38-1.7.62-2.6.72a4.37 4.37 0 0 0 1.95-2.51c-.84.53-1.81.9-2.83 1.13z"></path></svg></button></div><div class="iu r ao"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el"><svg width="29" height="29" viewBox="0 0 29 29" fill="none" class="ax"><path d="M5 6.36C5 5.61 5.63 5 6.4 5h16.2c.77 0 1.4.61 1.4 1.36v16.28c0 .75-.63 1.36-1.4 1.36H6.4c-.77 0-1.4-.6-1.4-1.36V6.36z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M10.76 20.9v-8.57H7.89v8.58h2.87zm-1.44-9.75c1 0 1.63-.65 1.63-1.48-.02-.84-.62-1.48-1.6-1.48-.99 0-1.63.64-1.63 1.48 0 .83.62 1.48 1.59 1.48h.01zM12.35 20.9h2.87v-4.79c0-.25.02-.5.1-.7.2-.5.67-1.04 1.46-1.04 1.04 0 1.46.8 1.46 1.95v4.59h2.87v-4.92c0-2.64-1.42-3.87-3.3-3.87-1.55 0-2.23.86-2.61 1.45h.02v-1.24h-2.87c.04.8 0 8.58 0 8.58z" fill="#fff"></path></svg></button></div><div class="iu r ao"><button class="co cp ba bb bc bd be bf bg bh ei ej bk ek el"><svg width="29" height="29" class="ax"><path d="M23.2 5H5.8a.8.8 0 0 0-.8.8V23.2c0 .44.35.8.8.8h9.3v-7.13h-2.38V13.9h2.38v-2.38c0-2.45 1.55-3.66 3.74-3.66 1.05 0 1.95.08 2.2.11v2.57h-1.5c-1.2 0-1.48.57-1.48 1.4v1.96h2.97l-.6 2.97h-2.37l.05 7.12h5.1a.8.8 0 0 0 .79-.8V5.8a.8.8 0 0 0-.8-.79"></path></svg></button></div><div class="px r ao"><div class="ax"><span><a href="https://medium.com/m/signin?actionUrl=%2F_%2Fbookmark%2Fp%2Fcfb87e2c8a6c&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fbackticks-tildes%2Flets-build-an-api-with-django-rest-framework-part-2-cfb87e2c8a6c&amp;source=post_actions_footer--------------------------bookmark_footer-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener"><svg width="25" height="25" viewBox="0 0 25 25"><path d="M19 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.66h.01c.01.1.05.2.12.28a.5.5 0 0 0 .7.03l5.67-4.12 5.66 4.13a.5.5 0 0 0 .71-.03.5.5 0 0 0 .12-.29H19V6zm-6.84 9.97L7 19.64V6a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v13.64l-5.16-3.67a.49.49 0 0 0-.68 0z" fill-rule="evenodd"></path></svg></a></span></div></div></div></div></div></div><div><div class="n p"><div class="z ab ac ae af fp ah ai"><div class="py pz qa ot r qb y"><div class="r g"><div class="qc qd r eg"><span class="r qe al qf"><div class="r s qg qh"><a rel="noopener" href="https://medium.com/@kasulani?source=follow_footer--------------------------follow_footer-"><img alt="Emmanuel King Kasulani" class="r hi ce ey" src="https://miro.medium.com/fit/c/160/160/1*ubbP2tqcQt4K1q2c6ZrX2g.jpeg" width="80" height="80"></a></div><span class="r"><div class="qi r qj"><p class="ar cj qk ih ql aw cm">Written by</p></div><div class="qi qm n qj"><div class="ai n o eb"><h2 class="ar ec qn qo ef"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@kasulani?source=follow_footer--------------------------follow_footer-">Emmanuel King Kasulani</a></h2><div class="r g"><span><button class="nf hv ay az ng bi bj nh bh ig ar b as at au av ii ij dm ik il">Follow</button></span></div></div></div></span></span><div class="qi qp r qj bp"><div class="qq r"><h4 class="ar cj mz qr aw">Software Engineer. Open Source, Open Mind.</h4></div><div class="qs qt bp"><span><button class="nf hv ay az ng bi bj nh bh ig ar b as at au av ii ij dm ik il">Follow</button></span></div></div></div><div class="py r"></div><div class="qc qd r eg"><span class="r qe al qf"><div class="r s qg qh"><a href="https://medium.com/backticks-tildes?source=follow_footer--------------------------follow_footer-" rel="noopener"><img alt="Backticks &amp; Tildes" class="ig ey ce" src="https://miro.medium.com/fit/c/160/160/1*1cTNuWEL5gT3FuLUMU0zbQ.jpeg" width="80" height="80"></a></div><span class="r"><div class="qi qm n qj"><div class="ai n o eb"><h2 class="ar ec qn qo ef"><a href="https://medium.com/backticks-tildes?source=follow_footer--------------------------follow_footer-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener">Backticks &amp; Tildes</a></h2><div class="r g"><div class="ik" aria-hidden="false"><span><button class="nf hv ay az ng bi bj nh bh ig ar b as at au av ii ij dm ik il">Follow</button></span></div></div></div></div></span></span><div class="qi qu r qj bp"><div class="qq r"><h4 class="ar cj mz qr aw">Distributed knowledge without borders</h4></div><div class="qs qt bp"><div class="ik" aria-hidden="false"><span><button class="nf hv ay az ng bi bj nh bh ig ar b as at au av ii ij dm ik il">Follow</button></span></div></div></div></div></div><div class="qs bp"><div class="qv r"><div class="n ea"><div class="qw r"><a rel="noopener" href="https://medium.com/@kasulani?source=follow_footer--------------------------follow_footer-"><img alt="Emmanuel King Kasulani" class="r hi qx qy" src="https://miro.medium.com/fit/c/80/80/1*ubbP2tqcQt4K1q2c6ZrX2g.jpeg" width="40" height="40"></a></div><div class="hl r"><p class="ar cj qz ra ql aw cm">Written by</p><div class="n ea"><h2 class="ar ec mz na ef"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener" href="https://medium.com/@kasulani?source=follow_footer--------------------------follow_footer-">Emmanuel King Kasulani</a></h2><div class="hl r"><span><button class="hu hv ay az ng bi bj nh bh ig ar b as ih ck av ii ij dm ik il">Follow</button></span></div></div><div class="rb r"><h4 class="ar cj gk at aw">Software Engineer. Open Source, Open Mind.</h4></div></div></div><div class="qv r"><div class="n ea"><a href="https://medium.com/backticks-tildes?source=follow_footer--------------------------follow_footer-" rel="noopener"><img alt="Backticks &amp; Tildes" class="ig qy qx" src="https://miro.medium.com/fit/c/80/80/1*1cTNuWEL5gT3FuLUMU0zbQ.jpeg" width="40" height="40"></a><div class="hl r"><div class="n ea"><h2 class="ar ec mz na ef"><a href="https://medium.com/backticks-tildes?source=follow_footer--------------------------follow_footer-" class="co cp ba bb bc bd be bf bg bh ei ej bk ek el" rel="noopener">Backticks &amp; Tildes</a></h2><div class="hl r"><div class="ik" aria-hidden="false"><span><button class="nf hv ay az ng bi bj nh bh ig ar b as at au av ii ij dm ik il">Follow</button></span></div></div></div><div class="rb r"><h4 class="ar cj gk at aw">Distributed knowledge without borders</h4></div></div></div></div></div></div></div><div class="rc pz r qb rd y"></div></div></div><div class="re r rf y"><div class="n p"><div class="z ab ac ae af ag ah ai"><div class="rg rh r"><div class="ri my rj rh r rk rl"><h2 class="ar ec ky jc la jg lc jk le jo lg js ef">More From Medium</h2></div><div class="cb n ea os rm rn ro rp rq rr rs rt ru rv rw rx ry rz sa"><div class="sb sc sd se sf sg sh si sj sk sl sm sn so sp sq sr ss st su sv"><div class="sw sx r"><div class="ai da"><div class="n eb"><div class="r bw sy sz ta"><div class="tb r"><h2 class="ar ec tc td te tf tg th ti tj tk tl ef"><a rel="noopener" href="https://medium.com/@mariuszkapcia/how-to-handle-one-big-request-as-a-batch-of-small-commands-f45dc4107865?source=post_internal_links---------0------------------">How to handle one big request as a batch of small commands.</a></h2></div><div class="o n"><div></div><div class="ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="cu n o hn"><span class="ar cj ck at ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@mariuszkapcia?source=post_internal_links---------0------------------">Mariusz Kapcia</a></span></div></span></div></div></div></div></div><div class="hl iv r tm tn"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el r" rel="noopener" href="https://medium.com/@mariuszkapcia/how-to-handle-one-big-request-as-a-batch-of-small-commands-f45dc4107865?source=post_internal_links---------0------------------"><div class="ga r eg es"><div class="to gc r"><div class="dp wv s t u da ai br fy fz"><img class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*D8p6Li8Iv5Fw-5PYHDaUjQ.jpeg?q=20" width="70" height="70" role="presentation"></div><img class="df fx tp tq tr ts tt tu tv tw tx ty c" width="70" height="70" role="presentation"></div></div></a></div></div></div></div></div><div class="sb sc sd se sf sg sh si sj sk sl sm sn so sp sq sr ss st su sv"><div class="sw sx r"><div class="ai da"><div class="n eb"><div class="r bw sy sz ta"><div class="tb r"><h2 class="ar ec tc td te tf tg th ti tj tk tl ef"><a rel="noopener" href="https://medium.com/swlh/openapi-swagger-ui-codegen-with-spring-boot-1afb1c0a570e?source=post_internal_links---------1------------------">OpenAPI/Swagger UI &amp; Codegen with Spring Boot</a></h2></div><div class="o n"><div></div><div class="ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="cu n o hn"><span class="ar cj ck at ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@tejozarkar?source=post_internal_links---------1------------------">Tejas Ozarkar</a><span> <!-- -->in<!-- --> <a href="https://medium.com/swlh?source=post_internal_links---------1------------------" class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener">The Startup</a></span></span></div></span></div></div></div></div></div><div class="hl iv r tm tn"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el r" rel="noopener" href="https://medium.com/swlh/openapi-swagger-ui-codegen-with-spring-boot-1afb1c0a570e?source=post_internal_links---------1------------------"><div class="ga r eg es"><div class="to gc r"><div class="dp wv s t u da ai br fy fz"><img class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*QQtbLRRuGPW7Vf6kMvfY_w.png?q=20" width="70" height="70" role="presentation"></div><img class="df fx tp tq tr ts tt tu tv tw tx ty c" width="70" height="70" role="presentation"></div></div></a></div></div></div></div></div><div class="sb sc sd se sf sg sh si sj sk sl sm sn so sp sq sr ss st su sv"><div class="sw sx r"><div class="ai da"><div class="n eb"><div class="r bw sy sz ta"><div class="tb r"><h2 class="ar ec tc td te tf tg th ti tj tk tl ef"><a rel="noopener" href="https://medium.com/@panev/why-i-build-my-new-website-as-a-single-html-document-1bd66846badb?source=post_internal_links---------2------------------">Why I build my new website as a single html document</a></h2></div><div class="o n"><div></div><div class="ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="cu n o hn"><span class="ar cj ck at ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@panev?source=post_internal_links---------2------------------">Todor Panev</a></span></div></span></div></div></div></div></div><div class="hl iv r tm tn"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el r" rel="noopener" href="https://medium.com/@panev/why-i-build-my-new-website-as-a-single-html-document-1bd66846badb?source=post_internal_links---------2------------------"><div class="ga r eg es"><div class="to gc r"><div class="dp wv s t u da ai br fy fz"><img class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*LxUpeGqgRu3NxFmeodcDAg.jpeg?q=20" width="70" height="70" role="presentation"></div><img class="df fx tp tq tr ts tt tu tv tw tx ty c" width="70" height="70" role="presentation"></div></div></a></div></div></div></div></div><div class="sb sc sd se sf sg sh si sj sk sl sm sn so sp sq sr ss st su sv"><div class="sw sx r"><div class="ai da"><div class="n eb"><div class="r bw sy sz ta"><div class="tb r"><h2 class="ar ec tc td te tf tg th ti tj tk tl ef"><a rel="noopener" href="https://medium.com/swlh/metaprogramming-in-ruby-1b69b1b54202?source=post_internal_links---------3------------------">Metaprogramming in Ruby</a></h2></div><div class="o n"><div></div><div class="ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="cu n o hn"><span class="ar cj ck at ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@arichards4814?source=post_internal_links---------3------------------">Andrew Richards</a><span> <!-- -->in<!-- --> <a href="https://medium.com/swlh?source=post_internal_links---------3------------------" class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener">The Startup</a></span></span></div></span></div></div></div></div></div><div class="hl iv r tm tn"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el r" rel="noopener" href="https://medium.com/swlh/metaprogramming-in-ruby-1b69b1b54202?source=post_internal_links---------3------------------"><div class="ga r eg es"><div class="to gc r"><div class="dp wv s t u da ai br fy fz"><img class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*nzLrs89kyz41vscR3iP2Mw.png?q=20" width="70" height="70" role="presentation"></div><img class="df fx tp tq tr ts tt tu tv tw tx ty c" width="70" height="70" role="presentation"></div></div></a></div></div></div></div></div><div class="sb sc sd se sf sg sh si sj sk sl sm sn so sp sq sr ss st su sv"><div class="sw sx r"><div class="ai da"><div class="n eb"><div class="r bw sy sz ta"><div class="tb r"><h2 class="ar ec tc td te tf tg th ti tj tk tl ef"><a rel="noopener" href="https://medium.com/swlh/deckdeckgo-why-building-presentation-with-web-standards-makes-sense-1b6062a84fa?source=post_internal_links---------4------------------">DeckDeckGo: Why building presentation with web standards makes sense?</a></h2></div><div class="o n"><div></div><div class="ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="cu n o hn"><span class="ar cj ck at ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@razmans?source=post_internal_links---------4------------------">RYMS</a><span> <!-- -->in<!-- --> <a href="https://medium.com/swlh?source=post_internal_links---------4------------------" class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener">The Startup</a></span></span></div></span></div></div></div></div></div><div class="hl iv r tm tn"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el r" rel="noopener" href="https://medium.com/swlh/deckdeckgo-why-building-presentation-with-web-standards-makes-sense-1b6062a84fa?source=post_internal_links---------4------------------"><div class="ga r eg es"><div class="to gc r"><div class="dp wv s t u da ai br fy fz"><img class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*wex8rDYQTAIFz9GM35Qfqg.jpeg?q=20" width="70" height="70" role="presentation"></div><img class="df fx tp tq tr ts tt tu tv tw tx ty c" width="70" height="70" role="presentation"></div></div></a></div></div></div></div></div><div class="sb sc sd se sf sg sh si sj sk sl sm sn so sp sq sr ss st su sv"><div class="sw sx r"><div class="ai da"><div class="n eb"><div class="r bw sy sz ta"><div class="tb r"><h2 class="ar ec tc td te tf tg th ti tj tk tl ef"><a rel="noopener" href="https://medium.com/swlh/create-a-simple-ruby-gem-1b470c4145bd?source=post_internal_links---------5------------------">Create a Simple Ruby Gem</a></h2></div><div class="o n"><div></div><div class="ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="cu n o hn"><span class="ar cj ck at ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@ferryrules?source=post_internal_links---------5------------------">Ferris Boran</a><span> <!-- -->in<!-- --> <a href="https://medium.com/swlh?source=post_internal_links---------5------------------" class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener">The Startup</a></span></span></div></span></div></div></div></div></div><div class="hl iv r tm tn"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el r" rel="noopener" href="https://medium.com/swlh/create-a-simple-ruby-gem-1b470c4145bd?source=post_internal_links---------5------------------"><div class="ga r eg es"><div class="to gc r"><div class="dp wv s t u da ai br fy fz"><img class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*fR0iCs26EeXMIm20E7gsGg.png?q=20" width="70" height="70" role="presentation"></div><img class="df fx tp tq tr ts tt tu tv tw tx ty c" width="70" height="70" role="presentation"></div></div></a></div></div></div></div></div><div class="sb sc sd se sf sg sh si sj sk sl sm sn so sp sq sr ss st su sv"><div class="sw sx r"><div class="ai da"><div class="n eb"><div class="r bw sy sz ta"><div class="tb r"><h2 class="ar ec tc td te tf tg th ti tj tk tl ef"><a rel="noopener" href="https://medium.com/swlh/result-type-in-swift-1b4e2a84f2c2?source=post_internal_links---------6------------------">Result Type in Swift</a></h2></div><div class="o n"><div></div><div class="ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="cu n o hn"><span class="ar cj ck at ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@stevenpcurtis.sc?source=post_internal_links---------6------------------">Steven Curtis</a><span> <!-- -->in<!-- --> <a href="https://medium.com/swlh?source=post_internal_links---------6------------------" class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener">The Startup</a></span></span></div></span></div></div></div></div></div><div class="hl iv r tm tn"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el r" rel="noopener" href="https://medium.com/swlh/result-type-in-swift-1b4e2a84f2c2?source=post_internal_links---------6------------------"><div class="ga r eg es"><div class="to gc r"><div class="dp wv s t u da ai br fy fz"><img class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*MeYFA-SjEg4njct90HsY0w.png?q=20" width="70" height="70" role="presentation"></div><img class="df fx tp tq tr ts tt tu tv tw tx ty c" width="70" height="70" role="presentation"></div></div></a></div></div></div></div></div><div class="sb sc sd se sf sg sh si sj sk sl sm sn so sp sq sr ss st su sv"><div class="sw sx r"><div class="ai da"><div class="n eb"><div class="r bw sy sz ta"><div class="tb r"><h2 class="ar ec tc td te tf tg th ti tj tk tl ef"><a rel="noopener" href="https://medium.com/swlh/hitchhikers-guide-to-ruby-variables-1b4cf83d540c?source=post_internal_links---------7------------------">Hitchhikerâ€™s Guide to Ruby Variables</a></h2></div><div class="o n"><div></div><div class="ai r"><div class="n"><div style="flex:1"><span class="ar b as at au av r ef q"><div class="cu n o hn"><span class="ar cj ck at ef"><a class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener" href="https://medium.com/@sylwiavargas?source=post_internal_links---------7------------------">Sylwia Vargas</a><span> <!-- -->in<!-- --> <a href="https://medium.com/swlh?source=post_internal_links---------7------------------" class="co cp ba bb bc bd be bf bg bh ht bk ek el" rel="noopener">The Startup</a></span></span></div></span></div></div></div></div></div><div class="hl iv r tm tn"><a class="co cp ba bb bc bd be bf bg bh ei ej bk ek el r" rel="noopener" href="https://medium.com/swlh/hitchhikers-guide-to-ruby-variables-1b4cf83d540c?source=post_internal_links---------7------------------"><div class="ga r eg es"><div class="to gc r"><div class="dp wv s t u da ai br fy fz"><img class="s t u da ai gd ge gf" src="https://miro.medium.com/max/60/1*PVjBsuOi2gAMGS8q4K8AsQ.jpeg?q=20" width="70" height="70" role="presentation"></div><img class="df fx tp tq tr ts tt tu tv tw tx ty c" width="70" height="70" role="presentation"></div></div></a></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="tz r ua ub"><div class="n p"><div class="z ab ac ae af ag ah ai"><div class="uc ud qc n eb g"><div class="ue n eb"><div class="uf r ug"><div class="tb r"><a class="co cp ba bb bc bd be bf bg bh uh ui bk uj uk" rel="noopener" href="https://medium.com/about?autoplay=1&amp;source=post_page-----cfb87e2c8a6c----------------------"><h2 class="ar ec ed ee ul">Discover <!-- -->Medium</h2></a></div><h4 class="ar cj gk at um">Welcome to a place where words matter. On <!-- -->Medium<!-- -->, smart voices and original ideas take center stage - with no ads in sight.<!-- --> <a class="co cp ba bb bc bd be bf bg bh bk uj uk un" rel="noopener" href="https://medium.com/about?autoplay=1&amp;source=post_page-----cfb87e2c8a6c----------------------">Watch</a></h4></div><div class="uf r ug"><div class="tb r"><a href="https://medium.com/topics?source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh uh ui bk uj uk" rel="noopener"><h2 class="ar ec ed ee ul">Make <!-- -->Medium<!-- --> yours</h2></a></div><h4 class="ar cj gk at um">Follow all the topics you care about, and weâ€™ll deliver the best stories for you to your homepage and inbox.<!-- --> <a href="https://medium.com/topics?source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh bk uj uk un" rel="noopener">Explore</a></h4></div><div class="uf r ug"><div class="tb r"><a class="co cp ba bb bc bd be bf bg bh uh ui bk uj uk" rel="noopener" href="https://medium.com/membership?source=post_page-----cfb87e2c8a6c----------------------"><h2 class="ar ec ed ee ul">Become a member</h2></a></div><h4 class="ar cj gk at um">Get unlimited access to the best stories on <!-- -->Medium<!-- --> â€” and support writers while youâ€™re at it. Just $5/month.<!-- --> <a class="co cp ba bb bc bd be bf bg bh bk uj uk un" rel="noopener" href="https://medium.com/membership?source=post_page-----cfb87e2c8a6c----------------------">Upgrade</a></h4></div></div></div><div class="n mw"><div class="n o eb"><a class="co cp ba bb bc bd be bf bg bh uh ui bk uj uk" rel="noopener" href="https://medium.com/?source=post_page-----cfb87e2c8a6c----------------------"><svg height="22" width="112" viewBox="0 0 111.5 22" class="uo"><path d="M56.3 19.5c0 .4 0 .5.3.7l1.5 1.4v.1h-6.5V19c-.7 1.8-2.4 3-4.3 3-3.3 0-5.8-2.6-5.8-7.5 0-4.5 2.6-7.6 6.3-7.6 1.6-.1 3.1.8 3.8 2.4V3.2c0-.3-.1-.6-.3-.7l-1.4-1.4V1l6.5-.8v19.3zm-4.8-.8V9.5c-.5-.6-1.2-.9-1.9-.9-1.6 0-3.1 1.4-3.1 5.7 0 4 1.3 5.4 3 5.4.8.1 1.6-.3 2-1zm9.1 3.1V9.4c0-.3-.1-.6-.3-.7l-1.4-1.5v-.1h6.5v12.5c0 .4 0 .5.3.7l1.4 1.4v.1h-6.5zm-.2-19.2C60.4 1.2 61.5 0 63 0c1.4 0 2.6 1.2 2.6 2.6S64.4 5.3 63 5.3a2.6 2.6 0 0 1-2.6-2.7zm22.5 16.9c0 .4 0 .5.3.7l1.5 1.4v.1h-6.5v-3.2c-.6 2-2.4 3.4-4.5 3.4-2.9 0-4.4-2.1-4.4-6.2 0-1.9 0-4.1.1-6.5 0-.3-.1-.5-.3-.7L67.7 7v.1H74v8c0 2.6.4 4.4 2 4.4.9-.1 1.7-.6 2.1-1.3V9.5c0-.3-.1-.6-.3-.7l-1.4-1.5v-.2h6.5v12.4zm22 2.3c0-.5.1-6.5.1-7.9 0-2.6-.4-4.5-2.2-4.5-.9 0-1.8.5-2.3 1.3.2.8.3 1.7.3 2.5 0 1.8-.1 4.2-.1 6.5 0 .3.1.5.3.7l1.5 1.4v.1H96c0-.4.1-6.5.1-7.9 0-2.7-.4-4.5-2.2-4.5-.9 0-1.7.5-2.2 1.3v9c0 .4 0 .5.3.7l1.4 1.4v.1h-6.5V9.5c0-.3-.1-.6-.3-.7l-1.4-1.5v-.2h6.5v3.1a4.6 4.6 0 0 1 4.6-3.4c2.2 0 3.6 1.2 4.2 3.5.7-2.1 2.7-3.6 4.9-3.5 2.9 0 4.5 2.2 4.5 6.2 0 1.9-.1 4.2-.1 6.5-.1.3.1.6.3.7l1.4 1.4v.1h-6.6zm-81.4-2l1.9 1.9v.1h-9.8v-.1l2-1.9c.2-.2.3-.4.3-.7V7.3c0-.5 0-1.2.1-1.8L11.4 22h-.1L4.5 6.8c-.1-.4-.2-.4-.3-.6v10c-.1.7 0 1.3.3 1.9l2.7 3.6v.1H0v-.1L2.7 18c.3-.6.4-1.3.3-1.9v-11c0-.5-.1-1.1-.5-1.5L.7 1.1V1h7l5.8 12.9L18.6 1h6.8v.1l-1.9 2.2c-.2.2-.3.5-.3.7v15.2c0 .2.1.5.3.6zm7.6-5.9c0 3.8 1.9 5.3 4.2 5.3 1.9.1 3.6-1 4.4-2.7h.1c-.8 3.7-3.1 5.5-6.5 5.5-3.7 0-7.2-2.2-7.2-7.4 0-5.5 3.5-7.6 7.3-7.6 3.1 0 6.4 1.5 6.4 6.2v.8h-8.7zm0-.8h4.3v-.8c0-3.9-.8-4.9-2-4.9-1.4.1-2.3 1.6-2.3 5.7z"></path></svg></a><h4 class="ar cj gk at um"><div class="rb up n eb uq al"><h4 class="ar cj mz qr ul"><a class="co cp ba bb bc bd be bf bg bh ht bk uj uk" rel="noopener" href="https://medium.com/about?autoplay=1&amp;source=post_page-----cfb87e2c8a6c----------------------">About</a></h4><h4 class="ar cj mz qr ul"><a href="https://help.medium.com/hc/en-us?source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh ht bk uj uk" rel="noopener">Help</a></h4><h4 class="ar cj mz qr ul"><a href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh ht bk uj uk" rel="noopener">Legal</a></h4></div></h4></div><div class="qs ur us al"><h4 class="ar cj mz qr um">Get the Medium app</h4></div><div class="qs ur dt al ut"><div class="uu r"><a href="https://itunes.apple.com/app/medium-everyones-stories/id828256236?pt=698524&amp;mt=8&amp;ct=post_page&amp;source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh uh ui bk uj uk" rel="noopener nofollow"><img alt="A button that says 'Download on the App Store', and if clicked it will lead you to the iOS App store" class="" src="https://miro.medium.com/max/270/1*Crl55Tm6yDNMoucPo1tvDg.png" width="135" height="41"></a></div><div class="r"><a href="https://play.google.com/store/apps/details?id=com.medium.reader&amp;source=post_page-----cfb87e2c8a6c----------------------" class="co cp ba bb bc bd be bf bg bh uh ui bk uj uk" rel="noopener nofollow"><img alt="A button that says 'Get it on, Google Play', and if clicked it will lead you to the Google Play store" class="" src="https://miro.medium.com/max/270/1*W_RAPQ62h0em559zluJLdQ.png" width="135" height="41"></a></div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+<div><div class="db t mo va ai vb vc vd ve vf vg vh vi vj vk vl vm vn vo vp vq vr vs vt vu vv vw vx vy vz wa wb wc wd we wf"><div><div class="branch-journeys-top"><div class="n o mw"><h4 class="ar cj gk at aw">Weâ€™ve made changes to our <a href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f" class="co cp ba bb bc bd be bf bg bh bk ek el un" target="_blank" rel="noopener">Terms of Service</a> and <a href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9" class="co cp ba bb bc bd be bf bg bh bk ek el un" target="_blank" rel="noopener">Privacy Policy</a>. They take effect on September 1, 2020, and we encourage you to review them. By continuing to use our services, you agree to the new Terms of Service and acknowledge the Privacy Policy applies to you.</h4><div class="qw r"><button class="wg wh wi wj wk wl wm bh ic wn wo wp ig ar b as at au av ii ij dm ik il">Continue</button></div></div></div></div></div></div></body></html>
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-251bd667-2cf1-453d-9ccb-c533e0ec4584@mhtml.blink
+
+@charset "utf-8";
+
+html { box-sizing: border-box; }
+
+*, ::before, ::after { box-sizing: inherit; }
+
+body { margin: 0px; padding: 0px; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; color: rgba(0, 0, 0, 0.8); position: relative; min-height: 100vh; }
+
+h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, form { margin: 0px; }
+
+menu, ol, ul { padding: 0px; list-style: none none; }
+
+main { display: block; }
+
+a { color: inherit; text-decoration: none; }
+
+a, button, input { -webkit-tap-highlight-color: transparent; }
+
+img, svg { vertical-align: middle; }
+
+button { background: transparent; overflow: visible; }
+
+button, input, optgroup, select, textarea { margin: 0px; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-7e3df7d4-c078-4006-a210-0513285daa54@mhtml.blink
+
+@charset "utf-8";
+
+@-webkit-keyframes k1 { 
+  0% { opacity: 0.8; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0.8; }
+}
+
+@keyframes k1 { 
+  0% { opacity: 0.8; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0.8; }
+}
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-10037298-7479-4f1f-ba78-7b666908db40@mhtml.blink
+
+@charset "utf-8";
+
+.a { font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+.b { font-weight: 400; }
+
+.c { background-color: rgb(255, 255, 255); }
+
+.l { height: 100vh; }
+
+.m { width: 100vw; }
+
+.n { display: flex; }
+
+.o { align-items: center; }
+
+.p { justify-content: center; }
+
+.q { fill: rgb(41, 41, 41); }
+
+.r { display: block; }
+
+.s { position: absolute; }
+
+.t { top: 0px; }
+
+.u { left: 0px; }
+
+.v { right: 0px; }
+
+.w { z-index: 500; }
+
+.x { box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px 0px; }
+
+.ag { max-width: 1192px; }
+
+.ah { min-width: 0px; }
+
+.ai { width: 100%; }
+
+.aj { height: 65px; }
+
+.am { flex: 1 0 auto; }
+
+.an { fill: rgb(25, 25, 25); }
+
+.ao { flex: 0 0 auto; }
+
+.ap { visibility: hidden; }
+
+.aq { margin-left: 16px; }
+
+.ar { font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif; }
+
+.as { font-style: normal; }
+
+.at { line-height: 20px; }
+
+.au { font-size: 15.8px; }
+
+.av { letter-spacing: 0px; }
+
+.aw { color: rgb(117, 117, 117); }
+
+.ax { fill: rgb(117, 117, 117); }
+
+.ay { color: rgb(114, 113, 113); }
+
+.az { fill: rgb(133, 132, 132); }
+
+.ba { font-size: inherit; }
+
+.bb { border: inherit; }
+
+.bc { font-family: inherit; }
+
+.bd { letter-spacing: inherit; }
+
+.be { font-weight: inherit; }
+
+.bf { padding: 0px; }
+
+.bg { margin: 0px; }
+
+.bh:hover { cursor: pointer; }
+
+.bi:hover { color: rgb(105, 104, 104); }
+
+.bj:hover { fill: rgb(114, 113, 113); }
+
+.bk:disabled { cursor: default; }
+
+.bl:disabled { color: rgba(45, 132, 255, 0.5); }
+
+.bm:disabled { fill: rgba(45, 132, 255, 0.5); }
+
+.bn { border-top: none; }
+
+.bo { background-color: rgb(26, 26, 26); }
+
+.bq { height: 54px; }
+
+.br { overflow: hidden; }
+
+.bs { margin-right: 40px; }
+
+.bt { height: 36px; }
+
+.bu { width: 109px; }
+
+.bv { overflow: auto; }
+
+.bw { flex: 0 1 auto; }
+
+.bx { list-style-type: none; }
+
+.by { line-height: 40px; }
+
+.bz { white-space: nowrap; }
+
+.ca { overflow-x: auto; }
+
+.cb { align-items: flex-start; }
+
+.cc { margin-top: 20px; }
+
+.cd { padding-top: 20px; }
+
+.ce { height: 80px; }
+
+.cf { height: 20px; }
+
+.cg { margin-right: 15px; }
+
+.ch { margin-left: 15px; }
+
+.ci:first-child { margin-left: 0px; }
+
+.cj { font-weight: 300; }
+
+.ck { font-size: 15px; }
+
+.cl { color: rgb(195, 193, 192); }
+
+.cm { text-transform: uppercase; }
+
+.cn { letter-spacing: 1px; }
+
+.co { color: inherit; }
+
+.cp { fill: inherit; }
+
+.cq:hover { color: rgb(253, 250, 250); }
+
+.cr:hover { fill: rgb(234, 231, 231); }
+
+.cs:disabled { color: rgb(142, 141, 140); }
+
+.ct:disabled { fill: rgb(142, 141, 140); }
+
+.cu { margin-bottom: 0px; }
+
+.cv { height: 119px; }
+
+.cy { top: 0px; }
+
+.cz { left: 0px; }
+
+.da { height: 100%; }
+
+.db { position: fixed; }
+
+.dc { background-color: rgba(0, 0, 0, 0.08); }
+
+.dd { z-index: 510; }
+
+.de { cursor: pointer; }
+
+.df { opacity: 0; }
+
+.dg { transition: opacity 0.6s cubic-bezier(0.23, 1, 0.32, 1) 0s; }
+
+.dh { pointer-events: none; }
+
+.di { width: 414px; }
+
+.dj { z-index: 520; }
+
+.dk { background-color: white; }
+
+.dl { left: 100%; }
+
+.dm { box-sizing: border-box; }
+
+.dn { }
+
+.do { box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px; }
+
+.dp { opacity: 1; }
+
+.dq { transform: translateX(0px); }
+
+.dr { transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1) 0s, opacity 0.6s cubic-bezier(0.23, 1, 0.32, 1) 0s; }
+
+.dy { padding-bottom: 18px; }
+
+.dz { padding: 24px; }
+
+.ea { flex-direction: row; }
+
+.eb { justify-content: space-between; }
+
+.ec { font-weight: 600; }
+
+.ed { font-size: 22px; }
+
+.ee { line-height: 28px; }
+
+.ef { color: rgb(41, 41, 41); }
+
+.eg { position: relative; }
+
+.eh { right: -7px; }
+
+.ei:hover { color: rgb(25, 25, 25); }
+
+.ej:hover { fill: rgb(25, 25, 25); }
+
+.ek:disabled { color: rgb(117, 117, 117); }
+
+.el:disabled { fill: rgb(117, 117, 117); }
+
+.em { padding: 0px 24px; }
+
+.en { animation: 1.2s ease-in-out 0s infinite normal none running k1; }
+
+.eo { padding: 32px 0px; }
+
+.ep { border-radius: 100%; }
+
+.eq { height: 32px; }
+
+.er { width: 32px; }
+
+.es { background-color: rgb(242, 242, 242); }
+
+.et { margin-left: 8px; }
+
+.eu { margin-top: 4px; }
+
+.ev { margin-bottom: 8px; }
+
+.ew { height: 8px; }
+
+.ex { width: 120px; }
+
+.ey { width: 80px; }
+
+.ez { margin-top: 12px; }
+
+.fa { height: 10px; }
+
+.fb { width: 90%; }
+
+.fc { padding-left: 24px; }
+
+.fd { padding-right: 24px; }
+
+.fe { margin-left: auto; }
+
+.ff { margin-right: auto; }
+
+.fg { max-width: 728px; }
+
+.fh { top: calc(100vh + 100px); }
+
+.fi { bottom: calc(100vh + 100px); }
+
+.fj { width: 10px; }
+
+.fk { word-break: break-word; }
+
+.fl { overflow-wrap: break-word; }
+
+.fm::after { display: block; }
+
+.fn::after { content: ""; }
+
+.fo::after { clear: both; }
+
+.fp { max-width: 680px; }
+
+.fq { max-width: 700px; }
+
+.fw { clear: both; }
+
+.fx { transition: opacity 100ms ease 400ms; }
+
+.fy { will-change: transform; }
+
+.fz { transform: translateZ(0px); }
+
+.ga { margin: auto; }
+
+.gb { padding-bottom: 66.5714%; }
+
+.gc { height: 0px; }
+
+.gd { filter: blur(20px); }
+
+.ge { transform: scale(1.1); }
+
+.gf { visibility: visible; }
+
+.gg { margin-top: 10px; }
+
+.gh { text-align: center; }
+
+.gk { font-size: 16px; }
+
+.gl { line-height: 1.23; }
+
+.gm { letter-spacing: 0px; }
+
+.gn { font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif; }
+
+.hd { margin-bottom: -0.27em; }
+
+.he { margin-top: 32px; }
+
+.hi { border-radius: 50%; }
+
+.hj { height: 48px; }
+
+.hk { width: 48px; }
+
+.hl { margin-left: 12px; }
+
+.hm { margin-bottom: 2px; }
+
+.ho { max-height: 20px; }
+
+.hp { text-overflow: ellipsis; }
+
+.hq { display: -webkit-box; }
+
+.hr { -webkit-line-clamp: 1; }
+
+.hs { -webkit-box-orient: vertical; }
+
+.ht:hover { text-decoration: underline; }
+
+.hu { padding: 0px 8px; }
+
+.hv { background: 0px center; }
+
+.hw { border-color: rgb(117, 117, 117); }
+
+.hx:hover { color: rgb(8, 8, 8); }
+
+.hy:hover { fill: rgb(8, 8, 8); }
+
+.hz:hover { border-color: rgb(41, 41, 41); }
+
+.ia:disabled { fill: rgb(61, 61, 61); }
+
+.ib:disabled { border-color: rgb(204, 204, 204); }
+
+.ic:disabled { cursor: inherit; }
+
+.id:disabled:hover { color: rgb(117, 117, 117); }
+
+.ie:disabled:hover { fill: rgb(61, 61, 61); }
+
+.if:disabled:hover { border-color: rgb(204, 204, 204); }
+
+.ig { border-radius: 4px; }
+
+.ih { line-height: 18px; }
+
+.ii { border-width: 1px; }
+
+.ij { border-style: solid; }
+
+.ik { display: inline-block; }
+
+.il { text-decoration: none; }
+
+.im { align-items: flex-end; }
+
+.iu { padding-right: 6px; }
+
+.iv { margin-right: 8px; }
+
+.iw { margin-right: -6px; }
+
+.ix { line-height: 1.58; }
+
+.iy { letter-spacing: -0.004em; }
+
+.iz { font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif; }
+
+.ju { margin-bottom: -0.46em; }
+
+.jv { background-repeat: repeat-x; }
+
+.jw { background-image: url("data:image/svg+xml;utf8,<svg preserveAspectRatio=\"none\" viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\" stroke=\"rgba(41, 41, 41, 1)\" /></svg>"); }
+
+.jx { background-size: 1px 1px; }
+
+.jy { background-position: 0px calc(1em + 1px); }
+
+.jz { font-weight: 700; }
+
+.ka { line-height: 1.12; }
+
+.kb { letter-spacing: -0.022em; }
+
+.kr { margin-bottom: -0.28em; }
+
+.kx { line-height: 1.18; }
+
+.li { margin-bottom: -0.31em; }
+
+.lo { padding: 20px; }
+
+.lp { background: rgb(242, 242, 242); }
+
+.lq { font-family: Menlo, Monaco, "Courier New", Courier, monospace; }
+
+.lr { margin-top: -0.09em; }
+
+.ls { margin-bottom: -0.09em; }
+
+.lt { white-space: pre-wrap; }
+
+.lu { padding: 2px 4px; }
+
+.lv { font-size: 75%; }
+
+.lw > strong { font-family: inherit; }
+
+.lx { }
+
+.md { box-shadow: rgb(41, 41, 41) 3px 0px 0px 0px inset; }
+
+.me { padding-left: 23px; }
+
+.mf { margin-left: -20px; }
+
+.mg { font-style: italic; }
+
+.mh { max-width: 2762px; }
+
+.mi { transition: transform 300ms cubic-bezier(0.2, 0, 0.2, 1) 0s; }
+
+.mj { cursor: zoom-in; }
+
+.mk { z-index: auto; }
+
+.ml { padding-bottom: 29.9783%; }
+
+.mm { will-change: opacity; }
+
+.mn { width: 188px; }
+
+.mo { left: 50%; }
+
+.mp { transform: translateX(406px); }
+
+.mq { top: calc(133px); }
+
+.mt { top: 159px; }
+
+.mv { width: 131px; }
+
+.mw { flex-direction: column; }
+
+.mx { padding-bottom: 28px; }
+
+.my { border-bottom: 1px solid rgb(230, 230, 230); }
+
+.mz { font-size: 18px; }
+
+.na { line-height: 22px; }
+
+.nb { padding-bottom: 20px; }
+
+.nc { padding-top: 2px; }
+
+.nd { max-height: 120px; }
+
+.ne { -webkit-line-clamp: 6; }
+
+.nf { padding: 4px 12px; }
+
+.ng { border-color: rgb(133, 132, 132); }
+
+.nh:hover { border-color: rgb(114, 113, 113); }
+
+.ni { padding-top: 28px; }
+
+.nj { margin-bottom: 19px; }
+
+.nk { margin-left: -3px; }
+
+.nq { outline: 0px; }
+
+.nr { border: 0px; }
+
+.ns { user-select: none; }
+
+.nt > svg { pointer-events: none; }
+
+.nu:active { border-style: none; }
+
+.nv { user-select: none; }
+
+.nw:focus { fill: rgb(117, 117, 117); }
+
+.nx:hover { fill: rgb(117, 117, 117); }
+
+.of button { text-align: left; }
+
+.og { opacity: 0.4; }
+
+.oh { cursor: not-allowed; }
+
+.oi { padding-right: 9px; }
+
+.or { margin-top: 40px; }
+
+.os { flex-wrap: wrap; }
+
+.ot { margin-top: 25px; }
+
+.ou { border-radius: 3px; }
+
+.ov { padding: 5px 10px; }
+
+.ow { max-width: 155px; }
+
+.pa { top: 1px; }
+
+.po { margin-left: -1px; }
+
+.pp { margin-left: -4px; }
+
+.px { padding-right: 8px; }
+
+.py { padding-top: 32px; }
+
+.pz { border-top: 1px solid rgb(230, 230, 230); }
+
+.qa { margin-bottom: 25px; }
+
+.qc { margin-bottom: 32px; }
+
+.qd { min-height: 80px; }
+
+.qi { padding-left: 102px; }
+
+.qk { font-size: 14px; }
+
+.ql { letter-spacing: 0.05em; }
+
+.qm { margin-bottom: 6px; }
+
+.qn { font-size: 26px; }
+
+.qo { line-height: 32px; }
+
+.qp { max-width: 555px; }
+
+.qq { max-width: 450px; }
+
+.qr { line-height: 24px; }
+
+.qs { display: none; }
+
+.qu { max-width: 550px; }
+
+.qv { padding-top: 24px; }
+
+.qw { margin-top: 5px; }
+
+.qx { height: 40px; }
+
+.qy { width: 40px; }
+
+.qz { font-size: 12px; }
+
+.ra { line-height: 15px; }
+
+.rb { padding-top: 8px; }
+
+.rc { padding-top: 25px; }
+
+.re { margin-top: 64px; }
+
+.rf { background-color: rgb(250, 250, 250); }
+
+.rg { margin-bottom: 40px; }
+
+.rh { margin-top: 24px; }
+
+.ri { padding-bottom: 16px; }
+
+.rj { margin-bottom: 24px; }
+
+.sv { flex-grow: 0; }
+
+.sw { padding-bottom: 24px; }
+
+.sx { max-width: 500px; }
+
+.tb { padding-bottom: 8px; }
+
+.to { padding-bottom: 100%; }
+
+.tz { padding: 60px 0px; }
+
+.ua { background-color: rgba(0, 0, 0, 0.9); }
+
+.uc { padding-bottom: 48px; }
+
+.ud { border-bottom: 1px solid rgba(255, 255, 255, 0.54); }
+
+.ue { margin: 0px -12px; }
+
+.uf { margin: 0px 12px; }
+
+.ug { flex: 1 1 0px; }
+
+.uh:hover { color: rgba(255, 255, 255, 0.99); }
+
+.ui:hover { fill: rgba(255, 255, 255, 0.99); }
+
+.uj:disabled { color: rgba(255, 255, 255, 0.7); }
+
+.uk:disabled { fill: rgba(255, 255, 255, 0.7); }
+
+.ul { color: rgba(255, 255, 255, 0.98); }
+
+.um { color: rgba(255, 255, 255, 0.7); }
+
+.un { text-decoration: underline; }
+
+.uo { fill: rgba(255, 255, 255, 0.98); }
+
+.up { width: 200px; }
+
+.uu { margin-right: 16px; }
+
+.uv:disabled { color: rgba(3, 168, 124, 0.5); }
+
+.uw:disabled { fill: rgba(3, 168, 124, 0.5); }
+
+.ux { }
+
+.uz { user-select: none; }
+
+.va { transform: translateX(-50%); }
+
+.vb { max-width: none; }
+
+.vc { padding: 12px 24px; }
+
+.vd { border-radius: 0px 0px 4px 4px; }
+
+.ve { background-color: rgba(255, 255, 255, 0.95); }
+
+.vf { box-shadow: rgb(204, 204, 204) 0px 0px 2px; }
+
+.wf { z-index: 900; }
+
+.wg { padding: 8px 16px; }
+
+.wh { color: rgb(255, 255, 255); }
+
+.wi { fill: rgb(255, 255, 255); }
+
+.wj { background: rgb(3, 168, 124); }
+
+.wk { border-color: rgb(3, 168, 124); }
+
+.wl:hover { background: rgb(2, 158, 116); }
+
+.wm:hover { border-color: rgb(2, 158, 116); }
+
+.wn:disabled { opacity: 0.3; }
+
+.wo:disabled:hover { background: rgb(3, 168, 124); }
+
+.wp:disabled:hover { border-color: rgb(3, 168, 124); }
+
+.ws { top: calc(100vh + 534px); }
+
+.wt { top: 543px; }
+
+.wu { top: 109px; }
+
+.wv { transition: opacity 400ms ease 0ms; }
+
+.ww { fill: rgb(61, 61, 61); }
+
+.wx:focus { outline: none; }
+
+.wy { padding-left: 12px; }
+
+.wz { padding: 5px 0px; }
+
+.xa { margin-top: 14px; }
+
+.xb { width: 12px; }
+
+.xc { padding-right: 4px; }
+
+.xd { top: 2px; }
+
+.xl { padding-bottom: 5px; }
+
+.xm { color: rgb(2, 158, 116); }
+
+.xn { box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 4px; }
+
+.xo { border: 1px solid rgba(0, 0, 0, 0.1); }
+
+.xp { margin-top: 22px; }
+
+.xq { margin-bottom: 3px; }
+
+.xr { padding: 20px 16px; }
+
+.xs { letter-spacing: -0.003em; }
+
+.xz { background-color: rgba(12, 242, 143, 0.2); }
+
+.ya { color: currentcolor; }
+
+.yb { padding: 12px; }
+
+.yc { margin-top: 16px; }
+
+.yd { float: right; }
+
+.ye { fill: rgb(3, 168, 124); }
+
+.yf { width: calc(100% + 25px); }
+
+.yg { height: calc(100% + 25px); }
+
+.yh { top: 50%; }
+
+.yi { transform: translateX(-50%) translateY(-50%); }
+
+.yj { margin-left: 0px; }
+
+.yk { max-height: 40px; }
+
+.yl { -webkit-line-clamp: 2; }
+
+.ym { background-color: rgb(243, 240, 239); }
+
+.yn { margin-top: 6px; }
+
+.yo { max-width: 100%; }
+
+.yp { top: 2073.08px; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-890933ae-d5af-46de-96dd-1f39c183bdd8@mhtml.blink
+
+@charset "utf-8";
+
+.d { display: none; }
+
+.af { margin: 0px 64px; }
+
+.fv { margin-top: 32px; }
+
+.ha { font-size: 40px; }
+
+.hb { margin-top: 0.78em; }
+
+.hc { line-height: 48px; }
+
+.it { margin-left: 30px; }
+
+.jq { font-size: 21px; }
+
+.jr { margin-top: 2em; }
+
+.js { line-height: 32px; }
+
+.jt { letter-spacing: -0.003em; }
+
+.ko { font-size: 36px; }
+
+.kp { margin-top: 1.95em; }
+
+.kq { line-height: 40px; }
+
+.kw { margin-top: 0.86em; }
+
+.lg { font-size: 26px; }
+
+.lh { margin-top: 1.72em; }
+
+.ln { margin-top: 56px; }
+
+.mc { margin-top: 1.91em; }
+
+.np { margin-right: 5px; }
+
+.oe { margin-top: 5px; }
+
+.oq { padding-left: 6px; }
+
+.pc { display: inline-block; }
+
+.ph { margin-left: 7px; }
+
+.pi { margin-top: 8px; }
+
+.pn { width: 25px; }
+
+.pv { padding-left: 7px; }
+
+.pw { top: 3px; }
+
+.ry { width: calc(100% + 32px); }
+
+.rz { margin-left: -16px; }
+
+.sa { margin-right: -16px; }
+
+.sr { padding-left: 16px; }
+
+.ss { padding-right: 16px; }
+
+.st { flex-basis: 25%; }
+
+.su { max-width: 25%; }
+
+.tk { font-size: 18px; }
+
+.tl { line-height: 22px; }
+
+.tx { min-width: 70px; }
+
+.ty { min-height: 70px; }
+
+.wa { width: 640px; }
+
+.wb { left: 50%; }
+
+.wc { transform: translateX(-50%); }
+
+.wd { margin: 0px; }
+
+.we { padding: 12px 24px; }
+
+.xj { padding-left: 3px; }
+
+.xk { top: 3.5px; }
+
+.xy { margin-top: -0.44em; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-5607b2cb-5182-4bef-b24d-234d672b167d@mhtml.blink
+
+@charset "utf-8";
+
+.e { display: none; }
+
+.gi { margin-left: auto; }
+
+.gj { text-align: center; }
+
+.is { margin-left: 30px; }
+
+.no { margin-right: 5px; }
+
+.od { margin-top: 5px; }
+
+.op { padding-left: 6px; }
+
+.pb { display: inline-block; }
+
+.pf { margin-left: 7px; }
+
+.pg { margin-top: 8px; }
+
+.pm { width: 25px; }
+
+.pt { padding-left: 7px; }
+
+.pu { top: 3px; }
+
+.xh { padding-left: 3px; }
+
+.xi { top: 3.5px; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-e57c78ec-9eca-4074-83b3-d98dff7e58f7@mhtml.blink
+
+@charset "utf-8";
+
+.f { display: none; }
+
+.ir { margin-left: 30px; }
+
+.nn { margin-right: 5px; }
+
+.oc { margin-top: 5px; }
+
+.on { padding-left: 6px; }
+
+.oo { top: 3px; }
+
+.oz { display: inline-block; }
+
+.pd { margin-left: 7px; }
+
+.pe { margin-top: 8px; }
+
+.pl { width: 15px; }
+
+.ps { padding-left: 3px; }
+
+.ta { margin-right: 16px; }
+
+.xg { top: 3.5px; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-225f0693-5787-4651-885d-5b2a65456834@mhtml.blink
+
+@charset "utf-8";
+
+.g { display: none; }
+
+.ak { height: 56px; }
+
+.al { display: flex; }
+
+.bp { display: block; }
+
+.cw { margin-bottom: 0px; }
+
+.cx { height: 110px; }
+
+.ds { left: 0px; }
+
+.dt { width: 100%; }
+
+.du { border-top-left-radius: 20px; }
+
+.dv { border-top-right-radius: 20px; }
+
+.dw { transform: translateY(100%); }
+
+.dx { }
+
+.hg { margin-top: 32px; }
+
+.hh { flex-direction: column-reverse; }
+
+.ip { margin-bottom: 30px; }
+
+.iq { margin-left: 0px; }
+
+.nm { margin-left: 8px; }
+
+.oa { margin-top: 2px; }
+
+.ob { margin-right: 8px; }
+
+.ol { padding-left: 6px; }
+
+.om { top: 3px; }
+
+.oy { display: inline-block; }
+
+.pk { width: 15px; }
+
+.pr { padding-left: 3px; }
+
+.qb { padding-top: 0px; }
+
+.qe { margin-bottom: 24px; }
+
+.qf { align-items: center; }
+
+.qg { width: 102px; }
+
+.qh { position: relative; }
+
+.qj { padding-left: 0px; }
+
+.qt { margin-top: 24px; }
+
+.rd { border-top: none; }
+
+.rk { padding-bottom: 12px; }
+
+.rl { margin-top: 16px; }
+
+.sz { margin-right: 16px; }
+
+.tm { margin-left: 16px; }
+
+.tn { margin-right: 0px; }
+
+.ub { padding: 32px 0px; }
+
+.uq { width: 140px; }
+
+.ur { margin-bottom: 16px; }
+
+.us { margin-top: 30px; }
+
+.ut { flex-direction: row; }
+
+.uy { }
+
+.xf { top: 3.5px; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-e0d08099-c42f-4014-bb35-34789a99d6b4@mhtml.blink
+
+@charset "utf-8";
+
+.h { display: none; }
+
+.z { margin: 0px 24px; }
+
+.fr { margin-top: 24px; }
+
+.go { font-size: 34px; }
+
+.gp { margin-top: 0.56em; }
+
+.gq { line-height: 42px; }
+
+.hf { margin-top: 32px; }
+
+.hn { margin-bottom: 0px; }
+
+.in { margin-bottom: 30px; }
+
+.io { margin-left: 0px; }
+
+.ja { font-size: 18px; }
+
+.jb { margin-top: 1.56em; }
+
+.jc { line-height: 28px; }
+
+.jd { letter-spacing: -0.003em; }
+
+.kc { font-size: 26px; }
+
+.kd { margin-top: 1.2em; }
+
+.ke { line-height: 32px; }
+
+.ks { margin-top: 0.67em; }
+
+.ky { font-size: 22px; }
+
+.kz { margin-top: 1.23em; }
+
+.lj { margin-top: 40px; }
+
+.ly { margin-top: 1.41em; }
+
+.nl { margin-left: 8px; }
+
+.ny { margin-top: 2px; }
+
+.nz { margin-right: 8px; }
+
+.oj { padding-left: 6px; }
+
+.ok { top: 3px; }
+
+.ox { display: inline-block; }
+
+.pj { width: 15px; }
+
+.pq { padding-left: 3px; }
+
+.rm { width: calc(100% + 24px); }
+
+.rn { margin-left: -12px; }
+
+.ro { margin-right: -12px; }
+
+.sb { padding-left: 12px; }
+
+.sc { padding-right: 12px; }
+
+.sd { flex-basis: 100%; }
+
+.se { max-width: 100%; }
+
+.sy { margin-right: 16px; }
+
+.tc { font-size: 15px; }
+
+.td { line-height: 18px; }
+
+.tp { min-width: 48px; }
+
+.tq { min-height: 48px; }
+
+.vg { width: auto; }
+
+.vh { left: initial; }
+
+.vi { transform: none; }
+
+.vj { margin: 0px 8px; }
+
+.vk { padding: 8px 12px; }
+
+.xe { top: 3.5px; }
+
+.xt { margin-top: -0.44em; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-fff7c66d-8784-4b47-8096-25adc76da288@mhtml.blink
+
+@charset "utf-8";
+
+.i { display: none; }
+
+.ae { margin: 0px 64px; }
+
+.fu { margin-top: 32px; }
+
+.gx { font-size: 40px; }
+
+.gy { margin-top: 0.78em; }
+
+.gz { line-height: 48px; }
+
+.jm { font-size: 21px; }
+
+.jn { margin-top: 2em; }
+
+.jo { line-height: 32px; }
+
+.jp { letter-spacing: -0.003em; }
+
+.kl { font-size: 36px; }
+
+.km { margin-top: 1.95em; }
+
+.kn { line-height: 40px; }
+
+.kv { margin-top: 0.86em; }
+
+.le { font-size: 26px; }
+
+.lf { margin-top: 1.72em; }
+
+.lm { margin-top: 56px; }
+
+.mb { margin-top: 1.91em; }
+
+.rv { width: calc(100% + 32px); }
+
+.rw { margin-left: -16px; }
+
+.rx { margin-right: -16px; }
+
+.sn { padding-left: 16px; }
+
+.so { padding-right: 16px; }
+
+.sp { flex-basis: 25%; }
+
+.sq { max-width: 25%; }
+
+.ti { font-size: 18px; }
+
+.tj { line-height: 22px; }
+
+.tv { min-width: 70px; }
+
+.tw { min-height: 70px; }
+
+.vv { width: 640px; }
+
+.vw { left: 50%; }
+
+.vx { transform: translateX(-50%); }
+
+.vy { margin: 0px; }
+
+.vz { padding: 12px 24px; }
+
+.xx { margin-top: -0.44em; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-b6533136-5fe6-4b33-a4af-5ff3be28a981@mhtml.blink
+
+@charset "utf-8";
+
+.j { display: none; }
+
+.ac { margin: 0px 48px; }
+
+.ft { margin-top: 32px; }
+
+.gu { font-size: 40px; }
+
+.gv { margin-top: 0.78em; }
+
+.gw { line-height: 48px; }
+
+.ji { font-size: 21px; }
+
+.jj { margin-top: 2em; }
+
+.jk { line-height: 32px; }
+
+.jl { letter-spacing: -0.003em; }
+
+.ki { font-size: 36px; }
+
+.kj { margin-top: 1.95em; }
+
+.kk { line-height: 40px; }
+
+.ku { margin-top: 0.86em; }
+
+.lc { font-size: 26px; }
+
+.ld { margin-top: 1.72em; }
+
+.ll { margin-top: 56px; }
+
+.ma { margin-top: 1.91em; }
+
+.rs { width: calc(100% + 28px); }
+
+.rt { margin-left: -14px; }
+
+.ru { margin-right: -14px; }
+
+.sj { padding-left: 14px; }
+
+.sk { padding-right: 14px; }
+
+.sl { flex-basis: 50%; }
+
+.sm { max-width: 50%; }
+
+.tg { font-size: 15px; }
+
+.th { line-height: 18px; }
+
+.tt { min-width: 48px; }
+
+.tu { min-height: 48px; }
+
+.vq { width: 640px; }
+
+.vr { left: 50%; }
+
+.vs { transform: translateX(-50%); }
+
+.vt { margin: 0px; }
+
+.vu { padding: 12px 24px; }
+
+.xv { font-size: 18px; }
+
+.xw { margin-top: -0.44em; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-324b4621-f133-49a0-9708-63eca8e7564f@mhtml.blink
+
+@charset "utf-8";
+
+.k { display: none; }
+
+.ab { margin: 0px 24px; }
+
+.fs { margin-top: 24px; }
+
+.gr { font-size: 34px; }
+
+.gs { margin-top: 0.56em; }
+
+.gt { line-height: 42px; }
+
+.je { font-size: 18px; }
+
+.jf { margin-top: 1.56em; }
+
+.jg { line-height: 28px; }
+
+.jh { letter-spacing: -0.003em; }
+
+.kf { font-size: 26px; }
+
+.kg { margin-top: 1.2em; }
+
+.kh { line-height: 32px; }
+
+.kt { margin-top: 0.67em; }
+
+.la { font-size: 22px; }
+
+.lb { margin-top: 1.23em; }
+
+.lk { margin-top: 40px; }
+
+.lz { margin-top: 1.41em; }
+
+.rp { width: calc(100% + 24px); }
+
+.rq { margin-left: -12px; }
+
+.rr { margin-right: -12px; }
+
+.sf { padding-left: 12px; }
+
+.sg { padding-right: 12px; }
+
+.sh { flex-basis: 100%; }
+
+.si { max-width: 100%; }
+
+.te { font-size: 15px; }
+
+.tf { line-height: 18px; }
+
+.tr { min-width: 48px; }
+
+.ts { min-height: 48px; }
+
+.vl { width: auto; }
+
+.vm { left: initial; }
+
+.vn { transform: none; }
+
+.vo { margin: 0px 8px; }
+
+.vp { padding: 8px 12px; }
+
+.xu { margin-top: -0.44em; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-3ed69066-a5e5-4419-bd97-7f84c804271e@mhtml.blink
+
+@charset "utf-8";
+
+.y { display: none; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-7c7c4f78-a0ee-44bf-a652-bf2bc1217f2a@mhtml.blink
+
+@charset "utf-8";
+
+.mr { transition: opacity 200ms ease 0s; }
+
+.wq { transition: transform 300ms ease 0s; }
+
+.wr { will-change: transform; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-cfddb087-8952-4e61-9fbe-739c8a290222@mhtml.blink
+
+@charset "utf-8";
+
+.ms { display: none; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-93b7ee6a-b44f-4e85-8c19-135a6f32f62d@mhtml.blink
+
+@charset "utf-8";
+
+.mu { display: none; }
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/327/1*oTKn6iXB4Dc9weMrmkTMAQ@2x.png
+
+‰PNG
+
+   IHDR  G   l   ùUp*  !ÆIDATxÚì]˜]Uµş×”$¤BM tEAM¤ˆ> ¨(Á‚”G”(M‘êS,H}€Ò› ”øÒ	!ÒÈ$!e2÷şïÛğŸÇfsî½çN¦efıßw¿ÀsÏ>g—¯µö*Mè <ÀŞ úÁ±¢¡À\ ãÌìaï‡ã4uĞ}6°#€şŞ¥+$féİàp¼WjèáQÇŠ	?‡£“ÈÑáp8œ‡ÃÉÑáp8œ‡Ãáäèp8N‡ÃQM]ØVÀ« f0ïú.ÛüFXÍ»Âáè¹ä¸Àu şê‘4]†f ‡ØÏ»ÂáèÙ’ã³föˆw{×äç½ö©]½•ŒÉş ½'O‡Ãáäèp8N‡ÃáäèpÔÉ¯’œDr¼>ÿ&¹÷Ì{úèx’£>z†äÚ}°öÖ»Çı°kw>“8:£ |(ùneï–÷`C ›'ß­Ôûau ›$ßtÉÑÑ[Q.ø÷Q"Hy?tÿ\qÉÑápµ6J_ 0À+fö?}½OœGÀ… ¾%i­•äõfvP_îW«—)~WÂR? ƒìEr¬“£ÃáèËX%ç»ş Æ¸Zíp8z›4¸6€+ùH¶ÖŸ”=1=è(åÜ¢À—GoÃ§\à&}®Wv¦¼ŒXW˜.B¤Èò rrt8½à–æHƒïs2³Wìàå\ı3€¯˜ÙW«GŸ†™=à ï	—‡ÃÉÑáp8ºK­	à oU8ù‚ì¯{—;¾D7 x
+À³9Fà-Şå$×Q¸ÚZ èë f„™M_{¯¡ÄáŞCUÔ­U÷nf/ãİléˆ6u˜ef³êhkuµ³
+€5uj¾Ïğ€WÍ¬u9û+<ëF9‡*%=ó’Ã”ÜctNøĞ'"¹T›”¹õÜ4¹ï3›\Ç³­¬ş©¾È´Ò…êƒÙ ¦˜Ùâ˜7Mê‡TóÏÿ¦™½–ó›06°œÜ3W¥L5³¶N!G3{VÄèp˜ÛoOîOø*€Ø4ú{ …Í–dØt4³ùuÜ|€m ìàc >’d¹	óôI’p€ .)‹÷÷Úğkµµ€ÿ °£2ël bÈ4©@0Ï¸‹äÍf6£6|1"òìypµûf Ğ¿“Ûì¥>)«OöĞïÎa@¤6C<W mìà£êƒõ£K–xI$ô`S3{n9&Oxç}ÕMÉñ€¿ x-ùÍº ¾àóšoaßà$o3³¥¾<ûõ'y>kc&ÉÏuBû?Îië’?"95çoåäÿg<A“»H{k‘<–äËîıºr)î|¿ˆäáÚú(ÉH¾•ÓN9§ıù$Ê¹Ïe9×n”\Óä$æ\{+ÉD×†÷y3ç½óiH¼c%x¡@¬Gò$’Ó+ôw^›?«p¯oå\{@Îu_Ö¼H1äÎ9×o@òÊs!ÌÅıH6w†ZípÅ¡’jDªE’Pü]PQO0†ä‘ÕT2’AUú>î½ºî=!¹Õ’*vó¬­í œ`—D¥³*5Ù³÷©wƒi–$x
+€AQ;AÂş€ãä†“¡œ˜¶Ò÷OÕĞJXRã¹‚Šz¼$²†*ı£myBI†¶~õcöüArş±™=š#Õ~À×ªŒ¥j.É§ÌŒN.fµ¦À¿uPWÖ$İJ“7›ÈÍZ€/iaTÂ7D¼9‹`¢ÔÄğıjJª:BñÃŸLu­º•Òö9n
+€ÇE²‹m‘V©¶µ‰„GmUõf ÇÔcì@ Hò'øŠŞ5îƒ×µá,Ó÷c¤Êg}ÕÖÎ6¿¡iTÒïA-ş¡™=ó³4/âëŸ×ùÈ–J4œ{¸ïÚ2é”œ]˜€îp™&k‹&ïH ÛIú[;šÔÄ¾Mò3_°0$!º@¨—Ë¶ø†ş6ÀºZ4Ÿ«"åä-ĞU$m¦Ä8À¥ î	›Hc”Âø¾¡C¡z6‘€ã‚D”¼W —]!‚%¨ÃgÉ¸Sbo½Sv¹6õik;Hj 6¡ÿLˆq‘"kn–]7ÛFjúÈ¨ŞÍ4Ët’™â~¿ÀQf6±‚mr³Èl
+‰<Kw˜3?†~ù#€Gã»M¼}ØzË¬mp»¦z¬T.ÍĞ´d†íÔ¾ÁÑ'qKPÍ,Ui'“|L‡F‹"ËƒŒÏ¹ß—uğc*€ï‡‰ofË’¿=AòY˜|©çş€]“:ÀXµ³ %*’H9*JQ$ü0"UáÜ¤I3›Vá·/8[§ÄÛäãåR™­§ç»jb	}Ôş«Ìì
+cú¨$¿æú¸ømUú¤d³mŞàH3{ºÂoDÄ˜ıff{fß¬¿áû™ÙKéš–5`xš/FÔŸ”Ü›¬ù,í÷`ş‹¾æ&á™9ÄøÎŒ2+“¼Yöµ?GR]Ğr¶!¹‰™ı;Qñ>–có
+*øm™ı(§gH.SPbÚ="›¬ÓÌ¬âÉ¶ì¤W‘œ';gœ"‰sX"I^ˆ8ÏU%j¯MÏ»8Ç¦¾kÉÙ,êQów”KPÜAj¾"gsøÿ1ÕIõ‘ò"(ŠoX/‡ƒÖñıxä ÿÜä97pÉS´¹ü½Z_45Ïmy–#†İaÍÇ×gÉö8|ˆÖp8ïÀ)¶›û1:jâ²Ë¡ÊÃ-’vŠÅª’ãEñÈ•-‚G5ñkÕb™¬Œ4ÇxîsÔº ]Wğ½ïáÁ¾Qöœ¬­ó´©¼Q‡	Ãr¾[¨¸s6¢°Ù]S‰“q}šd= ;E¦¿¬½0N5³k´U"ù¼¤íLÊí';é$¯Ö¦õJ¥yÒ``±µ¶Œckù§¡i–êùR¦mÃ°-}İ;
+à±‚ÀAõ{ !½Á‰ªIciEÃ;"©5¤º¢ä¶™qâç¹Mê+
+´Õff-íl)1Uø¤:ˆ±³0:²f}0^¦ì‡ÙuØ›“Ã¹› üW-bŒ0)J»–İg€ü1ÿKèé$Çä[Ã¯öÄ|ëßòK–Ê§Y¿ºÔjc9(×¶RcÆñ®A«ûÚwTÁô:BHK’ìRÉ'=DÒäğä»YuœŠÎ”ôS+çäB|®*äYÎï©–İ‰A:ŠñŠl·è‚~’ä†²!â°™üBe1ABï±¾¼n'ùmE ½—ßşÕöX`ZÎ
+¤õ¯ÓQ¬_ÃÖek:Gç G,«“LJ$Š«åf=¥MY#ä5ÃF‘of†®*:
+À…²{v'Vì qtU)Ù!2/ŒªCR$oÓ:jÉÉB2/pTLïa`Û¬_é×lå]ÖT¼ù@aÚíg­2Æ9ÀQƒë<­,‚ ½½¹¿ï_P*›XT…î`d‹x çwóø½"—(tc?là7$ûÕAÓÌìd¹)Í"
+€şöùL2}Ÿxj;,œeM­_g‰÷Zsê5ßV¯›š4\Â	è<àÈÁÈ¸Âö¼EÁE“J.›&.,Õ°šH»ò$¤-r’;t•-tY¤
+†v¾Nò»İ8~y}½q4ÙQ¸ÀÅ æ'*ñç '_FÔA’SÌì8"\&s@*I~;3Ÿäêî¶ã¢×ŒK¿Æ6Şku¸‰³DÚ€†O•æûOö\‘\|‘äÈ‚İ.Éwoä„ûMRdJŒ‹8]+äpï‚Ïı¨$ûë9‹Ÿú+œ­®5³ıå°]ˆ!,ÚsHîŞMc÷²ú;ÆÎ9‡d•ú AôEq¯™}WNÛm	‘…iÛ"’œjfß–—Bêîó±lÃ«H`¶Ëâé­KÊßb·Æ:Tì%@ƒáŠ%[í<àÈÁA’6ªMäfÙ‰¶L$•JäøR"İ| À¾$kIpxÁç¾'9•¥ú§	rŞg¨
+æQ°­l]~IÎì±êŞé’›tõÀ)ûÖ£IŒ ğÕZ¤§>ÚÀ¹u4™õCè·‡¢¹õÅÅ$?YƒŒ›H~Bó!UÅÿœsè·JÖnUénÀó'—ÊmG±­<Õ¬¨ÜMZcÃĞşƒúã„·/9VlPêr~6MI%ìîJ9öŞã…Ğˆ1u‡1³·ä7¹4¹ş\I©CrM?¹oŒSZ/ †€[¥âÅíü*</Éé)ªg Ãô<Ëê$£©Š¬y+QıÖQš­!İ0†Êö÷A ¯ƒÂ»’l¬0¦{*´ĞÚAÊsej˜’Ì¥°Q\Cr­œ1 ;íÿÈİè,9ñÇ˜s˜7=;h«©ú6ï¶ğÁR¹^|²|•·Õëş_.Íº«ó#šÔŸªt$ÉI®ArME0üL	iı«ÊÄu N”—ñT’©5Qs€G¤²{AâÀıöF=÷ö$G©u´8/V´Î’öœêšÙM"ñÖÄî¶¥NX»wBÊ±C­wİ#l<êƒQrÚÿ¹Æ”í=á7³0¾gDµ´³¾óæZ‘a¬BF±×ŸÕuaÜNòs$G*9ïAú>ÆC™X!»`ó§ŞW.ñ;_(&Aš1¨×Mv)ï²Šs‚#BYŸ1ÚÍ_ÚÃÊ–rdâø›íææÅ¿já¼ ¢˜’,(‰ÅóŠP¹Cv³ßÈ-¥®Å*)u¬ˆµœØÀÆ*ÁÅÓjëY-Îısˆ¾^b8]›	“š½HXïÁÄrªÖAú=GÎÕ¥(‡z×¿)‚é™<ŒÌ	åålûr©Â‹ÉuÛ id©ˆ—'Dtñ|ø°¤×'¤NŸ!ÿUFÏwI–£ğ¡IÓ§[î.—Ûf¹<Ã
+æ0±Æ†Qlh8çd?œq¼‹§u°“Å‡râ›³	=ÀEföß5Î_äğ;-GÌÆ¦‰´ÓR+”1§ÿ•ığa-¢´­ájk¥öÿ;DD÷Í@%§8°‹maLQ-Jˆ*Sw7í¤Sì£´é”“MçPù)fÏ1MóafÎ†¹vUçÇÄx_NXi5í¶ğF’?%ùzm‚”zİØpà‰ÛİÅ9Á!œ$ûÛ¤*Q,”Oa ®3ÌìŒ‚‹ö" §K2˜ŸcÀÏîİªö/QæzÉáiå˜ü«$ÄÖ
+D˜µ»LRíÌå ¤yR_MîÈø'JÀÛ•ùšˆêW‘h5EY„5m9Û-k£øßœö~¢RÙuAz=Uc½¤JÂßğ.¿Sâàÿ·×Ï±q·ù¿-İ1°†­ÁÖ"kdÙĞdçóş;Û‹^snèSêìß#ébpPkÍì&’j·ÿ`NäÉŠ^Y%%U¥Ås	Éñªµ²üãE±@„v¹™=$c~#múwrv‚z~ É$¹­›“u§¬ö“]ôÑœ[MĞ3fJƒ*9›+qÃ÷u’î4Êwï¡è»)ŠEÕŒy¡Šj{C‘Ô SòZ}0ÀñªÇs¤Å5s|?J¸&yÆ/ëÀë­h®¼Z‰˜IÕAWC²í ÷×-’Ãø"Ô-4×˜\»ÆÌşPig«¥;‡jÖpŠ5Ø¬aIxG-_Ò°KË¡Î]…Bı²€IPs¿ifë†gÜL*N<Ÿ¯––«{¯*·x±¾–”è¨÷®Å‹%U¶›Vá7V sPwÎŸºOóí£91èÒçíxŸMDŞ%‘jK@+¥-[.Cné®á'Ø;‰‡V– ß1€Ëä>M»¶Üé´åäèpôt,W™„ùóç]0tÈĞh@ÕælçoÇE:9:ŞM+ïƒy¼gş/çÍÃàáÍÃªJ¡ó›hC›ºÎåÀáp8ºßÖËß©3Üápô"¸ÿ¡Ãápt†äØ ¹yòU	À3{Ó‡ÖÑÃæêÖŠÏb³8»Zq®v¶ó•s]¨õ=C¾¢Ïù(t9*†rÕ§ßğj5$òÚ!?¦½ä·rNKHÎ•OÙ„ğ¯™M÷¡vt3VW˜[Œ:¡õ”Ô5ÃkÊ‹èè&Éñ› ¾ªÜv•"–(8ÿÊvâJB¹ŸfWÉñ¥J±p‘œ,Gßğy¶½¾e*Me±™ÍñéÓ!ëÊîœù:¶ xºJ:yŞÀ¥Nh'½gk–1prÌÁHíXÕki‘¤p¤¢)FYoZdƒ£Ïë‹,`ºÊ~şÀ“E*á)ÕÇ•ûo# ÿeq´?¦
+p[)F¸!*\¿˜ä$ ¿2³[W€wÙ]2ošÙÕ>ºNé®X.pM{w°áÑÕJ1eÈr¨>«+ÑÁØ Y’œ €ş*llj&Y’Ü^)—¾¢Ğ¨ÁºÆ]’–Lp‚òV:\Kõ…Ï4³ózğ»œ¬Í;e’a®`f­>ÒN]2+$(Ë!Ê•ô¦p¢=•¡¬	÷O£ŠB5TQÅÉd?%ŸX'g\âÿnĞFvÉ²™ßßeoeÅ‰5¢=$Ÿì£íä¸"!(õéWP]w´ŸLÖQİu’>5•!*õ®ÉßVQ*ªšÙã=ì•VÍ™7MŠçv89ö
+¢ìŒëïÇNITSæı•'ÊĞ|€ƒ£ëF*³óã]@à#dB%•à%•J(¢åÌó¡^ñáNà®Äè´?C ›=3bÄ;i¦ŞÔÁÙâˆl†ˆ»[ ¸Zv·+ÖáJ%–â:å',EYÅßR¹ ‡“c· ¤TĞ=û´hr–|h{$E„%,ÍsØoI²^£m½ÌIÂ›;ŸDäŸ™ÎSR•}ÌìIjW«»Z^"ò{
+ÀÂ¿fö¯H%©º³ãtÊìèÙ&Õ*Ô}î—S”¿G„™Ùy38œ»­ ^W†ßóUP)o¢Î&ùˆ*Õu9ºdÚ~,J$´µT±ïúÌ§"I{E5«³Ú¯{÷9\­~?°­™Q‰Âoì@²£®yEUç~§ä°úq—ÂÙbéñ ›ˆ‡©¼ÁŸ’k1^ëİçpÉñıá5xûët:B'”é©ô\ÙÆ®5³|Ê,÷&÷’|K³g8€ËH,õôÄèo¦Z)÷tòp8z9*^y°Œõƒ£S¿…ú,R%±ÎÂ/Ìl’J:J¤iVªÿáh×&7™äï•4d•¤Èÿ¥AÅNˆ±Me8Oë‚yØ_›ä¨œu|=’óõ·©YÉõ’9SVñ­~¾5åW9Rá–Ô‰ş,Õh™İm˜JäS¬{•¶,:ôm-lÇ½×•eDôìA#x¥=÷ëµä¨AXUşdëÉ)x´&fYƒ1MÕÇ¦(qÄ3*ªŞÑ„w¿êÖé¸\dø5Æd¹}Ì£2uÜ	à3{±k´"[6É©·¼ƒ–)æ›2³ü4qóY¢ØûZ+ÃÔ_ûê°qËÈlúè±°¼ÊÌ&¶7DWäûI  ØPì£K¦¨Äihëv Ï™ÙÒ÷m°›*4~*rå*)d÷’A+ë6e’ç’\ÌêXDò°ĞY$?Cò’¯± yÉ¢¢İ•e$É?±8¶î­,¤!’çèƒ™$?×…Ïµ>Ég*<K™ä[$ÿBrÃ.|¦-HÎH#ş7ÆæÑï–$k«pÿÏæÜç¨ıôS’srú(Åã$÷"yròı”Zsœä&$/Î¹o¹B[‘ÜŸäÀZZ!É¯“l©òìm$Ï"¹J_—×T!ğÃ%¾#Q£Ş×¿ú~K}Âzfœ\ÒÒQ}ÁØ%§VuŒ§ jfó»òÑ$õÅÒ+*ÌËØÌ³8qGZÜAı4RRéWrÖH^ìGœ_Áo´Z;–ëÛgk´ÿm+ çèGòº*ä'Tôh*ß/HÁß0›ä¸´®»’ƒx½Döş5! ÙµûH,ß×];VHbÜA…Ø¿‘cŞÆØO™“Æ÷áî:¦1ut¢æ³ÖÃúRíÇèS(€$¿³”,#&¯²¼
+ş-7ºaÊ¹94zÑJ®ñ2€‡+4q¬l—ñáÚ}zîí#óÀ@İx½äŞÈ‘jëÃ5$E Ém|1¨å.=®0¤ˆğË ~ `óC&™œGò[föt=æl W¨í]¢ÃˆL’}D9Iuv.O’{(¹3_ÏI ş¨SÿYZS#%5ùö][û'Ä½ãU ®—±U}úåK
+Ígc û‘œ”JùŠQß5±!ß$o„p¿ï*~şEµu}âÛ§l‰‡H6ºÍqÅ°9’<˜äìNwjş´æüíV%¢Hï×Lr’[tà36ª¿>OrzÒ?’\›äğ<J~œıîÍäÚËks$ywÍs"Éíª<ÿged›cI>ôwƒß’\­BÛ’| y®×In•síV$—F÷ÿıÃèïë‘<šä$÷Äõ³¢ÆVÜ³ä¬PªôtÚKB%9ÔÿHêÙRç,:qİÀ8I1¶S±ªSHnÒÏif%ÙÎæçœø.0×Ì˜Ù›éZFrKiX–HtÇ›ÙCUÿ ¿FñÉ»Jò‹µ²©jgf…6–äúVô»ÕƒJoÂœ¤ƒ”û5’;é^A?×ÌîwWw1_>m÷i M6‡İä±FAİÑó‰qM©O›&Ä8KùŠ¬øÉ4ö{'ÄğU ášSu]XĞÇÉØO%'>®kÎ4T0ë4vQ·mğdôweª…û<  ˆğ±„¼¨qÙA¶È<“U«Uß”y!£OHeéËA—«^Ö¯ø/
+Ú‚¢ íÉó·«If®lOäØ(î‘øD¥¨ªetô|l‘ãØ=WÒâ±Ä ¸øÃä '‹õ[ª)s¯NpwæÂ>aŞ<ÅÌzCXçú9	t¯/"­šYP¡,H©óºéPä7UÖu˜2,Y‹C+pÉ/£ûeãÿµ½€ÇI^H½“=z<9.pµ™İQa`—¼A¶sûm-Ã´£çâ#QÖïl!ıw2òT)3›AòKÊ¥¸z´ Fø…Œ÷;%dT¼§Eº½crÈ±ÒÂÏK²[¹ 	§ä889ˆª¥Áecºj…ìJ¿S;G'Şo%ÛÀÍ$ƒŠ=¹'DWÚÛ <Scç{QqÌE0Ğ¹§G«ÔÃ´0©hó Ühf-UæÀD ßÑ©i¼ ÖÕ¦Ù”,Ìß¸²`–î…sˆ¨!diA	uyÖ,]®,‰2Ë¥2‡|M§ı–¼O£6Ïïø5ÉöeµºTD+>¢E-ŠÅË×Âmªq~jB	1^àÌjĞo'&H½íßÎßWÜz-<$Ó8ñw
+¡µ:9ä¹Båmvo‘ü+€[¤îÿ@®GHŠ©}&H¼$ÇvDœøŠH>.PIÌZI­$c“Åšı÷]"ÆÙ½¬–åôÓ–25Áè<)®B;éØL4³”¦®q­&¹›Yxæ‘üsĞ”–î¤(J.#ÉOÊùæ¾¦V;úZr¤‰uU‹Ú
+.ŞYU4»»(!EWãŸ²£ÆØ­ )cŒlñE6¢§MÎt€ö6™Uû ø¼\©6Öw¥‚›^YîPWÈv<!ÙğF'%{½:}|6GB9RşuÕy?Õƒ>=g‘gñ¸ß$¹g/ìºûÓCxßI!È¢“j+ ¾Ç¤úôË•À£±ù €#”aÉq$W­p­‘l ù=Ù cõı²ä»Æ‚&'GÇ
+G <˜,ô 8‡äºI¤‰)òem ğóœbÿq(İrÿx/ÛT^Óé{)!¹ëHn]Iê&ù	%ui.b¾0³»t
+_»’RˆÎkG™sˆ<VR¥È+HJ®]Uş¨äÎslú9êÿ²J¶K'GGo“Ÿ‘­ŒÑ‚ÿ$¾; Cr´âpƒJwŠjDï–cYî)³’ûbü	ÉµzY×DV6Úa$‡FŸ1$ORÙÔ™·à´èd›âƒ”Gso‘äPı»­ª,–¨íËbg~¼W=À‘WÉ±$Õ½ËŸ5-L6M‰,œ}Y$Ä¶¡N¤§)²â	 ÇG’O,1NT’„’û@ßí©ñ¹íÜTîp¥Ôë¸/«Z´¹ŒWrˆSåˆ]®ÇíÇÌ®”g@9ñ
+Rè fˆtŸÑéöÎÑ˜dÏt.€»“ûÎÕ¡Ê²Hâ‡´Yº×D¾ÄÏû l®N>!=N•ºwÜ´ŠH66ªù!"Œó‚ÌV¸ÿÁ²Uö–~;À_ÔÌyç­³ÂdÑ÷oh³©jcZ’ã‡8DD¹vòYú±Œ«à·z²²•’xùrUJI6åº8‡§“££Ûú«:`¹\åªù²fõE^ pQP±³"ùZ„gGn-Ù¢¤x€İ„¯(ıö ¿WŸ-M$æ¸¿)÷â©ŠY¯§²!^-I±µÂæ•}·X‡)¿ pœ¤Ä¼û¾®1¯|
+•Æe±b¬O•´ÇÀı]µĞÃÿn”«p}Ù£VRƒ’Fæ(JêR3{4ç>SH,B\’”3~9KçÎ•z·šî=PD]‰ĞïKjÈTÊ>[$0?R‘_)Ğoß'y«j»l„÷Q÷÷½P…âöV,ÔúQ+Sœè"ùE%’ŞXñÓ±´XRŸ?6-3{¢ˆy€ä~rüŞ-©ÍSÖ˜ÍàWfö|O›³N®&ÉÛ Ü¦r	YEºuD@a¡?VI‰îñˆqg<ßD%G)zı
+^÷ˆÈ»=Ït€[Hn `£ˆ´aOFtír´nO;×è´z´ˆ8>1_¢"w3ë¼g¸ş8’ç)2¦=û‹2»ôH89:º‹$_RkGñ>›¬Óü®0ƒ¼ÚÁ÷|£`Úµ·9:G7K–Sø=ĞiãÈ.îƒI¾ŞKóDö«‘Óápô rlV–áqU[n­ û"è¨ü}c•0µÜË2³ÛÌ§¹ÃÑ³É±QY7~HòÒÔ7Šä::ÅüPÁûMî ÙJŸŞzu‡£g’c¶8‡fõ?HşSŞı+é´òSú4\Ì:HÕïpbt8z(9Æ¡I#òµ³2C7)“ğ:¤œª\³Pé˜¾âÃëp8VµÚò¡O{Ô¿ñ•bHU‹æ9¯êCìp8Úƒ†¦âUÿ.«Q­ì9rr8O%…2-/~_«Ş­âE/p±ÃáèéäØ*ÂúqÕÔbÜ	à˜ :×OÍ^VIÈË}˜GOW«çšÙÙògüG¿›/R=@aHÅô÷wâ6¿¯ZØ·UI
+àp8ïAGÈÜ<WÂ²¬ ™M ¹—‚è÷Y‚Ò³@÷•2ÿ Í¬n‰S4·›Ù?¸ÿi%Ù\KŸrŠ¨;>ÿ  ÿÿ^vûÚËjöí    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*_6oZAheCwiQiKHAHeJDK5w.png?q=20
+
+‰PNG
+
+   IHDR   <   '   Ü¼}  IDATxÚìX]lW¾wæzÆãØØN‰M·aü„´8•ØHµ2]UM¥"ÂKÚ°Uyâ		Şyã…·¼ğÂÏ.ªì"şJAê	,D„…M‹0ÁµÁ'„$öxü3ãù»sWI¼†Cj)çitçÎ½ß=ç;ß9w!¼kFwĞ–@/^ıN€>qâ„®ëÉd’˜ øÕ‡ß4ªğN×õ#G„B¡şş~]×‡††ÆÇÇ7oŞ|úôi·Û½mÛ¶‹/F"‘ŞŞŞx<>33sàÀßßÓ©Tj×®]@   ÂØØÇq™L¦¡¡aÇªª¦R)ŸÏ7<<¼gÏ»İşAåË—=z4N[ÈærÇ¹İîúúz†aòù¼¢(uuuÛ·o´Ùl¿hø:t<sæL0ôz½åƒ§Nâ8N’¤şş~¡u0ëÁ2Ã0(Šú}@¿ åõ'ğ<_]]]šc`\Œ,MW^íMq&y‰€ùSA›f˜º–§×kBXÈfŸÜº…ƒ.sª&Iu­­Lm­,Ëãéht:š[„¦í.(ó„PÓ4„C‚uİáõ6÷ô,t.™ìøì3]U±ªÃĞ6Ûísç<õõkºº,‡)„tôöf3Š›¹1 73#LNVùı,ËŞ>sfı§Ÿú¥tët:Ün]–‰aÌe„‚ xª«“óy+.²(ş<<¼O[°î^¾\ßÜŒ5m:Åªúa_‹e¦¦<~? ›{GşuÍ·zÆ˜Fš_6tv
+ùüOßßöÉ'ˆeÃÃÃïôKÓ‘7R±XUuÍû>,Îår7ıËŞ½7¾ıö›6qXóñÇ‹m™İé¬ml„úÚÚtŒSñøŠU«n<Ùıõ×chš±sşÖVBˆ®ë{ôB¡`†&Ë':2RD`V¢–`eÙ"0¦izn‹L†[¶Œ à]¹Ò»j••ñ¢$½Q·Ùls€hZEša$×4c¬jÚÿ" BH–eUUív;Ë²†®c·#š6£<é)ŠÒ4í9 ½n¾hh¼hª¢°.—œËÕ57³,k7Íä11t]‘eE–„ !ĞL&ß?¯
+îœ>0æ8î¹(#¤›§²ôÑ˜W˜Eª‡¥b–°¦åy^—åä“'¯_ÿóŞ½¡Ë—?èí-Ÿ³¢±)öãv» c½ÃÈçrÎš–ã!¿ürúáÃë‡w}óË²%#„æ"@HQÔÉœY+—4jÁœnİºµ¸ŠÛíñû9§S˜˜øàóÏKY‰øôŞ=Dˆ`)„ªªV¹\¹lçrÙ©©gH™Œ˜N÷ìŞz82Ây<¾uëJ*‚³ÊÓ›è4œ§ `üÊ•µİİb:ôõ=}ğÀŠ¦®ëEYòlcÙö`Ğ0+·DQ¬ªªJ§ÓË–- XƒŠ¢(‚šZÓİı`hÈJ\Œ1BÈòq‰„°Œ‹ä4e–÷Ê•µk×ˆÉÔ£›7	!ª¢ „l6[©€+ªj³pXß–F4UÅÛ\®ÉPH‘ÄÕ]]J¡€1¶ê¼ªi”™©oóP”'ŠjØ¸{ùÒÆ¯¾ú÷©SÅh‚ç·)V†¦Â¼àÚ¬ÛØ0Šã2.—VIäÒ)ó¢¨×ÄıjĞ¤,RÚ¹3=1ÑF‡‡5EÑE³ƒI'ÉÇO²SSÂÓ§é‰	MQ  7şö÷Ñ“'§Ãa
+ DÓØÔgMÍÏ×®qMÓEAK‘¡(ªHğWAu"Bs-Ë%4BÑë×7ıu'Ü°!óì€P×4
+€†ÎN i¶ùöCçùø­[ËÛÛW456nŞ,ò|:‘Àºn³Û[¶nò¼÷^…2\KÅ6®hšeÇ¾ûNÎfKj
+ èøâ‹Ñü³³¯ëztd„FèÙ½{ª¢0,["F!›õ··cŒY—ëî?(™ët¹[(°ÑèÚÛ]+V”Ö„„èªúÓ¥K¯×rPeÁ~ikZŞp–ÏQ…2ŒğÕ«5¾uë*ô™‚ ¸=ëµ®ªE1Ì//”Ğj˜<öªÔÁ’Z±Ûœ7«.”Û;w.\¸ğ«¯*˜UÏKÇ+Ï‡½H«ªÊ˜û¥I’400°oß>]ÓÜ(Š,Ë®]»6#„‰DGG‡ “““ASÔÿ36ÖİÕ•L&#‘Ïó===¡PÈj¯kjjššš^vï\ğuˆa˜—ÓápÔÕÕuvv>|ô¨µµU’¤ÁÁÁX,6>>>88¸eË–ıû÷;v,ŸÏ:thèÊ•#‡ß¾}{ttôêÕ«---ápøìÙ³@àüùó###nÊ‹¹ÃU`Bˆã¸æææT*uüøq‡ÃAijjòù|ÕÕÕ¡ÚÚÚ¶¶¶sçÏïŞ½ûàÁƒë×¯WåñãÇE­^½ÚáplÜ¸1«f¼NW¶ÙÙYBˆ$I„D"Áó|Á´d2iÆÌÌŒ(Š÷ïß—$ivvÖ0ŒééiBÏó±XÌ,ó‚õ¹$I…Bá­qzé_Şè%ĞK Mûo   ÿÿ,ôMTwc´    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/fit/c/96/96/1*ubbP2tqcQt4K1q2c6ZrX2g.jpeg
+
+ÿØÿÛ „ 
+
+
+		ÿÀ  ` `" ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ü°”ŒĞ)h$M¸¥JOÖ€BÇ }*ytûˆP;Àê§¡*q^ğËNÒmu«Yu{cyì¼I×¿¯á^Ùãí3NÕ´õšÂÆ61òÇĞ|WWÉ>UÃ9«¶|—ƒJEu/ÑÎåŞ6ÌïDÇ>ø®cİ	©Ç™Óƒ„¹XÒ?*)ØÅU2šE>ŒĞ –š:ûS…
+|\8=y¦N^´nE¦ê-hRc’#éƒŠõK×°mµĞñ§©]J€Ê±FÚ!œ§vN:òn+Ê4øLÌ
+3¯TaÇãŸóú×s¥üA‹QÓâÓ5ñX…!–×ç¸Æ8àô¯9¾VÚÎÉÒ•UŞ8Ùô¶¾£¼K¤éö–É"¶»½šAp·ÉpË"&buàg,3Á?(ÁÆsåÚ³ÚİÈrrNsœó]Ô‡Mš+™¡“7QJ\Ïzä<¤õ  sĞuëŸË‘×ÿ yq§h.¼…éŸòkzNJÊLš±†²ŠüL£KÖ“¯JS]G(Ò>´†HE(âqJ( {Ó…:^âTŠ$ierQKĞ^•áÙ×Æş.%—MLÏª>ƒnã¸÷ªŒ\¶DÊJ:¶pö:ËÛ…I#s÷×‡=xÏ|æªGp"P3ƒ_K|2ı—îô/I?ˆnl¯~æŞÔ³!gI3UÆÒ îG<sóİş…q¥êzn¡	¶½µÄèã¡ù{ÔÊ—"æksXÔs—%öWûÍùÖ·µÁ@UšY#+¹T£qÇ\Ç¡ªŞ%Ğî,!I'&I…”"áb-’ª}ğ+¥ğ]¥¥¢¨¼•÷´Š0v‹ŸLóõÒ¶eºƒJ»u–İoşÕ&ë¤ÿ ­Œ‚6ëî=¨®8É:šè©Aû>ìò 1F+ß`ıœ´ÿ {Ï
+ëQÙÛ] õ,©&>dŞ2GÍ‘‚Ö«ë±¿´È$’ÙôYĞgÉ³º`çşş"×µzNŒÖ¶<ÏkÚç„‘IZ"ğæ¥áM^ãKÕ­ÇP·Ç™˜Êä8 ‚G­fÈ×r:’^æhá‰Id`ˆŠ2X t_IñÂêFàÚ¥¨Ç¯ï–güø)¦x'Ãö‘Ïcøˆ®û‹İ¤WuU|eP©êqŞ%ÔºF¥Ã±3³-´Œ2Ä¨Ë+ûã$àW=m§ÜÜfx.$3—d’1ÛìŒäëØâ›-Ôú|ÚV©%Ô2`=¥îÜÍ‘Èù†7m aºH ã5ôÔ©(Á$|ıI¹Jì¯ñüWoÅ·‡ï¬ôÈ/ÿ ÖŞË	’æ<mùP‘´‚zgælv¯Ô~O},>%Öã–â^mõÙÓ’FK%Çrq€¯¸ã#cê}T‡ÄÚW3Û©ğ8Ü£o¨ÊñX~:Ñ´ĞîÚãO¶“ÎR©ÔV•ÿ …S'‰çšÂµ*
+Ú+u¹ÙJµgQrjŞŸ¢>Q·ğ›øoT¹†{›Kå·åf´—Ì‡QÈş^õ—©n»ºQşòV
+£ÜnjoŸk$f1o $Ë?İÓÛ§àO6«{åÌ[ˆxÕ»'cõ?Ê¾b…ˆ«Ë¿Cè«Uú½;ÏÔõéxE°ÒôöarcI¦“q%d!w°ÏNyÅzÆ•â;{[hËÎd‘ÚRÇ–+ÂêzWáí54ë‰İTÏ?	YWë[ÓF©yuÄ46á—î³œ
+œÍÉü¢¾ÙÂ1‚Kd|{“rrg™~Ô¾²Ö¾¦ºYe×t²²I$j7ğÑ±êq¸0ÃózóñÉúã×<'â2Úûeå¤¶ÑŸ/lÎ¥sƒÏêI¯Ïfãõàã!ËRıÏS	.h4úWGğßşJ'…¹
+µmy=¿|µÎVŸ…ï†™âm"ğä{Èeãı—úWw¡º¸B¢òK[€dıÌ¶ÒIÇ°Ú†®ŸPÓZòÊKiã¸–&Çî®Ò%rx+Ã°'ŸU¯•üSûBj)©^i¾”X[‚öójAàg´’B!àŒsîçÅ/XéÊ‡ÅÊ’¡u	†>ƒwİ,Î4ì¡ØÂ9c–³¿Ú|7­x»SÑo®$‹íÑ[NxrœävÎO¯zóÏˆ~6_êîc"MÔ‘ e JİŒä¾Ùé’+…ÄÚ×ˆH¯¯$½YıõÉ/6ĞIÛæ›'©õ*–¿¬%¬gˆœô$W/õ¨¨ÁYuÿ #³ƒXy9Íß±wN¼µñ¬Úeí¡¸Y]\†ùáPÜ‚pNÜôér>’‡JÑíôè¾Åo
+IAVUFBœ*lœ!^!ğGÂÒ_Û^ë&&•÷y(=`±üOşƒ^ÛPµ¢42$¡~ò¦~R;ôÇ5ëå¸nH{G»<ÜÃêÏ“¤KèºWÉ1ÓlVQ––Ò6fÿ y˜dÿ LV^ñ¯Â^Õuİ*âÓUıÔØuÓ‘Ê6°²Çßƒ×8­Âé³9cå¢ëßÖ¾5›ÄŸjÕonUÉi®$—vzîr­<}WE/e£cÁ¯oxÖmÅt»>¤½ı¢¼¨ßh$Õt¦<	õXÄÇ°%YÙ=2X Í|C¯é­£kz…ƒ°wµ¸’ã¡ÚÄgô®ËÄ[@Èõ®í‹\>rpvòsÓé^2ÄÔ®­S¡èJ…*:ÓV¹Xõ¤ÜC=i[ŒÓ—âŸ]ø^ëE½v[-kM·ÔàšÜ˜ÈHãrº:‘Ø©N××€–Ä(03ÛÖ¢ğ§ĞøUğ¦¥w1ìiôéä{wÈfIè¤Àå¿¼k;E™îpà}k‚1–±’ÛñGtd§`ú¬v±íÔVîk—ÕoH#±'°©/o–,"ŸZ[?k^!
+Ö6†ç1L€Oç[Ó¥)¿u\š•cİ‹Á^.ñ…%Ñõ­	£H]~›OĞ·ÄKw-Ê\ÛE,ªÌpª†Ç}¸Æ
+àotÍkB ^X]ÙĞÉüJ¯¿sñ“õ5º©^—»vŒİ:ÖÉŠŞ&ñUô$Şø‚à)D0?– cíÅsøv;wİQŸL/JÈ_Jxvâ¬CãO$ã¨õ5„Üª;Í¶i/u$R×™ÅÂBÃ=qNÅİ˜§5Óëzyë!›(ô=øşÊf®œyQ•Y]èÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*4fDBiAN9LRJ4M7nYnvWZNw.png?q=20
+
+‰PNG
+
+   IHDR   <      ¬XÍ  ‚IDATxÚÔ–_nÓNÇ÷¯×±?š‰ªå…ˆpƒ^¡ˆ»À¹8ïH<¤"µ-ôO’¦±7özfPãf»qbÚ‡––yŠggÆŸıîì8ê}›ık¦>¦½ğY
+Ñëõ8çyÇq\–¥1†sîœÇHô$ ßîíqÎCÍÉ¼Ó?rÎıoZ¦'"!Äêê­¿×Ö¼=«,K)eøzkm½\s!WW"Šã8„V«AQÕ¡µØsğ…B?"Şeo¬µÎÕš[MÜ
+]CXkÓ4%"DTJíìì  cLk½Z:<®{şôõøË÷3ë tğáİ›0¯	 '''vnq#âp8ì÷ûçççÎ9cÌ`0ØİİmÓu-Ö­‘k³ö/.gÕçı³læˆc7ÍFÄñxÒét ±rN)-¤Ä»3İ£!Rëú½­íQ‚3f­EÌºİ._ìªxI‰û5Î›Å¯ğrK±,›J©¡¾^õª1fI>,äGd¾_KË-±fiáä›1ˆLk¹4=ê”ÀÑè"I’ÑÅÑ‰çÏş›dùËí­Ë¼4Z¦ã_Ö(r´·r›“Úb 0ŠTxÎju†;WN&UÒI²··^¸
+6tœU…˜ÈèQÚºaÂ+í;ıààp:½<²Y1<ı©Äõ€Œ¤Ì‹ò×hJñ1•ºØë7ŸÄı× ¿¾h5í_FÀ$1!ºZİGéœ|#@¹Ùå‚‹HÃ4Æ ÉÿSÈr‘&"ÒX+J®5!”‡?ÌëWjsãá:gÒŞªªÊm¡µf€Œ3.!^)LŒø"ÓOàò°Åœy ¥ÿˆ Oäè"Z«úw   ÿÿÌhÇ…èı    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/fit/c/160/160/1*ubbP2tqcQt4K1q2c6ZrX2g.jpeg
+
+ÿØÿÛ „ 
+
+
+		ÿÀ     " ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ü¯Æi@¥ø¢‚D#4sŠSJ9 ŠQ@P:ğ( 4cšQÎsVì4é/d
+£‚y4›I]‚WØ§·<bŒq^·áßwúÅ—Ú
+HSÔkZødº|¬|ˆ{nÉõº7µÎ…‡¨ÕÒ<û]ÔtÉtÉü¹@ ıÖªÎk­5%t`ÓNÌi>ÔcŠwãIß¥1	õ Ñ‚Mh”R%Šm?Şôwõ¢KœP0¢ŒäbŠ )zÒgô¥=¥±¹™Pq¦½Á²Ûè÷ĞNÑ‰v²±Lpq^§Éå8ozèm5IÑ£`0zW%9û½Ú	-Yõ™ñµİ.+;ko\ qÀïø
+á|u£-Ì˜2(|çŸOóŠã4ÿ ˆ2hZjÃ
+›“Âªy8â‰¼Y­ßk«m…'2©Ü~:û×—4¯x­ÇV7iI]œ¯ˆ4!‰bb§9äö÷¯<¸·kiš7ÆW¸èkÕô?ßxÿ RòÜ6,³<r½óùQEç×ğü«Ö4ùì¼ä¹…RTùO\(ÏQù~µìĞ„ µg›Z­9ÍÆ;£Š1E)®£(4Rô=s@aÅ6ŸŒRg4sE ‚”r)¹ô§tã¥hÆ;Qœ}(î( éKıè´£=±çñ­H‰D-éÒ²ìÁ{„E–8 V¼Hå[&Ö*cqó¨®Jº3ª–Çªüñäşûmµ••Ëß\«Æ·û3’¿(f#r€Fxlée×ï<Q,_j×w’È³ˆ–Y&ÜÎÍ‘€I8 zW1áÍ¡b.%‰s°n?ur_Åã¨;»Ç²†1˜ÄÂİ¸?şºÂUê¨Ûdgı™„u¾°àœß[k÷•<q­héñD©ö=fÉw~[dIèF\rNO5ÃÏkiqjòÅ)—qÇï¯éZgÃºV˜×gP¼<„aÀÜ}I }8Åg²ÀRg’70;Iõ¨…>H¥ÎùOšNñ8»¸Dƒ <}*µX‹eÙaÑ…PÆ+ÔZ£Ëz1(=h {S~4zóŠ( óíIN?4Ğ!j^”b”s@Ã4wgip3ıh Çz ô¥À ”fÈ+JÑ»l¸NzŒşU½j“ÛJ’\ånÌÛÂƒĞ±=SÁ®dUû}bæÖ
+²4$ä¬‘«~¤dwéXT¦å±½:Š:2îµp?µ¤DUQË•<ÔŸ×·¥Ii©ÍB¹ õçµf]Ş«Ç—A p0 Ò˜. =jcq&[©ï6t:œÚ^¤·ösº^+o\á£?ìÇŞ­_Şßj3$×2®ìg`Ì¦¦ àï^ŒÚ,z§€t¸£Ó–µ-Év¾•òÒFÃ8B÷ç'·y£«4‡¿¢<÷]pgEêÀsY†º_éºKˆ­Œ“m¦w9,qßµs˜­éµ(¦Z‘q“L@8¥ÅŠ^µ¡˜ÌqE8òi\P!)¥¢€#¸È õ£¥Ö“ÛÖ—8â€v­Ÿx?Yñ® ,´[	¯§8İ°|¨3Õ˜ğ£Üšöß	şÇÚÅäÑI¯ê¶ö6ù¡³>l§ıœœ(úüßCZFœ§ğ£9ÔŒ>&|önx/Â·^3ñ6Ÿ¥[G#ı¢tII!`Î: 2
+úëJı”|¦ÂÆæÚÿ Q~Æêì¨ü<°•ĞxKáşà‰u¨4-&+hƒÛJd’L+äìIÁÜÇÊjèJ-sudÆ¬gµöUÿ ¿6|‡ñWÂø3Æ×:Z¢Æ‹•Ué™]¹®2k"§#¥}%û\|;™5+OØæKcÛÜ®ÜlùÖüK`şàÈ¯ÇšÇ¹*3\3ö”“%ğ…ŸYÕRFÈ³¶e’wöêãŠôË;Ém~Ó2À¨²d*‘Ê§ø÷ü«ğíûi–{+:ì-.öÇv1^LïRv{¤ŒtÜÍğİ¤m•ÅÆ¨EÕ•Ûˆe²”`lİ÷ƒgï£ùŠÇñOÁ{FK½COµmKD—0¸f±;w/RqÔı+C]ºûT¿g§8÷Åvß
+¼lÚUÃèSe£¾ psä¾Ş8=‰EÙ5éP©/eSäÿ C†µ'í!óÿ 3ç§8#Ş—¯ĞÃŞÔîšÏZğş“¨‚@{HŞ@Ç¶ò3Ïó5‘âOÙ7áÖ³z’ZÃ¤³àyZ}ĞØO¯ïñøq]óÂNËSÌ†*2Z«
+t•õß‰aí:BBñ-Í°ÆİšŒ+(-ØïM›Wşkå-kD¾ğö§>Ÿ¨ÛIgy	ÃÅ*íaÆAúA¸5Ë:r‡Ä˜TŒşP bâ”ñIYš£4Q@^—ğ+áWü,Ÿ3^#Çkİ2';cùÁ$€™æ•öŸÀôÒ|ğ×D‚ëÌµŸQŒ_5ò¡+¾AØ.Ñø{šÚŒ9æ¢Ì«MÂ£Ôô/éú&Ÿq‘cmkb¤¹Î$…‘ˆ ’ª ' |ŞÂ£·Ô¥Ñî’Öõ‹ÛKÄ7˜ûÇÑ½èJXüqo§I×Ö—ÇšêÛBËÜœvëÏøV†³§YxƒDv†qs¦_–X˜õÜãR>ŸEÙY£Âo[–ÒPàÆÇƒü]ëÍüYñO]ğ~‘yáİ#ÃbşşêIæşĞÄŞbò–Ú!’>õ¿àwííw¢_;OO}…Uçlù}úv­Ms@mQL‘JRàGµUşãu¨•Ô’rèo
+Ó§	F;=ÿ 3å]y¾/\\5æ¨í«iç"]>O(ÀÊz$`wê9÷¬¡ğ÷Åz<z¯†íò ~ÕjŠ[GÉù>r7œ¯> WÑúƒ©C+éÓ2cF¹CîşµÁkÄå›YĞì¥D¹*“Ç:G pHÈç¶kF3WR¹ÕC*qpåGƒÇ¡^i·égym%»†ä8àûƒĞşÖyPØÙ:²7˜HÚá°>˜­=gÄ×ş7ÕVóS°²´¹€•&Î6Mäã%cÏİNkW›ÏcA…QÚ¾F¢Q©%‘ôt›”–ìÂÔÇ9?1ä×mğsÁ1øŠş}VæYà[Cnc8üîÏr Àük‹İî®„1üÒ¾€{×²ø&6ğï‡‚DØ Ï úŸÖ½\³íj{I-æpf½œ9"õg Iwç\Gš‘1a†‚¾ùÿ =+Ğ4+‡û÷w7$¨Œ—äô“êxçük…ğÆñØ‹Û‰‘ÇlV¬“]®—nñ€‰yrË)æFnú =Éü>²¢æĞù…¡Øk×¥t+X"'Î»%;‚HôÀâ¼kö§øc‰<ˆc5Õô´bB†šİ@.¤÷ËÍZ½%%¹¹Õ•ÌbiaàŒà>ó{.GĞ\ÒkĞ·Š­îìuñnakgíT`U•1Çß¥pÕ¥ÏÂ§$“?8±M­?hïáïjšS¶ç±º–Ù›Ô£•ÏéY†¾uè{û‘Š(¢zû¯áêÆşğ´rª´GJ´8a‘Ÿ%Æ¾÷oÃİoIƒÁ^µ¿”ÀN—h¢N€%=«¯üTrâ†tO¢´Q“§NÖ¬zA»¹ô#§_çY÷w>¿i£ŒØ¬ŒVâÁØı’ã=H>[äçrŒÔrHî­´½V l¶Ú•«Şdc$NéïZwosnmu ^?Ô=¸
+=‰?â+è”•¬x®çœx›SKK›YÅ"\Zà]«€YíXüÃ9ù¶ü§ŒäçÒ½1.!¾·£ŒğO9úb¼çÆşÎ´›ìÁÚÙ·|ğ… ‚õÕI<r9|ñCê^KK‚kmİÇV ü§òÅKtT^‡£yèa!¹ú¾ÕÇ|C¸k_Ş46ÂêV‰„i&ÚHË==NÓoP¿ŠÒ®f•`†0]ÜG$ÿ >µówˆüYuâÿ Í¬[]ÜÙ[Æ<›O)ö€Ÿ™‡C»$ò:;W‰Ä<<=Ï‰ìz¸*
+´ï%x­õ·ãgùÌs,¤[í!™eW]dæ!ê5ÍêšÙ˜ˆşiœt«°ÔgƒÄ—¯Ê}UTùYÄOœª‡÷e Bğ;)Œg/ğGÃ‰¯ülÒN­q¥[2;“	1şìFA#¨ÆZùÚQç’séªû”åVÆ>V·dû?›]› ğ—‡%A’<Ü·Ï)ş™¯[Ó´xöö¨6@€4„¥jÇğäéù¹yÖ8‚æ6zäãÿ ­Ú®ÛègQ‚{xnçÓP¸Q5¸]øàãCÇZûœ<#NŸ¸|]I:³¼İ®kŞ•†ËËV(6œ…8ÛÇJÊŠâk½_FÓ ó{hœ¯PUŞC–Ç°È©,<+2®é5Ífã<,¦b=s‘ùV·t	4ÿ Í,Rêñ¼ ÉqxÈˆC[î”ZÑÔvøvô¥N)µ4ß’ª:;Û¥Ù­¤F-6Í8’äs%ÉÆyeÏ®2kjÑÛ+6ÜËrÜyó ºçßÜê6ÆÊ,tÍÁ†=V:õÆãíÓËëtº¯ôË62x”.øØû7ÔÖzIXçz3à‹ş¸ğ·ÄZŞ}ì.%7qÉ!ÉuîÎ{òXgÔâØ×µşÖ,$ø‹§°ÆÃ¥Ç‚:ŞË^(z×ÍÕŠF‘ïÒ“”dtQEdj¾ôøvºmçÃË(®!şËµò|»…A;½+àºûáÏŠ´½#à÷…µOÜôëX^8à^ZáÕØ/Ê-€ è~aèMB¢“vFUiÊ¬y ®ÏhĞ´ëHâóô>ëÊ9|Ó˜ Fô,Ä {÷®¦ÏOÔõ›–kè;Hkyæïİ‚2~¾•ò§ˆiíwZh“C³‡DŠ1´M.Û‰ğ@ÎÜ¨HÆFFÅzšä$×µ/MçëZî«9ÿ –—w/!?™­jæŠ/÷q¹¥¦-^µKy%Æëğ¹öˆ<1¨Üé.Öš¬wĞÇƒä¬3"¯åAÏ¯Jğ¡âøC|Uw
+ØÉjË*‰™|£•6¸9<9¯&¸¼}&e¹²š[9Ğü²[ÊÑ°?PkCş.­¬ÙÜÅz©q{2ùmzp¬ËÓs(¾?‹¿R3’jm'í•­ıXUò¨ÂÎ„¯äôıYè?~$7Š!‡DÓ¤İh@{ÙTOh†@é€N=‡¨®Y¥·÷@Òªé–ëonODIMdkú°lÆ§ qÖ¼•%^n¬şG­Jœ0ğTâcê÷fi¤%^9¯øMª\épE6±§ÛÜßÌö•(Úº±îyêzW‡øCø¢ÖfŞÎXdmR8üz~5ô¦ƒc#]ì·…¦pI î:W·—aTïRHñóC_º‹õ:v¿ûL‹upÄl•FÈ@8 ~Û2K‰•CHdÆÌ€Ny¨nôû›p|åtf\ Oş¹ÅXÒö‹FUù=;äf¾G•Y?{–BG#6å‰€ä’»Hãßñ¯ñçÅ=wDñŞµa¤½­”¼kön’ÌßºLáÜ¼ä|¸¯oI	Üç÷ ¤ƒüWÇúö±öïkW$“ç_NÃ'?/˜ÛGåŠñs:’ŒbìÙìå‰*M'eÕ_ó;ÍOâ7ŠaPÑx—Pt#Œºà¦*]#ö ñ§‡ÓÈ»{MZÉI#xPdŒàYÆ¼şÒìÜ‹9P2=¹¬e0|¼gRI3é¥WÚ/y'ê“üÎ‡ãßt_ˆ–Ú6¯¥ÁöK˜‹ÃwlÊ¢,(8á‡†P€kÇMjê’ˆÁã&DÚÎÏ­d“^;©ïKsÇ”!hh¿!”g4ˆµØ6¡y¨x;FI‹Xéí,EÙË¹úËÿ |ŠãIÍzÇÂ/IñÁ7·´™[SÒbƒQŠÓi"Ë$¬?İcÿ ŠæÄK’Ïeoò:(¿y®æp¿/?…oÉ~,í7÷=­qZlì²¨`FOzØ»˜ÜÏ©ÈQ€=ë'~g²/$“^¿ÎÇµt:e€Q½ÀD½k7L†;HÄó1j–ëW,6¨
+:b£“¬Ó¶Åİ_U	HÎÕ•Çİ\Y˜’G½Z½¥œXú…À†,
+Ñ+™ÊV=/à¯‰t=P“í×‘Ås4Yd;@QÓ¯¿}+›i«éæïAÔœ %blÄœ {WÆbLğ©@‘dvZ¿z„GtWSFÃ¡G ş•ëáñîŒTtG•[íeÏÍ©õ›âi5¹lµCåİÚ )o•†r#¯·µLºÕ–™Ì’ŞE*À³3ëíÍ|”ÖÚ¤¹ÍÜÌO\¹9ıhƒÃ—7r2cìyÅuË4V²‰Î²×}d};â‰Ş²³—ÉÖì§“a(±ÌI'· zûWÇÑµóHYá“{HÇs]üz6‘íŒ…Éäš«.’¹Ê¶My8ŒTëÚñµB†4/ineiQMm¹¦KÎMVÖfùpO&µå³’O&¹^bÏkƒVîÎÔ¬Œ-\ü°ÿ 1ü8¬ÓWõ¶HècÏêÂ¨Wt~pKY1‡Şõ§g­4š¢D®Çá'Ä»ÿ „ş9±×ì‹In‚ò×?%Õ³ŒI„ÈÏF
+z\ny¤©”Tâã-˜&Óº>„øÙá
+ÇÃú~½áÉ¢–Åç,¡“æSfÈÇl×–YŞäƒßÖ£Ò<S%×„®|=<µXÍlÌr9)ÌrjšêXØjà¡JT¢éÉŞÏOC³IÜê"šI@94é$ƒ“MKˆá¶‚qYwwÛÏ·)Nv%¹ºÜp:VDÒy×J¤ğ¼Ÿ­lé:dº¤à¥všGÀ™µ”ó“P6¬FHx‹Œçê+º¥Ex£Šx˜BV“8û]CÉ@íÅ\‹\ÙÁÁ®–ÿ à?Š,‘šİ`Ô#óÍö·äÆ¹=SÂæH¼Ò®¡Ş1’?1YÏ	ZŸÅoU)m#VÅÓ¡«Që°÷ëˆmÈJ°eaÁ¨¤óŠt&±å{s£¸:ÄrtlÕ›}FÄ
+à—QhÇJcêï¦—+:=êşÛìÇk q^}©1¹ºà}ãïM‹W-€ÄÔ7Ú‚Æ íe&?½Ú—.¤9èek‰/Ü+nHñôã¯ëš¥HNO<Òd×NÇ)ÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/fit/c/160/160/1*1cTNuWEL5gT3FuLUMU0zbQ.jpeg
+
+ÿØÿÛ „ 
+
+
+		ÿÀ     " ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ıS¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢ŠLĞÑE QE „âŒŒPkÆZ”ÚG†5;È1çAm,‹ŸP„å@hˆËDÿ ¾…h‹şz§ıô+ğóÆğS¯‹šGŠ5K8d²ò ¹–5Ì}ƒ;{V?ü=/ãüõ°ÿ ¿ıjb¹û·öˆ¿çªßB´Eÿ =SşúøIÿ KøÃÿ =l?ïßÿ Zøz_Æùëaÿ ~ÿ úÔì?vşÑüõOûèQöˆ¿çªßB¿	?áéç­‡ıûÿ ëQÿ KøÃÿ =l?ïßÿ Z•‚çîßÚ"ÿ ©ÿ }
+>ÑüõOûèWá'ü=/ãüõ°ÿ ¿ıj?áéç­‡ıûÿ ëQ`¹û·öˆ¿çªßB´Eÿ =SşúøIÿ KøÃÿ =l?ïßÿ Zøz_Æùëaÿ ~ÿ úÔX.~íı¢/ùêŸ÷Ğ£íÏTÿ ¾…~ÃÒş0ÿ Ï[ûö?ÂøzgÆùécÿ ~ÇøP?vÌ_óÑ?ï¡BÍR}~ÿ ÃÒş0œşòÇşıõ«Û¿dÛ÷âWÅŸ‹hšÓÚ6qòÓùQaŸ®¹¥ªö.f³·‘¾óF¬V) QHi )®gâ/ü‰:ßıyOÿ ¢Ít¼×9ñğ„kõå?ş‹4üÕøæ´|HÔáÿ ºŒ©ùÊE}óğ;ş	§|Nğ=¾µ39yq÷fÇQŸZø/Æ?òT¯ì(ÿ ú8×ï‡ì<sğJÃœò¿Ê€>Eÿ ‡Ai²ÿ ßÿ ş½ğè-#Ö_ûÿ ÿ ×¯Óê(óş¤zËÿ ÿ úôÃ ´Yïÿ ÿ ^¿O¨ Ìøt‘ë/ıÿ ÿ ëÑÿ ‚Ò=eÿ ¿ÿ ızı>¢€?0áĞZG¬¿÷ÿ ÿ ¯Gü:Hõ—şÿ ÿ õëôúŠ üÁÿ ‡Ai²ßÿ ş½ğè=#ûÒßÿ ş½~ŸSvĞàïíûÚşÍúoÚíÉ#*¸i7uÇ¿½s¿ğNÿ ù/–ßõÈÿ :ûş
+øOöHãt|~Uñÿ ü¸Åüµÿ ®F˜ßİ3şAÖ¿õÉ?«5WLÓ­ë’!V©nis‘MïQ]\­¤FG¨äâ¦RŒ”ˆ¤®ì‰kø—^Öbˆn‘ìæUÔ¡ªñ3HWd%•ÆÅ>ÛÇúEü¾B¶Kq†Æ+Ã}•ÎJ1ÄFïÌíxRWtÙüùø£à_ŒÛâ-äï¥\•mMØñ4ŸJı¿ıŒ´{Íàå•µômÀ•¥zßü":Î$:U“ónû:gùVÅ­¬6qá"Aü( Ò½íõGÄÔRf–€
+(¢€
+(¢€
+(¢€
+(¢€?.à¯Ÿò
+ïGı+äø'oü—Ëoúäkëÿ ø+çü‚‡ûÑÿ Jùş	Ûÿ %òÛş¹SBgïæ›ÿ  ë_úäŸÈUš­¦ÿ È:×ş¹'òfÆÖ£–%š6FèF*Bi;ÒiIYöØñÏ‰?Ú-×ö%ıÆãü«Ëâóm¥WWu‘I}a$+q$€ Œ^-ñáü–SµåŠ‡¨ë_ÎÜqÁÎƒy¦]>ÔWO4~‡’g>Ñ,.%ú?Ğíşx­uÍ1c•‡¼cØWj+æï	^ê^Õ’áa“a;HØqÍ}¦^ÛHåÁ ŒWßp6}<×¨bUièïÕtgÏçx…¯í)ü-‘ŠPijJı0ù±s(èiÅ àsKH- QE QE ~\ÿ Á_?ä?ŞúWÇÿ ğNßù/¶ßõÇú×ØğWÏù÷£ş•ñÿ ü·şKí·ıqş´Ğ™ûû¦ÿ È:×ş¹'òf«i¿òµÿ ®Iü…Y¤1¸æ—´P0k7ÄŒFy{p›ã·‰å ŒğªOô­Zæ¾# |­ÿ ×”ÿ ú,Òi=Ñğ­÷ücáõ¿6šm¦ErmÏú/pÛ}+í/ƒßì~+øBoOV[y eÚ*şqü` ø¥x ÿ ˜«ôÿ ®Æ¿{b7H>Ø"%Èå;RQ‚øb®Şìö?øßOø}áÛ_Rr¶ñ#1Ç°Í|âoø+Ÿ„l¯®-ìEÁh¥hÎècƒÚ¾£ı¯ôK|%ºÓ´¹’K§b òz{WåïÃ_ø&?ümu©Çv¥åq™6·RGz >«ğÏü¿Á…ä0^ı¨o`¹‘Ôı+êş×Şñíä6–ZŠG,ˆ3Hª9õø;ñÿ àíßÀÿ ÉáË¢ˆ`(Ùık“ğõïˆ…Ø}"}BY”gï#Ò€?¤|cğ¯´Aª_jÖ@ÄWÍÏ¶j×Ã?Š7Åmêú$†[A!q=Å:W~$ø‡ã‹M˜kR¡p61ï_´_ğLß
+j^ıc´Õd¹{¦“îİƒ“ßš úêŠnêPs@EPåÏüóşACıèÿ ¥|ÿ íÿ ’ûmÿ \­}ÿ |ÿ Pÿ z?é_ÿ Á;ä¾Û×ëM	Ÿ¿ºoüƒ­ë’!Vj¶›ÿ  ë_úäŸÈUšC
+(¢€ô®kâ/ü‰:Ş?çÊoıÕÓW3ñâ‰Öÿ ëÊıhù­ñÜßeø“©Ì?å£#şR“_YXÿ ÁB¼eáŸ…–şğİ«	beùşÌq€9ä
+ù;ÆĞ‰¾&ê7İ}NE?C)¯×ÿ Ù[öAğ‹~GyyhÒ\J‡æÀêV	xcş
+Mñ7JÕã›Q6²[†ÒH·qx"¿Vÿ dßÚ+Nı ~I¬[¤q\…xÙrçŒ{WãwíÅğoNø1ñz}KZ´~hsÉçú×Ùÿ ğI)dÿ „bé7·—¶—<tnÔùKş
+2åÿ h[’çÜW{ÿ ¥Ğl<Gñ®KMFÚ+¨Î\¬¨±õ®ş
+0qûB\ÿ ×^›ÿ ‰ÿ ’òëÒOähõ—Ãÿ  <áËóym¤Z´“‡·B9ü+Ğ,ìmì"[A¼cø"@£ò8ä
+P1@F(Zu QEùsÿ |ÿ Pÿ z?é_ÿ Á;ä¾Û×ë_`Á_?ä?ŞúWÇÿ ğNßù/–ßõÇúÓBgïî›ÿ  ë_úäŸÈUš«¦Ÿø—Úÿ ×$şB­RQE †¹¯ˆ§ş(oş¼§ÿ ÑfºR3\×ÄQÿ F·Ûı
+oıÔüØxÀçâ•ïı…_ÿ GıíıŠAÿ …m‘—¿ûµøã™Äu9ÊÔd~=¥&¿Eÿ g¯ø)g†>|4şÁÔÖá/Ò6	²—;p;P„ÿ ÁQ%ÉÏú2÷úWÑ_ğI?ùî¿İŸù5|ûJ|l¹øïñ
+ã_Ÿİ ”8¯Ñoø$Ÿ„õàiõ‰£¶s4cx äîñ×ü`cö„¹ÇüğéßğH¢ãÑË >Ç/$ã±®_ş
+mğ÷Uğ÷Ç	¯æ…³À¿:©#œw¯Ÿ>
+üwñÀ?ÿ møi¢[Í†?ŞŒŒ¿Î˜®JiqëSşúï´Eÿ =SşúøD?à©WşZXß¿şµ;ş™ñ‡şzXÿ ß¿şµÏİ¿´Eÿ =Sşú}¢/ùêŸ÷Ğ¯ÂOøzgÆùécÿ ~ÿ úÔø*gÆùécÿ ~ÿ úÔXW?vşÑüõOûèQöˆ¿çªßB¿	áéŸ?ç¥‡ıûÿ ëPà©Ÿ?ç¥ıûÿ ëQ`¹ôÇüëkèÁÕÕ†øú¥|ÿ îçãå·ıqşµÄülıªüeñú+Ä¯Nî—:Wmÿ ï ||¶çşYZ÷÷Mñ.µÿ ®Iü…YªºaÎkÿ \“ù
+µHaEPY^'Ò¿·4ûÿ /I_ï)ÖµJm ~Yë_ğI[KÄ—7Àƒ÷M3f~pÎIïï]O¿à’ºï‡£mÍ]XæM…éÏzı$ÆÏZ üœğ_ü'RY†Moa³Iüà­~”|øA¢|ğ…¾…¢C²İ@f,wcšî‡Å x·íû/x[ãö“4Ô,g+ò<x qÍ~|x“ş	­¶©1Ó_d,JïŸœgõúŞÔí@ßğèOúÁÿ ÿ úô¿ğè?úÁÿ ÿ úõûŠZ ü}ÿ ‡Aø¯Öûÿ ÿ ×£şâ¿X?ïÿ ÿ ^¿`¨ V?áĞ~+õƒşÿ ÿ õèÿ ‡Aø¯Öûÿ ÿ ×¯Ø*(‡ş	â±œ?ïÿ ÿ ^½_öfÿ ‚nxàçÄhuûÓ’‰·ä—'ù×éSP{P28Œ°Dz¢*şB¬STS¨ ¢Š( ¤ÛÍ- „f”ê(»ivÒÑ@"”
+Z( ¢Š( ¢Š( ¢Š(›Š} ‚–Š(ÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/fit/c/80/80/1*ubbP2tqcQt4K1q2c6ZrX2g.jpeg
+
+ÿØÿÛ „ 
+
+
+		ÿÀ  P P" ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ü°—
+Z	S£‰¥p¨¥˜ô›Şº?
+ÜE§Î·‘X‘œVu'É—ó»¿uè,c»“Ot‚OºÌ@ÏëX@öò´r)Ià©í_Lêÿ ,¼E£Çk¨\4÷» Ø‘¨=8âŞ0ÑexSPKI`³y$Hga•“n7Ã#ó®JªTvœNŠ´¡İ=N3˜ô§Q]ç ÚkSÈ¦š"šv) Í.(¢´´Ó‘ÆIQWôÛÈ­‰2õ¾„wDÜt4¦Ò–§°øW[ßÙé#TºšâØÈ`²‰ü¨÷1Ü	Ïs‘×ë\çˆ®§¿¾y/mmmWo–¨¹ÀQµI
+q’ ÉÇ\šâdÔH½šXäÀ.v•ãÕ³¢=Æ±Õ´>ÁKmfqĞüÇ¶p=ë‘ÁüSğ˜*pº¥®îüÎVî?*æUÆ cíPÕıfÚ[}FT˜“ºƒ½±š¥+¹;«œrVvM#üb’™#áM¯BøàÛøö}UÑtËHİÂHÁV@¥UP“Ø³®}²2:Õ%ÌÒBmE6ÌO	|9ñ/™Æ…£Ü_¢pÒ¨>…Ø…Ï¶kÓü;û(ø{»G×ßN³}ÆXâ—ÌŸ…-´ 
+äãÏõõvŸc§YéŸfğòCnö*Ì,mĞD˜' lÇ
+Oíœç¨u	oµí	.4{é4ûÑº-ñ¤nñ»"à®á†ç¾+Ôú•£¾§ÅŞZè¿«|_ğRxKâ.±¥ˆM½°q5©ìÑ²‚öÎGáV<ckad¾DŒ—óÊ{w
+>˜'ñ5ë>$øamöï?]¿×5‹ „O-ëù×6ÊCFÌ¹ÚrœŒŒkƒ}"ÃC¸¾:uË_ZÛm4±”f\c• `Œ‘øW“£:R¼¶lõpuaR)Eİ¤VÓô_ø‚æTg³ˆdC¨Âß:Ìsò¶àrŒÅxãqŒšØ¾ı‘¼NúgÛ4mGOÕØ>ÆµŞ`˜z}ï—ÿ ¨~éVú‡Œ#šö5°y{ÇËŸ¡ ıE}3á‹Ù­ï$WÚè\@¼=Øuü95è`ğşŞ<şG2·±«Ë™ñ'şø¯áªÚ·ˆ´–Óãº,°È&Ub¸ÈÊ1ÇQ×¥r¿F¼e¤XøóÂÚ¾ªÂòEq[Æq‚Œ¼ùœô`Ù#è3Ækó®îÚ[;‰mæM“Dæ7_F~uz>Å®Ìª5½ªwİkÙ¿e/ş­LJñÆ‡MeıéI3EÁÍxÍ{ì½wŸµy.D&¥;7ÚHO,N@ däÖT§ûšÔNPi_Â3¯Ãéw1¦Øƒ!Ø3ÙOL2¡¨hzÉÒ|a>•z‘ÛÉ¨!”×ò§ßV\uÇÈÉ®^OÚÃ:rÁk¤Ãs«&ßŞ­¸û±ö‡§FÉx£ã&—âËgÒãD¿µ9…Ş_µ®Ü¨mªÊI#¶0:×³õì?7#–¿‡Şyÿ Ùø•iË§ª¿İ{£ñ7ÆÖşÒİĞÜ\İf$ƒ¹Àn8ã¯r+æ«ı&ûV¿¶²ÓÁš9§û:\’¤òK É=:Ö¯ø—Å·ZÔòjú“¯Ú]q¢“µtQøäŸrj×Ám6îû\“Xù–%˜ƒ ÊïÎNÓÔŒŒs^¥,v!(íúwùÔ#ç¿ëÑ_#½ğ¯Ã©¼9†kW‘œ dİ Æzç¹’EwP=ö¡§Dl®l!¸¸åK*nÆÂNr«ÛÖ§ŠiåºÜqŒ±Ş¸fã¸üs\ÇM~mCÒ†Ÿu%”³Şó`;_j£d\t¯¨©/«Òæèº#À¥ûêœ­+¾®ú~(öÍ{I—M!£ŒÛÛ¨Èy-İDyã‚ÊtêFO×šü÷øÁ¡[økâN½§Ú»ÉN$RüŸUÈüŸjôkÏŠ,·hï¬|MªÅ,cuäïÃ+Ê<yâ9üYâIõK´….æDı6!*¡A·Ê>ùéÒ¼˜¸âcn[4z‘Á¼;ææºg7Şº?iZ‡ˆu¹´29'º¼µ›÷16<Å|ò¯ú¬ãÔõÎ7­hÚÕï‡5k=OM¹’ÎşÒUšˆX«#©È ×Óqinmf™Øé:³Gfì¿ë8Uæ·ôÿ .İÅÛòòkÄ¾"²×µ{mOM²‹MŠêóm"?$R¯vö5$×bU÷9®5d›GtemnX×õ†¹fflF£€:Wwğ×âÄ¾ÑÒÆ}/íZ9`sÑ““Ç<óé^qgá½cÅò´k®y‚ä©z÷Iñ‡½2êÙT}æˆ”ÿ ¾‡­wÓUè~ò	ıÇ,İşåF¾óØ"øı~A’ê|¶Ùe¸ÃAqÇ'Ozãş#x‹Yø„Ö}6ki¿dV¤ãæÛœ’yû¿©®?ÜÅÔ)Ç¨©—ÆçÚO¦)ÕÄ×ª¹dô<=oš+PÔÓì_0ÿ {­pÚÅãıÿ A×kšòk)ÊÆ©×Å\\‰ŞCÕqè=+œZm—VI¤‘ÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/fit/c/80/80/1*1cTNuWEL5gT3FuLUMU0zbQ.jpeg
+
+ÿØÿÛ „ 
+
+
+		ÿÀ  P P" ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ıS¢Š‚òél­f¸|”‰œuÀ 	è¯…nÿ à°Ÿlî¦í<E¾'(Ø±È?ïÔ_ğøß‚_óéâ/ü ü]0>ï¢¾ÿ ‡Æüÿ ŸOà ÿ âèÿ ‡Æüÿ ŸOà ÿ âè°wÑ_Ãã~	Ï§ˆ¿ğ ñtÃã~	Ï§ˆ¿ğ ñtX»è¯Šüÿ ]ø?ãÿ iÓ­uá©Ü-´[ ©¹;ºWÚHÛĞ7b2) ¹¬ÿ œèz‡ıpıÕÖ"–c…IíXw Ñõ;I­§o™ĞÇÃóÈÅsÕÄQ Ò«5ív•şóHÓœõŒ[??àœ?<ñçãWŒ´¯èé¬YÛDÒÂF·6OOa_¤ğíÙÿ ş„{Ì…cşÉ?°EìµãíoÄÖ¾(—ZmN#†K/nI9Îãµõ½tŸ0Ã¶?gÿ úíÿ 1şÃ¶?gÿ úíÿ 1şôıóü;cöÿ ¡ßóáHà›³ÿ ıÖÿ ˜ÿ 
+ú‚Š ü2ø©ğÓÃ¿	?à£^ğÏ…tõÓ4{]NÔÇn§ Í“ú
+ıÉ·ÿ xÿ İÊ¿¿ißùJNÿ a;Oı«ö†ßıDîå@
+ÀAƒšñï‰ßÅ«¾±¥ÄBºhSªŸï
+ö<U-fgµÒ¯&ã‰™wŒ_9ŸdX\ÿ ğ¸…göeÖ/ºıWSÑÀcªà*ª”şk£G-ğÇÅm¯èËou¹om€VÜ1¸v5Úç+ó³ş	İûaüHı >.x§Añí…Æ§ÀÏ¶¶òwÉÜ}+µı¶¾/şĞ:Ä­ÂŸ´µÁqjÓ\İ-±—Æ2À¸çó¯C,ÂÖÁa)á±}¤¢­Ík^Û]]ëo=N|MXV«*”ãÊŸMÏ·³ùÒ•øÓáø*¯ÆÏ†>-½Ğ<u£Xë·Vw>EÍªFaš2¹Ü¹ù¹éÚ¾µı’¿à Z÷íOñÉü;màã xZ2K‰'–C#ùÊWvÕàäşUéœÇÜTRg4´øµûNÿ ÊRtû	Úèo_´6ÿ ê#ÿ t*ü^ı§å):?ı„í?ô7¯Úõÿ º?•0$¬ïø‘êõÁÿ ôZ5âÿ aêõÁÿ ôHÂ/Ø¿áÿ Äï‰_¼s£|4ñJøRîX_íw;ˆvMÍ€¤ƒÖ½ëöøíñkÂµÍ÷ÂxŠçÄËçÚÜÇw)“Ë™HÑnMy×ü[ã_‚ş|nñ¥ÿ ŒõÈ4;[¨^8e¸ +°fã>¼Š¿û)x¦ÏâüÇSñ&€²İiw×WWPÉ·Ÿ(²üÇÒ€9_‡Çuÿ C¶ŠdY¢0dqÃxà×íş‰á+ÃùZ^oa9+ay¯ÂoÆÖ¿¿à¡Ú‡ŠüOku†âg¼¸Š8ó!Œ7ğı+ôÁc~	ÿ "ÿ Àÿ ÅÓîüsK_Ãã~	Ï§ˆ¿ğ ñtÃã>	Ï¯ˆ¿ğñtX’ißùJNÿ a;Oıëö†ßıDîå_„>.øÍ¡||ÿ ‚‚x_Æ~K˜ô«İRÙc[´Ù&C6r2qÔWîõ¿úˆÿ İÊ€$¨n K«y nE*ÃÔš“€ù†ø&ïÀXmu(ƒ£—íãç’Fã<ò‡oÊy®×àWìƒğÃöu¼º½ğf‚¶ºÂùo{pÂI¶ÿ t6{N(À 	ø×ûü%øû¬¦­â¿,š¨áïmG,Ìps^mÿ ¨ıŸÿ è¨àXÿ â+ëüsK@ÿ Ãª?gÿ újø?øŠ?áÕ³ÿ ı µüüE}E |©á?ø&‡Àïx›M×´½ú-COn fº26×Õ1¨D
+:JFh ÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*D8p6Li8Iv5Fw-5PYHDaUjQ.jpeg?q=20
+
+ÿØÿÛ „ (#(#!#-+(0<dA<77<{X]Id‘€™–€ŒŠ ´æÃ ªÚ­ŠŒÈÿËÚîõÿÿÿ›Áÿÿÿúÿæıÿø+--<5<vAAvø¥Œ¥øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøÿÀ   <" ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ÈY\3J:´ñS-¹‘’g
+ñ9FÇ‚j]>Uc÷[§`Ö2ºê~¢˜m%?!öÿ …h#!±={Ğ\e@¢ÁÌd$6xô©!*­>eI"àã/¶i–ıILu¤K#8#ÒŸ$j’0ÛRT¾Ñ»#v¥–LÊß•²¯˜î
+îcŸSSØº­ÈãúÒAlŠHÄLÊI=¾b*»T)%±Ló#ï*ş"ª˜W<Rß`Ôem•OîåÈßã@‰.Ù]	é€Ã5N‰—Óõ&à~ì@}M4;ä`'_zMqÖîc,Gµ,‡2Û÷¹¦¡y€Á~‚‰U‘ğÎIõ GÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*QQtbLRRuGPW7Vf6kMvfY_w.png?q=20
+
+‰PNG
+
+   IHDR   <   -   }Ÿ  ÔIDATxÚŒY}pTÕ¿ï½ûö½İ—,ÈK¾P”1(Z…Æ±Ğ€e,CícG©P:ŒTP¤–â”";*"Ö±@3 áÃ0a’M­ ˜H Ñ’†$IH²Iö}ÜNr–“3÷-Ú÷Gf÷í=ç{î9¿sÎ/<‰!TUeŒqÎÅÇó<EQà³¢(Œ1]×c®ëâ{ÆüeŒ)Š¢ëºçyTœ1†8çªªº®R(~P\UUÎ9ˆ«ªª*Š‚¿<»ñ(Š¢ª*Úø+,Àíy4MCUTHÁúÿGœšÁ©¹çQçág8^=ˆàÙ¤ô¢¾_<íÇSÁKÍ²,<‡äT'ıJğ´@aLåŠLa
+^NZ¨_z—€fPq®iÄ^7—sNãîâ>PÁ‚pÔ|èÅ¼!yÆ€Å¬»Í>·ï»¯«¯9I—F/‡Š£¡¸tÄ:Š§TàãyÊ MÔë®ë‚<]rÇ&/ÌçÂcL0Ï]ÍÉ+_\Ï âh´$Ÿawt?š‡yéy÷_=fµ•šî÷¨Î>6äÚ¢ñó®–]İ-ŞÕš.ÏÙwe\kì¥qL1Åéiw)œ85”ş@³D:='E€¬ñÉ„·géy§·WMÓ²ï²šjº¹Î%@ éa€ñIDB`ÁÂ…õü'¦‡=İ­vo‡ãöì¤0k¸ŞÓéÁ<×K›ÔÙ’¿$ıø5ÙàQmmà—áÑÇš¦Qhuã0Æ¾‰]7‡j™Q#z‡õ³GŞö`¸ı›¾È‚M5]˜Fø€ˆÓ,ıXÅh‰4/:ƒ¯	m‚T…sN#"ÀÄûKšğn/ßó«¨çõ‹\û¶çÄßí6Zƒ5o7¢õ˜ºôƒç4˜ü,Õ?ÖÒíásCy»ª+Ãõ¾.·fo«¢Éâ~Ğğ?¨õS,çxÅP0ıÁ=4Úüé?xf¦è­áèµÔ…rE*{~¬ğëGÔCå¨s<=Ä–?Q#ö:Ôú5­8¾¹™8„$q©†§<Uq€B:¾;Ø‰…Ã™Œ±*~³Š€¡Œ‹©k©zšâ‰$JhšÔ=ĞLJ‡BL:¥¶¶¶¾¾>;;›.@[APHÒ@»9
+êKÚ'ÎøÅårèº®mÛôŠ¥TsÇ²¬¦¦¦âââ®®®úúú5kÖ\ºtÉ0ŒY³f>öØc%%%£F:şü‚._¾lFqqñÜ¹s[[[Ÿzê©²²²'xâñÇå•WÊÊÊ ÃÁp§eÜ_­¡àXëÍ£JëÙÑ£G«ªª9ÒŞŞşÑGnŞ¼yÅŠëÖ­{ï½÷ÚÚÚrss322ÚÚÚªªªÇ1MóäÀã8N~~~$),,,--Uå7ŞpGÊ{„m
+JT©Í ™!å<ÉdríÚµ±X,‰:tè­·Şª®®.))Y²dIsss49r¤¢ººúË/¿Ü°aC__ßõë×/^¼k×.EQŞ|óÍ!C†<ğÀªªêºî!üš6­ûmÍÊÊ3fÌÅ‹¥¨è¿…j‚Í=ä
+`P;]×Ğ„5MsåÊ•ùùù›6mŠÇãÛ¶m³,kÇ€D„+ÅÌó·PôğncĞ¹ÙÙÙ“&MºpáBKKk8Î…prlp¡®Bœ¡ÃEyúé§KKK[[[c‘HäÖ[oÇãŒ±`0İÚâ´‘‚İ!•ñH`@ÿ¾ç†ÑÙÙé1@ ,–Ú1ôø€JÇkÛvQQQ(3fÌ;ï¼cšf(‚ÑUJ;§¥LûoÌ®~#‚Á eYşÁ“¶7½„C‡=uêÔğáÃãñøèÑ£;öè£æääLŸ>İqœÜÜÜõë×ïÙ³'#¹–:>Zò°ÉœÌ…‰DÂ¶mÿ &!.ÊSä÷<¯¹¹ùÜ¹s«V­jll\¾|ùk¯½æºnWWWcccyy9çüÊ•+[¶l‰F£~q©iÛ´dê»aŞGj’P•˜¦ùşûï?ùä“Û·oŸ1cFee%œ³¤¤äàÁƒ===²˜	~ıt”J»;şš*ÑhtÊ”)'OìîîÆcRbòJeVòàHã@&iš÷‘€¸‹p$ÕdÚ`Ğİé©Ğ,Ëºtéd`œÆá	‡Ã™™™¶mcó5677wÆŒ_}õ(æ%¶
+™™™–e™¦ÙÓÓ¸AÍßaLúç®~¨¡Â4y¥œ8{ölEEÅ;èÔ>zôh‰sAÖ—––VWWÇãñ‰'¦­_Œ±={öĞŞËÏ66E~¬H•JÄ—§¹¹¹¦¦æí·ß.//¯««;~üx[[Û´iÓî¼óÎÕ«WÏ=»xà©­­?şÙ³g;::***òòò6nÜ:ëêê\×Õu}Ş¼y.ìèè8sæŒeY±XlÁ‚›7o0aÂÃ?\VVæwi¬ViôH&å!ÃJKK…»wïŞ·o_^^¢(EEE€¦Œ±?üpïŞ½Ã†1bDyyù‰'0úMÓ,**zá…–-[–““³k×®X,6nÜ¸{ï½÷ğáÃÓ¦M³mûØ±ci[ò,§;æTèÜ ğ†‹Å<ÏÛ¿NNNqq±išãÆƒæãD–.]ºsçÎîîî;w‚‰DbÛ¶mBˆ­[·îß¿¿²²RÓ´9sæØ¶}úôiUUï¿ÿşI“&}úé§S§NE¬ğ}*æ²²²’É$¶Èäbe†ÆTpÎ7mÚ´aÃ†††39çĞ ‹'O¼hÑ¢ŒŒŒgy&‘HàôÚ¤ª*ìİ%(¡UĞqì¿SïŸÆyXšÆ%‚YQ”ğ®Ÿ`ÆqÚuİŞŞ^!D0Ä¬B¼“ø;º{Zv­Çi|p4À*-Å>f$¼7Mó{ ØŞ0ôñw…BkıpAæ7á'nà+å•´`0ˆßı¤y	°hOÒŸ%\3÷Á9·ŒÈ|İĞDá/xİh—(‰ä¨È¹ø™Rÿp@‹"¤ªjÀàÌœ TáyÌÊ4•†š&‰D§¤åNıE^çØàJm ­ˆ´Õ¢$•TM3gßwûÈ[˜ĞúœäîV<±š[:iìÒšG{ŒZt±
+Rq"f’htÁû¢õœÆÕùÏOÏ5,Ó
+ÔÔ|û*…§lİ8oæ/ò;™ÛP×L¹ÚPîq$`iøiÚ”P^ÂÏñ@c„'1MıÙç¦„†áŒ€ÊÄÇ0õU/?ÂŞi÷YYC™ø§÷ÓÛt°½?b˜¤äÅ¾ì{ BÂ!ÄWÌG+\Ûí}éÕı®'>ÿó‹Ÿnjk¹–8ôA<äL0;éÒÿS¥%voF¤Sxå~1ô"mıŒòBG­(]¶2ú’}ûŸzı/‡UE]÷×¹®¢¶%’ÕÇâGêAş›UÓ]!ªÔûìÛ¦Ÿ	%aCê¶1P(?8åøáñe  ­yu¦ap«VĞX»ñˆàÏ-š¬¦
+ÅóâGêCÆ/7I×=+¨Ìıõ=Š¢JÁíßR{R3"È‘ X+e*¥ázbÕòÂ{îÎê³®è}vÙÃ}î¾ŸLÌR¹ĞÜw×
+[¼|ÊmyaCgÙáÀåÚ¼0³¥ÿIÿ|AßQK\¥4x‚^	­úã^a$=7 ;Uÿn|yõAÇ±O¿ÚÕi»ö‰ã·¿û…ah{ÿ5ßöÜïİW¯õ¯9Şzµû¥×§…‡YûsùÿÓî'Z¥IŒF’Ç[@ª·rcE’FãÚK¿ÿ)×½€.æ¬üÓ'®'–/)A]eÇö3áÌàîí¹ÊÂ†6õ-ë>kiêşñ¸Èˆk¨Åû‡‡ÒşÛÉŸ<”oAş  ÿÿ)ıªÃü    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*LxUpeGqgRu3NxFmeodcDAg.jpeg?q=20
+
+ÿØÿÛ „ (#(#!#-+(0<dA<77<{X]Id‘€™–€ŒŠ ´æÃ ªÚ­ŠŒÈÿËÚîõÿÿÿ›Áÿÿÿúÿæıÿø+--<5<vAAvø¥Œ¥øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøÿÀ  ( <" ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? Õ¥¤ çu ¦†SÈ#ó¨%YBäsœUÂ¼Šv v7QJàhÑTàŞ¬›Ì‹Gòâ®SLŠ( ¢’Œã¯ Õ ÈÍÜ|£üÿ •%1~TÉ8“š} %-PEPF}(*a‡
+Z 1âIK@	EPEPÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*nzLrs89kyz41vscR3iP2Mw.png?q=20
+
+‰PNG
+
+   IHDR   <   4   Ö¯[  ¤IDATxÚäZ	´]Uyşş½Ïpï{÷Ş÷òòLaÈ€‘$"¶
+Ò¥TŠ#MpèZµÕ¢¨³´T]"Ö¢¦KÖj)Å¡ˆÚVt1(qI™ÅEòB	!y™§7ß÷îpî9{ÿ]{Ÿ}î=/ğ(bóÖÎ>w>ßş¾ÿÿ¿Ÿ#ğÿìŸ÷›p|ıõrËúÛçGû‡C92*üş¹zÁÇ/›V‹'===-"ªñúõ>¶o×´zµz.¿E/ÀÎ=·/Ñ“¿“Œ¬I|W'+¨¸,“4¤•^'-çŞUÜê~ë{¸>=Ñøå/E»wı ¹áá«&Ú8´bp°şø®zÅø¿øøĞğk9iù`€$° ‘$†$‚G)<ó:ïá˜üzªÁÍíOR}ÓF4‡†¸ş«McI£ñS5Qÿôëõı/:à;?ÿ'}×†wNm»‚ëÓÇëDƒ;&H„igXĞæØ³ƒ,h_ ^w7¹c#jkoGmó&D;†PÛ¼zªÕŠ ¢d[w¶­+'ÇV­ğú‹.ò‡·¾®±cë-z²Ú«	L f3Súã²œ,`j/ ÃÂ‚C‚°ğÁ!´öìÅänDsçj›6Asµ ãq#IZ4)QV¼ªáÕÀŒ˜Ïwò¹íìÓ>¿å¦o4Æ7ŞU«=	¹…Õ)Póƒ˜Ğé =sÕ XŠ		3N5Éş=(œ²ºPÀä¾½9°“G&ñXscz£2¢áP“²ŞÚC¥`úKÀü_Ã·½aù‡ªCÛ¾¨êµL¶@é˜5lfÌZ Ù±yM¤Ì’“6ÃÅ²¤‰±ä¾-ğ`xİ:Üsşï£"”UbÀ,lB„„}k£Öï^cÃóÂğOŞúÖğÇg.ûìØæßˆµùF?:£mF3pÙ*ç[up:`fóRĞÚr°óìóóV®ÄÒO^Ša¯‹êäiE`.q`Ót¢[‚ÛŸIßúÎs^»İÚÚè–Ç/S kNJîÄföD8\»\z¬PmÁ[aÛ×È€Ö
+åóW¥[ĞI‚åŸú‚>L‹ “¢ˆ…:†°À[m†˜@±/ÿTI^ğœ$}İ«—~¡¾kûçˆ%Ú¬ê€æÁš85¿"p¤”í?İaNd¾Ğ$*—´
+½½8ñşÇÑºc-(n
+EïcxËÜõ¥Ëµ‚REuiTg %@4¹«­kªñ+ÿO€ÿë¬3Şuhıº›¤ “ »PZ>²˜.6EnUm–v…“q^b”eoa #-IÄ8áß¾‡° S×^HÂ÷A„ØtßıÍ][‰È…Ûï™y@L1™8:•µµüú@ß/v?¸îLO€™AcLäNØiÑ,.3I³c™©#eâÎkV”–!(FßûÿºÙÂÎÏüÈó@f…¥	!$ÛÓî!RÚz†2æ£L%BfÔÁ<ê…EÌyV€¯~ÍIÛ´ùL! ¥mxY&Ú2qÀ˜:˜‘KPÙ{˜f„qgartKfô¯z}ùJ<rúR@+÷E”*ÀÌæXÔWŠŸ©
+C@bò€;fÈşˆ1Ü@4kÀ?|óYoÛvï}k”;i‘Émm¶Äa		iævì¹çs,[ä”a¾£ÿİbé¿\‹=W~qÍÈv”-˜;€BÅ—ÑpŠAP2mÍZ &gø¾ßõîİ÷ß{c¹òH­êGäÊIzş)X²ÎyÆá” gËŠÌlj÷	ÿE,ü«O`ÇšÂ®+¯°î¨…SNº /¬%ª9ÒJ
+Ú&ª”é)ÓJó}7 ­Y·üêÚÀóø>ùB"N´à|ia'KíâR8Ğœ“n[Êî½mğî5)=œöİ¡ÿœ·`â¡A<yÅåi‡!t;ÎÄ¶´Â‘Î86”Á¾(fÍLI&i—ÄtŒ¯Ïªo»øÃK}ær!ğQğÓ' Ù±±…ÚÉ›xÜàÔÜ*“Ìëna¼rNÿï[1÷ç€•ÆúÕï°RŒ…$Ví9IÄIâÍˆ‘Ä‰}]%JTÅ-md¬-Ë±LÏ2üü7 êQtÁğ5W]¢¤5Z‰F-l!QQ«eƒrróœ‘.ÒÖ¯ÀÊ½ÛÏù–]úE,şĞ_wUÄîÃö€‚-QdŒNZèdBÊ=¿H"¨'ˆ)„Ù"KÆcß5êh€™Y6¢Öw“áá‚ß×Õl¢'(úZBdwTYY¹ö$¯gÊÅ³åOÂÊïßŒp`¸V³fg;Ÿ‚3&Dš¶É`ÛXˆÌØäí*å‹áÁşşÄ:S[Öû4®zÆ-Æ¾}æ9sŠ¢\‚7g¼j]­ŠV’ îyˆ”8·Øœfc–éBHê ÍšËZo–_¶Ç¼s5ôèZwß‘‚(v½=F‚ö}¾[+Aa(N"qíPt}59ã!¢~Fr2ğí£Şÿ•/¬ªëª?ø—\X¼„Z‡£·PIbhÖˆ’U#Jµ“•t?¬›…Ü¢÷ş)–~äoQ,vcúÖ›0véÇ!Œ‰BˆR	¢P„(•152:£~gv5í¾Ó|@6N­²8-S8N 0ùää7póáG/«BßœO…“_æÖ' ¦¦àW§ÑU«Ù¤Q´T‚©†²«.r¥&cÛÌ~XÄÂóß…W^ôQtÍ}ª·ßŠ±ŸŞQ(@x¾aá{“v–a°eªpñ°¦£]ÒòÍ‰a>}?h`2·u×rëÖ­aãÏßw"LRªM£ëUËá,@R­"©N"=ˆ®D¡Dh%>j†yvÉ*—µ=½8ı’ÏaÉï,1òƒÿÄo_6Ve£i­¢ôı°aÙ3>¹††QT.³›ã) ]Ùc>2æÁ›¹WeÆØGR<=àâ?»pjbÂî·$vI{W¿åñqÔZ‡Ñ¯¶nAÅüª9Ùş~èr/–¼å\¼æ5è?ùT.²Ùkô'·`óûşÍ›@”1şT²*7öHßy¾ãµáN\È³‹[s`ÎÜ$3Sf–;FÇø
+xYZ/yÆ=­Gßóö=ºÒ˜tÿìó°ìŠ¯€uÖ!’uè8±Ş+•lY0™Õ¼Ï’©bç•ÿŒ±µ·@†¡ó½H¿õß"RÂ3Œ{^[ÚFÃÃ£jhÇ.™±©1q¹Ì&3T¾*›ÊÌûç+û¾zP9|O‹fî^¼",o¯7‰Ãµ&|®àM7\—ƒb†@¥Ç# !;5ÁÖXmß¹;.¹BfvP¸Ãú|ûXdI¸…0—²o ŸT{ÇÆ¥Ö ‹Ú†Û.sÏKÒàk>uÔ+ş#.¤Ä®ZlSOkÕ»î„ìî¶Ò£À·=(…0}Î4ã†¥R7¶ÿx-6|y BIæ‡>ˆ4„vĞ-½:Ç¸ëzH’$=®×Ñ˜®s’‹Ó<X3×s=u–\’r`¹|é/µ° ÕÃÍ˜cf*ë šÛ¶!¬”ÑµÒƒM:eÛ6âaÁjMløÇ5Ğ’á3iÆfŒ¹¾´.©˜ÒÙ®H·_¡¥ô õS ÏªiXúTn˜ø0qTÀ×İ»kêx[O™ Y@K :´s^>Ïn¢	£I\J°”¦·;ºçê¬á0M™ßN6ŒQ‚n	”ÄMg9…5ş)èTÚ)ã­HôˆpñÚ¥ÓŒL9çª€O?ãÅ´F98;íUíA»n¤><ŠJcØ£a[[Ö%ömİg7Ú/š<¤ûÈìêcM­Ñg>jŸeö7Xíciçvkµm"¬“%1åæBA §®g ÒÀä_äœÕÓ–Dïm÷°LP”~Q}z
+j2HAÚk!^zìæ(ÖØ6ø´T–]óg3ı(uì¤9ÉáÜ#˜CbƒÍ
+[»½è,ÁÄqjÛ	«Íhn.„¾'@ZÏÈ¼|Ó­ÍÑkˆ7¦iÔy·ÉíÍFä<±Ë°¹8|ô±ƒ`©Ô´áVRÎfÙV€Ær5ô\K¡µëk¢˜ÈxeRÔ9ë¬Ü˜Ç º»¼´MPz†ñi²º|v×‡‰+æSR‹6»ÖfÆ1¢f«³—„TvïèxÅ
+LÚ±«ÜàäÃÚCØ«â C÷(¨’°yªM’Òn—"§Úeë®‚„ï“İ·6“LÒ+öÒ<Pı˜V³Liq¶­sŠ‘Jµâ²3#I˜÷¬q"ûãö‘c3OXçØ0á:ÆàDCõ’Í_¹˜U¹l~»Üå¥!es@º¤-ˆTy‘1>ß;Ìg<=`?ÁZ¬Ló^Zk4êÍ`‰ˆ÷'V«)£¦ùTmĞæ¤³:
+zš,ëÒÅ G5°€‘t	Håúà¬ì”»¤51vOØ¥±ôˆQ‚ßKÃËDËÆ¸vñìoyHôU‰+9'À{uDµk›c³˜ÍV3@q>»æ†î°ldkv0d1"ßîP"ôDgË—Ğë2+BáYfíëï|á(Éêˆ—½µøFóÃ*7Û†»VÔBµìÜlÆ\kšÃ9FÙ%¬™ªœßÕ9˜7ûÜÙ›¦	kBOÑCè‹Üş5»Mec ”é!4¶TÒÕ³Ù”ÙÁİ@|®/ÊŠÄëgt"îªÅHE*Ñ£DJ(Ò”™ş%~Ew	S?…Ğ™Ñ§ÎÖĞBYÀ12@Yè†DU(·W¥‘‰™Ü…)íŒÊq¢OHø×WÿÖl ÏØµüètôIÅÉ5æôcb$v =EfÖµ"“Òt›×¬g‚uØU¹nFq‡ecP¼*(¡Gú–­@x(‹À1¡ÛñJî:NöŒ‘²yÁ4QòÙçtSË—+…Û4p.ÛÛ-ˆOÆš AA¯0l&–İØrkVÊrNÊ:Ï†Î•¤ìr
+%òğr/D‘dÇZºXÌ.Š×àIš²%ÔITk›°Nõçç¿şàGV¿Ùß§õwÕæş;à×ÊÁÅJˆO()æú²Ç3B6€;õ69ÙrgS^9 s„> $=[7ÛM:>ZØ^™Ú—K‹ì­;yª¨2°š=2DÑóÀš¿9[°³¾>|,½Cˆà1©3™Ô)ª¤­=Iwbœ£¦ó²MF{˜‹ ½;Ç]}Ë\šh3ØÍÍx°u –M‰:­0€ãü
+šW¬¨îŞök»OË0ß(âTöıK4Ñëdtå¥Ş'·Àé#vexXDİğH¶7ÔE»=ì¸¥¼¼ÍK1kÜÕØeŸËŠ’i.Î«œ€’ğ×/Ûñø/øi_º‹o9â,EôvE8ƒÉ„»¢âj¨5d%¾È«ØŒÜ—k[Çìû±7™šaWßß
+jSS‹N:0´óE¿ï{@eª'\Ñ`~+Xğ‰9ëÜ5Ü.ò±¬0ı^|’Î/ R/póøãÎ¢2J"Ä…ı'7ç?şP=‹ø}Án=üĞ½­;<£áë`Æ©	t¯	eCxæ%NëcÃŠŞÙèÄò®hwOÙ[RìÇ›ú–Ü=ÿ±Ï~IÜ\j¢ûš9¨$Ê{e"é1ôÛğIšÙ+‰ã½XQ9ğ@2»ê/ğÃ½`*iâ¼¯Â|.Ø<¸ë%ø©ş}¿sª28»µ*Ñ|/ZÜİ.«` »×n6lVqóÎ‡ñî%§ßsòCƒg½dnÍ¿ë+•¾ƒ~ó÷ZH>PôºŞüúK»öĞÿìÚH'ôÎ;çÔÁÁ;ëïfÿê|Ì[·âÔ³>ÿ<ß#ú[ıï  ÿÿÇ	ÃxlğÂ    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*wex8rDYQTAIFz9GM35Qfqg.jpeg?q=20
+
+ÿØÿÛ „ (#(#!#-+(0<dA<77<{X]Id‘€™–€ŒŠ ´æÃ ªÚ­ŠŒÈÿËÚîõÿÿÿ›Áÿÿÿúÿæıÿø+--<5<vAAvø¥Œ¥øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøÿÀ  ! <" ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? Ò0©EnA8ªr.\š°Ó°ù@UUœ;‘ É4¤˜âĞ¢ àñúTS9«¶’+3€Äçâ›P½KE\­pË¸:âœ]—h_åVWstêj;–Áÿ •;h$õ#Ø\Åwv S–HáÊ¹äœôÆ*HcR1µr9ëÍ+Å¶[ÿ ½R‘MŒŒ3Ü¡UXrO­W*P6À
+¶âm„„Ï5UÒRØ	…ÛŒZ9ic5{“YDÑÎwxàúÓDâ9BŞØ¨¶Ìd;ø'4—(QÕ€'3RİÊJÂÇrÿ <¥şR~U½=˜JÑ¸\3§Ò««ºŒ,xÉÈã$ÔË(Š3•$/ ”ÓBÛË(–mëÎ0)“\4R	õZ'fYä?.1'’İfV9ïÇÔ|Äß‘¹'ZˆÔ²u¨EB 	ü_J«ß_÷¿­ZOâúUX~úÿ ½ıi-‘]KÚ°î:Éõ_å[Ú°î:Éõ_åTˆc­?ÕËşéªµjÓı\¿îš«WĞ§ÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*fR0iCs26EeXMIm20E7gsGg.png?q=20
+
+‰PNG
+
+   IHDR   <   <   µN%  0IDATxÚìÙ{pTW ğóİ{÷‘ì{7Ë6É’-¤	¦ÔÆMÁJğ1Lª#%Ç¶˜Êğ(ShµÀÖ„Ø’±AAcëƒFÃ´A:0hScS´­–)mCÈæ±¯ìf¹›}Ü×çl6Å?üCv³D™Şó×İ{öşö;ç|÷œ³Ì`Ãıäf+¹	‹Œ–Ñ2ZFËh-£e´Œ–Ñ2úc†f²n‰ˆŠB»é¾ÚL9¢ÈöK}  óŠFÄ¼Š;í»[²kn\U3Ü¸YLdç†,6¶ˆ¨^²Ô¾·•H¹Ğí¿€’T°~Ğ”zq¹ëèLÄ	E‘Ã¶é1>à#úN´‚–ú­ªâJ©" ¾—:Ø?ÿ!7•…8ÿÎe)1’@Ï)×Ñıºå«4ŸªÒİû%Ædú	OÇwm<.qœ
+Z×otuîİ.²Æz‹²¤”V©Gönóu¶Bl?ª°ÚñÆFA¡,ıa7PÔD×#gÏ MSz£ãÙãHˆó‰oCDÓšÍk (¹=“¸ün*–³øİÈsWw¬L•¢İ5•b<6²g‹ÈNeo*³W~fV|êdä¿šFDóÚ‡„(ûÇßJZ^ 
+È+«HºFâChî¸› ĞzcqÓáÉÓ?M8¯è>û”$ pnöœh£òòµÿœ±X3Š7½ó®%×Û)*µã™v”ÿå¥Ä…ˆ¶jï^>Úü(û×´©À|ÿCJ[‘Âjs·îaûÎÛÙ•WQiùÚÆ¤shòWÑ>û¾#œ×Í¹F¢¹1gŞ'>©´Ú´÷T‡{{®?Ø¥£´ä©çQœ
+Ôšbôa*BPšÎ@ ÄH˜| õFä9)6MfLÀ(hößMi½‘PÔğÎR”Í}ÊãœW’—ª°˜óº'^ü>‘$BãĞqOG«
+¦¯É¿«Ê°ªÆsìàìˆ’Äİ%†CéwÔåKÖm?ÔHŠ²ï;Å¾ó¦ÃÜ€ì0Ú¼½øzş’¥ö¦V>àã}ïÉçnÙú$ï÷
+Ÿğ±9¯°]«ò~¯êÖÒäÕ¯U4ìoÙ-Lxù ¿pç~F§}xÙÛŞrıâŒS xØc0™¿ş0!$úÆŸ„HÈøÕÒ3I‡¤Ø4Ğôl?Ìt¾y.=µU+#ç{y×((Şó¬ªÈr·íÏ4Ugœ§×áfDÉòå:s]=¡hÿK–Úu©ÑBĞtj’)é‹UÒ™ñ={kÃÉÓ/ŠÊ_¶"¿¬%ÉİÚD!SCÙãZ´¥èTølqõZÍí•â4;ı÷~Î=®¯^»ôI¥‘Rªø™G´±¦–¦ß ˆ[^`ûÎÅß¿dÛúdA]=?9álŞñØü­ò¤dÒs¢­õ[´+>{«ßX³–6Y€nlDU¾4xÕ¢ÛØ×€J«gæà™.kııòj”¤ñÖ&d§æui
+ ±·œßj@Q,ÜÖ¸`[£§ı ãPÂûÜ†•«q¦ÓUÅ%‰÷/!âÂGG›·›ëê_üJê)¸o‡0éÿ¬§@ƒ¯şõU+…H(96¬´;0™PX¬”V›ê.‰‰˜±¦– ¥©úœeÍƒÇ¹Ÿÿàue½.ë&  B¿eôÛ»$w<},1rÕ~à{ R‹lD}[htÑ‹ı T›ë6„z_±mÜ†’4¼kcbğ2™ƒ8«‰øn1Œ½÷®¡zµzq9ï÷©•‰‰xê3“’	õí•Ñ|_-J’¯³=9<sç =ã¦„` 96¬»§šÖêÔoş¶[»l…jQ˜°­ß¬´€ó››ƒïÍ]œt:Şœk„›ğè>}oêKea1­Õç•ßA«Õ xõTìŸs"ÎåÆh&úÆkqçBHŞâ2F£SÍ
+“™ Ïö„Î¼œ+qwã 0şÔãşÓ?Ã™Jz¶E^?7ùËŸd´´˜ï# éğïº¿/]¾ó¦ïäó@åú.7â[Dd,V hŞïÍá¨ÈÁ¹ÇÉƒÁ@ú…|Â$£e´Œ–Ñ2ZFËh-£eôÿWùW   ÿÿ‘ãÎò…®Š    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*MeYFA-SjEg4njct90HsY0w.png?q=20
+
+‰PNG
+
+   IHDR   <      ©hu  ²IDATxÚ$—YŒÕyÇÏş¾ßû-³Ïx<6o8^ ˆ]³Ú&®1´¨iÚˆ
+H%¨\¤ĞpÑ…–¶•h£6¢- E¤ªHXÅ)i
+ƒãÄØ€Y½Œí™ñ,ßÌ·¾ëÙ§úèİ¹<:çùÿ~ÿGœ8ô|‘Ä^çŒ©ÏÅËEÿğ³&Få¡~U
+…aFåĞ#fiAzû5Û7­]ã£AD8§ è" )ó±è´­OEé8î,Î×/Ögg‡?]ø“¿zÉÕ;x¹)¢w$‹]’š<Éãò,ïtšîGŸ­/4}=öÔã”R*Dâ»Mk2eÂ9ä1Zq½Îu.´³ŠöÎºjµ(©C­uA9c”îÙ¾éª-—‚Go-Èó„8ŞCs	‰cŠó‰aä´,Æ9)A$8FÙ(+ºéJEA  Õ™39 ú¸cÕŞ¶­¥å¸LMÍ4İ:x×M{ï¸İvRÔ©J.ëÚ¸’"áŠ„8GŒFãÀ b9Sœ@¦5)@€ˆH †_Ù}ÅšÕãŞGâ!Ö¡w>ë  !YJ«Z3Qäš"˜àœçY•+„ğ^U+AqæÖx£= -rköÖX˜>?ßj¤Ÿ^lßxËµ{Ü
+@mëzİ¶@)­Õ²PpÂPJğÖqVXw|¶ÛåaµÆÑä™æ”ö×~ï¶FVŒÖÇ„+2´MŒÆ@§Äáä()÷{*ŒË#Gß¶ÿ–7ÿ÷ÄM{w¾øâ/Ş¹"R.§=O˜0®cLyªÓ8ëÆÎÌ¼wfipÓ†{ï¸õÒm[=Ğ¼>—Í/-}rª°Æ€Wå¨4:Ø™šà!H83E^ùõ\pF¥”Î/]5şµ/ï¨8J\§m­ÕYâgR"A§4” ­G†Iy€sáiw²±•ãÓ3Kÿuèõcï~ä½ow²ååÖ¯œÜàFÎŠ’$…7…ïÍ‰n/·>ZÜpÍÎKªá%“krİX¶qlu!«$É]7œ-/5Î:&¡K’"M“N÷Õ3©!Àx€ë¾0q`ï®RuPÕú<›Ì­¿wŒ©2“ŠHˆ6‰‰àc»¯Ú,¡¥ÊÉ“SG}8??ñÄ·¢RxÃõ;‘ò×~şÆãß}Ú9Ü´yİ†uc	­¬[=QtÚçNÏ½˜íØ±mÏş/)¥œ):çNJYPÉÒÄqêÀÒ€N7šÓ¼<02$\Ò5I’6'êÆSÊ)‰Ô—M^}ÅÖ TœQ .eÁàäf!¢¹co7ÎŸ	‡Âñq ï¼GUß¡Œ2N	{éÕ7––âgşù;Œ3!€cöïß{æììoíŞñì³?~ôÑ¯—¥AÕ†ªï¿süİÙøÊ«·Üôå=ªR£„ú,‘a)i7õâœ1…¶†*ÖÊÜ9¯JQX
+f²L·[çç»³™sÚL
+üƒë¶]}Í®êêÉÒØ/‡B2bRjó@#6o½ûC›¶ÔgæÓåF‘&­FsìÊË<é…À;öşÊ‰•Üÿ»,¨QÆ­I\–€ğûî;øÓWÿçÉ'¿ıÈ#§¢ãœ•ı¥#§—¶ï¸ôæ[÷åF3ÎÇ¢¹d´ñœcËÍîyP„s¡$Œşèá‡ÍÛÇO¯ôº«6|áòÍCkVW×lŒqDŠÀÂ0ëöx¬J  óä×/<?õé”AÒŒÍıÿğgH9;|øÄÈèÈ‰÷Ï>ğÀİ„*Æ£œqÙû«ùç18ş›ã[¶løÎãO?õ—hS“BVúWÀ^¸gœ5éÜ\«ÙÊµ‰»ñt;[ï!4‚R¥ÄŞ:×<ôæû£nüâæË¯İ58¹–« ³.£ŒpNTˆ¤‡ZÕe`3tE²~÷îfÛÎÌ'¼Rfœp¥„
+ğ¯_¾}ËÚ5+Ñà%ÌIâ. X`Ş:ó“Ÿ²ôàwşç~	®à²,8 ›'èÉSk¬ÎS­MŞîv—çÚi·2ä¡G{Æ8 ¹æ}™ßµbààWv]vóMÃk7DÕÉ;h´kTfyÆ&]Ÿt¨%¼„EÆ®šşñ¿vÿµ“'…N}6µgÏ9#+'Æ¢JÕ{|íĞŞf”¾ş#oé¯	F¡^_Ú¶mãààÀ³Ï½zÇÁ/åİ:gºšBgY·~1©Ï5>ûlİ;×nÛ±në¶U«ÇO/¶tQ ¡Q†¥@JÉ<°ïÒ-ëú+JPI™*WˆñÙx²rM^,Ì8‚) ' à¬6q«ÕêŒMy­)Á“Ÿ\3Î¸C%8qÎsÁm¡Ë5¾rhúÜÔĞèØÌÅåõkWÎÏ×+åhb¬ÆT©;}Ú§´Î»M“ÅP˜W__î¥õ>@püèÂ<%$PBJEÅí÷|5¨öYyk°ˆM{IöõÉÑdæTµ¢Ñ Ö¥]Ğ9¯ò ÊœC ¯µIZûïºMT=Jáp¥vü¹Cûö]5}~º`+z_dÉÄª±™Ùæ…sÓGß9~óí{)ºí&—¥çŸ{ù±ÇîÍ
+ƒ:1¹ö©‚YÌ([¹~³”%*K(„§Ô9X3X£Î£ F;ôa”N½ıŠ(Õ€µ	8#¢j/‹©ÓR© ØnÃOyÀd‰ª´ÎšËg~}¸ Q]5¶öú\½««ê3ÿöÒğHß×ïùp®÷$*¯½ÉD4àAêÿô±§	ø'ÿúM– ô¼öÁË?«V†À„Š­»vSä>Ó¼R3İ¦Ë»´RíÆíg~qzt2ŒQÁ%ëõ$Ê™Š¢§Heßš/Nû¬ŞR¤‚…®ˆu·ióTgi¼x±1×.õTj#ŒĞs(ÅoÜsûÉ“g;Í"0"!¶ˆEPAï¨`y–jcï¿ï·Î©PŞh&ØâÅvÚ›W]E,¸¸“×ºç§Ò¹™"Kµs³KMmŒw¶°ÆZèU‡¾ùûÎäT
+&”×±ÂE ñè0›9Å™¢\B¯¾•Q)“$6në<œŒ¬_ïŠ”WX©„ÅWA¸ç†íó·ÏÕ*b|åØB%Â”ÖÙŸÿÅ÷}şĞßÿÕ½ıÂˆ×“ÁÑ—^®_l§ÍîÎ›o¬ÔFlœ8y}!ë´,gšv§ù¯‡~•[«?oWJôt'ĞZ4FC#' &®Ó`‚ØÑ—F'[½§ª#‚IVœu.ïº8Êe)«'K¥™cŸl¼y„±²Ír.CFO|÷›ßû—OŸ]X·v|xlÅÔÙÙcÇNîŞ¹íÑ‡ïJ¹<•¥¼§hß;:0¹jë†òĞˆMâ%@pŸÒZzô“óó¸R	¥JöFÿÿg}2ôŞäŸv›“‚ÆTŒÛ<#åš
+Êb!C*¸@U.©¨dŠ"®'h«(€Şë´Ö†ùö=vãÍ×,.6V]2öğCwŠ¨â´0HÀyG(N½ÿÁüBÚ_	6ïØŠ„ê¤mâ˜PbºK‰GhuÚ?;vŠQ
+€à PJ”’ôä/_ĞÍÆÊ±¹ÉSQŠTß n/C¡U¥Úüø½Êêuª:äÁÚ¸St:<¬%]w9Y©›‹i’ó7µñ¾kÿèkˆŒqN)‚)¸
+(œÎí="á*0q‹Iç?9óì?½ÖW‹î»÷®•¾Û²iŒRÙ$ÉZMm}×¸ŞêÄ9!DJÎ	B5>:::6ÌÀhŒ1V›<ñÖ !Nç=Æ¢*-E4XÂiXæBÈr–*J†RÈêš£[v\¹ï:ˆí™wŞAâ	íéßõ¶/èupE·A÷¾ c £|éÂÙÿÇŸ{‚û\7²qËD„ÖC‘gE¡µÁÂÃÙv†ŒE=›0J	!„3(D!¿wÿşs‹‚w&KWÈ%˜Ş(W}ıŒIÂ2Áz³,lg1]%Ã¥”G!z`¬M\²jËÖú‡Ÿ¾úı–ÂJÈ£¾ÏG
+à­.À\*W$qcîûOıà•Ÿ|@9{è[w®¿l»#´ºhÇq§•¦‰—÷érüq#Œ
+ŒñJ9ì®TËÂ9ç­õ Ô¡óqÁ{«u04F#!*ì÷iGFºŞ*Å£26ëÄ{ÚkÕ+[·ãJg‹WyeÕÆ‰»¶®’É t¶ˆ—ëË|nêÂ[oŸKs„¼eçÄ¦-2zË_‘ËJ ‹rÆÆ¸N^|Xï%Œ2ˆÁşÚÀà@¨¨RBÿ/  ÿÿòGBeSÆPU    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/60/1*PVjBsuOi2gAMGS8q4K8AsQ.jpeg?q=20
+
+ÿØÿÛ „ (#(#!#-+(0<dA<77<{X]Id‘€™–€ŒŠ ´æÃ ªÚ­ŠŒÈÿËÚîõÿÿÿ›Áÿÿÿúÿæıÿø+--<5<vAAvø¥Œ¥øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøÿÀ  + <" ÿÄ¢          	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú       	
+  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? Æ¥¢—V(§bŒS°¢ŠJ,h¥¢¤šz O<S)ÀÕ¦"]«ƒFÕÆI¦«ã‘NßÕcÃĞqH5(~¼}¨Ü¸°Å6¬1‹oOš Àõ©hÒÒRÔ \Óij®æ‚i)(¸i(¤©lÿÙ
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/270/1*Crl55Tm6yDNMoucPo1tvDg.png
+
+‰PNG
+
+   IHDR     O   Â+Ø  &$IDATxÚì}	\”Õöy‡AQdsCPÔ°”ÜMqK4ÓlçæÅ­25Ók›©_‹e†e7—6?#4µ%®™)¹’¤bJŠ˜Š7PÜ ‘Í9ßïù_Ïû½3ÌŒ
+zßo~0ï¼ïÙŞsÿó?«IHHH8}5ïSfÎœ©„„„è/]ºÔÚİİ=H§Ó53™LzEQE1É¢”p~˜L&EQ”BÎyc,ƒ1–W\\|èìÙ³%‘‘‘œ1Æ«Eö~Ü±c‡şÔ©SMİÜÜ†êtºÇM&So½^ïj2™çÿ_ü•¸u (
+}t:«¨¨(Wåç|yEEÅæ‚‚‚´W^y¥Ì‰X%¸¸8—âââ@ww÷i&“é_:NW^^Xaa!?ş¼’••öbyyy” 			ç½»»;óõõe,00{yy)z½áãææÆJKKã+**f¸»»Šˆˆ(«q,Z´¨®Á`x\¯×G+ŠÒ °°¥¤¤ğıû÷+D ²ô%$n#€H‚ƒƒYŸ>}X§NxıúõÁœó¹%%%ÿwÜ¸q…v‰cùòå...sÜÜÜ&æçç³Ã‡óØØXåüùó²t%$î @u<÷Üs<44Tñöö†PXb0şOxxx¾Uâˆ‹‹«wåÊ•]]]_ÈÍÍåkÖ¬QâããeIJHÜèİ»79r$oÜ¸±RVV¶¬´´tê˜1cTòp¹ê¸êõú)uêÔy=''‡/_¾\Ù¾}»,=	‰;§OŸf'NœPBBB¸——Wx4ıúõKØ´iÓüNó8CEQ¦±o¿ıVILL”%'!q‡#--}õÕWJNNSåUooïâ7İU¿æ]EQ¼;ÆwíÚ%KLBB‚’’Â¶mÛÆM&“âââ²8..®Ç×_íÅë^RRÂ–.]*ÇU%$$Ì°fÍ¥°°»ºº—””´&âĞëõCEñËÌÌäÙÙÙ²”$$$ÌPQQÁ8 ”——3WW×§‰8t:]_“ÉÄöíÛ'Õ†„„„U$''Ó„OÆXgÆ˜¢gŒµÁ·¿şúK–„„„U€@Š¢tçœ3¢(¾ø!//O–„„„Uäçÿo
+‡N§«·råJWc, RXX(KGBBÂ&JKK¹¢(nÅÅÅ> ƒ¢(Üh4Ê’‘°§:ˆÍãàœËQ	‚ëß¿?kÙ²e­ÇíïïÏÂÂÂXÓ¦MºŒî»ï>Jç±
+ŞÕÕ•ëï”L7nÜ˜µk×Ä…X||<»råJÄåââÂ:tèÀÄÊÊşÿªd°5|Å””–ššJÃ\Î†Ö­[³°E‹±…ÖjÜ}úôa3fÌ`‘‘‘lÕªU7½,ZµjEûUhĞx¦L™Âî¹çÖ¹sç;ÖÀÜöÄáîîNø¡‡b½zõ¢½nİ:¶uëÖ#:uê°Áƒ³ÿûß¬¤¤„?VÖ«W*bRR5Ì6˜‹3 i¿÷Ş{oŠÕ÷óó£¸AòÎ êÏøñãÕ«@0>;v¼£•émMlÌ˜1lòäÉ,((H½~âÄ	1&]#@%„ÃbccYİºu)=]ºta#FŒ`sçÎ¥ûÖ®]kö,ˆ÷5hĞ€³ÜÜ\5­ „Â»|ù²z„„°ŒF£ZÁ]]]i£–K—.Ñ}õë×§ç¡xğÄ€¿éééfeçñİ–Âs —¼¼<
+Û–âjÒ¤	İâ<wîœÕûÜÜÜX£FXyy9‘« òê:ÊÉÛÛ›Ò{ñâÅJ{Å \PT®HâÌÈÈ°«öpîì±Ç¨¼_ıuŠCŒ, ½âı
+iÎÌÌ´[HÊïT‡“•öÅ_¤—îåå¥6
+XŒ?şø£F‰CX&T®°_ıU½G®Ò¼yóØÄ‰Ù¾}ûØ™3gè74"TÖ=zqàù={ö¹ ñ¡¡Àú¡RóÍ7ììÙ³d‘Ïàà`öá‡²“'ORXÃ‡'éÿŞ{ïÑ³øy½råJöàƒ²ªÈ‡bÑÑÑ”&{@øÃ†£0P¶ÙÙÙlÓ¦Môéºûî»Ù¸qã¨¿÷Ì î¾ÿş{jp‚ A ¬yóætÒ…FX­(ñ|ß¾}Ùã?Îè™#GPø+Â5j¹§ˆñ!í …´´4öÙgŸÙÌ3TéèÑ£‰x×œ9s¨±¿ñÆfïÊ×äm÷îİléÒ¥L4àÀÀ@*{Äò‰%&&š•‡$'ÂK/½Ä¦M›V‰4`)wíÚUcnŠ%y ñXª‘5kÖ°!C†,G…qÀ"½üòËì™gaÿı7õ´oßî¡ ¢£ò‚ğLBB”T,\Aÿú×¿XÛ¶m‰ €x€=úè£TÙ¡D„óüƒìŒ3lVä†Rüİ»wg¿ÿş;58„7`À J÷’%Kè>üÿÁPçj||<5 ĞĞP"*($4l sçÎ”.ü†ğğN@6x÷UU¦ááád @xÇ“&M"ÂÅu” ÷ô‘G¡x hğ,ÜU<²[¼x±Õí g2şGù[Ö
+êH¦¨¨ˆuëÖˆJæË/¿TÕÙG}Dn+ò‰8qÿÃ?La#ş[±±±|ùòåbwãÛâÓºuk~êÔ).`2™Ôÿ£££¹««kÆïîîÎ§NÊËÊÊø+¯¼RéwOOOşÉ'Ÿğ’’şÂ/Ğµ'Ÿ|’çççó­[·òĞĞPîííÍ;vìÈ7oŞL×Ÿzê)ºïÍ7ßäÅÅÅ|Ø°aô}ôèÑü?ş ¼EFFrîããÃÓÓÓyLL÷õõ¥û¾şúk^QQÁgÍšÅï½÷^Ş¬Y3>hĞ n4yVV7t_¯^½ø•+W¸fÇk>{öl
+q·lÙ’{yyñÁƒósçÎñ'NğÆÓ}ømşüùü™gá6¤<Œ9’òùóÏ?Ó=õë×§4 ¨¨(Ì›7oNù8vì/**â'N´Y¶İºuãû÷ïç)))T&ˆ»E‹üÃ?ä—/_¦rE¼¸uX¸p!o×® ´ğÄÄDîççgóı!Ü“'OòóçÏó   Ş¤IúM§ÓÑ³Hÿûï¿ÏÛ¶mKéÇû=J÷¡!O¸oÁ‚tŞ{ÿşıé}¥¦¦rÿ[ª]áİ~ÿı÷|íÚµA·å¹*O?ı4Y­Ò  û,XpÓG3`ÙáûÃ]Â_ gÏdAáÊ$%%‘NII!I‹ëıúõ#ë7«¸¸˜d7 É»mÛ6úß××—”|ÿíÛ·›õCày„wøğa–••Å6oŞLá²ØÚp×¡„àßşùçìÔ©Sôÿ/¿üBi…L‡Â `QgÏÍvìØA®M›6mÈ2ÃªûøøĞ=HW×®])œ¯¾úŠı÷¿ÿ¥¾o¿ı–”Ô=Üwß}ô<Òşã?’úÉÈÈ Îf¸ T;vEàÖA™@Ù!œœR(kÀ;A¸H7ÜÅôôtf¹}&êĞüùóÙÑ£G)ıpÙQïğÎ 4~‡ú»ÿşû)ŞÓ§OÓß[¹ƒõ¶tU !Çµ••%22’*ĞÍ*•ŸŸ¹¨­¨Hğ-;QÑ¸q?$9$/Û]wİEîÃÎ;ÙÛo¿M æü‡ªä~XÎÆwøòö€0áiİ4:\B¤]t*NŸ>uêÔ‰ˆaƒ<==U²Æw‘WmHL§³oË4h@Ñø´ å²E™ <Å»ÉZº#ˆK{Ä‡=·HôİXö‰áYäAÛ§SïewğÉ'ŸTÃÄ{¼xñb%7VÇM¾²Vmüúë¯,**Š9ËvˆíÚµ#øÄ‰4G ş³Ñh¤JgÙˆÑPp@ôìÃÊ¡q>ñÄôÂÙ»w/uÔ…„„P?,:ÈÒ–ß«:ŞØ²’‹Q
+”±ğÿÑ8&MšÄV¬XAıP;şşş¤>D¼¸Vd$È];JRUcF9²,'ÂÖ6rq~ˆ5B¸ÑĞ–-ò!È*¤"~ÇuäàVÅmçª€Íaa ›·lÙB#ø¬\¹Ò)z±¡^ıuê¤„ÛKt;vŒA ,×Ô…ˆ°ô “aÃ†9ÀÚB½@ŠÃMƒâØµk—™E¼ìß¿Ÿ$ø!CÌ†,GMƒp“ ¢@* ®Èòıøñãê)€´oß>š\%\ .O÷îİ«|G Z(“°°0R]½{÷¦ùH«5Â¼VT¥ÆlöçŸá¢>¢.Â½ƒ‹òqŞÊëÃn)ÅùßVÿ£!¡"¡¢K•Í}öYbwü©ÊˆçÄ³Ü`|<‹Y§Ñ¡¡¸ººÒHF@@ ‘B³fÍÈú¢ÑüôÓOÔg °qãF@cD£‘À/F^~ûí7rEÙØ±c©_J
+$	ÄÇÇ³W^y…¬/î¿Ä²™5kûî»ïÈrFGGS£èÑ£•çÂ…)­HsJJ
+¥âÄ‰”×ÀÀ@Ê¿x'HçóÏ?ÏŞ|óMR_íPJİºu£4ÛSPxåòÑGQc19RíÏÃÛ×2Èéı÷ß§ÿ™IB]¾|9ù‡~HïaàİÃuAYİÊ{ûŞÄI<|øpjXh„`q*0>			4V²:99™kİº5oBÒã…A
+CÎB.ãƒ—›••EÒZ4ÀAb‚” 
+J3|sTÄØØXêt€»ñÖ[o‘:BÅ‚EÂó«V­¢Æªí›IKK#™e±gÏjx …ÛK¯ªÄrXñüùóªÏ/*<*8ş
+ìØ±ƒ†K'OÌŞyç*s¤mŞ¼yìã?¦{`UW¯^MJ dÑ¯_?jÀhäÈ»˜<ìŞ½›T×K/½Ä^}õUºŠ$8jÔ(»ªy›3gÅwJõáĞ¡C4SêG êa[†‡ò9Ue0æÎK„?tèPrı@xefÙYŠòCıÑv¸‚ÆO9eÊ5>¸•Ÿ}ö™êvİŠPbcc92ft6 BÀ‚ÁºÂº‰9–€‚€ê€‚€¾páY»x€\Èl{V•ÏÁ¢®_¿şúõj¬®¶r¢œQñQ¡µSûÜ%NÌº´&½A ¾¾¾T¡ÅÈ	$?
+JK;½iÓ¦Ôa	BÑ6$È{¨7”8D¢Ñn%‰0g£FÔYªh(ZUƒô#”9îA:ñÒ*`0(<¨#¤÷á=B"¿UÍ®Dù".¸HeŠ0´yCùÃÕ Ak;H¡"V¤ÇŞÊõq ,·hÑ‚®=zÔ¬|Pö¨³ZÒF9à:Ê †é@¼7ÊHÕ&æÏŸOeêîîŞÒi‰şÆoE½öÌbxÕÚwTV¼dHg¼\KÙmëY”²^BBÂ6q8eç¨ iÓ¦©¤¡]dd­‡\üi	ŸW†ÖâÛ{löìÙäkKHHØ†SÇğáÃiX`M)Ør¹nëuëÖ‘¿,!!qüÏQ£F‘$ª.iÜ(|òÉ'ä9ÛRw		gƒÓª8zÊk›4V¬XA#U-²’p2â ItêÔ‰zŸYÎğ³DVVMG¯ÒhÒ¤	­Ypuu¥~•³gÏÒ4ò;m³hÑ§Ô§OºmÜ¸1´@í9s†Êdûöí7lN†ÄmL:t 	Aµ­6vîÜIs#jƒÃÃÃi¾ˆ‹‹=¾ûî»·ökÑ¢EZ~²¨S§:-\Ì­ÀgÂ„	4d½víZšèe9/EBöq¨hÓ¦ºInm‘ğùçŸ×øÆ>ìêF=bŸJ4,í4Š…±eËş÷ğğ å¥×ëÕ	rø‹ïø4hĞ€öY³f¹°’8¬¢nİºU.«¾Ñ0´f¤6Ğ¾}{šĞ& †Š¡´îòèÒ¥‘@pp°z„ššÊ>ıôSÚLhÁ‚4³T;õ<$$„®0 R˜Ô?—.gtt´Ú±.q‡¸*¾¾¾êlm!==½FÖªX
+jC¬2-))¡Y‹õêÕ#¥ÕµkWZ u»ÂÇÇ‡Ö—h÷Iùı÷ßiê¹v@§Nˆ,úöíKßÛ¶mKëQ´‹ıñ@É	²€‚ƒZ‘¸ƒÇÍ€­iì5á†EDD¨fûöíì‡~ ï Ë={ÚÜXæv@óæÍÍf':tˆ¶7´FÀÁƒiÁŞo¿ı¦^{ğÁ©œ$$qTBmX-Ğh«Ú<æF –P,™?}ú4[¶l™ÙêH¨‘ûï¿¿j‰¨×“j}$õøÍÍÍMıà»½¾"üæêêJ±pP­:]w$<{¨_¿>)J¸'Pö òØ°aƒª,Äº#vuv±H¿6MÚköv6aˆ<º»»Ó_Q®Uåe!ÊNûDx–åi/~Gœ"^1Ê&]•k@qq1‰^ë×BRƒ&ÕäÎ`h4aaaª„>~ü8­d…ÏŸ™™IÖ¸C‡Ô¸cÇ›á@’ÃJƒ€PÉâããIµ@ºÃÕyæ™g(±Ö|ÕªUÔ ­-ª»ç{hE®Ø”wÉ’%´_*õ€¨?¦cÇ´²wİºu´ğ¯¿şrho±øM[îÕúFáÒ!¿h`‡¦ëcÇ¥U¸øjN [·n´òÔh4Rš§OŸ®nà¬m¸0#FŒ =@@Ú $zAAûùçŸi•mZZšºµ£™µÕéh%nPP•õ={¨ƒé˜2e
+½ÇŒŒZM«=şÏ!‡~˜Vöâ¡NdggÓ;BÙ&%%Ñ}mP‡áL›:”gffòÚÆgŸ}F›ĞÖT¾Ú·oÏ8@q•——ó9sæĞõ-Zğ¸¸85ëÖ­³»mÓ¦Mù¶mÛÔû¿úê+
+{Ñ¢E´)®- fÍšU
+¯K—.´Y±À¤I“(¼¤¤$»å5kÖ,îâââPôêÕË,ŒäädÚ@øZËtñâÅfá™L&³M©EYwíÚµÒ³ãÇç/^´›Ç¿ÿş›69öôô¬ô<ò®-£7Ò&ÊÅÅÅêµÂÂB>aÂ³ÃÃÃù™3gìÆ‹ß#""äfÅ ''Ç¬ã«¶0räHZ>]Sh×®ê¦ÀšˆQX¥„„õ¾R!ö İOÃÓÓ“6ü}á…ÈBAU@’"s"şùÏ’¶vBšvYy«V­h¨´G´üûÒ¥K” 6Ş3fĞy- 77WU¢óóË/¿¤É_uëÖ%ÕãˆTGšv¤Å<ä×ğùûï¿+-›Ÿ:u*uº
+—Šu÷"âP+Úåûï¿·ª€Ey |¤éÒ¥ôå&6Š÷àúsÏ=G#JÍš5#%„{ßÅ‹)~±y5~¦¸¥â¨æ'((ˆ¶Ñ¯M+…rğğğ¸áyjÒ¤	ÿÏş£Æ·yóf:¾@üşÀĞ6ü`u{ŠÏ”––Òß¢¢"¾eËşÒK/ñ!C†Ğñ6l c´–xÊ”)dù´ŠãÒ¥Kjx—/_¦¿ÙÙÙü»ï¾££yä>}út¾wï^:îA ¢¢Â!ËËıî»ïZ}			”vXíFÑñƒÁ®
+„2BÚÆÇÿüóO5¬İ»wó1cÆP94ˆcÏŒ;–”€ Êí‹/¾ w€ğBCCùÌ™3IõjËí£>2KÇ®]»è7(½¬¬,ú?##ƒ/[¶Œ“ˆŒŒ¤pqÿSO=¥*BüMOOçóæÍ£üzyyÑ}P7'NœPÓvüøq:‚ÂY‡Ó«2wîÜZwUDyçwxƒnh~P…,FÃnŠøò~øAMËO?ıDZqhe9¤·µû?şøc3b@¥½ë®»¬‡/77—÷íÛ·RX~~~|Ó¦Mfe–––æPY ı+V¬P	ÏÒµ PV+W®ä¯¾ú*ïŞ½;Åkïü®ußV¯^mÕİkØ°!ß³gYY€H¬…Ù²eKrDúàòàš5âĞº^x—–aĞo ¹şıû[DxîÜ9õŞ˜˜˜u¡o+âÀË„y³Èã“O>¡
+®×ë¯;/Ö_ –fèĞ¡•î›4i’zÑh´y ‘¥â
+Åš.>ë×¯7ëÿ@\uêÔ±ª8P#FŒ°{ĞÔéÓ§Íüx[Àò@šÏ=ËóòòH¹Ø"`Çü±Ç#Ë¬(J¥ğ@¸G`íÚµÔwdy¬ş…Ôû–,Yb¦¾,?O?ı´™Â‚2±EÅÅÅ¤p¬…ƒò€’ƒB²'Â}ã7ÔûSSS.ß;ö@&øÿ7ãì±Nâµ×^£oÅš™ëüh1IŒ¦lÙ²¥Ò}GU×bÉ¨Îœ±'©­ÃŸÅ‹›m8hĞ ›³sÿúë/òém¡¬¬Œfxj‡ìP™ ­Ó¦M£©çk÷îİ´ê¹sçhDCŒÖˆQ…°°0mˆŠŠ¢=d¯O<ñ„ÙäÂ/¾øÂêˆ‰ÀòåË©ÏH¤C»Ã»µrÙ´iS¥ëuëÖUWzÈ_rr2Õ«W¯ÒÇd2ÑŞ³Íš5SŞ’Ã±U 55•&¡bİò:wî|İú ¢:TíDC¥@esâú…hNƒV¼ï¾û¨ƒÊ@6Umx»sçNŠStŒ¢2Ú"%¤¿Ù:W;>>^İ X§ÓÑäµàäÉ“´M#>HS¯^½¨cøŞ{ï¥NZ???úˆÓ#FĞû™:uê5í×‰w¢cW7+®êmQ .vuoV<ïÈ04¢mÛ¶êwwww"[óuPî¾ûnê4õññ!¢ó÷÷—ÄQ ÒşòË/t`0*ĞÍ˜€†Š©¿Àª£1ˆ)æâˆ†Ù³gW:ÜyÖ®¯€Úê¨Š8Ğøª:AŒ:h­˜-â¨ÎAZ‹¨×ëÍÎ6¹VdeeÑ.çâPj4–ğğpíjß¾=ÍƒpmÛ¶mê!×Î¥ iTg„XÒ/
+ÊN»3}u&ëi§ØãyGX`V’Äa ­[·Ò0ãÍ ,ª=ù_´hÑ‚&)i'šÁz	f‹´De	%·A{¬€%ŒFcµ, vå¯½!Ïê¸GÚu H¯=¹­ qÃ•X±b¹3bª:,8”Ü3{åb	±t¿:e`í}X+Çê>/Aü(+±›|u ÷¥ªİŞ%qhPZZJ~í€nˆEs™™™t€ñõ¢yóæ$;E…g˜ÚšÊŒÊŸX‹Ø³gOj$ Q[ KjyŞ¬béº6¶\Ë]á­A;m\œS£FÔã&Ñ€²³³«l@999t¤=Ê“iB:Beeef3U===«E"N-Q;JÚx¡¬&L˜@d_©û rg=FÁi—nÙ²…N7{ñÅkmñ÷üùó® –@ÅÖv¦¡@†Ÿ>}ÚæÊM
+TÆO<A-88˜ú:ìHÕÏÏÏî&7}úô1›À™n‹8ºtéBVİVşñÄáÉ‚8222ª,øë'N$¢CƒAz!Ù«£êĞÈ´»£á»½³Pì¹C]»v%Â$w×ì)+¸¢ƒè=Z„¥uÿğıÈ‘#‘³Âi‰…¼lÙ2òõûõëWkd…8¯76k`d/¿ür•ÏõêÕ‹:EO:G«V­*­µ
+
+¢C§RRRlv’>õÔSf+€÷îİks3fLïŞ½­ü°«;6ÌìÙ[[£u@Šb34X”	Cu¬¾8Dœ]=íZÜHä»ÿşêi÷=öíj‹$‘Vqp°fÍ‡ã„ÚĞn• }è¡‡ÔUÑ¶òƒ!ÙáÃ‡rûD§^‡·–º¦ßsÖ¬Y×­6`Ñ:tè 68²Q,ñï¿ÿ®~‡…´5]ÈüñãÇÓ‚)ËW¨FXX©„„«ı"¼>ø€ÈÚiŒ7ÎìPløß¿şúk•ùBcß¼y³úÖşÍ7ß$wÌ–Ë€ü€Ä@ÀÂ=BºQ'ìuÃ±, ®¯öØÆ‘#GÒP¹5Ø®];ÚÎQ«Dí5v[€2Ú·oŸº-%Ô!Ş—v##-àÎMš4‰úpğ™7oŞ™pG)¸¸8ê+xíµ×ÔMŒkÂEiTµÌ»ºjcÔ¨QêwTÖê4.áÒ ¢=ûì³ô½iÓ¦´Úsİºu•ä9,!,>d÷ôéÓÉRíÙ³‡ˆÊ`0P…{ûí·ÍÖà Xzk}¢ï¡{÷î´ÇçŠ+h.HjI4t\­–|Gš .ÆŒCÃ“ˆîÊÒ¥KIÎ_¼x‘â+WA˜(G¨.„¡% ¶VA´L};H+-Ş/\„Ÿ~úI=Ò±uëÖtttt4;ÂG>Â=Öîûv­»Ä={–VÎFEEQŞ Åwäê	DC7U»g	Ô†Ö8œmæ¨µ¯¯/ÿôÓOyAAİÙŸeee4;/33“Ÿ:uŠÖ"Øš‘¨ıh9üz§˜‹5@||¼C³PÃÂÂhÆ vG‡¬ÎMNNæT¿§¤¤Ğ,Ê?şøƒ¦IkqôèQŞ±cÇJ«cµ3G·nİJå&Ö¢ìß¿Ÿ'&&ò#G˜……ß6nÜhwÆªåÇÍÍÖ¾ˆğµHKK£rZ½z5ÿñÇ)^1£T›×Z;**Êì=geeQ¹ıòË/¼M›6ê}7¦™%%%ê½øe¶víZÊ“Xw"””Ä{ôèQi†§væh^^İ¼7lØóÍ7f3QsrrøªU«hesLLŒºzZÌ¢EØÊ¯3Ì½%öXƒÔ3guÆ:´Ò\X½ß~û;vŒÜš¢¢"ê „õ“ÃŠ†„„ÒöfÃ=ùæ›oèTò¸Pîîîª’INNv¨3R<))‰ú: Èuø¼‡ª¤ßøøx’óC†!kk	”Ùîİ»)©©©vãŞ¹s'C.ÃâÃU²tg`™aß{ï=‡ú PV®\IïeÂ„	ê)óìêîhÚ=5,Ş-Ò¯=‰ŞÂøÑ„½ĞĞPÕ§,çoÌœ9“êÇ£>J®Ş™µ!rämëÖ­4¼wïŞëªÙÙÙäš¡>à=¡NÂı‚+i	(¯ÄÄDrÑ¿ì½N@òCB£AîPe„Üƒİ¾}»ÕNDd6È~&®¥§§SƒZ½zõK#\///zñh çÎ£MaA^^¤@J£¡j°$4
+4&ÈYTnäù+//§
+¹VôÃuÈÈÈ Ù³ Ñ±
+7"++‹\©õë×_ÓqH\ ¤)<<œúRîºë.ê4Ù"¯(7”ÊïïDeoˆåwŞ!©ğĞ(A0"–ÃÅH7\.¸pƒp?ŒJAAå„×ùÌÌÌ´Ú´ÿ~µ¯¨:gâ ?o½õ‘3ˆ
+ñŠ³d@d0¨¿0x§L4»pÚÓê«êGhÒ¤	ù¶¨¶†­uœ¡’
+â¨îs({î¹GUC°0¨üN¹á£ã“ŸŸÏN:E³cbb¨QğÙ'O¬&*#ˆC¯×«ÄF`P			ªU1¿ıöÛ”^q8––8à¯WgøµºhÑ¢uz{{«Ûíá ¿0x·ìÏ‚Æ0AÖaÀÀØº¿U«VÔ—$ˆ÷¦¥¥UÙw…T¯^="¤Ù‘å	uëÖ¥~;(A¹¹¹T¶ g…ö´ú[r;hHÎê¬5°&?¯wFhUr®Æõ•ÖZÅ­jÒ\/|®Ë’hNğ¿Åö€†r#‰Ht‚:r?Ü·ª\8[#`×
+¸_5]¶5;~—s			IµAœó‹Âß“°…+[XXhÔ+ŠRÄk„‹Uíí qsqùòe=ÊÏÏ§˜””dõØƒê"77—&Øê„=xğ`­œ¡+q*Œ«ÇS°ÿm­â8É9oÕ´iS§]‰'ñ?\ºt‰†Kcccé»Ñh¼®]á³²²h>†èEøN‡ÄM¿¿?Õ“É”Y®çœgŒlÙ²eµÆú%n ´Û ^/ÊËËr•„ó!((HÌ':.ú86‹1{				k§‚/c\g4“cE•6.‘ğğğ ™× “ÉD«uÏ?ÿüEÆØ×®®®´G„„„„C†!òàœo¨S§í S…WTTÌçœwëÖ6†‘`W7“4h-cĞét³"""hš öì³Ï6™L“íğ$vj’¸sÑ±cG6zôhZãU^^•ŸŸPü¦®M?~üŸF£±¾Á`¦9¶¶¬“¸½ÊşyZ0h2™¾àœO;v¬ºó²Ùª©˜˜½^ÿN§›âÈÈÈ =8­--–¸ıĞ¼ysÚ«¤K—.´jº¢¢baIIÉôqãÆ™íPi¹åÆİrssÖétQœó&¥¥¥4Ö¿~ızú«İ·QBBâÖ¢C‡´ÿ
+şº»»3EQJc3ŠŠŠ¢&L˜Pi#^«ë´gÎœ©öWeŠ¢(ÃcM+**hVa~~>Iaa¡:ıYBBÂù6ìííMC«şşş´·ˆÃÅÅEœ{wd‰ÑhüØÓÓóLDD„ÕMkªjñÊ¢E‹ãt:İ#Œ±öŠ¢øk×3È)Ê·´†şêÿFEQv›L¦¥¥¥ÿÉÈÈÈŠŒŒ´»héÿ  ÿÿyaç ™Ö
+i    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/max/270/1*W_RAPQ62h0em559zluJLdQ.png
+
+‰PNG
+
+   IHDR     P   èB›–  ~IDATxÚì}pÇ™öÓI( ló•!Z}¤¾úb;A8`'¹?®;Ç	‰ FÒıatu¾H\%e».W’ï*æ’KâGŒJ´T‚|I“¨«sÊ±@>âT"6Æ–d°±-Ğ,@Ò¼WoÏôlokvw$ve	õSÕÚÕìloOÏôÓÏûöÛİS€ººº¼ÎÎÎ’¹sç.P 
+‹IŞŞŞ¶ÜÜÜÃD´gİºu± s„yàÁ,_´hQ€¼¾¾>´··£££ÃÖ¦…Å$Áœ9sŸŸ3fğ¿mDôˆI 	Äñƒü ®   „‰b÷îİhiiÁÅ‹mMZXLB,[¶«W¯–DÒÙÙYóÀlTŸMQo¶mÛV=oŞ¼²ææf<şøã8uêlíYXLR°µÁ|0oŞ<,\¸ğ3·ŞzktïŞ½{|âØµkWÉôéÓÿÆÖ­[-aXXXH0¼ôÒKRu.\¸°çÀ¦J}}}kGGGôá‡¶¦‰……Å0LŸ>›6mâ×î©S§DXm ˆîŞ½Û’†……E ˜˜#fÌ˜‘wâÄ‰’ˆ¢ˆ²-caaa‘---èëëÃâÅ‹WDz{{ÛÚÚl­XXX¤Uííí ¢E‘ÜÜÜè¹sçl­XXX¤…ÇÑˆ­
+‹‘Â‡………%‹ìcª­‚ìaÅŠˆF£èîîF[[><ìœ¼¼<&Íƒ¿Ãçp>©ÀçñïåÍÇùs.O*¨óRóä|øUın²ï¨ßS6‹	†úúz*++# K7,ûÍûÑjšóO_¢·d4ï‰ÊËË©««‹L455Q4M8wÅŠ”
+üy,£tàóÌr”””ÈÏêêêäÿé ÎK–*++¯«µµ5ğ÷ª««Ó–Í¦‰‘˜+˜32®8>ºñ‡,Âà”NP„0eı-ÈÛs}[š1p¦ûš'âÊÊJTUUÉ÷¬2öíÛç÷¾œZ[[±råJÿ¸‚~®©ø8ÉÿYyp>æùf„X,6L566úßİ¿Òï:tÈWµµµR%ğ÷‹‹‹åkSS6nÜˆšššaß­¨¨ÀÎ;­²°Š#yúĞ´RäÀyšyüQšùê÷hæ©ïQîëß¥ëÛ¦9Õ_§œù×_³l¬zQFEEÅ°ÏùØ¡C‡(//o˜â`5æ7Fr~ª^]©˜ ¥`&VJY˜Š‰SUUU òa(…b–×*‰­82îœ…ã\‡Şî284 ("pI ÷A¿Yë7|şšUŒd=/cµFŒ°š`ÅÀà²²Âzä‘Gê@÷½°2b…£ò±°£*Ã@‚d®Dy¸x¾CƒsÁôÄâğñ3q¡ê³¸á`9f¯YrÍ9B¹a‘ÆHLŠñ„U«VùfNªc¾f¾6İqªÀDªHÅüÌÂ‡„ˆwy V4ıçÊ040˜"Ü_‹I$İó?Œ[Vbæ/îæÏœğ©F=9’p¼°°uuuÉ$"JHMMMãöº‚Q‘â¬Y³†©ÚÚZI¦"±˜˜È¸s”!Á¤¡£i¸òÎLıØSÀ´·AŠT„{âû_ÎÇ´»ÀG~õ
+ú7íGÿ›ç't…vuu%üÏ¥¤¤$ğÜÒÒÒ„†g:Çƒ3Q)„0JI3{öl9§Á4gŠŠŠ¤¹²gÏÛò,qhfÇ}•$BÓ1ğÖL]ğ$Ä´³p@>pº$Ñÿ­… ¿šƒÜ§O¢wSÓ„«H%ãÍxnü:A0ª««‡}ŸÏ[¹rå¸»..WqqqÊXuİêœ “†I…ëU«-å±°¦Šg«(5A‘8ALÃàép.Ïu±É"ÈıLš7X0½.EŞÑ
+ä­›Xş}ûöù6¾N|,‹ù‰Ïã^|¢Mª!\5ìšü¹^Éê¨±±QæcMKoLL$ˆ"g†ŞÜ ºò1)J\ò€kÓë½Óü£gû_#÷¿‹Çÿ¡zQîUƒFCCƒ|¿sçÎ	qM*nƒËìºÊËËıØS]™gœgºHX‹Éæã¾“C&rD‚Î4Pëıÿ÷)Ğ´·Õa×7â½*_Iïçş¦½ü÷øÈÓ¯NÿGMMï lmm•½µ"–ñÜÀ¸Á0ÁèÁXêó gèÆ?puÂ¤°|ùrYFu]ÊYZTTä‡–3)¤[Û…Iƒ¯?È\³˜ì>ÇU‚•›!G&&Ğ÷ŸrŞ«òœ"‰\¢A\ZóqàËó‘»ãåqïÿàFÆ‡É£¤¤$Á1Ê&YŒ‡št|<¨Å‹ËkS×eúAøº‚"_“¬N8¢¾¾š››±cÇÌdxÈqÛ¿k&$Yx±„®$QŸ‰KÀÂ'œ³’d$i°‰CdºM|E2ëôe`Ót×·ŒûÊÕıÉBÊÃLrÓ}#™Æ¿­bKL%Ày(_ËHbKÔï«ëJ7É-Y9S•Íbü¢¬¬Lî·’qâÀ’#*²±;Z°ªR"1‰Dú‚'!rŞ’>‘ô>7»ÜÓıè½+¼yÁŞM‹1&¬Œª¸¹’?Ü
+d%î(•$ÁÇ‡r Zïõ,îÜ0²óÍÍ‰Ú7?9G@Ş_GÎ‚ëíµ°Cd‡8àù6¼aY5äJŞ(Š:æG˜å ­÷CôÏ‹3‡g®­áÿè§Aô¬ù8†Şœ‡–Û»ia1Q‰CÅF„ÛÆ…r[Pœ,¼°s5L+¦xÿ;Ó@¯oğÈ#Nò-+!<¢g*¿tqù¡Û‘w´yë–Ú»ja1ÑˆÃ•f‰K"ğÔ‡Ğ”†¯>ÔyRF°òØ \š›`¢(ÒP±!qFŞoº¯İó?‚îí+e Yt®½¹ÈTñ‰ˆjäYM‰À,Uç)q}@šòñ|bú?üÏ@¨ò<^úù4l*ÏCNN½ËÁÇ!„p‡O#qeáú<È7_H#_qxê„œiÀ÷=7%…™fédå©º·~‹’c¸ñºKxèÛİhı/ß´äaa‘ILÍ†Ã7'(‘P¤©áÏ›>	HRaîp¼¯ğŸ¡i@{10ÿ×Àìƒ~~Şîì¹„ìëÎ<ƒâÇ”'U~~ãìKØñ0PR”‹¿{t*ÿåƒ[#Êõ--Z4l>Ë‘#GdœGØ *‹kÎT¾‰¾ˆ7º"\õAÆp­ÿÄK|Îé{ :?Wj´Å0[êÎüÅİÇ4²ÒGe>sK=İ†myøø‚±]Ü}ÅŠ2œ¼µµU†Z—””økrb2©¬¬ôÏI6²€ëA_—d,Àun®‡”ºººdùø>&›oc®­b®½b‰# n`(%ÆmDDÜıo„%"¤)#trÑşW¦‹œaûÖ= ®%ñèR"ÿ&¡º7ŸÁúóÇÜ€2İû!
+Àªåİxq×TlúnnÖıj_NaÃ«ù;ü 1Ø‰`ãjj@EE…¼G“u–o–â8‰(§§§(UÊB‘ŒòuRšCUË™o]K<şŒÚºögPÒyÌŞM˜"'$‘5D¬ÄŠ n¼®şm/Z÷ß^•¹ jÒZa¨}VØ,InÍ¤qèĞ!é>‹ñ‰ªªªkRQŒ¹ÃQ‰ÏMQª@¨Ï(î!oâ›’.'»ÉØ¸GD¶ù3÷¸ï¯;(•G]Û3(î<æçáş)ÚĞBA„7ìŸôÂïo¼¾¿øQ?nÈ›ŠšØ`ÆIÃœ ÖØØ(§¨›~>	¢¸¸8hìfEb±Xàv|¯Ì	zlæ´··ûKXâ­Có-ÀL!¥Ôœe=wÎŠ4UÜæíÆgÖª‘·\òˆõüÖŸ?îš6ĞÌ$’…ç	TDêÿÊï¢&–9ó¤¡¡!4XU”––&u|ê‹ığC¨äo²UÅ-²&sé…ššiªèK”——û6[Se”¦Šîôtç¸L@Şp­ğ¦Û{NSTF5p/ÊÔ=ß}U·£øù.ID‰Làª]İ¸FÄıd03?*÷ÑÌ\>ËVİ7ÁŠañâÅ¡GKøaeÂ°¤1¾Á$¡/˜jmYK¡ˆcøä6‘ğŞ3RÛ°òyL‰ßõˆDxşº_=†õ-¿nş|£FKÊi:Œ¦³E3©¼O[ºß¿úKW£%ºÒøÚ×¾6â^ÈN5Ÿ8ä¡ßÛÉ´¾HVv«	ı?ùñY*(ŞÈ‹PC´" TÚ¼I(¨ûw—4¼‰² ÿ¼8<×¤­¬Ÿ›@æÈã 'Û÷şCf®›åªî‘,\»PNns[ëã™‹Cx¨-$)8ñ °ø"_^t©úL[9dX DøYıfÜ÷Çç¼Dü7~ãF—âÓg=³Hh£+&‘¹"œë¶şØöKdDm&,ÈÃ&J29[PûÊBÛçd4eæb=ÊI;T±*ùùùÒ˜é 7³¬ÉLÊf_MÙ¹n¸ü\?\Ï\Gj÷»IEñ¨Q5qÍbš MoÄÄE|™AÙô#ğúé/Ç}x.ahW¨(TıæfWÕ,=ë©xd˜¦zç<ak=ğ“§3CÉdjmmí˜İDV:±jHaÔŸób“+hÉBµ±RBä<ª««‡åSYYé›pü¹ª7.ãH¶‡Pk»••óç2f{ó·GB¬\v¾gÉ–†ä¼ôµiU¡B˜úR…+dNgzÓi´á"¼î¥SDâ5"œ$œ^%¯8„Dø‰ãŞëQ‡ÄËáe"!Âa¢Ÿ–?FıKï¤+·ßIWn»ƒnçôE¼ı‹4ôYN_ÉáT3—è ˆ^9äüDAôgA—ÿzâû è¼ìlÆÛĞĞ@:
+³¾p4•›X‡AkkkÊ2ûD§_«¾q¶™êêêBå£ÿ¾)5¿×aæÏ×¦¬É6ÉN·a8ƒÿOW÷œĞwÔÆà
+æÆÚaë‡QYY™´^RmÎåÓvSó°›Ng'öZ$†š+˜ûDÅR“ã<{æÉŸoÆ}¿^0j®‹ğD…û^E¤Š_ßì*Œ¥gı°÷+@SáÑ: ù`öz³çÁ=NQQÑˆljî©¡E¥š*CÙİ|\/“:Ÿ{)³lÅÅÅ*‚óQ[èy­ZµJÚ@[…Ô'óè=àhbV×¤2øwôüÕĞøâÅ‹3zŸÕ½î•Ê	£4‚êG%sıÙªª*ôôôø£8º²år$3iÌˆÖŒoÇ‘ÅÑêhÊÃ‘ÊCœ"Âká¤ãªWÂ+¬>(A}(åñdùfº¸äKtqÉtiéRu\æt›«>\åáª¥<¤êøÜˆ¶Ì¥ßƒ©}¾pl¶ÿO×K¥X,F#E²^‹{?³âÙT$|®¸g2{oVfOÍ½©y^UUUÊ^›ÏçsÌß3ÕÙH‡ÙËó¹º’
+Êß,gÅ1RèeH¥8V­Z•p}555Ãê‡ËkÖ£:G¿úq3éõÄï3õœ+Å‘qâ’4­D¢H#Ïly•œ”Ù¢‘ÇòÍÔ·äoè¢LŠ<¾$É£étå6ÍlùÌ4(Ç%q4İüiúüÿûĞ˜F²‡=•”¿Zâ0Ìt’Ü,›ŞLâ9Y>¦‰`>¸f£Ne™e
+CÜèÂÈo.S²†—iâà¼M³&©¢"•9Ä÷AGEE…<n’Š:~5f×hˆ#’ç¨PñùÛ=êa"¢Esª¹(ãsÇSãÛ/¾à¹Rb$™4K¼1µ‚v^ÇÀ¬?y+ÄÿœS/³¹Éro»r\¦J¦¤…¶İbØa_swµåË—'8øôòíùb:GuÙ®¾on}É²=•¹–nÇ· ˜f™‡r dãï«ß6ƒF3zÆuİØØ(ÍÕºº:2$›V\V3ÏE‹Æ˜ÏBĞ±lŒĞdÅÇAÊ1Wö>wàû üxbG5Ö¾ø‚Ü”:o‚ÅGPôÁ7Ëˆ$¡Al}÷Mly§İƒƒÈğ”ÚœY·?Óù9ÒÍmà^oA~hû»¦#(eókĞ~.©&İ)ğÃ®ÛÏê6óJ7ªd–)ì·YVE
+É6ÆV[X´q'«‹y_¹®&¼<Õ¨JĞÄF}h|çÎ~Ì_3×¡"}H^=Ùˆ%ÊêB>îÂÂñ¸
+]ö9ÿÉOj°îÅâóRäçšÔ›ç""ñcC <wá¾Óví—/} ãÚ|ƒô¹Ü;^í¤'³Q)"2ãEF£ˆfÍš5L©mÓdĞ´KÿHË4âĞ±AOA¶·åÆ™­8VW£€XuèÁ†ü^]'“‘©F'F‡.-¼wz;ÅTÔqï´íÛk°fßóá8ş´y@‹0¥øtúA‡ğ—ËïãÛNà@o×¸ˆQÁVª±óC$9GSr&›­9duT)ÛPeAê‚ÕÀxU´-(——I[`±ŠKµœB2Éß×Í¹0
+rü˜*Z¤if
+iñßñ…u¶o«ÅÚ¦´Åw"şò‚z”(¼U¿ŞºŒÇÎ¾'Şkw…9\Æ=âho?8úÃ£lbõ^õğüÀ¨‡&òóó‡)³±‡ñË$Û®Ò4Õtù¶LaüAeäßÙ³g$éñ>;UW
+|=É&3ò½ohhõ¬ñ}d¥Á÷@¯Ÿl!F²WEÚd765¼	&Â?.°mK¾µ÷8ä’ƒ£|·P³Yãé29¨:ûn=öâ¸$õ ›ÎÃ X‹0ÓÜÍ¥³jzoªâ
+RÁ´{UÌƒÙ°¹á§Sæ|¥‚Ì>]|ŠY¦°ÄaÖ·šI<Q¦´ëÄËÏJ²N%]ıñµëuÎ÷E'n½£™`ÄáOnï‡âyDùï¶-[pï{]UBñØp&Ç‰;Bû!ü®§‹7ã±³¯KGèx†Ú­^o LamZ~ L²áüt‰Ì“jıKE^æC§›Wú¹©–ÂSæ—é,’ÅÜ¦"†Ñ¬šÅªÂT9©T¡O07[ÏÉü0É:l‡Ûg>£İ!´“öJòU¦67m-¯¥÷nù*uÜr7u|òn:÷É»éü§î¦NN‹¾B‹î¢sŸú2üÄ
+úìŒÙc‘©Pp3¦AÅ[”””$Ä7äååÉÿ+**†Å/¤ŠÑ0óWy›ñA!éz~fÌŠ;ĞÏá2VVVŠé¿gÆYğùfœ_kĞu†‰ãàr˜×­‡dëõ¯ça^O&BÎS¥Tqz¹¸~¸Îôë+//§ŠYáóƒÎ5ƒü2™² †7ã¤¡Ú™¶”×Ò»7Ñ»7•Ş»¥ˆ:˜@4òèøÔWèèM_ ’ëL8ÂC#AªÀ.n€É’˜,’ıvP¥l¤ÀùpJöp•-U^©ê#lähÑq¾LbÜ@ù»fyÃÌY+â*¿ºg©æß$v3Â’œÿÈÑÓLO BSµß©¥wnZå‡Ky0qœ¹å.úçÿ?Íšò¡	Ménlğƒ2Ò‡=R…^'kğÉÈ)UTh˜kæÆ¬ÉH&¹¤NÓ•u¬‰#lùù½ÂFÉšŠ2[Ä‘ùÈQò–ûSC³^ĞgÍæ­øæsM^D¨Ğ]¨¸D½ğ.îxíEüë;¯ gh ×
+ªªªäĞ'Û£aFWØf/--µt`,5UZMKWRQQ7¦ÍKEK¦îäßIµÆ*—›óíP!ç¦~Â”õƒz&¸~‚ÊÏ÷ŠïCØ 59N÷ÅâQ‚Ù£¹¹;vìÈL§ÉØI ú±m¸çw{ã³X½ØŒrpòÊûxèí—ñ§K˜P·D£QÅ¨ööö´Û%„ÉWí§;U™°¸á„qPN¶¢¢"ßyw5;Íñuòõª¼ôˆK}ï˜‘®Ç¡[òµ«ëV‹áğïL„]ñÔ³ÀõÃ÷k$÷JÅ…èf®Ãl^wYY–-[–yâg(¿A@õ·I¥¡†C„÷†úñ³®×ñ‹Îv\p`qí@Å–¤"An,LúĞ¤õh‘:ùr}g:°/qdŞTééö£D7ÿhV?Û¤m‰‘Ã©{+^ß‹íçNYÒ¸†Àpee¥|˜Ó·šQ±vÿŒJméÃğY‚Õù8ã‡¥âØüÃíøÆ³d½Cƒx®÷,JN¿„šs¯ZÂ¸Á²™msµ–&“G²I\¦o7Û9Ì(Ô±\ã6ó!ç?ş>½í^¬~v¿œ—2à88z¹[:O ©ï]{·¯aÔÔÔH%¡zAµ]„š‹´ÒDPZ$Wwz=5ñf8şt |åòrç¢gè
+÷wâ·½oY…1	Ğİİ-szä+¿¦ò]˜Q±á`Fø¥™‚l­ÇÑø~»L“jâV˜9:ÜKfÃ*«6¢	!éÙZscÌ‰ÃÂ’GAA|¸•i¢|jØyçÎÖ¯1J&ø3Ær+KY‡ÚHÛ"ÃŠ¾±1«3_Ã boƒ………%‹1!¶n¸ÁÖ„……EZx\ÑÆÄq8búôé¶V,,,R"??Bˆ#Çqö3i,Y²ÄÖŠ……ER,[¶3fÌ€ã8‘€îÕ«W[Õaaaææ6SÖ­[‹”––v;óÈœ9spß}÷Ù²°°†²²20G‘QõWÔ©¯¯gåQÜÒÒ"§Ø_¼xÑÖ–……UX¿~½»‡µkÖ¬©@âÆŒÀ®]»j„åØ½{7š››mÍYXLRÂX²d‰4OXi Ø¹víZ?Î]˜_ØµkW‰¢@´¯¯O®¦ÄDbaa19ÀD‘ŸŸ/¡ º<²víÚ„İÈE²/{R IÄV§…Å¤A€Ããìˆ•––›…ø¿  ÿÿ¸Ò¿„|íŠÏ    IEND®B`‚
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn----
+Content-Type: text/html
+Content-ID: <frame-D1D0EE1D5A25E342CC6EC8ADB86C5BCB@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://a16180790160.cdn.optimizely.com/client_storage/a16180790160.html
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body></body></html>
+------MultipartBoundary--OrdMdC4DHNo2DG56nQ4fLup8H5NhRfdVvjL2btWKpn------

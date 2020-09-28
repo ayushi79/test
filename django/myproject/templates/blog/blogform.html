@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            #k1{
+                
+                display: inline-block;
+                margin-left: 60%;
+            }
+            #k2{
+                
+                display: inline-block;
+                margin-left: 5%;
+            }
+            #k3{
+                
+                display: inline-block;
+                margin-left: 5%;
+            }
+            #e1{
+                
+                display: inline-block;
+                font-size: 10px;
+            }
+            a{
+                text-decoration: none;
+                color:antiquewhite;
+                font-size: 20px;
+            }
+            a:hover{
+                font-size: 25px;
+            }
+            p{
+                text-transform: uppercase;
+                font-style: italic;
+                font-size: 20px;
+                color: darkgoldenrod;
+                
+                padding-top: 5%;
+                padding-left: 30%;
+            }
+            #sub{
+                margin-top: 5%;
+                margin-left: 40%;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body style="background-color: brown;">
+        <h1 style="color: red;">{{ error }}</h1>
+        
+        <ul>
+            <li id ='e1'><h1 style="color: black;">{{ email }}</h1></li>
+            <li id='k1'><a href='/blog/addblog/'>AddBLOG</a></li>
+            <li id='k2'><a href='/blog/myblogs'>MyBLOGS</a></li>
+            <li id='k3'><a href='/user/logout/'>Logout</a></li>
+        </ul>
+        <form method="POST" action="/blog/blogadd/">
+            
+            {% csrf_token %}
+            {{ f.as_p }}
+        <!--as_table,as_ul-->
+            <input type="submit" value="SUBMIT" id="sub">
+            
+        </form>
+    </body>
+</html>

@@ -1,6 +1,5 @@
 from django.http import HttpResponse
-
 def index(request):
-    return HttpResponse('hello! welcome')
+    return HttpResponse('Hello World')
 def home(request):
-    return HttpResponse('Thanku for visit again')
+    return HttpResponse("<h1 style='color:red'>Welcome</h1>")
